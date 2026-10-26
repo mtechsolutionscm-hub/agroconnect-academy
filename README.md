@@ -88,3 +88,6 @@ Première chose à faire : `npm install`, `npm run build`, `npm run db:migrate`,
 - **N4 — Administration** : tableau de bord, apprenants, attestations (annulation), formations (publier, prix, contenu), journal, rôles formateur et commercial.
 
 Les règles de ces lots existent déjà dans la version WordPress (implémentation de référence) et seront transposées.
+
+
+<!-- Deployment configuration corrected: use Next.js output, not a static `public` directory. -->
