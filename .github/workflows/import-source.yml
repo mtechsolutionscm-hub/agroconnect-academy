@@ -1,0 +1,39 @@
+name: Import AgroConnect Academy source archive
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download and extract full source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 'https://d2ol7oe51mr4n9.cloudfront.net/user_3L9oyO4dq1Ujyol2S7Dhz9lNZwD/756420ee-70b7-4bc6-8ceb-088c986fc9b9.zip' --output /tmp/agroconnect.zip
+          mkdir -p /tmp/agroconnect-source
+          unzip -q /tmp/agroconnect.zip -d /tmp/agroconnect-source
+          test -f /tmp/agroconnect-source/agroconnect-academy-nextjs/package.json
+          test -f /tmp/agroconnect-source/agroconnect-academy-nextjs/src/academy/academy.js
+          test -f /tmp/agroconnect-source/agroconnect-academy-nextjs/content/f18.json
+          cp -a /tmp/agroconnect-source/agroconnect-academy-nextjs/. .
+          node -e "const fs=require('fs');const p=require('./package.json');p.scripts=p.scripts||{};p.scripts.typecheck='tsc --noEmit';fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\\n')"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No source changes to commit.'
+          else
+            git commit -m 'Import complete AgroConnect Academy source archive'
+            git push origin HEAD:main
+          fi
