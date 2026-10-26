@@ -1,0 +1,1 @@
+export default function Verification(){return <main><h1>Vérification d’attestation</h1><p>Entrez votre référence d’attestation dans l’espace de vérification.</p><a href="/">Retour au catalogue</a></main>}
