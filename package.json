@@ -1,0 +1,32 @@
+{
+  "name": "agroconnect-academy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AgroConnect Academy — Next.js and MySQL",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:migrate": "tsx --env-file=.env scripts/migrate.ts",
+    "admin:create": "tsx --env-file=.env scripts/create-admin.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "test:mysql": "tsx --env-file=.env --test tests/mysql.integration.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
