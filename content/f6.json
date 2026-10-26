@@ -1,0 +1,2202 @@
+{
+  "id": "f6",
+  "title": "Vendre ses produits agricoles grâce au numérique",
+  "short": "Vendre grâce au numérique",
+  "lead": "Trouver des acheteurs, fixer un prix juste et présenter vos produits avec votre téléphone.",
+  "note": "Hawa, sa coopérative près de Ngaoundéré, les acheteurs et tous les chiffres sont fictifs. Ils servent à apprendre, ce ne sont pas des prix de marché.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Circuits de vente",
+      "number": 1,
+      "title": "Comprendre les circuits de commercialisation agricoles",
+      "duration": "30 min",
+      "point": "Un produit peut suivre plusieurs chemins jusqu’au client : plus il y a d’intermédiaires, plus le producteur touche une petite part du prix final.",
+      "intro": "Le sac de maïs vendu 12 000 FCFA au bord du champ peut se revendre bien plus cher en ville. Où passe la différence ? Connaître les circuits, c’est choisir où vendre plutôt que subir.",
+      "objectives": [
+        "Décrire au moins cinq circuits de vente.",
+        "Distinguer un circuit court d’un circuit long.",
+        "Choisir deux circuits adaptés à son produit et à son volume."
+      ],
+      "lessons": [
+        {
+          "title": "Les principaux circuits",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Circuit",
+                "Avantages",
+                "Inconvénients"
+              ],
+              "rows": [
+                [
+                  "Vente bord champ à un collecteur",
+                  "Paiement rapide, pas de transport",
+                  "Prix souvent bas"
+                ],
+                [
+                  "Marché local",
+                  "Contact direct, prix meilleur",
+                  "Transport, temps passé, petits volumes"
+                ],
+                [
+                  "Commerçants et revendeuses (bayam-sellam)",
+                  "Achètent régulièrement",
+                  "Négociation serrée, paiement parfois différé"
+                ],
+                [
+                  "Grossistes",
+                  "Gros volumes en une fois",
+                  "Exigent qualité et quantité constantes"
+                ],
+                [
+                  "Transformateurs (provenderies, moulins)",
+                  "Contrats possibles sur la saison",
+                  "Normes de qualité strictes"
+                ],
+                [
+                  "Institutions (écoles, hôpitaux, cantines)",
+                  "Commandes régulières",
+                  "Procédures et délais de paiement"
+                ],
+                [
+                  "Vente directe au consommateur, par téléphone",
+                  "Meilleur prix",
+                  "Petits volumes, livraison à organiser"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Circuit court ou circuit long",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un circuit court compte au plus un intermédiaire entre le producteur et le consommateur. Un circuit long en compte plusieurs."
+            },
+            {
+              "type": "p",
+              "text": "Le circuit court rapporte généralement plus par sac, mais demande plus de travail ; le circuit long écoule de gros volumes plus vite. La plupart des producteurs combinent les deux."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les ventes de la coopérative de Hawa",
+        "text": "La coopérative vendait tout son maïs à un collecteur, au bord du champ. Hawa propose de répartir les ventes.",
+        "head": [
+          "Circuit",
+          "Part des ventes"
+        ],
+        "rows": [
+          [
+            "Collecteur, bord champ",
+            "Une partie, pour l’argent rapide"
+          ],
+          [
+            "Provenderie de Ngaoundéré",
+            "Une partie, sous contrat"
+          ],
+          [
+            "Familles en ville, par WhatsApp",
+            "Le reste, au meilleur prix",
+            "result"
+          ]
+        ],
+        "after": "Trois circuits pour répartir les risques et améliorer le prix moyen."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Même sac, deux prix. Où passe la différence ? »",
+            "Un sac au champ, le même au marché de la ville"
+          ],
+          [
+            "0:30",
+            "Les sept circuits, avec leurs avantages et inconvénients.",
+            "Un chemin qui se divise en branches"
+          ],
+          [
+            "2:15",
+            "Circuit court, circuit long.",
+            "Deux flèches, une courte, une longue"
+          ],
+          [
+            "3:15",
+            "Hawa répartit les ventes en trois circuits.",
+            "Trois piles de sacs"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Court ou long ?",
+        "text": "Classez ces ventes.",
+        "choices": [
+          "Circuit court",
+          "Circuit long"
+        ],
+        "items": [
+          [
+            "Vente directe à une famille par WhatsApp",
+            0
+          ],
+          [
+            "Vente à un collecteur qui revend à un grossiste",
+            1
+          ],
+          [
+            "Vente aux consommateurs au marché local",
+            0
+          ],
+          [
+            "Vente à une revendeuse qui revend à une autre revendeuse en ville",
+            1
+          ],
+          [
+            "Vente à la cantine d’une école",
+            0
+          ],
+          [
+            "Vente à un grossiste qui exporte vers un pays voisin",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qu’un circuit court ?",
+          "options": [
+            "Au plus un intermédiaire",
+            "Une vente rapide",
+            "Une petite quantité"
+          ],
+          "answer": 0,
+          "explain": "Le producteur est proche du consommateur."
+        },
+        {
+          "q": "Le circuit court rapporte-t-il généralement plus par sac ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Moins d’intermédiaires se partagent la marge."
+        },
+        {
+          "q": "Quel circuit écoule les gros volumes le plus vite ?",
+          "options": [
+            "La vente directe",
+            "Les grossistes"
+          ],
+          "answer": 1,
+          "explain": "Ils achètent beaucoup en une fois."
+        },
+        {
+          "q": "Que demandent souvent les transformateurs ?",
+          "options": [
+            "Une qualité constante",
+            "Des sacs colorés"
+          ],
+          "answer": 0,
+          "explain": "Leurs machines et leurs clients l’exigent."
+        },
+        {
+          "q": "Faut-il choisir un seul circuit ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Combiner plusieurs circuits répartit les risques."
+        },
+        {
+          "q": "Quel est l’inconvénient de la vente bord champ ?",
+          "options": [
+            "Un prix souvent bas",
+            "Le transport"
+          ],
+          "answer": 0,
+          "explain": "Le collecteur prend en charge le transport et le risque."
+        }
+      ],
+      "summary": "Sept circuits possibles, courts ou longs. Combinez-les selon votre volume, votre temps et le prix recherché.",
+      "resource": "Fiche « Mes circuits de vente » à remplir."
+    },
+    {
+      "id": "m2",
+      "label": "Acheteurs",
+      "number": 2,
+      "title": "Identifier les acheteurs et les marchés potentiels",
+      "duration": "30 min",
+      "point": "Un bon acheteur se décrit en six informations : qui il est, ce qu’il achète, combien, quand, avec quelles exigences et comment il paie.",
+      "intro": "Beaucoup de producteurs connaissent un ou deux acheteurs, et dépendent d’eux. Une liste de cinq acheteurs bien décrits change le rapport de force.",
+      "objectives": [
+        "Citer quatre endroits où trouver des acheteurs.",
+        "Remplir la fiche acheteur en six informations.",
+        "Constituer une liste d’au moins cinq acheteurs potentiels."
+      ],
+      "lessons": [
+        {
+          "title": "Où trouver des acheteurs",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Au marché : noter les commerçants qui achètent votre produit en quantité.",
+                "Auprès des transformateurs de la ville : moulins, provenderies, unités de transformation.",
+                "Dans les groupes WhatsApp de commerçants et d’associations professionnelles.",
+                "Lors des foires, salons agricoles et journées organisées par la Délégation de l’agriculture.",
+                "Par les plateformes numériques, dont AgroConnect, selon les fonctionnalités disponibles.",
+                "Par le bouche-à-oreille : demander à chaque acheteur s’il connaît d’autres clients."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La fiche acheteur",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Information",
+                "Question à poser"
+              ],
+              "rows": [
+                [
+                  "Qui",
+                  "Nom, activité, lieu, contact"
+                ],
+                [
+                  "Quoi",
+                  "Quel produit, quelle variété, quelle qualité ?"
+                ],
+                [
+                  "Combien",
+                  "Quelle quantité par achat ?"
+                ],
+                [
+                  "Quand",
+                  "À quelle fréquence, à quelle période ?"
+                ],
+                [
+                  "Exigences",
+                  "Tri, humidité, emballage, livraison ?"
+                ],
+                [
+                  "Paiement",
+                  "Comptant, mobile money, à 30 jours ?"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La liste de Hawa",
+        "text": "Hawa décrit cinq acheteurs potentiels.",
+        "head": [
+          "Acheteur",
+          "Produit",
+          "Quantité",
+          "Paiement"
+        ],
+        "rows": [
+          [
+            "Provenderie de Ngaoundéré",
+            "Maïs sec trié",
+            "50 sacs par mois",
+            "À 15 jours"
+          ],
+          [
+            "Revendeuse au marché",
+            "Arachide décortiquée",
+            "5 sacs par semaine",
+            "Comptant"
+          ],
+          [
+            "Cantine scolaire",
+            "Maïs et arachide",
+            "10 sacs par trimestre",
+            "Après facture"
+          ],
+          [
+            "Famille en ville, par WhatsApp",
+            "Arachide en sachets",
+            "2 sachets par semaine",
+            "Mobile money"
+          ],
+          [
+            "Moulin du quartier",
+            "Maïs",
+            "8 sacs par mois",
+            "Comptant"
+          ]
+        ],
+        "after": "Avec cinq acheteurs, la coopérative ne dépend plus d’un seul collecteur."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un seul acheteur, c’est lui qui fixe le prix. »",
+            "Un producteur face à un seul camion"
+          ],
+          [
+            "0:30",
+            "Six endroits où trouver des acheteurs.",
+            "Marché, moulin, groupe WhatsApp, foire"
+          ],
+          [
+            "1:45",
+            "La fiche acheteur en six questions.",
+            "Fiche qui se remplit"
+          ],
+          [
+            "3:00",
+            "La liste de Hawa.",
+            "Cinq contacts dans un téléphone"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Utile ou inutile ?",
+        "text": "Pour chaque information, dites si elle est utile dans la fiche acheteur.",
+        "choices": [
+          "Utile",
+          "Inutile"
+        ],
+        "items": [
+          [
+            "La quantité achetée par mois",
+            0
+          ],
+          [
+            "La couleur de sa voiture",
+            1
+          ],
+          [
+            "Le mode de paiement",
+            0
+          ],
+          [
+            "Les exigences de tri",
+            0
+          ],
+          [
+            "Son équipe de football préférée",
+            1
+          ],
+          [
+            "La période où il achète",
+            0
+          ]
+        ],
+        "then": "Remplissez ensuite une fiche pour cinq acheteurs potentiels de votre produit."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi avoir plusieurs acheteurs ?",
+          "options": [
+            "Pour ne pas dépendre d’un seul",
+            "Pour vendre moins cher"
+          ],
+          "answer": 0,
+          "explain": "Le rapport de force s’équilibre."
+        },
+        {
+          "q": "Combien d’informations dans la fiche acheteur ?",
+          "options": [
+            "Trois",
+            "Six",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Qui, quoi, combien, quand, exigences, paiement."
+        },
+        {
+          "q": "Où trouver des transformateurs ?",
+          "options": [
+            "Moulins, provenderies, unités de transformation",
+            "À l’école"
+          ],
+          "answer": 0,
+          "explain": "Ils achètent de gros volumes réguliers."
+        },
+        {
+          "q": "Que demander à chaque acheteur satisfait ?",
+          "options": [
+            "Une remise",
+            "S’il connaît d’autres clients"
+          ],
+          "answer": 1,
+          "explain": "Le bouche-à-oreille reste très efficace."
+        },
+        {
+          "q": "Le mode de paiement est-il important ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Un paiement à 30 jours pèse sur la trésorerie."
+        },
+        {
+          "q": "Les foires agricoles servent-elles à trouver des acheteurs ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "On y rencontre beaucoup d’acteurs en peu de temps."
+        }
+      ],
+      "summary": "Cherchez au marché, chez les transformateurs, en ligne et dans les foires. Décrivez chaque acheteur en six informations, et visez au moins cinq acheteurs.",
+      "resource": "Modèle de fiche acheteur, à imprimer ou à garder sur le téléphone."
+    },
+    {
+      "id": "m3",
+      "label": "Prix",
+      "number": 3,
+      "title": "Déterminer un prix de vente cohérent",
+      "duration": "35 min",
+      "point": "Un prix cohérent couvre le coût, tient compte du marché, et varie selon l’acheteur : une grille de prix évite d’improviser.",
+      "intro": "« C’est combien ? » Le producteur qui hésite perd la négociation. Celui qui a sa grille répond tout de suite, et différemment selon le volume.",
+      "objectives": [
+        "Relever le prix du marché de façon fiable.",
+        "Calculer un prix avec remise de volume.",
+        "Construire une grille de prix à plusieurs niveaux."
+      ],
+      "lessons": [
+        {
+          "title": "Trois repères, rappel",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le coût par sac est le prix plancher : en dessous, on perd. Le prix visé ajoute la marge souhaitée. Le prix du marché dit ce que les acheteurs paient vraiment. Ces calculs sont détaillés dans la formation F14 (modules 3 et 4)."
+            },
+            {
+              "type": "p",
+              "text": "Pour relever le prix du marché : demander à au moins trois acheteurs ou vendeurs, le même jour, pour la même qualité, et noter la date."
+            }
+          ]
+        },
+        {
+          "title": "Un prix différent selon l’acheteur",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vendre en gros coûte moins cher à la coopérative : moins de transport, moins de temps, un seul paiement. On peut donc accorder une remise, à condition de rester au-dessus du plancher."
+            },
+            {
+              "type": "formula",
+              "text": "Prix avec remise = Prix de base × (1 − remise)"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La grille de prix de la coopérative de Hawa",
+        "text": "Le coût par sac de la coopérative est de 11 500 FCFA. Le marché paie entre 13 000 et 15 500 FCFA selon la qualité.",
+        "head": [
+          "Acheteur",
+          "Condition",
+          "Prix du sac (FCFA)"
+        ],
+        "rows": [
+          [
+            "Famille, vente directe",
+            "Moins de 5 sacs",
+            "16 000"
+          ],
+          [
+            "Commerçant",
+            "5 à 19 sacs",
+            "15 000"
+          ],
+          [
+            "Grossiste",
+            "20 sacs et plus, remise 5 %",
+            "14 250"
+          ],
+          [
+            "Provenderie",
+            "Contrat de saison, paiement à 15 jours",
+            "13 500"
+          ]
+        ],
+        "after": "Tous les prix restent au-dessus du plancher de 11 500 FCFA. Hawa n’a plus besoin d’improviser."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« C’est combien ? » Hawa répond sans hésiter.",
+            "Un acheteur au magasin de la coopérative"
+          ],
+          [
+            "0:30",
+            "Plancher, visé, marché : le rappel.",
+            "Trois traits sur une règle"
+          ],
+          [
+            "1:30",
+            "Relever le prix du marché et calculer une remise.",
+            "Trois commerçants interrogés"
+          ],
+          [
+            "2:45",
+            "La grille à quatre lignes.",
+            "Grille affichée au mur du magasin"
+          ]
+        ]
+      },
+      "tool": "prix",
+      "toolDefaults": {
+        "cout": 11500,
+        "marge": 20,
+        "prixPropose": 13500
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le prix avec remise",
+        "text": "Votre prix de base est de 15 000 FCFA le sac. Un grossiste achète 50 sacs ; vous accordez 5 % de remise. Quel est le prix par sac, en FCFA ?",
+        "answer": 14250,
+        "solution": "15 000 × 0,95 = 14 250 FCFA. Si votre coût par sac est de 11 500 FCFA, ce prix reste rentable.",
+        "then": "Construisez ensuite votre propre grille avec la calculette de prix."
+      },
+      "quiz": [
+        {
+          "q": "Combien de sources pour relever un prix de marché ?",
+          "options": [
+            "Une seule",
+            "Au moins trois, le même jour"
+          ],
+          "answer": 1,
+          "explain": "Un seul avis peut tromper."
+        },
+        {
+          "q": "Pourquoi accorder une remise en gros ?",
+          "options": [
+            "La vente en gros coûte moins cher à réaliser",
+            "Pour faire plaisir"
+          ],
+          "answer": 0,
+          "explain": "Moins de transport et de temps."
+        },
+        {
+          "q": "Prix 20 000 FCFA, remise 10 %. Prix remisé ?",
+          "options": [
+            "18 000 FCFA",
+            "19 000 FCFA",
+            "10 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "20 000 × 0,90 = 18 000."
+        },
+        {
+          "q": "Une remise peut-elle descendre sous le plancher ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Chaque sac ferait perdre de l’argent."
+        },
+        {
+          "q": "Un paiement à 15 jours a-t-il un coût ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "L’argent arrive plus tard, ce qui pèse sur la trésorerie."
+        },
+        {
+          "q": "À quoi sert une grille de prix ?",
+          "options": [
+            "À répondre vite et de façon cohérente",
+            "À décorer le magasin"
+          ],
+          "answer": 0,
+          "explain": "On n’improvise plus face à l’acheteur."
+        }
+      ],
+      "summary": "Plancher, marché, puis une grille selon l’acheteur. Les remises récompensent le volume, jamais en dessous du coût.",
+      "resource": "Modèle de grille de prix à afficher au magasin."
+    },
+    {
+      "id": "m4",
+      "label": "Fiche produit",
+      "number": 4,
+      "title": "Préparer une fiche produit attractive",
+      "duration": "30 min",
+      "point": "Une fiche produit répond d’avance aux questions de l’acheteur, avec des mots précis et des informations vraies.",
+      "intro": "« Maïs disponible, appelez-moi. » Cette annonce attire peu de clients sérieux. Une fiche complète fait gagner du temps aux deux parties et inspire confiance.",
+      "objectives": [
+        "Citer les huit rubriques d’une fiche produit.",
+        "Remplacer une description vague par une description précise.",
+        "Produire une fiche prête à partager sur WhatsApp."
+      ],
+      "lessons": [
+        {
+          "title": "Les huit rubriques",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Produit et variété",
+                  "Maïs jaune, grain sec"
+                ],
+                [
+                  "Quantité disponible",
+                  "40 sacs"
+                ],
+                [
+                  "Conditionnement",
+                  "Sacs de 100 kg, propres"
+                ],
+                [
+                  "Qualité",
+                  "Trié, sans cailloux, séché au soleil"
+                ],
+                [
+                  "Prix",
+                  "15 000 FCFA le sac ; 14 250 FCFA à partir de 20 sacs"
+                ],
+                [
+                  "Lieu de retrait ou livraison",
+                  "Magasin de la coopérative, Ngaoundéré"
+                ],
+                [
+                  "Disponibilité",
+                  "Jusqu’au 30 novembre"
+                ],
+                [
+                  "Contact",
+                  "Nom et numéro WhatsApp"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Précis et honnête",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Remplacer « bonne qualité » par ce que l’acheteur peut vérifier : « trié, sans cailloux ».",
+                "Indiquer le poids réel du sac.",
+                "Ne jamais promettre ce que l’on ne peut pas tenir : une livraison, une quantité, un label.",
+                "Mettre à jour la fiche quand la quantité ou le prix changent."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une fiche honnête est la base de la confiance : un acheteur trompé une fois ne revient pas."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La fiche de Hawa",
+        "text": "Avant : « Maïs dispo, bon prix, appelez. » Après : la fiche complète en huit rubriques, produite avec le générateur ci-dessous.",
+        "after": "Hawa la partage dans trois groupes WhatsApp de commerçants et reçoit des demandes précises, avec des quantités."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Maïs dispo, appelez. » Et personne n’appelle.",
+            "Téléphone silencieux"
+          ],
+          [
+            "0:30",
+            "Les huit rubriques.",
+            "Fiche qui se complète ligne par ligne"
+          ],
+          [
+            "2:00",
+            "Précis et honnête : avant, après.",
+            "Deux annonces côte à côte"
+          ],
+          [
+            "3:15",
+            "La fiche de Hawa partagée, les demandes arrivent.",
+            "Notifications WhatsApp"
+          ]
+        ]
+      },
+      "tool": "fiche",
+      "toolDefaults": {
+        "produit": "Maïs jaune, grain sec",
+        "quantite": "40 sacs",
+        "conditionnement": "Sacs de 100 kg, propres",
+        "qualite": "Trié, sans cailloux, séché au soleil",
+        "prix": "15 000 FCFA le sac ; 14 250 FCFA à partir de 20 sacs",
+        "lieu": "Magasin de la coopérative, Ngaoundéré",
+        "disponibilite": "Jusqu’au 30 novembre",
+        "contact": "Hawa, 6XX XX XX XX (WhatsApp)"
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Vague ou précise ?",
+        "text": "Classez ces descriptions.",
+        "choices": [
+          "Vague",
+          "Précise"
+        ],
+        "items": [
+          [
+            "« Bonne qualité »",
+            0
+          ],
+          [
+            "« Trié, sans cailloux, séché au soleil »",
+            1
+          ],
+          [
+            "« Grosse quantité »",
+            0
+          ],
+          [
+            "« 40 sacs de 100 kg »",
+            1
+          ],
+          [
+            "« Prix intéressant »",
+            0
+          ],
+          [
+            "« 15 000 FCFA le sac »",
+            1
+          ]
+        ],
+        "then": "Créez ensuite la fiche d’un de vos produits avec le générateur, et partagez-la dans un groupe."
+      },
+      "quiz": [
+        {
+          "q": "Combien de rubriques dans une fiche produit ?",
+          "options": [
+            "Trois",
+            "Huit",
+            "Quinze"
+          ],
+          "answer": 1,
+          "explain": "Elles répondent aux questions de l’acheteur."
+        },
+        {
+          "q": "« Bonne qualité » est-il une bonne description ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "L’acheteur ne peut pas le vérifier."
+        },
+        {
+          "q": "Faut-il indiquer le poids du sac ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Les sacs n’ont pas tous le même poids."
+        },
+        {
+          "q": "Peut-on promettre une livraison dont on n’est pas sûr ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Une promesse non tenue fait perdre l’acheteur."
+        },
+        {
+          "q": "Quand mettre à jour la fiche ?",
+          "options": [
+            "Quand la quantité ou le prix changent",
+            "Une fois par an"
+          ],
+          "answer": 0,
+          "explain": "Une fiche dépassée crée des malentendus."
+        },
+        {
+          "q": "Quel est l’intérêt d’une fiche complète ?",
+          "options": [
+            "Recevoir des demandes plus sérieuses",
+            "Écrire plus long"
+          ],
+          "answer": 0,
+          "explain": "L’acheteur sait déjà l’essentiel."
+        }
+      ],
+      "summary": "Huit rubriques, des mots vérifiables, aucune fausse promesse. Une fiche à jour attire des acheteurs sérieux.",
+      "resource": "Modèle de fiche produit à huit rubriques."
+    },
+    {
+      "id": "m5",
+      "label": "Photos",
+      "number": 5,
+      "title": "Prendre de bonnes photographies de produits",
+      "duration": "25 min",
+      "point": "Trois photos nettes, en lumière naturelle, sur un fond propre, suffisent à montrer la quantité, la qualité et le conditionnement.",
+      "intro": "Sur WhatsApp, l’acheteur juge d’abord avec ses yeux. Une photo floue et sombre fait penser à un produit de mauvaise qualité, même quand il est excellent.",
+      "objectives": [
+        "Appliquer les cinq règles d’une bonne photo.",
+        "Réaliser la série de trois photos : ensemble, détail, conditionnement.",
+        "Reconnaître une photo trompeuse et l’éviter."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq règles",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Lumière naturelle : le matin ou en fin d’après-midi, à l’ombre légère, jamais face au soleil.",
+                "Fond propre : une bâche, une natte ou un mur clair, sans désordre autour.",
+                "Produit propre : sacs époussiérés, produits triés.",
+                "Image nette : essuyer l’objectif, tenir le téléphone des deux mains, toucher l’écran pour faire la mise au point.",
+                "Photo vraie : pas de filtre qui change les couleurs, et une photo du lot réellement vendu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La série de trois photos",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Photo",
+                "Ce qu’elle montre"
+              ],
+              "rows": [
+                [
+                  "Ensemble",
+                  "Le stock disponible : les sacs alignés"
+                ],
+                [
+                  "Détail",
+                  "La qualité : une poignée de grains dans la main, de près"
+                ],
+                [
+                  "Conditionnement",
+                  "Le sac fermé, avec son étiquette ou son poids"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour économiser les données mobiles, envoyez les photos en qualité normale : elles restent assez nettes pour WhatsApp."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les photos de Hawa",
+        "text": "Hawa photographiait les sacs dans le magasin sombre. Elle sort trois sacs le matin, les pose sur une bâche bleue, prend la série de trois photos et ajoute la date dans le message.",
+        "after": "Les acheteurs posent moins de questions et demandent directement le prix de gros."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le même maïs, deux photos. Lequel achetez-vous ? »",
+            "Une photo sombre et floue, une photo claire"
+          ],
+          [
+            "0:30",
+            "Les cinq règles, démontrées en direct.",
+            "Hawa déplaçant les sacs vers la lumière"
+          ],
+          [
+            "2:00",
+            "La série de trois photos.",
+            "Ensemble, détail, sac étiqueté"
+          ],
+          [
+            "3:15",
+            "Pas de filtre, pas de photo d’un autre lot.",
+            "Un filtre barré"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Photographier à midi, face au soleil",
+            1
+          ],
+          [
+            "Poser les sacs sur une bâche propre",
+            0
+          ],
+          [
+            "Ajouter un filtre qui jaunit le maïs",
+            1
+          ],
+          [
+            "Essuyer l’objectif avant la photo",
+            0
+          ],
+          [
+            "Utiliser une photo trouvée sur Internet",
+            1
+          ],
+          [
+            "Prendre une poignée de grains en gros plan",
+            0
+          ]
+        ],
+        "then": "Prenez ensuite la série de trois photos d’un de vos produits."
+      },
+      "quiz": [
+        {
+          "q": "Quel moment pour la lumière ?",
+          "options": [
+            "Midi, plein soleil",
+            "Le matin ou en fin d’après-midi"
+          ],
+          "answer": 1,
+          "explain": "La lumière est douce et naturelle."
+        },
+        {
+          "q": "Quel fond choisir ?",
+          "options": [
+            "Propre et neutre : bâche, natte, mur clair",
+            "Le magasin tel qu’il est"
+          ],
+          "answer": 0,
+          "explain": "Le produit ressort mieux."
+        },
+        {
+          "q": "Quelles sont les trois photos de la série ?",
+          "options": [
+            "Ensemble, détail, conditionnement",
+            "Vous, le champ, la route"
+          ],
+          "answer": 0,
+          "explain": "Quantité, qualité, emballage."
+        },
+        {
+          "q": "Peut-on utiliser une photo trouvée sur Internet ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "L’acheteur serait trompé."
+        },
+        {
+          "q": "Comment avoir une image nette ?",
+          "options": [
+            "Essuyer l’objectif et tenir le téléphone des deux mains",
+            "Zoomer au maximum"
+          ],
+          "answer": 0,
+          "explain": "Le flou vient souvent d’une main qui bouge."
+        },
+        {
+          "q": "Comment économiser les données mobiles ?",
+          "options": [
+            "Envoyer en qualité normale",
+            "Envoyer en vidéo"
+          ],
+          "answer": 0,
+          "explain": "C’est suffisant pour WhatsApp."
+        }
+      ],
+      "summary": "Lumière douce, fond propre, image nette, photo vraie. Trois photos : ensemble, détail, conditionnement.",
+      "resource": "Fiche « Mes trois photos », aide-mémoire illustré."
+    },
+    {
+      "id": "m6",
+      "label": "WhatsApp Business",
+      "number": 6,
+      "title": "Utiliser WhatsApp Business",
+      "duration": "35 min",
+      "point": "WhatsApp Business transforme un simple numéro en vitrine : profil d’entreprise, catalogue, réponses rapides et étiquettes pour suivre les commandes.",
+      "intro": "Le soir, Hawa a trente messages non lus et ne sait plus qui a commandé quoi. Les outils de WhatsApp Business remettent de l’ordre sans coût supplémentaire.",
+      "objectives": [
+        "Compléter un profil d’entreprise.",
+        "Utiliser le catalogue, les réponses rapides et les étiquettes.",
+        "Diffuser une offre sans déranger ses contacts."
+      ],
+      "lessons": [
+        {
+          "title": "Les fonctions utiles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Fonction",
+                "À quoi elle sert"
+              ],
+              "rows": [
+                [
+                  "Profil d’entreprise",
+                  "Nom, description, adresse, horaires et contact visibles par les clients"
+                ],
+                [
+                  "Catalogue",
+                  "Montrer ses produits avec photo, prix et description"
+                ],
+                [
+                  "Message d’accueil",
+                  "Répondre automatiquement au premier message d’un nouveau client"
+                ],
+                [
+                  "Message d’absence",
+                  "Prévenir quand on n’est pas disponible"
+                ],
+                [
+                  "Réponses rapides",
+                  "Réutiliser en deux touches les réponses fréquentes : prix, lieu, paiement"
+                ],
+                [
+                  "Étiquettes",
+                  "Classer les conversations : nouveau client, commande, payé, livré"
+                ],
+                [
+                  "Listes de diffusion",
+                  "Envoyer une offre à plusieurs contacts, chacun la reçoit en privé"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "L’application est gratuite. Ses fonctions et leur emplacement changent selon les versions : vérifiez dans votre application."
+            }
+          ]
+        },
+        {
+          "title": "Diffuser sans déranger",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Une liste de diffusion n’atteint que les contacts qui ont enregistré votre numéro : c’est un signe qu’ils acceptent vos messages.",
+                "Une offre par semaine suffit ; au-delà, les contacts se lassent ou vous bloquent.",
+                "Toujours proposer d’arrêter : « Répondez STOP pour ne plus recevoir nos offres. »",
+                "Ne pas ajouter des personnes à un groupe sans leur accord."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le numéro de la coopérative de Hawa",
+        "text": "Hawa installe WhatsApp Business sur le téléphone de la coopérative.",
+        "head": [
+          "Fonction",
+          "Ce que Hawa met en place"
+        ],
+        "rows": [
+          [
+            "Catalogue",
+            "Maïs et arachide, avec photos et prix"
+          ],
+          [
+            "Réponses rapides",
+            "Prix, lieu de retrait, paiement par mobile money"
+          ],
+          [
+            "Étiquettes",
+            "Nouveau client, commande, payé, livré"
+          ]
+        ],
+        "after": "Le soir, elle voit d’un coup d’œil les commandes à livrer et les paiements à vérifier."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Trente messages non lus. Qui a commandé quoi ? »",
+            "Écran plein de notifications"
+          ],
+          [
+            "0:30",
+            "Profil, catalogue, accueil, absence, réponses rapides, étiquettes.",
+            "Captures d’écran, une par fonction"
+          ],
+          [
+            "2:30",
+            "Listes de diffusion : diffuser sans déranger.",
+            "Une offre qui part vers dix contacts"
+          ],
+          [
+            "3:45",
+            "Le soir de Hawa, avec les étiquettes.",
+            "Conversations classées par couleur"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle fonction ?",
+        "text": "Associez chaque besoin à la bonne fonction.",
+        "choices": [
+          "Réponse rapide",
+          "Catalogue",
+          "Étiquette",
+          "Message d’absence",
+          "Message d’accueil"
+        ],
+        "items": [
+          [
+            "Répondre vingt fois par jour « le sac est à 15 000 FCFA »",
+            0
+          ],
+          [
+            "Montrer ses produits avec photo et prix",
+            1
+          ],
+          [
+            "Savoir quelles commandes sont payées",
+            2
+          ],
+          [
+            "Prévenir qu’on est au champ jusqu’à 17 h",
+            3
+          ],
+          [
+            "Retrouver les clients en attente de livraison",
+            2
+          ],
+          [
+            "Souhaiter automatiquement la bienvenue à un nouveau client",
+            4
+          ]
+        ],
+        "then": "Installez ensuite WhatsApp Business, complétez le profil et créez trois réponses rapides."
+      },
+      "quiz": [
+        {
+          "q": "WhatsApp Business est-il payant ?",
+          "options": [
+            "Oui",
+            "Non, l’application est gratuite"
+          ],
+          "answer": 1,
+          "explain": "Certaines options avancées peuvent l’être."
+        },
+        {
+          "q": "À quoi servent les étiquettes ?",
+          "options": [
+            "À classer les conversations",
+            "À coller sur les sacs"
+          ],
+          "answer": 0,
+          "explain": "Commandes, paiements, livraisons."
+        },
+        {
+          "q": "Qui reçoit une liste de diffusion ?",
+          "options": [
+            "Tout le monde",
+            "Les contacts qui ont enregistré votre numéro"
+          ],
+          "answer": 1,
+          "explain": "Ils acceptent ainsi vos messages."
+        },
+        {
+          "q": "Combien d’offres par semaine, au plus ?",
+          "options": [
+            "Une suffit",
+            "Une par jour"
+          ],
+          "answer": 0,
+          "explain": "Trop de messages lassent les contacts."
+        },
+        {
+          "q": "Peut-on ajouter quelqu’un à un groupe sans son accord ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est irrespectueux et fait fuir les clients."
+        },
+        {
+          "q": "Quelle fonction montre les produits avec photo et prix ?",
+          "options": [
+            "Le catalogue",
+            "Le statut"
+          ],
+          "answer": 0,
+          "explain": "C’est la vitrine de l’entreprise."
+        }
+      ],
+      "summary": "Profil complet, catalogue, réponses rapides et étiquettes. Diffusez avec mesure, et seulement à ceux qui l’acceptent.",
+      "resource": "Guide pas à pas illustré « Configurer WhatsApp Business »."
+    },
+    {
+      "id": "m7",
+      "label": "Prospection",
+      "number": 7,
+      "title": "Prospecter des acheteurs professionnels",
+      "duration": "35 min",
+      "point": "Prospecter, c’est contacter avec méthode des acheteurs qui ne vous connaissent pas encore : se préparer, se présenter en trente secondes, relancer, et suivre chaque contact.",
+      "intro": "Les acheteurs professionnels ne viennent pas d’eux-mêmes au village. Il faut aller vers eux. Bonne nouvelle : ils cherchent aussi des fournisseurs fiables.",
+      "objectives": [
+        "Préparer son dossier de prospection.",
+        "Se présenter en trente secondes.",
+        "Suivre ses contacts avec un tableau de prospection."
+      ],
+      "lessons": [
+        {
+          "title": "Se préparer",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avant le premier contact, ayez sous la main : la fiche produit (module 4), la grille de prix (module 3), les trois photos (module 5) et, si possible, un échantillon. Renseignez-vous sur l’acheteur : que produit-il, quelles quantités achète-t-il ?"
+            }
+          ]
+        },
+        {
+          "title": "Se présenter en trente secondes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Qui je suis : « Je suis Hawa, trésorière d’une coopérative de 30 producteurs près de Ngaoundéré. »",
+                "Ce que je propose : « Nous avons 40 sacs de maïs sec trié disponibles ce mois-ci. »",
+                "Pourquoi moi : « Qualité régulière, sacs pesés, livraison possible en ville. »",
+                "La demande : « Puis-je vous envoyer notre fiche et un échantillon ? »"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Relancer et suivre",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sans réponse, relancez une première fois après trois jours, une seconde après une semaine, puis arrêtez poliment. Notez chaque contact dans un tableau, avec son statut : contacté, intéressé, échantillon envoyé, commande, refus."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Hawa contacte la provenderie",
+        "text": "Voici comment le statut évolue.",
+        "head": [
+          "Étape",
+          "Statut"
+        ],
+        "rows": [
+          [
+            "Appel et présentation en trente secondes, fiche envoyée par WhatsApp",
+            "Contacté"
+          ],
+          [
+            "Relance trois jours plus tard : le responsable demande un échantillon de 5 kg",
+            "Échantillon envoyé"
+          ],
+          [
+            "Une semaine après : commande de 20 sacs pour un essai",
+            "Commande",
+            "result"
+          ]
+        ],
+        "after": "Sans tableau, Hawa aurait peut-être oublié de relancer, et perdu la commande."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Les acheteurs ne viennent pas au village. Allons vers eux. »",
+            "La route vers la ville"
+          ],
+          [
+            "0:30",
+            "Le dossier de prospection.",
+            "Fiche, grille, photos, échantillon posés ensemble"
+          ],
+          [
+            "1:30",
+            "La présentation en trente secondes, jouée par Hawa.",
+            "Hawa au téléphone"
+          ],
+          [
+            "3:00",
+            "Relancer et suivre : le tableau de prospection.",
+            "Statuts qui changent de couleur"
+          ],
+          [
+            "4:15",
+            "La première commande de la provenderie.",
+            "Sacs chargés dans un camion"
+          ]
+        ]
+      },
+      "tool": "prospects",
+      "toolDefaults": {
+        "exemple": [
+          {
+            "n": "Provenderie de Ngaoundéré",
+            "c": "Responsable des achats",
+            "s": 3,
+            "r": ""
+          },
+          {
+            "n": "Moulin du quartier",
+            "c": "Gérant",
+            "s": 1,
+            "r": ""
+          },
+          {
+            "n": "Cantine de l’école",
+            "c": "Intendant",
+            "s": 0,
+            "r": ""
+          }
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Ma semaine de prospection",
+        "text": "Cochez chaque étape quand elle est faite.",
+        "key": "f6-prospection",
+        "items": [
+          "Présentation en trente secondes rédigée, en quatre phrases",
+          "Fiche produit, grille de prix et photos prêtes",
+          "Cinq acheteurs professionnels ajoutés au tableau",
+          "Deux acheteurs contactés cette semaine",
+          "Relances notées dans le tableau"
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Que préparer avant de prospecter ?",
+          "options": [
+            "Fiche produit, grille de prix, photos, échantillon",
+            "Rien, on improvise"
+          ],
+          "answer": 0,
+          "explain": "On répond tout de suite aux questions."
+        },
+        {
+          "q": "Combien de temps pour se présenter ?",
+          "options": [
+            "Environ trente secondes",
+            "Dix minutes"
+          ],
+          "answer": 0,
+          "explain": "L’acheteur est occupé."
+        },
+        {
+          "q": "Par quoi finir sa présentation ?",
+          "options": [
+            "Une demande claire",
+            "Un au revoir"
+          ],
+          "answer": 0,
+          "explain": "Par exemple, envoyer la fiche ou un échantillon."
+        },
+        {
+          "q": "Quand relancer après un premier contact sans réponse ?",
+          "options": [
+            "Le lendemain matin",
+            "Après trois jours",
+            "Après deux mois"
+          ],
+          "answer": 1,
+          "explain": "Ni trop tôt, ni trop tard."
+        },
+        {
+          "q": "Combien de relances au plus ?",
+          "options": [
+            "Deux",
+            "Dix"
+          ],
+          "answer": 0,
+          "explain": "Au-delà, on dérange."
+        },
+        {
+          "q": "À quoi sert le tableau de prospection ?",
+          "options": [
+            "À suivre chaque contact et ses relances",
+            "À calculer le prix"
+          ],
+          "answer": 0,
+          "explain": "On n’oublie personne."
+        }
+      ],
+      "summary": "Se préparer, se présenter en trente secondes, relancer deux fois au plus, et tout noter dans son tableau.",
+      "resource": "Modèle de présentation en quatre phrases et tableau de prospection à imprimer."
+    },
+    {
+      "id": "m8",
+      "label": "Négocier et livrer",
+      "number": 8,
+      "title": "Négocier les commandes et organiser les livraisons",
+      "duration": "40 min",
+      "point": "Une bonne négociation échange des concessions, puis se confirme par un bon de commande écrit ; une bonne livraison se termine par une pesée et une signature.",
+      "intro": "Beaucoup de litiges viennent d’un accord oral mal compris : « On avait dit livré », « On avait dit 100 kg ». Quelques lignes écrites évitent la plupart de ces disputes.",
+      "objectives": [
+        "Fixer ses limites avant de négocier.",
+        "Obtenir une contrepartie pour chaque concession.",
+        "Rédiger un bon de commande et organiser une livraison sans litige."
+      ],
+      "lessons": [
+        {
+          "title": "Négocier",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Avant : connaître son prix plancher, la quantité minimale et le délai de paiement acceptable.",
+                "Pendant : écouter le besoin de l’acheteur avant de parler prix.",
+                "Échanger : ne jamais céder sans contrepartie. « Je peux baisser à 14 250 si vous prenez 20 sacs et payez comptant. »",
+                "Savoir dire non : sous le plancher, on remercie et on garde le contact."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le bon de commande",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Acheteur et vendeur",
+                  "Provenderie de Ngaoundéré ; coopérative de Hawa"
+                ],
+                [
+                  "Produit et qualité",
+                  "Maïs jaune sec, trié"
+                ],
+                [
+                  "Quantité",
+                  "20 sacs de 100 kg"
+                ],
+                [
+                  "Prix",
+                  "14 250 FCFA le sac, soit 285 000 FCFA"
+                ],
+                [
+                  "Livraison",
+                  "Livré à la provenderie le 15 novembre, transport à la charge de la coopérative"
+                ],
+                [
+                  "Paiement",
+                  "30 % d’acompte par mobile money, solde à la livraison"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le bon de commande envoyé par WhatsApp, et accepté par un « D’accord » écrit de l’acheteur, garde une trace de l’accord. Pour les gros montants, un contrat signé est préférable."
+            }
+          ]
+        },
+        {
+          "title": "Livrer sans litige",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Prévoir le transport et son coût avant d’accepter la commande.",
+                "Peser les sacs devant l’acheteur, à l’arrivée.",
+                "Faire signer un bon de livraison : date, quantité livrée, poids, état.",
+                "Vérifier que le paiement est bien arrivé sur le compte avant de repartir. Un SMS montré à l’écran ne suffit pas : de faux messages de paiement circulent."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La commande de la provenderie",
+        "text": "La provenderie demande 13 000 FCFA le sac.",
+        "head": [
+          "Étape",
+          "Ce qui se passe"
+        ],
+        "rows": [
+          [
+            "Négociation",
+            "Hawa rappelle sa qualité et propose 14 250 FCFA pour 20 sacs avec 30 % d’acompte"
+          ],
+          [
+            "Accord écrit",
+            "Elle envoie le bon de commande ; l’acheteur répond « D’accord »"
+          ],
+          [
+            "Livraison",
+            "Sacs pesés sur place, bon de livraison signé"
+          ],
+          [
+            "Paiement",
+            "Hawa vérifie le solde sur son compte avant de repartir",
+            "result"
+          ]
+        ],
+        "after": "Écrit, pesé, signé, vérifié : aucun litige possible."
+      },
+      "video": {
+        "url": "",
+        "duration": "6 min",
+        "script": [
+          [
+            "0:00",
+            "« On avait dit livré ! — Non, on avait dit retiré ! »",
+            "Deux personnes qui se disputent devant un camion"
+          ],
+          [
+            "0:40",
+            "Les quatre temps de la négociation.",
+            "Hawa et l’acheteur, autour d’une table"
+          ],
+          [
+            "2:20",
+            "Le bon de commande, rubrique par rubrique.",
+            "Message WhatsApp qui se rédige"
+          ],
+          [
+            "3:40",
+            "La livraison : pesée, bon signé, paiement vérifié.",
+            "Balance, signature, écran de compte"
+          ],
+          [
+            "5:20",
+            "« Écrit, pesé, signé, vérifié. »",
+            "Les quatre mots à l’écran"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "titre": "BON DE COMMANDE",
+        "champs": [
+          [
+            "Acheteur",
+            "Provenderie de Ngaoundéré"
+          ],
+          [
+            "Vendeur",
+            "Coopérative de Hawa"
+          ],
+          [
+            "Produit et qualité",
+            "Maïs jaune sec, trié"
+          ],
+          [
+            "Quantité",
+            "20 sacs de 100 kg"
+          ],
+          [
+            "Prix",
+            "14 250 FCFA le sac, soit 285 000 FCFA"
+          ],
+          [
+            "Livraison",
+            "Livré à la provenderie le 15 novembre, transport à la charge du vendeur"
+          ],
+          [
+            "Paiement",
+            "30 % d’acompte par mobile money, solde à la livraison"
+          ]
+        ],
+        "fin": "Merci de confirmer votre accord en répondant « D’accord » à ce message."
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez l’acompte",
+        "text": "Une commande porte sur 20 sacs à 14 250 FCFA, avec 30 % d’acompte. Quel est le montant de l’acompte, en FCFA ?",
+        "answer": 85500,
+        "solution": "20 × 14 250 = 285 000 FCFA ; 30 % de 285 000 = 85 500 FCFA.",
+        "then": "Rédigez ensuite un bon de commande pour une vente réelle ou fictive avec le générateur ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Que connaître avant de négocier ?",
+          "options": [
+            "Son plancher, sa quantité minimale, son délai de paiement acceptable",
+            "Le nom de l’acheteur seulement"
+          ],
+          "answer": 0,
+          "explain": "Ce sont vos limites."
+        },
+        {
+          "q": "Faut-il céder sans contrepartie ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Chaque concession s’échange contre un volume, un paiement rapide, etc."
+        },
+        {
+          "q": "Pourquoi un bon de commande écrit ?",
+          "options": [
+            "Pour garder la trace de l’accord",
+            "Pour faire sérieux"
+          ],
+          "answer": 0,
+          "explain": "Il évite les malentendus."
+        },
+        {
+          "q": "Où peser les sacs ?",
+          "options": [
+            "Au magasin, la veille",
+            "Devant l’acheteur, à l’arrivée"
+          ],
+          "answer": 1,
+          "explain": "Le poids est constaté ensemble."
+        },
+        {
+          "q": "Un SMS de paiement montré à l’écran suffit-il ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Vérifiez que l’argent est arrivé sur votre compte."
+        },
+        {
+          "q": "285 000 FCFA, acompte de 30 % : combien ?",
+          "options": [
+            "85 500 FCFA",
+            "28 500 FCFA",
+            "30 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "285 000 × 0,30 = 85 500."
+        }
+      ],
+      "summary": "Négocier avec ses limites, échanger des concessions, confirmer par écrit. Livrer : pesée, bon signé, paiement vérifié.",
+      "resource": "Modèles de bon de commande et de bon de livraison."
+    },
+    {
+      "id": "m9",
+      "label": "Fidéliser",
+      "number": 9,
+      "title": "Fidéliser les clients",
+      "duration": "30 min",
+      "point": "Un client qui revient coûte moins cher qu’un nouveau client à trouver : on le garde par la qualité constante, la parole tenue et une réclamation bien traitée.",
+      "intro": "Trouver un acheteur demande des appels, des relances, des échantillons. Le garder demande surtout de tenir ses promesses. C’est là que la confiance se construit.",
+      "objectives": [
+        "Appliquer les cinq gestes de fidélisation.",
+        "Traiter une réclamation en quatre étapes.",
+        "Tenir un fichier clients simple."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq gestes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Qualité constante : le dixième sac est aussi bon que le premier.",
+                "Parole tenue : quantité, date et prix promis sont respectés, ou on prévient avant.",
+                "Message après la vente : remercier, demander si tout est conforme.",
+                "Avantage fidélité : priorité quand le produit se fait rare, remise après plusieurs commandes.",
+                "Fichier clients : noter qui achète quoi, quand, et prévenir avant la récolte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Traiter une réclamation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Étape",
+                "Ce que l’on fait"
+              ],
+              "rows": [
+                [
+                  "Écouter",
+                  "Laisser le client expliquer, sans l’interrompre ni se défendre"
+                ],
+                [
+                  "Vérifier",
+                  "Regarder les sacs, les photos, le bon de livraison"
+                ],
+                [
+                  "Réparer",
+                  "Remplacer, livrer le manquant ou rembourser une partie, vite"
+                ],
+                [
+                  "Prévenir",
+                  "Changer ce qui a causé le problème, et le dire au client"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une réclamation bien traitée rend souvent le client plus fidèle qu’avant."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La réclamation de la provenderie",
+        "text": "La provenderie signale que deux sacs sont humides.",
+        "head": [
+          "Étape",
+          "Ce que fait Hawa"
+        ],
+        "rows": [
+          [
+            "Écouter",
+            "Elle laisse le responsable expliquer"
+          ],
+          [
+            "Vérifier",
+            "Elle se déplace et constate le problème"
+          ],
+          [
+            "Réparer",
+            "Elle remplace les deux sacs dans la semaine"
+          ],
+          [
+            "Prévenir",
+            "Elle ajoute un contrôle du séchage avant chaque livraison",
+            "result"
+          ]
+        ],
+        "after": "Le mois suivant, la provenderie propose un contrat pour toute la saison."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Trouver un client coûte cher. Le perdre coûte encore plus. »",
+            "Un acheteur qui s’éloigne"
+          ],
+          [
+            "0:30",
+            "Les cinq gestes de fidélisation.",
+            "Cinq icônes : sac, poignée de mains, message, cadeau, cahier"
+          ],
+          [
+            "2:00",
+            "La réclamation : écouter, vérifier, réparer, prévenir.",
+            "Hawa face à deux sacs humides"
+          ],
+          [
+            "3:20",
+            "Le contrat de saison.",
+            "Signature d’un document"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise réaction ?",
+        "text": "Un client se plaint de sacs plus légers que prévu. Classez ces réactions.",
+        "choices": [
+          "Bonne réaction",
+          "Mauvaise réaction"
+        ],
+        "items": [
+          [
+            "Lui couper la parole pour se défendre",
+            1
+          ],
+          [
+            "Peser les sacs avec lui",
+            0
+          ],
+          [
+            "Livrer rapidement le poids manquant",
+            0
+          ],
+          [
+            "Lui dire que les autres clients ne se plaignent pas",
+            1
+          ],
+          [
+            "Vérifier la balance du magasin",
+            0
+          ],
+          [
+            "Le remercier de l’avoir signalé",
+            0
+          ]
+        ],
+        "then": "Créez ensuite votre fichier clients avec vos acheteurs actuels."
+      },
+      "quiz": [
+        {
+          "q": "Garder un client coûte-t-il moins cher qu’en trouver un nouveau ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Moins d’appels, de relances et d’échantillons."
+        },
+        {
+          "q": "Que faire si on ne peut pas tenir une date de livraison ?",
+          "options": [
+            "Prévenir avant",
+            "Ne rien dire"
+          ],
+          "answer": 0,
+          "explain": "Le client peut s’organiser."
+        },
+        {
+          "q": "Première étape face à une réclamation ?",
+          "options": [
+            "Se défendre",
+            "Écouter",
+            "Rembourser tout"
+          ],
+          "answer": 1,
+          "explain": "Le client doit se sentir entendu."
+        },
+        {
+          "q": "Une réclamation bien traitée peut-elle renforcer la relation ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Le client voit que l’on tient à lui."
+        },
+        {
+          "q": "À quoi sert le fichier clients ?",
+          "options": [
+            "À savoir qui achète quoi et quand",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "On peut prévenir avant la récolte."
+        },
+        {
+          "q": "Un bon avantage fidélité ?",
+          "options": [
+            "La priorité quand le produit se fait rare",
+            "Un prix sous le coût"
+          ],
+          "answer": 0,
+          "explain": "Il coûte peu et compte beaucoup pour le client."
+        }
+      ],
+      "summary": "Qualité constante, parole tenue, suivi après la vente, avantages fidélité et réclamations traitées vite. C’est ainsi que l’on garde ses clients.",
+      "resource": "Modèle de fichier clients et fiche « Traiter une réclamation »."
+    },
+    {
+      "id": "m10",
+      "label": "AgroConnect",
+      "number": 10,
+      "title": "Utiliser AgroConnect pour développer ses débouchés",
+      "duration": "35 min",
+      "point": "AgroConnect regroupe en un seul endroit ce que les modules 1 à 9 ont appris à faire à la main : annonces, prix du marché, demandes de devis, coopératives, commandes et alertes climat.",
+      "intro": "Vous savez maintenant présenter un produit, fixer un prix, prospecter et livrer. AgroConnect vous permet de le faire devant des acheteurs de tout le Cameroun, depuis votre téléphone.",
+      "objectives": [
+        "Trouver la bonne rubrique de la plateforme selon son besoin.",
+        "Transformer sa fiche produit en annonce complète.",
+        "Suivre une commande et comprendre le paiement sous séquestre."
+      ],
+      "lessons": [
+        {
+          "title": "Les rubriques de la plateforme",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "À quoi elle sert",
+                "Module lié"
+              ],
+              "rows": [
+                [
+                  "Marché",
+                  "Chercher un produit par mot ou par catégorie, voir les annonces avec prix, quantité minimale et lieu",
+                  "4, 5"
+                ],
+                [
+                  "Prix marché",
+                  "Consulter les prix pour situer le sien",
+                  "3"
+                ],
+                [
+                  "Demande de devis",
+                  "L’acheteur décrit son besoin, les vendeurs lui font une offre",
+                  "2, 7"
+                ],
+                [
+                  "Coopératives",
+                  "Les acheteurs achètent directement aux groupements",
+                  "1, 2"
+                ],
+                [
+                  "Commandes",
+                  "Suivre ses commandes",
+                  "8"
+                ],
+                [
+                  "Portefeuille",
+                  "Suivre ses paiements",
+                  "8"
+                ],
+                [
+                  "Notifications",
+                  "Être prévenu des nouvelles commandes et des messages",
+                  "9"
+                ],
+                [
+                  "Climat",
+                  "Alertes climatiques et conseils, de source officielle ONACC",
+                  "—"
+                ],
+                [
+                  "AgriBot",
+                  "Poser une question à l’assistant agricole",
+                  "F1"
+                ],
+                [
+                  "Équipements, Emplois, Formations",
+                  "Machines pour coopératives, offres d’emploi, formations de l’Academy",
+                  "—"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "De la fiche produit à l’annonce",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une annonce AgroConnect reprend les rubriques de la fiche produit (module 4) : produit, prix par unité, quantité minimale de commande, lieu et photos (module 5). Les prix dégressifs permettent d’afficher votre grille de prix (module 3)."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Utilisez vos trois photos : ensemble, détail, conditionnement.",
+                "Un titre précis : produit, variété, lieu.",
+                "Un prix par unité clair (sac, kg) et une quantité minimale réaliste.",
+                "Mettez l’annonce à jour dès que le stock ou le prix change."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vendre en confiance",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Paiement sous séquestre : l’argent de l’acheteur est conservé par la plateforme, puis versé au vendeur une fois la livraison confirmée. Les conditions exactes sont celles affichées sur la plateforme.",
+                "Commandes et livraison suivie : chaque étape de la commande est visible, ce qui évite les malentendus.",
+                "Notifications : répondre vite aux commandes et aux demandes de devis, c’est déjà fidéliser.",
+                "Alertes climat : consultez la rubrique Climat avant de promettre une date de livraison pendant la saison des pluies."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Hawa publie l’annonce de la coopérative",
+        "text": "Hawa reprend sa fiche produit et ses trois photos.",
+        "head": [
+          "Étape",
+          "Rubrique"
+        ],
+        "rows": [
+          [
+            "Situer son prix",
+            "Prix marché"
+          ],
+          [
+            "Publier « Maïs jaune sec trié — Ngaoundéré », avec prix dégressif à partir de 20 sacs",
+            "Marché"
+          ],
+          [
+            "Être prévenue d’une demande de devis d’un commerçant de Garoua",
+            "Notifications"
+          ],
+          [
+            "Répondre avec sa grille de prix",
+            "Demande de devis",
+            "result"
+          ]
+        ],
+        "after": "Toutes les compétences de la formation servent dans la même vente."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Tout ce que vous avez appris, dans votre téléphone. »",
+            "Écran d’accueil d’AgroConnect"
+          ],
+          [
+            "0:30",
+            "Tour des rubriques.",
+            "Captures d’écran réelles, une par rubrique"
+          ],
+          [
+            "2:00",
+            "De la fiche produit à l’annonce.",
+            "L’annonce de Hawa qui se complète"
+          ],
+          [
+            "3:30",
+            "Paiement sous séquestre et suivi de commande.",
+            "Schéma : acheteur, plateforme, vendeur"
+          ],
+          [
+            "4:30",
+            "« Votre première annonce, c’est aujourd’hui. »",
+            "Hawa qui appuie sur « Publier »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle rubrique ?",
+        "text": "Associez chaque besoin à la bonne rubrique d’AgroConnect.",
+        "choices": [
+          "Prix marché",
+          "Demande de devis",
+          "Commandes",
+          "Climat",
+          "AgriBot",
+          "Coopératives"
+        ],
+        "items": [
+          [
+            "Savoir combien se vend le maïs en ce moment",
+            0
+          ],
+          [
+            "Répondre à un acheteur qui a décrit son besoin",
+            1
+          ],
+          [
+            "Voir où en est une livraison",
+            2
+          ],
+          [
+            "Savoir si une sécheresse est annoncée",
+            3
+          ],
+          [
+            "Poser une question sur un ravageur",
+            4
+          ],
+          [
+            "Acheter directement à un groupement",
+            5
+          ]
+        ],
+        "then": "Projet final : remettez à votre formateur votre liste de cinq acheteurs, votre grille de prix, votre fiche produit avec trois photos, un bon de commande et le lien de votre annonce publiée sur AgroConnect. L’attestation finale est délivrée avec au moins quatre pièces acquises sur cinq et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Où situer son prix par rapport au marché ?",
+          "options": [
+            "Prix marché",
+            "Notifications"
+          ],
+          "answer": 0,
+          "explain": "La rubrique affiche les prix observés."
+        },
+        {
+          "q": "Qu’est-ce qu’une demande de devis ?",
+          "options": [
+            "Un acheteur décrit son besoin, les vendeurs font une offre",
+            "Une facture"
+          ],
+          "answer": 0,
+          "explain": "C’est l’acheteur qui vient vers vous."
+        },
+        {
+          "q": "Le paiement sous séquestre protège qui ?",
+          "options": [
+            "Seulement l’acheteur",
+            "Le vendeur et l’acheteur"
+          ],
+          "answer": 1,
+          "explain": "L’argent est versé après la livraison confirmée."
+        },
+        {
+          "q": "Que reprend une bonne annonce ?",
+          "options": [
+            "La fiche produit et les trois photos",
+            "Seulement le prix"
+          ],
+          "answer": 0,
+          "explain": "Les modules 4 et 5 servent directement."
+        },
+        {
+          "q": "D’où viennent les alertes de la rubrique Climat ?",
+          "options": [
+            "De l’ONACC, source officielle",
+            "Des réseaux sociaux"
+          ],
+          "answer": 0,
+          "explain": "Elles servent à anticiper."
+        },
+        {
+          "q": "Que faire quand le stock change ?",
+          "options": [
+            "Mettre l’annonce à jour",
+            "Attendre la fin de saison"
+          ],
+          "answer": 0,
+          "explain": "Une annonce dépassée déçoit l’acheteur."
+        }
+      ],
+      "summary": "Une annonce complète, un prix situé, des réponses rapides aux devis, et des ventes suivies et sécurisées. AgroConnect met tous vos acquis au service de vos débouchés.",
+      "resource": "Guide illustré « Publier ma première annonce sur AgroConnect », à compléter avec les captures de l’espace vendeur."
+    }
+  ]
+}

@@ -1,0 +1,1640 @@
+{
+  "id": "f5",
+  "title": "Rédiger son business plan avec l’IA",
+  "short": "Business plan avec l’IA",
+  "lead": "Rédiger plus vite et mieux son business plan avec l’IA, en gardant pour soi les faits, les chiffres et les choix.",
+  "note": "Grâce, Ousmane, Mme Ekane et leurs chiffres sont fictifs. Les outils d’IA évoluent vite : vérifiez leur disponibilité avant usage.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Ce que l’IA fait",
+      "number": 1,
+      "title": "Ce que l’IA peut et ne peut pas faire pour un business plan",
+      "duration": "30 min",
+      "point": "L’IA aide à structurer, reformuler, résumer, mettre en tableau et repérer des incohérences. Elle ne connaît ni le terrain, ni les clients, ni les vrais prix : elle ne doit jamais inventer les faits ni les chiffres du plan.",
+      "intro": "« Écris-moi un business plan pour une entreprise de légumes. » En une minute, l’assistant produit dix pages convaincantes. Mais les clients, les prix et les chiffres sont inventés. Devant Mme Ekane, Grâce ne pourrait répondre à aucune question.",
+      "objectives": [
+        "Citer cinq tâches que l’IA fait bien pour un business plan.",
+        "Citer trois choses qu’on ne lui confie jamais.",
+        "Expliquer pourquoi un plan « écrit par l’IA » peut faire échouer un dossier."
+      ],
+      "lessons": [
+        {
+          "title": "Ce que l’IA fait bien",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Tâche",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Structurer",
+                  "Proposer un plan en sept parties (formation F4, module 7)"
+                ],
+                [
+                  "Reformuler",
+                  "Rendre un paragraphe plus clair, plus court, plus professionnel"
+                ],
+                [
+                  "Résumer",
+                  "Faire tenir tout le projet sur une page"
+                ],
+                [
+                  "Mettre en tableau",
+                  "Présenter ses chiffres de façon lisible"
+                ],
+                [
+                  "Vérifier la cohérence",
+                  "Repérer un chiffre qui ne correspond pas d’une page à l’autre"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ce qu’on ne lui confie jamais",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les faits : clients, concurrents, prix, quantités viennent du terrain (formation F4, modules 2 et 4).",
+                "Les chiffres : coûts, devis, ventes prévues viennent de ses propres calculs.",
+                "Les choix : quel projet, quel prix, quel risque accepter, c’est au porteur de décider."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une IA qui manque d’informations comble les trous avec des éléments plausibles mais inventés. C’est le danger principal."
+            }
+          ]
+        },
+        {
+          "title": "Pourquoi un plan « tout IA » échoue",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les financeurs repèrent vite les textes génériques : beaucoup de phrases, peu de faits locaux. À l’entretien, ils posent des questions précises. Si le porteur ne connaît pas ses propres chiffres, la confiance s’effondre (formation F15, module 7)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le premier essai de Grâce",
+        "text": "Grâce demande à un assistant d’écrire son plan sans rien lui donner.",
+        "head": [
+          "Ce que dit le texte",
+          "Réalité"
+        ],
+        "rows": [
+          [
+            "« 500 clients dès le premier mois »",
+            "Chiffre inventé"
+          ],
+          [
+            "Un grand marché de gros à Ngaoundéré",
+            "N’existe pas sous cette forme"
+          ],
+          [
+            "Les trois questions d’Ousmane sur ces chiffres",
+            "Grâce ne peut répondre à aucune",
+            "alert"
+          ]
+        ],
+        "after": "Grâce décide de reprendre la méthode, en commençant par ses propres informations (module 2)."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Dix pages en une minute… mais inventées. »",
+            "Un long texte qui défile"
+          ],
+          [
+            "0:30",
+            "Ce que l’IA fait bien.",
+            "Cinq icônes"
+          ],
+          [
+            "1:45",
+            "Ce qu’on ne lui confie jamais.",
+            "Faits, chiffres, choix entourés"
+          ],
+          [
+            "3:00",
+            "Les trois questions d’Ousmane.",
+            "Grâce sans réponse, puis déterminée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "À l’IA ou pour soi ?",
+        "text": "Classez chaque tâche.",
+        "choices": [
+          "À confier à l’IA",
+          "À garder pour soi"
+        ],
+        "items": [
+          [
+            "Reformuler un paragraphe",
+            0
+          ],
+          [
+            "Fixer son prix de vente",
+            1
+          ],
+          [
+            "Mettre ses chiffres en tableau",
+            0
+          ],
+          [
+            "Trouver combien de clients sont intéressés",
+            1
+          ],
+          [
+            "Résumer le plan sur une page",
+            0
+          ],
+          [
+            "Décider d’emprunter ou non",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "L’IA peut-elle structurer un business plan ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "C’est l’un de ses points forts."
+        },
+        {
+          "q": "D’où viennent les chiffres du plan ?",
+          "options": [
+            "Des calculs et des devis du porteur",
+            "De l’IA"
+          ],
+          "answer": 0,
+          "explain": "Jamais de l’IA seule."
+        },
+        {
+          "q": "Que fait une IA qui manque d’informations ?",
+          "options": [
+            "Elle comble les trous avec des éléments inventés",
+            "Elle s’arrête toujours"
+          ],
+          "answer": 0,
+          "explain": "C’est le principal danger."
+        },
+        {
+          "q": "Qui décide du prix de vente ?",
+          "options": [
+            "L’IA",
+            "Le porteur"
+          ],
+          "answer": 1,
+          "explain": "C’est un choix d’entreprise."
+        },
+        {
+          "q": "Pourquoi un plan « tout IA » échoue-t-il souvent ?",
+          "options": [
+            "Le porteur ne sait pas le défendre",
+            "Il est trop court"
+          ],
+          "answer": 0,
+          "explain": "Et les financeurs repèrent les textes génériques."
+        },
+        {
+          "q": "L’IA peut-elle repérer une incohérence de chiffres ?",
+          "options": [
+            "Oui, si on lui donne tout le plan",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "C’est une aide utile."
+        }
+      ],
+      "summary": "L’IA structure, reformule, résume, met en tableau et vérifie ; le porteur apporte les faits, les chiffres et les choix, et doit pouvoir défendre chaque ligne.",
+      "resource": "Fiche « Ce que je confie à l’IA, ce que je garde »."
+    },
+    {
+      "id": "m2",
+      "label": "Mon dossier",
+      "number": 2,
+      "title": "Préparer ses informations avant de demander à l’IA",
+      "duration": "30 min",
+      "point": "Avant d’ouvrir l’assistant, on rassemble son dossier de départ en sept éléments. Plus le dossier est riche, plus l’IA est utile, et moins elle invente.",
+      "intro": "L’IA travaille comme un bon rédacteur : elle écrit bien, mais seulement ce qu’on lui raconte. Un dossier de départ complet fait la différence entre un plan générique et un plan qui parle vraiment du projet.",
+      "objectives": [
+        "Rassembler les sept éléments du dossier de départ.",
+        "Les présenter sous forme de notes simples.",
+        "Retirer les informations personnelles qui n’ont rien à faire dans un assistant."
+      ],
+      "lessons": [
+        {
+          "title": "Les sept éléments du dossier",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Élément",
+                "D’où il vient"
+              ],
+              "rows": [
+                [
+                  "Le projet en trois phrases",
+                  "Quoi, pour qui, où"
+                ],
+                [
+                  "Les clients",
+                  "Enquête de terrain (formation F4, module 4)"
+                ],
+                [
+                  "Les prix",
+                  "Relevés au marché et chez les concurrents"
+                ],
+                [
+                  "Les devis",
+                  "Matériel, transport, emballages"
+                ],
+                [
+                  "Les coûts",
+                  "Calculs du porteur (formations F14 et F10)"
+                ],
+                [
+                  "Le porteur",
+                  "Parcours, compétences, formations suivies"
+                ],
+                [
+                  "Les partenaires",
+                  "Fournisseurs, coopérative, accompagnateurs"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Des notes simples",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pas besoin de belles phrases : des listes et des chiffres, avec leur source et leur date. « 25 ménages interrogés, 18 intéressés, prix accepté : 2 500 à 3 000 FCFA le panier » vaut mieux qu’un long paragraphe."
+            }
+          ]
+        },
+        {
+          "title": "Ce qu’on ne met pas",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Numéro de pièce d’identité, numéros de compte, codes, et coordonnées des personnes interrogées n’ont rien à faire dans un assistant d’IA (formation F2, module 7). On les ajoutera directement dans la version finale du dossier, si l’organisme les demande."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le dossier de départ de Grâce",
+        "text": "Grâce rassemble ses notes.",
+        "head": [
+          "Élément",
+          "Notes de Grâce"
+        ],
+        "rows": [
+          [
+            "Projet",
+            "Livraison de paniers de légumes frais aux familles et aux bureaux de Ngaoundéré, deux fois par semaine"
+          ],
+          [
+            "Clients",
+            "25 ménages interrogés, 18 intéressés ; 3 bureaux intéressés"
+          ],
+          [
+            "Prix",
+            "Panier de 3 kg accepté entre 2 500 et 3 000 FCFA"
+          ],
+          [
+            "Devis",
+            "Moto avec livreur : 2 000 FCFA par jour de livraison"
+          ],
+          [
+            "Coûts",
+            "Légumes : environ 1 600 FCFA par panier ; sac réutilisable : 300 FCFA"
+          ],
+          [
+            "Porteur",
+            "Licence en gestion, formations AgroConnect Academy F6 et F14"
+          ],
+          [
+            "Partenaires",
+            "Coopérative de Hawa et deux maraîchers ; Ousmane, parrain",
+            "result"
+          ]
+        ],
+        "after": "Avec ce dossier, l’IA n’a plus besoin d’inventer."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« L’IA écrit bien, mais seulement ce qu’on lui raconte. »",
+            "Page blanche, puis dossier rempli"
+          ],
+          [
+            "0:30",
+            "Les sept éléments du dossier.",
+            "Sept fiches"
+          ],
+          [
+            "2:00",
+            "Des notes simples, avec source et date.",
+            "Carnet de Grâce"
+          ],
+          [
+            "3:00",
+            "Ce qu’on ne met pas.",
+            "Pièce d’identité et codes barrés"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Dans le dossier ou pas ?",
+        "text": "Classez chaque information.",
+        "choices": [
+          "Dans le dossier pour l’IA",
+          "À ne pas mettre"
+        ],
+        "items": [
+          [
+            "« 18 ménages intéressés sur 25 »",
+            0
+          ],
+          [
+            "Le numéro de sa carte d’identité",
+            1
+          ],
+          [
+            "Le devis de location de la moto",
+            0
+          ],
+          [
+            "Les numéros de téléphone des personnes interrogées",
+            1
+          ],
+          [
+            "Le prix accepté par les clients",
+            0
+          ],
+          [
+            "Son code de mobile money",
+            1
+          ]
+        ],
+        "then": "Rassemblez ensuite votre propre dossier de départ."
+      },
+      "quiz": [
+        {
+          "q": "Combien d’éléments dans le dossier de départ ?",
+          "options": [
+            "Trois",
+            "Sept"
+          ],
+          "answer": 1,
+          "explain": "Projet, clients, prix, devis, coûts, porteur, partenaires."
+        },
+        {
+          "q": "D’où viennent les informations sur les clients ?",
+          "options": [
+            "De l’enquête de terrain",
+            "De l’IA"
+          ],
+          "answer": 0,
+          "explain": "Formation F4, module 4."
+        },
+        {
+          "q": "Faut-il de belles phrases dans le dossier ?",
+          "options": [
+            "Oui",
+            "Non, des notes et des chiffres"
+          ],
+          "answer": 1,
+          "explain": "Avec leur source et leur date."
+        },
+        {
+          "q": "Peut-on coller son numéro de pièce d’identité dans un assistant ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il n’en a pas besoin."
+        },
+        {
+          "q": "Pourquoi un dossier riche ?",
+          "options": [
+            "L’IA est plus utile et invente moins",
+            "Pour faire long"
+          ],
+          "answer": 0,
+          "explain": "Elle écrit ce qu’on lui raconte."
+        },
+        {
+          "q": "Que faire des coordonnées des personnes interrogées ?",
+          "options": [
+            "Ne pas les donner à l’IA",
+            "Les publier"
+          ],
+          "answer": 0,
+          "explain": "Ce sont leurs données."
+        }
+      ],
+      "summary": "Sept éléments en notes simples, avec sources et dates, sans données personnelles : c’est le carburant de l’IA pour un bon plan.",
+      "resource": "Modèle de dossier de départ en sept rubriques."
+    },
+    {
+      "id": "m3",
+      "label": "Le résumé",
+      "number": 3,
+      "title": "Rédiger le résumé et la présentation du projet avec l’IA",
+      "duration": "35 min",
+      "point": "On donne à l’assistant son dossier de départ et une instruction complète, on obtient un premier résumé, on l’améliore par relances, puis on vérifie chaque phrase contre le dossier et on le réécrit avec ses propres mots.",
+      "intro": "Le résumé est la page la plus lue du business plan, souvent la seule. L’IA aide à le rendre clair et court ; le porteur s’assure qu’il est vrai et qu’il lui ressemble.",
+      "objectives": [
+        "Écrire une instruction complète pour son résumé.",
+        "Améliorer le texte par trois relances.",
+        "Vérifier chaque affirmation contre son dossier."
+      ],
+      "lessons": [
+        {
+          "title": "L’instruction complète",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ingrédient",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Rôle",
+                  "« Tu es conseiller en création d’entreprise. »"
+                ],
+                [
+                  "Contexte",
+                  "Le dossier de départ, collé en entier"
+                ],
+                [
+                  "Tâche",
+                  "« Rédige le résumé de mon business plan. N’utilise que les informations de mon dossier ; si une information manque, écris [À COMPLÉTER]. »"
+                ],
+                [
+                  "Format",
+                  "« Une page, cinq paragraphes courts : projet, clients, chiffres, besoin, remboursement. »"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La phrase « n’utilise que les informations de mon dossier » est la plus importante : elle réduit les inventions."
+            }
+          ]
+        },
+        {
+          "title": "Trois relances utiles",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "« Raccourcis de moitié, sans perdre les chiffres. »",
+                "« Remplace les phrases générales par des faits de mon dossier. »",
+                "« Quelles questions un financeur poserait-il après avoir lu ce résumé ? »"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vérifier et s’approprier",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Soulignez chaque chiffre et chaque affirmation, et vérifiez qu’ils sont dans le dossier. Supprimez tout ce qui n’y est pas. Puis réécrivez les phrases qui ne vous ressemblent pas : c’est vous qui présenterez ce texte."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le résumé de Grâce",
+        "text": "Grâce suit la méthode avec son dossier.",
+        "head": [
+          "Étape",
+          "Ce qui change"
+        ],
+        "rows": [
+          [
+            "Premier résumé",
+            "Clair, mais affirme que le projet « créera dix emplois » : absent du dossier, supprimé"
+          ],
+          [
+            "Deuxième relance",
+            "« Un marché en forte croissance » remplacé par « 18 ménages sur 25 intéressés »"
+          ],
+          [
+            "Troisième relance",
+            "Une question imprévue : « Que faites-vous des légumes invendus ? »",
+            "result"
+          ]
+        ],
+        "after": "Grâce ajoute cette question à sa liste, pour y répondre au module 6."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« La page la plus lue du plan, souvent la seule. »",
+            "Un résumé tenu par Mme Ekane"
+          ],
+          [
+            "0:30",
+            "L’instruction complète et la phrase clé.",
+            "Instruction qui se remplit"
+          ],
+          [
+            "2:00",
+            "Trois relances.",
+            "Le texte qui s’améliore"
+          ],
+          [
+            "3:30",
+            "Vérifier chaque phrase et s’approprier le texte.",
+            "« Dix emplois » barré"
+          ]
+        ]
+      },
+      "tool": "prompt",
+      "toolDefaults": {
+        "role": "Tu es conseiller en création d’entreprise.",
+        "contexte": "[Collez ici votre dossier de départ complet : projet, clients, prix, devis, coûts, parcours, partenaires.]",
+        "tache": "Rédige le résumé de mon business plan. N’utilise que les informations de mon dossier ; si une information manque, écris [À COMPLÉTER].",
+        "format": "Une page, cinq paragraphes courts : projet, clients, chiffres, besoin, remboursement."
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Vérifiable ou inventée ?",
+        "text": "Pour chaque phrase d’un résumé produit par l’IA, dites si elle est vérifiable dans le dossier de Grâce.",
+        "choices": [
+          "Vérifiable",
+          "Inventée"
+        ],
+        "items": [
+          [
+            "« 18 ménages sur 25 interrogés sont intéressés »",
+            0
+          ],
+          [
+            "« Le projet créera dix emplois »",
+            1
+          ],
+          [
+            "« Le panier de 3 kg sera vendu entre 2 500 et 3 000 FCFA »",
+            0
+          ],
+          [
+            "« Le marché des légumes croît de 20 % par an »",
+            1
+          ],
+          [
+            "« Les légumes viennent de la coopérative de Hawa et de deux maraîchers »",
+            0
+          ],
+          [
+            "« Grâce a dix ans d’expérience dans le commerce »",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle phrase réduit les inventions de l’IA ?",
+          "options": [
+            "« N’utilise que les informations de mon dossier »",
+            "« Fais de ton mieux »"
+          ],
+          "answer": 0,
+          "explain": "Avec [À COMPLÉTER] pour ce qui manque."
+        },
+        {
+          "q": "Que mettre dans le contexte ?",
+          "options": [
+            "Le dossier de départ en entier",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Module 2."
+        },
+        {
+          "q": "Une affirmation n’est pas dans le dossier : que faire ?",
+          "options": [
+            "La garder",
+            "La supprimer, ou la vérifier puis l’ajouter au dossier"
+          ],
+          "answer": 1,
+          "explain": "Rien d’inventé dans le plan."
+        },
+        {
+          "q": "Pourquoi demander les questions d’un financeur ?",
+          "options": [
+            "Pour préparer ses réponses",
+            "Pour allonger le texte"
+          ],
+          "answer": 0,
+          "explain": "Et repérer les trous du projet."
+        },
+        {
+          "q": "Faut-il réécrire le texte avec ses mots ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "C’est le porteur qui le présentera."
+        },
+        {
+          "q": "Quelle longueur pour le résumé ?",
+          "options": [
+            "Une page",
+            "Dix pages"
+          ],
+          "answer": 0,
+          "explain": "Formation F15, module 5."
+        }
+      ],
+      "summary": "Une instruction complète avec la phrase clé, trois relances, une vérification phrase par phrase, et une réécriture avec ses propres mots.",
+      "resource": "Modèle d’instruction pour le résumé du business plan."
+    },
+    {
+      "id": "m4",
+      "label": "Marché",
+      "number": 4,
+      "title": "Analyser le marché et la concurrence avec l’IA",
+      "duration": "35 min",
+      "point": "L’IA aide à analyser ses propres données de terrain : regrouper les réponses d’enquête, mettre la concurrence en tableau, faire ressortir ce qui distingue le projet. Tout chiffre extérieur doit avoir une source vérifiée.",
+      "intro": "Grâce a 25 fiches d’enquête et un relevé de quatre concurrents. Tirer l’essentiel prend des heures ; l’IA peut l’aider à le faire en quelques minutes, si elle lui donne les vraies réponses.",
+      "objectives": [
+        "Faire regrouper ses réponses d’enquête par thème.",
+        "Faire construire un tableau de la concurrence à partir de son relevé.",
+        "Calculer soi-même les pourcentages clés et refuser les chiffres sans source."
+      ],
+      "lessons": [
+        {
+          "title": "Analyser l’enquête",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Collez les réponses, sans noms ni numéros, et demandez : « Regroupe ces réponses en thèmes : ce qui plaît, ce qui inquiète, les prix acceptés, la fréquence d’achat. Pour chaque thème, compte combien de personnes l’ont dit. » Vérifiez ensuite les comptes vous-même."
+            },
+            {
+              "type": "formula",
+              "text": "Part des intéressés = Personnes intéressées ÷ Personnes interrogées × 100"
+            }
+          ]
+        },
+        {
+          "title": "Le tableau de la concurrence",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "À partir de votre relevé (formation F4, module 4) : « Fais un tableau avec, pour chaque concurrent, l’offre, le prix, la qualité, le service et les reproches des clients. Puis indique ce que mon projet peut faire de différent. »"
+            }
+          ]
+        },
+        {
+          "title": "Les chiffres extérieurs",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Si l’assistant avance un chiffre général (taille du marché, croissance), demandez sa source, et vérifiez cette source vous-même. Sans source fiable, le chiffre ne va pas dans le plan. Un plan local solide repose d’abord sur ses propres données de terrain."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’analyse de Grâce",
+        "text": "L’assistant regroupe les 25 réponses ; Grâce recompte.",
+        "head": [
+          "Thème",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Personnes intéressées",
+            "18 sur 25, soit 72 %, surtout pour gagner du temps"
+          ],
+          [
+            "Inquiétude principale",
+            "La fraîcheur, citée par 9 personnes"
+          ],
+          [
+            "Prix accepté",
+            "La plupart à 2 500 FCFA, peu au-delà de 3 000"
+          ],
+          [
+            "Concurrence",
+            "Personne ne livre à domicile : c’est son point fort",
+            "result"
+          ]
+        ],
+        "after": "Grâce décide d’insister sur la fraîcheur, avec une récolte la veille chez les maraîchers partenaires."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« 25 fiches d’enquête et des heures de lecture. »",
+            "Pile de fiches"
+          ],
+          [
+            "0:30",
+            "Regrouper les réponses en thèmes, puis recompter.",
+            "Thèmes à l’écran, calcul 18 ÷ 25"
+          ],
+          [
+            "2:00",
+            "Le tableau de la concurrence.",
+            "Quatre concurrents, une case vide : la livraison"
+          ],
+          [
+            "3:15",
+            "Les chiffres extérieurs : une source, sinon rien.",
+            "« + 20 % par an ? Source ? »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la part des intéressés",
+        "text": "Sur 25 personnes interrogées, 18 se disent intéressées. Quelle est la part des intéressés, en pourcentage ?",
+        "answer": 72,
+        "unit": "%",
+        "solution": "18 ÷ 25 × 100 = 72 %.",
+        "then": "Faites ensuite analyser vos propres réponses d’enquête, et recomptez vous-même."
+      },
+      "quiz": [
+        {
+          "q": "L’IA connaît-elle le marché local ?",
+          "options": [
+            "Oui, parfaitement",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle travaille sur les données qu’on lui donne."
+        },
+        {
+          "q": "Que retirer des réponses d’enquête avant de les coller ?",
+          "options": [
+            "Les noms et les numéros",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Formation F2, module 7."
+        },
+        {
+          "q": "Qui vérifie les comptes de l’IA ?",
+          "options": [
+            "Le porteur",
+            "Personne"
+          ],
+          "answer": 0,
+          "explain": "L’IA peut se tromper en comptant."
+        },
+        {
+          "q": "12 intéressés sur 20. Part ?",
+          "options": [
+            "60 %",
+            "12 %",
+            "32 %"
+          ],
+          "answer": 0,
+          "explain": "12 ÷ 20 × 100 = 60."
+        },
+        {
+          "q": "L’IA cite un chiffre de croissance du marché : que faire ?",
+          "options": [
+            "Demander la source et la vérifier",
+            "Le mettre tel quel"
+          ],
+          "answer": 0,
+          "explain": "Sans source fiable, pas dans le plan."
+        },
+        {
+          "q": "À quoi sert le tableau de la concurrence ?",
+          "options": [
+            "À trouver ce que le projet fait de différent",
+            "À copier les concurrents"
+          ],
+          "answer": 0,
+          "explain": "Comme la livraison pour Grâce."
+        }
+      ],
+      "summary": "Ses données de terrain, analysées par l’IA, recomptées par soi ; un tableau de la concurrence pour trouver son point fort ; aucun chiffre extérieur sans source vérifiée.",
+      "resource": "Deux modèles d’instructions : analyse d’enquête et tableau de la concurrence."
+    },
+    {
+      "id": "m5",
+      "label": "Les chiffres",
+      "number": 5,
+      "title": "Construire les chiffres avec l’IA, et les vérifier",
+      "duration": "40 min",
+      "point": "On donne à l’IA une liste claire d’hypothèses (prix, coûts unitaires, volumes, charges fixes) ; elle construit les tableaux et trois scénarios ; le porteur vérifie chaque total et garde ses hypothèses visibles.",
+      "intro": "Les tableaux de chiffres font peur à beaucoup de porteurs de projets. L’IA peut les construire en quelques minutes. Mais un seul total faux, et c’est tout le plan qui perd sa crédibilité.",
+      "objectives": [
+        "Écrire la liste de ses hypothèses chiffrées.",
+        "Faire construire un tableau mensuel et trois scénarios.",
+        "Vérifier les résultats et les expliquer."
+      ],
+      "lessons": [
+        {
+          "title": "La liste des hypothèses",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Hypothèse",
+                "Exemple",
+                "Source"
+              ],
+              "rows": [
+                [
+                  "Prix de vente",
+                  "2 800 FCFA le panier",
+                  "Enquête (module 4)"
+                ],
+                [
+                  "Coût variable par unité",
+                  "Légumes, sac, part de livraison",
+                  "Devis et prix relevés"
+                ],
+                [
+                  "Volume prévu",
+                  "Nombre de paniers par mois",
+                  "Enquête et capacité de livraison"
+                ],
+                [
+                  "Charges fixes du mois",
+                  "Téléphone, petit matériel",
+                  "Devis"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les trois scénarios",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Demandez : « À partir de ces hypothèses, fais un tableau mensuel sur douze mois, puis trois scénarios : prudent (volume moins 30 %), central, favorable (volume plus 20 %). Montre chaque calcul. » Le scénario prudent doit permettre de rembourser (formation F15, module 4)."
+            },
+            {
+              "type": "formula",
+              "text": "Résultat du mois = Volume × (Prix − Coût variable) − Charges fixes"
+            }
+          ]
+        },
+        {
+          "title": "Vérifier et expliquer",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Refaire au moins un mois complet à la main ou dans un tableur.",
+                "Vérifier que les totaux annuels correspondent à la somme des mois.",
+                "Savoir expliquer d’où vient chaque chiffre, sans regarder l’écran."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les chiffres de Grâce",
+        "text": "Marge par panier, en FCFA, chiffres fictifs.",
+        "head": [
+          "Ligne",
+          "Par panier"
+        ],
+        "rows": [
+          [
+            "Prix de vente",
+            "2 800"
+          ],
+          [
+            "Légumes",
+            "−1 600"
+          ],
+          [
+            "Sac",
+            "−300"
+          ],
+          [
+            "Part de la livraison (2 000 FCFA pour 20 paniers)",
+            "−100"
+          ],
+          [
+            "Marge par panier",
+            "800",
+            "result"
+          ]
+        ],
+        "after": "Avec 160 paniers par mois et 20 000 FCFA de charges fixes, le résultat central est de 108 000 FCFA. En scénario prudent (112 paniers), il reste 69 600 FCFA : l’assistant avait écrit 79 600, Grâce corrige après avoir refait le calcul."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un seul total faux, et tout le plan perd sa crédibilité. »",
+            "Tableau avec une case rouge"
+          ],
+          [
+            "0:30",
+            "La liste des hypothèses, avec leurs sources.",
+            "Quatre lignes"
+          ],
+          [
+            "1:45",
+            "Les trois scénarios.",
+            "Trois colonnes : prudent, central, favorable"
+          ],
+          [
+            "3:15",
+            "Vérifier : l’erreur de 10 000 FCFA.",
+            "Grâce à la calculatrice"
+          ]
+        ]
+      },
+      "tool": "scenarios",
+      "toolDefaults": {
+        "prix": 2800,
+        "cout": 2000,
+        "volume": 160,
+        "fixes": 20000,
+        "unite": "panier"
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la marge par panier",
+        "text": "Un panier se vend 2 800 FCFA. Les légumes coûtent 1 600 FCFA, le sac 300 FCFA et la part de livraison 100 FCFA. Quelle est la marge par panier, en FCFA ?",
+        "answer": 800,
+        "solution": "2 800 − 1 600 − 300 − 100 = 800 FCFA.",
+        "then": "Vérifiez ensuite les scénarios produits par votre assistant avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Par quoi commence-t-on les chiffres ?",
+          "options": [
+            "La liste des hypothèses, avec leurs sources",
+            "Le total final"
+          ],
+          "answer": 0,
+          "explain": "Tout en découle."
+        },
+        {
+          "q": "Quels sont les trois scénarios ?",
+          "options": [
+            "Prudent, central, favorable",
+            "Petit, moyen, grand"
+          ],
+          "answer": 0,
+          "explain": "Le prudent doit permettre de rembourser."
+        },
+        {
+          "q": "Comment calcule-t-on le résultat du mois ?",
+          "options": [
+            "Volume × (prix − coût variable) − charges fixes",
+            "Prix × charges"
+          ],
+          "answer": 0,
+          "explain": "Montré calcul par calcul."
+        },
+        {
+          "q": "100 unités, marge de 500 par unité, 20 000 FCFA de charges fixes. Résultat ?",
+          "options": [
+            "30 000 FCFA",
+            "50 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "100 × 500 − 20 000 = 30 000."
+        },
+        {
+          "q": "Faut-il refaire un mois à la main ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Pour vérifier le tableau de l’IA."
+        },
+        {
+          "q": "Que doit savoir faire le porteur ?",
+          "options": [
+            "Expliquer chaque chiffre sans regarder l’écran",
+            "Lire le tableau à voix haute"
+          ],
+          "answer": 0,
+          "explain": "C’est ce qui convainc."
+        }
+      ],
+      "summary": "Des hypothèses sourcées, des tableaux et trois scénarios construits par l’IA, des totaux vérifiés par soi, et chaque chiffre expliqué sans l’écran.",
+      "resource": "Modèle de liste d’hypothèses et d’instruction pour les scénarios."
+    },
+    {
+      "id": "m6",
+      "label": "Risques et questions",
+      "number": 6,
+      "title": "Anticiper les risques et préparer les questions difficiles",
+      "duration": "30 min",
+      "point": "L’IA aide à lister les risques à partir du dossier, et à jouer un financeur exigeant qui pose des questions. Le classement des risques, les mesures et les réponses viennent du porteur.",
+      "intro": "Mme Ekane posera des questions que Grâce n’a pas prévues. L’IA peut les lui poser avant, pour qu’elle s’entraîne.",
+      "objectives": [
+        "Faire lister les risques de son projet par l’IA.",
+        "Les classer et choisir ses mesures avec la matrice des risques.",
+        "S’entraîner aux questions difficiles avec l’IA."
+      ],
+      "lessons": [
+        {
+          "title": "Lister et classer les risques",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Demandez : « Voici mon dossier. Liste les risques possibles de ce projet : marché, approvisionnement, logistique, finances, personnes, climat. » Puis notez vous-même chaque risque avec la matrice probabilité × gravité (formation F12, module 2) et choisissez une mesure pour chaque risque prioritaire (formation F15, module 8)."
+            }
+          ]
+        },
+        {
+          "title": "L’IA en financeur exigeant",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Instruction : « Tu es agent d’un programme d’appui aux jeunes, exigeant mais bienveillant. Pose-moi dix questions difficiles sur mon projet, une par une, et attends ma réponse avant la suivante. » Répondez avec vos propres mots, puis demandez à l’assistant ce qui était convaincant ou faible."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’entraînement de Grâce",
+        "text": "L’assistant joue le financeur exigeant.",
+        "head": [
+          "Question",
+          "Réponse de Grâce"
+        ],
+        "rows": [
+          [
+            "« Que faites-vous des légumes invendus ? »",
+            "« Les paniers sont commandés la veille : j’achète seulement ce qui est commandé. »"
+          ],
+          [
+            "« Et si le livreur est malade ? »",
+            "« Un deuxième livreur peut le remplacer. » Jugée floue par l’assistant",
+            "alert"
+          ],
+          [
+            "« Et si un maraîcher ne livre pas ? »",
+            "« J’ai trois fournisseurs, dont la coopérative de Hawa. »"
+          ]
+        ],
+        "after": "Grâce rencontre le deuxième livreur et fixe son tarif avant l’entretien : sa réponse devient solide."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Des questions qu’on n’avait pas prévues. »",
+            "Mme Ekane qui lève la main"
+          ],
+          [
+            "0:30",
+            "Lister et classer les risques.",
+            "Liste de l’IA, matrice remplie à la main"
+          ],
+          [
+            "1:45",
+            "L’IA en financeur exigeant.",
+            "Questions une par une"
+          ],
+          [
+            "3:15",
+            "La réponse floue, devenue solide.",
+            "Grâce et le deuxième livreur"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Solide ou faible ?",
+        "text": "Classez ces réponses à la question « Et si les ventes baissent ? ».",
+        "choices": [
+          "Solide",
+          "Faible"
+        ],
+        "items": [
+          [
+            "« Ça n’arrivera pas »",
+            1
+          ],
+          [
+            "« Même avec 30 % de ventes en moins, il me reste 69 600 FCFA par mois »",
+            0
+          ],
+          [
+            "« Je verrai le moment venu »",
+            1
+          ],
+          [
+            "« Je n’achète que les paniers commandés la veille »",
+            0
+          ],
+          [
+            "« L’IA m’a dit que c’était rentable »",
+            1
+          ],
+          [
+            "« J’ai déjà trois bureaux intéressés pour leur personnel »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qui classe les risques ?",
+          "options": [
+            "L’IA",
+            "Le porteur"
+          ],
+          "answer": 1,
+          "explain": "L’IA propose une liste, le porteur juge."
+        },
+        {
+          "q": "Avec quel outil classer les risques ?",
+          "options": [
+            "La matrice probabilité × gravité",
+            "Un tirage au sort"
+          ],
+          "answer": 0,
+          "explain": "Formation F12, module 2."
+        },
+        {
+          "q": "Comment s’entraîner aux questions difficiles ?",
+          "options": [
+            "Demander à l’IA de jouer un financeur exigeant",
+            "Ne pas s’entraîner"
+          ],
+          "answer": 0,
+          "explain": "Une question à la fois."
+        },
+        {
+          "q": "Qui répond aux questions ?",
+          "options": [
+            "Le porteur, avec ses mots",
+            "L’IA"
+          ],
+          "answer": 0,
+          "explain": "L’IA évalue ensuite."
+        },
+        {
+          "q": "« L’IA m’a dit que c’était rentable » est-il un bon argument ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le financeur veut vos chiffres."
+        },
+        {
+          "q": "Une réponse est jugée floue : que faire ?",
+          "options": [
+            "La rendre solide avant l’entretien",
+            "L’ignorer"
+          ],
+          "answer": 0,
+          "explain": "Comme Grâce avec le deuxième livreur."
+        }
+      ],
+      "summary": "L’IA liste les risques et pose les questions difficiles ; le porteur classe, choisit ses mesures et répond avec ses propres arguments.",
+      "resource": "Instruction « Joue un financeur exigeant »."
+    },
+    {
+      "id": "m7",
+      "label": "Adapter",
+      "number": 7,
+      "title": "Adapter le plan à chaque lecteur, et le relire",
+      "duration": "30 min",
+      "point": "Une banque, un programme d’appui et un jury de concours ne lisent pas le plan de la même façon. L’IA aide à adapter longueur, ton et points mis en avant ; le porteur respecte le format demandé et fait relire la version finale.",
+      "intro": "Grâce envoie le même dossier de vingt pages à une microfinance et à un concours qui demandait deux pages. Le concours ne le lit pas. Adapter, ce n’est pas tricher : c’est respecter son lecteur.",
+      "objectives": [
+        "Repérer ce que chaque type de lecteur regarde d’abord.",
+        "Faire adapter son plan par l’IA sans changer les faits.",
+        "Organiser une relecture humaine avant l’envoi."
+      ],
+      "lessons": [
+        {
+          "title": "Ce que chaque lecteur regarde",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Lecteur",
+                "Ce qu’il regarde d’abord"
+              ],
+              "rows": [
+                [
+                  "Banque ou microfinance",
+                  "Capacité de remboursement, scénario prudent, garanties, apport personnel"
+                ],
+                [
+                  "Programme d’appui",
+                  "Respect des critères, impact social et environnemental, sérieux du porteur"
+                ],
+                [
+                  "Jury de concours",
+                  "Originalité, clarté en peu de mots, potentiel de croissance"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Adapter sans changer les faits",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Instruction : « Voici mon business plan. Adapte-le pour [ce lecteur], en [nombre] pages, en mettant en avant [ces points]. Ne change aucun chiffre et n’ajoute aucune information absente du plan. » Si l’organisme fournit un formulaire, remplissez-le dans son ordre, sans le remplacer par votre propre modèle."
+            }
+          ]
+        },
+        {
+          "title": "La relecture humaine",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avant l’envoi, une personne de confiance (parrain, conseiller, formateur) relit la version finale : chiffres, cohérence, fautes, et une question simple : « Est-ce que je comprends le projet en lisant seulement le résumé ? » Un texte d’IA peut contenir des tournures étranges que seul un œil humain repère."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Trois versions pour Grâce",
+        "text": "Grâce adapte son plan à trois lecteurs.",
+        "head": [
+          "Version",
+          "Pour qui",
+          "Points mis en avant"
+        ],
+        "rows": [
+          [
+            "Dossier complet, 12 pages",
+            "Microfinance",
+            "Scénario prudent, apport, remboursement"
+          ],
+          [
+            "Formulaire du programme",
+            "Mme Ekane",
+            "Deux livreurs employés, achats aux maraîchers locaux, sacs réutilisables"
+          ],
+          [
+            "Deux pages",
+            "Concours de jeunes entrepreneurs",
+            "Livraison à domicile, commande la veille, zéro invendu",
+            "result"
+          ]
+        ],
+        "after": "Ousmane relit les trois versions et repère dans la troisième un nombre de clients différent du dossier : Grâce le corrige."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Vingt pages pour un concours qui en demandait deux. »",
+            "Dossier épais rejeté"
+          ],
+          [
+            "0:30",
+            "Ce que chaque lecteur regarde.",
+            "Banque, programme, jury"
+          ],
+          [
+            "1:45",
+            "Adapter sans changer les faits.",
+            "Instruction à l’écran"
+          ],
+          [
+            "2:45",
+            "La relecture d’Ousmane.",
+            "Chiffre corrigé en rouge"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Remplir le formulaire du programme dans son ordre",
+            0
+          ],
+          [
+            "Laisser l’IA « améliorer » les chiffres pour le concours",
+            1
+          ],
+          [
+            "Demander à son parrain de relire la version finale",
+            0
+          ],
+          [
+            "Envoyer vingt pages quand on en demande deux",
+            1
+          ],
+          [
+            "Mettre en avant le remboursement pour la microfinance",
+            0
+          ],
+          [
+            "Ajouter des informations absentes du plan pour impressionner le jury",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Que regarde d’abord une microfinance ?",
+          "options": [
+            "La capacité de remboursement",
+            "La couleur du dossier"
+          ],
+          "answer": 0,
+          "explain": "Avec le scénario prudent et l’apport."
+        },
+        {
+          "q": "Que regarde un programme d’appui ?",
+          "options": [
+            "Les critères, l’impact et le sérieux du porteur",
+            "Le nombre de pages"
+          ],
+          "answer": 0,
+          "explain": "Selon son appel."
+        },
+        {
+          "q": "Que doit préciser l’instruction d’adaptation ?",
+          "options": [
+            "Ne change aucun chiffre et n’ajoute aucune information",
+            "Fais plus impressionnant"
+          ],
+          "answer": 0,
+          "explain": "Adapter n’est pas inventer."
+        },
+        {
+          "q": "L’organisme fournit un formulaire : que faire ?",
+          "options": [
+            "Le remplir dans son ordre",
+            "Envoyer son propre modèle"
+          ],
+          "answer": 0,
+          "explain": "Sans le remplacer."
+        },
+        {
+          "q": "Qui relit la version finale ?",
+          "options": [
+            "Une personne de confiance",
+            "Personne"
+          ],
+          "answer": 0,
+          "explain": "Parrain, conseiller, formateur."
+        },
+        {
+          "q": "Pourquoi une relecture humaine ?",
+          "options": [
+            "Pour repérer erreurs et tournures étranges",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Ce que l’IA ne voit pas."
+        }
+      ],
+      "summary": "Un plan adapté à chaque lecteur, sans changer les faits, dans le format demandé, et relu par une personne de confiance avant l’envoi.",
+      "resource": "Instruction d’adaptation et grille de relecture."
+    },
+    {
+      "id": "m8",
+      "label": "Mon plan complet",
+      "number": 8,
+      "title": "Projet final : mon business plan complet avec l’IA",
+      "duration": "40 min",
+      "point": "Le projet final rassemble toute la méthode : dossier de départ, résumé vérifié, analyse de marché, chiffres et scénarios vérifiés, risques et réponses, version adaptée, et un journal de vérification.",
+      "intro": "Le vrai test, c’est l’entretien : Mme Ekane posera ses questions, et Grâce devra répondre sans regarder son téléphone. Le projet final prépare à ce moment.",
+      "objectives": [
+        "Assembler son business plan complet.",
+        "Tenir un journal de vérification.",
+        "Présenter et défendre son plan sans aide."
+      ],
+      "lessons": [
+        {
+          "title": "Le journal de vérification",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une page simple : pour chaque affirmation importante du plan (chiffre, fait, engagement), notez d’où elle vient et comment vous l’avez vérifiée. C’est aussi la meilleure préparation à l’entretien."
+            },
+            {
+              "type": "table",
+              "head": [
+                "Affirmation",
+                "Source",
+                "Vérification"
+              ],
+              "rows": [
+                [
+                  "18 ménages sur 25 intéressés",
+                  "Enquête de septembre",
+                  "Recompté à la main"
+                ],
+                [
+                  "Marge de 800 FCFA par panier",
+                  "Devis et prix relevés",
+                  "Recalculée à la calculatrice"
+                ],
+                [
+                  "Résultat prudent de 69 600 FCFA par mois",
+                  "Scénario de l’IA",
+                  "Erreur corrigée (79 600 au départ)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "L’entretien blanc",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On termine par un entretien blanc avec le formateur ou le parrain : trois minutes de présentation (formation F15, module 7), puis dix questions, sans téléphone. Chaque réponse hésitante devient une action à faire avant le vrai entretien."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’entretien de Grâce",
+        "text": "Devant Mme Ekane, Grâce présente son projet en trois minutes, puis répond aux questions.",
+        "head": [
+          "Question",
+          "Réponse"
+        ],
+        "rows": [
+          [
+            "Les invendus",
+            "Commande la veille"
+          ],
+          [
+            "Le livreur malade",
+            "Deuxième livreur, tarif fixé"
+          ],
+          [
+            "« Avez-vous utilisé l’IA ? »",
+            "Oui, pour structurer et vérifier ; elle montre son journal de vérification",
+            "result"
+          ]
+        ],
+        "after": "Mme Ekane retient son dossier pour la phase suivante du programme."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le vrai test, c’est l’entretien. »",
+            "Grâce devant Mme Ekane"
+          ],
+          [
+            "0:30",
+            "Le journal de vérification.",
+            "Page avec trois colonnes"
+          ],
+          [
+            "1:45",
+            "L’entretien blanc, sans téléphone.",
+            "Ousmane qui pose les questions"
+          ],
+          [
+            "3:00",
+            "« Avez-vous utilisé l’IA ? » La réponse franche de Grâce.",
+            "Journal tendu à Mme Ekane"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon business plan complet",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f5-plan",
+        "items": [
+          "Dossier de départ en sept rubriques",
+          "Résumé vérifié phrase par phrase",
+          "Analyse de marché et de concurrence",
+          "Chiffres en trois scénarios, vérifiés",
+          "Risques et réponses aux questions difficiles",
+          "Version adaptée à un lecteur précis, relue",
+          "Journal de vérification"
+        ],
+        "then": "Remettez votre dossier au formateur, puis passez l’entretien blanc. L’attestation finale est délivrée avec au moins six pièces acquises sur sept, l’entretien blanc réussi et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "À quoi sert le journal de vérification ?",
+          "options": [
+            "Montrer d’où vient chaque affirmation et comment elle a été vérifiée",
+            "Décorer le dossier"
+          ],
+          "answer": 0,
+          "explain": "Et préparer l’entretien."
+        },
+        {
+          "q": "Que note-t-on pour chaque affirmation ?",
+          "options": [
+            "Sa source et sa vérification",
+            "Son auteur"
+          ],
+          "answer": 0,
+          "explain": "Trois colonnes."
+        },
+        {
+          "q": "Comment se déroule l’entretien blanc ?",
+          "options": [
+            "Trois minutes de présentation, puis dix questions, sans téléphone",
+            "Une lecture du plan"
+          ],
+          "answer": 0,
+          "explain": "Comme le vrai."
+        },
+        {
+          "q": "Que faire d’une réponse hésitante ?",
+          "options": [
+            "En faire une action avant le vrai entretien",
+            "L’oublier"
+          ],
+          "answer": 0,
+          "explain": "Pour progresser."
+        },
+        {
+          "q": "« Avez-vous utilisé l’IA ? » : que répondre ?",
+          "options": [
+            "La vérité, et montrer comment on a vérifié",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "L’honnêteté inspire confiance."
+        },
+        {
+          "q": "Qui doit pouvoir défendre chaque ligne du plan ?",
+          "options": [
+            "L’IA",
+            "Le porteur"
+          ],
+          "answer": 1,
+          "explain": "C’est son projet."
+        }
+      ],
+      "summary": "Un plan complet, un journal de vérification, un entretien blanc sans téléphone, et une réponse honnête sur l’usage de l’IA : c’est ainsi qu’un plan assisté par l’IA convainc.",
+      "resource": "Modèle de journal de vérification."
+    }
+  ]
+}

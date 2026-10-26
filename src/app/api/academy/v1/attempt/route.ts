@@ -1,5 +1,15 @@
-import { NextResponse } from 'next/server';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
+import { json, currentUser, postGuard, readJson, who } from '../../../../../lib/http';
+import { attempt } from '../../../../../lib/academy';
 import { getRepo } from '../../../../../lib/repo';
-import { currentUser, jsonError, isSameOrigin } from '../../../../../lib/http';
-import { gradeAttempt } from '../../../../../lib/academy';
-export async function POST(request:Request){if(!isSameOrigin(request))return jsonError('Origine refusée',403);const user=await currentUser(request);if(!user)return jsonError('Authentification requise',401);const body=await request.json().catch(()=>null);if(!body||typeof body.courseId!=='string')return jsonError('Données invalides',400);try{const result=gradeAttempt(body.courseId,body.answers);await getRepo().recordAttempt(user.id,{courseId:body.courseId,score:result.score??0,answers:body.answers});return NextResponse.json(result);}catch(e){console.error(e);return jsonError('Correction indisponible',503);}}
+
+export async function POST(req: Request) {
+  const blocked = postGuard(req);
+  if (blocked) return blocked;
+  const repo = await getRepo();
+  const user = await currentUser(req, repo);
+  const body = await readJson(req);
+  return json(await attempt(repo, user, who(req, user), body));
+}

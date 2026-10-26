@@ -1,4 +1,18 @@
-import { createPool } from '../src/lib/repo/mysql';
-import { scryptSync, randomBytes } from 'node:crypto';
-async function main(){const email=process.env.ADMIN_EMAIL;const password=process.env.ADMIN_PASSWORD;const name=process.env.ADMIN_NAME||'Administrateur';if(!email||!password)throw new Error('ADMIN_EMAIL et ADMIN_PASSWORD sont requis');const salt=randomBytes(16).toString('hex');const hash=salt+':'+scryptSync(password,salt,64).toString('hex');const pool=createPool();try{await pool.execute('INSERT INTO users(email,name,password_hash,role) VALUES(?,?,?,?) ON DUPLICATE KEY UPDATE name=VALUES(name),password_hash=VALUES(password_hash),role=\'admin\'',[email.toLowerCase(),name,hash,'admin']);console.log('Administrateur configuré.');}finally{await pool.end();}}
-main().catch(e=>{console.error(e);process.exit(1);});
+/**
+ * Crée le premier compte administrateur à partir de ADMIN_EMAIL, ADMIN_PASSWORD et ADMIN_NAME (.env).
+ * npm run admin:create
+ */
+import { mysqlRepo } from '../src/lib/repo/mysql';
+import { hashPassword, validEmail } from '../src/lib/auth';
+
+async function main() {
+  const email = (process.env.ADMIN_EMAIL || '').trim().toLowerCase();
+  const password = process.env.ADMIN_PASSWORD || '';
+  const name = (process.env.ADMIN_NAME || 'Administrateur').trim();
+  if (!validEmail(email) || password.length < 12) throw new Error('ADMIN_EMAIL valide et ADMIN_PASSWORD de 12 caractères au moins sont requis dans .env');
+  const repo = mysqlRepo();
+  const u = await repo.createUser({ email, name, passwordHash: hashPassword(password), role: 'admin' });
+  console.log(u ? `Administrateur créé : ${u.email} (id ${u.id}). Retirez ADMIN_PASSWORD du fichier .env.` : 'Un compte existe déjà avec cette adresse.');
+  process.exit(0);
+}
+main().catch((e) => { console.error(e.message); process.exit(1); });

@@ -1,0 +1,1696 @@
+{
+  "id": "f3",
+  "title": "Les outils numériques au service des producteurs",
+  "short": "Outils numériques",
+  "lead": "Se servir de son téléphone pour s’informer, vendre et s’organiser, sans gaspiller son forfait ni se faire arnaquer.",
+  "note": "Joseph, sa fille Grâce, Martine, Bernadette, Aïcha, Paul et leurs échanges sont fictifs. Les menus des applications peuvent changer selon les versions et les téléphones.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Mon téléphone",
+      "number": 1,
+      "title": "Utiliser efficacement un smartphone pour son activité agricole",
+      "duration": "30 min",
+      "point": "Un téléphone bien réglé consomme moins de forfait, tient plus longtemps sa batterie et garde de la place pour l’essentiel. Quelques réglages et cinq applications suffisent pour commencer.",
+      "intro": "« Mon forfait finit en deux jours, et je ne sais pas pourquoi. » Joseph pense que le téléphone n’est pas fait pour lui. Avec sa fille Grâce, il découvre que quelques réglages changent tout.",
+      "objectives": [
+        "Réduire la consommation de son forfait.",
+        "Faire durer sa batterie et libérer de l’espace.",
+        "Installer et organiser les cinq applications utiles à son activité."
+      ],
+      "lessons": [
+        {
+          "title": "Économiser son forfait",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Désactiver le téléchargement automatique des photos et vidéos dans WhatsApp (paramètres, rubrique stockage et données).",
+                "Éviter les vidéos longues avec les données mobiles ; profiter d’un Wi-Fi quand il y en a.",
+                "Mettre à jour les applications avec le Wi-Fi seulement.",
+                "Couper les données mobiles quand on ne s’en sert pas.",
+                "Vérifier régulièrement son solde et ce qui consomme le plus."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Batterie et espace",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Baisser la luminosité de l’écran et fermer les applications inutilisées.",
+                "Garder une batterie externe ou un petit panneau solaire si l’électricité manque.",
+                "Supprimer régulièrement les vidéos et photos reçues inutiles ; garder les photos importantes (produits, reçus)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les cinq applications utiles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Application",
+                "À quoi elle sert"
+              ],
+              "rows": [
+                [
+                  "WhatsApp ou WhatsApp Business",
+                  "Communiquer avec les clients et la coopérative (module 3)"
+                ],
+                [
+                  "L’application de mobile money",
+                  "Payer et recevoir de l’argent"
+                ],
+                [
+                  "L’appareil photo",
+                  "Photographier ses produits (formation F6)"
+                ],
+                [
+                  "Le navigateur Internet",
+                  "Chercher des informations (module 2) et ouvrir AgroConnect"
+                ],
+                [
+                  "La calculatrice et les notes",
+                  "Calculer ses prix, noter ses ventes"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Installez les applications uniquement depuis le magasin officiel du téléphone, et rangez les cinq sur le premier écran."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le téléphone de Joseph",
+        "text": "Grâce fait trois réglages sur le téléphone de son père.",
+        "head": [
+          "Réglage",
+          "Effet"
+        ],
+        "rows": [
+          [
+            "Téléchargement automatique des vidéos des groupes désactivé",
+            "Le forfait dure presque deux semaines"
+          ],
+          [
+            "200 vidéos reçues supprimées",
+            "Le téléphone ne se bloque plus"
+          ],
+          [
+            "Cinq applications utiles sur le premier écran",
+            "Joseph trouve tout du premier coup",
+            "result"
+          ]
+        ],
+        "after": "Joseph commence à se sentir à l’aise avec son téléphone."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Mon forfait finit en deux jours. »",
+            "Joseph qui regarde son solde"
+          ],
+          [
+            "0:30",
+            "Cinq réglages pour économiser le forfait.",
+            "Gros plan sur l’écran, réglage par réglage"
+          ],
+          [
+            "1:45",
+            "Batterie et espace.",
+            "Batterie externe, galerie de photos allégée"
+          ],
+          [
+            "2:45",
+            "Les cinq applications sur le premier écran.",
+            "Écran rangé de Joseph"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Économise ou gaspille ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Économise le forfait",
+          "Gaspille le forfait"
+        ],
+        "items": [
+          [
+            "Laisser WhatsApp télécharger toutes les vidéos",
+            1
+          ],
+          [
+            "Mettre à jour les applications avec le Wi-Fi",
+            0
+          ],
+          [
+            "Regarder des vidéos longues avec les données mobiles",
+            1
+          ],
+          [
+            "Couper les données la nuit",
+            0
+          ],
+          [
+            "Désactiver le téléchargement automatique des photos",
+            0
+          ],
+          [
+            "Laisser toutes les applications ouvertes",
+            1
+          ]
+        ],
+        "then": "Faites ensuite ces réglages sur votre téléphone, avec l’aide d’un proche si besoin."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qui consomme souvent le plus de forfait ?",
+          "options": [
+            "Les messages écrits",
+            "Les vidéos"
+          ],
+          "answer": 1,
+          "explain": "Surtout celles téléchargées automatiquement."
+        },
+        {
+          "q": "Où désactiver le téléchargement automatique dans WhatsApp ?",
+          "options": [
+            "Dans les paramètres, rubrique stockage et données",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Le nom exact peut varier selon la version."
+        },
+        {
+          "q": "Quand mettre à jour les applications ?",
+          "options": [
+            "Avec le Wi-Fi",
+            "Avec les données mobiles"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas consommer le forfait."
+        },
+        {
+          "q": "Où installer une application ?",
+          "options": [
+            "Depuis le magasin officiel du téléphone",
+            "Depuis un lien reçu d’un inconnu"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les fausses applications."
+        },
+        {
+          "q": "Comment faire durer la batterie ?",
+          "options": [
+            "Baisser la luminosité, fermer les applications inutilisées",
+            "Laisser l’écran au maximum"
+          ],
+          "answer": 0,
+          "explain": "Et garder une batterie externe."
+        },
+        {
+          "q": "Que faire des vidéos reçues inutiles ?",
+          "options": [
+            "Les supprimer",
+            "Les garder toutes"
+          ],
+          "answer": 0,
+          "explain": "Pour libérer de l’espace."
+        }
+      ],
+      "summary": "Bloquer le téléchargement automatique, utiliser le Wi-Fi, économiser la batterie, faire de la place, et garder cinq applications utiles sur le premier écran.",
+      "resource": "Fiche illustrée « Cinq réglages pour économiser mon forfait »."
+    },
+    {
+      "id": "m2",
+      "label": "Info fiable",
+      "number": 2,
+      "title": "Rechercher des informations fiables sur Internet",
+      "duration": "30 min",
+      "point": "Pour trouver une information, on tape quelques mots précis ; pour savoir si elle est vraie, on se pose trois questions : qui l’a publiée, quand, et la retrouve-t-on ailleurs ?",
+      "intro": "Joseph reçoit dans un groupe : « Subvention de 500 000 FCFA pour les producteurs ! Envoyez 10 000 FCFA de frais de dossier. » Vrai ou faux ? Savoir vérifier peut lui éviter de perdre de l’argent.",
+      "objectives": [
+        "Faire une recherche avec des mots-clés précis.",
+        "Vérifier une information avec les trois questions.",
+        "Reconnaître une arnaque courante."
+      ],
+      "lessons": [
+        {
+          "title": "Bien chercher",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Taper quelques mots précis plutôt qu’une longue phrase : « prix maïs Ngaoundéré », « conservation arachide ».",
+                "Ajouter le lieu ou l’année pour une information récente.",
+                "Regarder plusieurs résultats, pas seulement le premier.",
+                "On peut aussi demander à un assistant d’IA, en vérifiant ensuite (formation F1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les trois questions",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Qui l’a publiée ? Un ministère, un institut de recherche, une organisation connue, ou un inconnu ?",
+                "Quand ? Une information ancienne peut ne plus être vraie.",
+                "La retrouve-t-on ailleurs ? Une information sérieuse se retrouve chez plusieurs sources fiables."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sources généralement fiables : les services officiels (ministères, Délégations, ONACC, IRAD), les organisations internationales comme la FAO, et les rubriques Climat et Prix marché d’AgroConnect."
+            }
+          ]
+        },
+        {
+          "title": "Les arnaques courantes",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Une « subvention », un « financement » ou un « emploi » qui demande de payer des frais d’avance.",
+                "Un message qui pousse à agir très vite : « dernière chance », « avant ce soir ».",
+                "Une demande de code secret de mobile money.",
+                "Un « remède miracle » pour les cultures ou les animaux, sans source."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les programmes sérieux ne font jamais payer l’accès à un dossier."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Joseph et la fausse subvention",
+        "text": "Grâce applique les trois questions au message reçu par son père.",
+        "head": [
+          "Question",
+          "Réponse"
+        ],
+        "rows": [
+          [
+            "Qui l’a publiée ?",
+            "Un numéro inconnu, aucun organisme précis"
+          ],
+          [
+            "Quand ?",
+            "Aucune date"
+          ],
+          [
+            "La retrouve-t-on ailleurs ?",
+            "Rien sur les sites officiels"
+          ],
+          [
+            "Vérification",
+            "La Délégation d’arrondissement de l’agriculture confirme : c’est une arnaque",
+            "alert"
+          ]
+        ],
+        "after": "Joseph ne paie rien et prévient le groupe de la coopérative."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« 500 000 FCFA de subvention ? Envoyez 10 000 de frais… »",
+            "Message suspect sur un écran"
+          ],
+          [
+            "0:30",
+            "Bien chercher : quelques mots précis.",
+            "Barre de recherche, mots tapés"
+          ],
+          [
+            "1:30",
+            "Les trois questions.",
+            "Trois doigts levés"
+          ],
+          [
+            "2:45",
+            "Les arnaques courantes, et le bon réflexe.",
+            "Joseph qui appelle la Délégation"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Fiable ou méfiance ?",
+        "text": "Pour chaque information, choisissez.",
+        "choices": [
+          "Semble fiable",
+          "Se méfier"
+        ],
+        "items": [
+          [
+            "Une alerte de l’ONACC dans la rubrique Climat d’AgroConnect",
+            0
+          ],
+          [
+            "« Envoyez 10 000 FCFA pour recevoir votre subvention »",
+            1
+          ],
+          [
+            "Un guide technique de la FAO",
+            0
+          ],
+          [
+            "Un vocal d’inconnu promettant un engrais miracle",
+            1
+          ],
+          [
+            "Un communiqué de la Délégation de l’agriculture",
+            0
+          ],
+          [
+            "Un message demandant votre code de mobile money",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Comment bien chercher ?",
+          "options": [
+            "Avec quelques mots précis",
+            "Avec une très longue phrase"
+          ],
+          "answer": 0,
+          "explain": "C’est plus efficace."
+        },
+        {
+          "q": "Quelle est la première question à se poser ?",
+          "options": [
+            "Qui a publié l’information ?",
+            "Est-elle bien écrite ?"
+          ],
+          "answer": 0,
+          "explain": "La source compte."
+        },
+        {
+          "q": "Pourquoi regarder la date ?",
+          "options": [
+            "Une information ancienne peut ne plus être vraie",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Surtout pour les prix et les programmes."
+        },
+        {
+          "q": "Un financement demande des frais d’avance : que faire ?",
+          "options": [
+            "Payer vite",
+            "Se méfier et vérifier auprès d’un service officiel"
+          ],
+          "answer": 1,
+          "explain": "C’est presque toujours une arnaque."
+        },
+        {
+          "q": "Peut-on donner son code de mobile money ?",
+          "options": [
+            "Oui, à un agent",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Aucun service sérieux ne le demande."
+        },
+        {
+          "q": "Que faire après avoir déjoué une arnaque ?",
+          "options": [
+            "Prévenir les autres membres",
+            "Ne rien dire"
+          ],
+          "answer": 0,
+          "explain": "Pour les protéger aussi."
+        }
+      ],
+      "summary": "Quelques mots précis pour chercher, trois questions pour vérifier, et un réflexe : on ne paie jamais pour « débloquer » une aide.",
+      "resource": "Fiche « Vrai ou arnaque ? Les trois questions »."
+    },
+    {
+      "id": "m3",
+      "label": "WhatsApp",
+      "number": 3,
+      "title": "Utiliser WhatsApp pour communiquer avec les clients",
+      "duration": "30 min",
+      "point": "Un bon message client est court, poli et complet : salutation, produit, prix, lieu, contact. On répond vite, aux heures convenables, et on confirme toujours une commande par écrit.",
+      "intro": "Un client qui attend une réponse deux jours va acheter ailleurs. Un message clair et rapide vaut une bonne vitrine.",
+      "objectives": [
+        "Rédiger un message client complet.",
+        "Utiliser les vocaux et les photos à bon escient.",
+        "Confirmer une commande par écrit."
+      ],
+      "lessons": [
+        {
+          "title": "Le message en cinq éléments",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Une salutation polie, avec le nom du client si on le connaît.",
+                "Le produit et la quantité disponibles.",
+                "Le prix, clairement.",
+                "Le lieu de retrait ou la livraison.",
+                "Le contact et le moment où l’on est joignable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vocaux, photos, groupes",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vocaux : pratiques pour ceux qui lisent peu ; courts, au calme. Les prix et les quantités se confirment ensuite par écrit.",
+                "Photos : nettes et récentes, du vrai produit (formation F6, module 5).",
+                "Groupes : pour les annonces générales ; les prix et les commandes se discutent en privé.",
+                "Horaires : éviter d’écrire tard le soir ou très tôt, sauf urgence."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Confirmer par écrit",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Après un appel ou un vocal, envoyez un court message : produit, quantité, prix, date et lieu de livraison, mode de paiement. Le client répond « d’accord ». Cette trace évite les malentendus (formation F6, module 8)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Joseph répond à Martine",
+        "text": "Martine, qui tient un restaurant en ville, demande du gari. Joseph répond le jour même.",
+        "head": [
+          "Élément",
+          "Message de Joseph"
+        ],
+        "rows": [
+          [
+            "Salutation",
+            "« Bonjour Madame Martine. »"
+          ],
+          [
+            "Produit",
+            "« J’ai 20 sachets de gari de 1 kg, »"
+          ],
+          [
+            "Prix",
+            "« à 1 000 FCFA le sachet. »"
+          ],
+          [
+            "Lieu",
+            "« Retrait au magasin de la coopérative ou livraison jeudi en ville. »"
+          ],
+          [
+            "Contact",
+            "« Je suis joignable de 7 h à 18 h. »",
+            "result"
+          ]
+        ],
+        "after": "Martine commande 10 sachets par vocal ; Grâce aide Joseph à envoyer la confirmation écrite."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Deux jours sans réponse, et le client est parti. »",
+            "Message sans réponse"
+          ],
+          [
+            "0:30",
+            "Le message en cinq éléments.",
+            "Message qui se complète"
+          ],
+          [
+            "1:45",
+            "Vocaux, photos, groupes, horaires.",
+            "Joseph qui enregistre un vocal"
+          ],
+          [
+            "2:45",
+            "Confirmer par écrit : la commande de Martine.",
+            "Message de confirmation, réponse « d’accord »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bon ou à améliorer ?",
+        "text": "Classez ces messages et pratiques.",
+        "choices": [
+          "Bon",
+          "À améliorer"
+        ],
+        "items": [
+          [
+            "« Bonjour Madame, 20 sachets de gari à 1 000 FCFA, retrait au magasin, joignable de 7 h à 18 h »",
+            0
+          ],
+          [
+            "« gari dispo »",
+            1
+          ],
+          [
+            "Un vocal de cinq minutes dans un endroit bruyant",
+            1
+          ],
+          [
+            "Une confirmation écrite après un appel",
+            0
+          ],
+          [
+            "Discuter du prix dans le grand groupe de la coopérative",
+            1
+          ],
+          [
+            "Répondre au client le jour même",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien d’éléments dans un bon message client ?",
+          "options": [
+            "Deux",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Salutation, produit, prix, lieu, contact."
+        },
+        {
+          "q": "À quoi servent les vocaux ?",
+          "options": [
+            "Communiquer avec ceux qui lisent peu",
+            "Remplacer toute trace écrite"
+          ],
+          "answer": 0,
+          "explain": "Courts et au calme."
+        },
+        {
+          "q": "Que faire après un vocal de commande ?",
+          "options": [
+            "Confirmer par écrit",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Prix, quantité, date, paiement."
+        },
+        {
+          "q": "Où discuter d’un prix ?",
+          "options": [
+            "En privé",
+            "Dans un grand groupe"
+          ],
+          "answer": 0,
+          "explain": "Pas devant tout le monde."
+        },
+        {
+          "q": "Quand répondre à un client ?",
+          "options": [
+            "Le jour même",
+            "La semaine suivante"
+          ],
+          "answer": 0,
+          "explain": "Sinon il achète ailleurs."
+        },
+        {
+          "q": "Quelle photo envoyer ?",
+          "options": [
+            "Une photo nette et récente du vrai produit",
+            "Une photo trouvée sur Internet"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas tromper le client."
+        }
+      ],
+      "summary": "Cinq éléments dans chaque message, des vocaux courts, des photos vraies, les prix en privé, une réponse rapide et une confirmation écrite.",
+      "resource": "Trois modèles de messages clients à garder sur son téléphone."
+    },
+    {
+      "id": "m4",
+      "label": "Catalogue",
+      "number": 4,
+      "title": "Créer des catalogues numériques de produits",
+      "duration": "30 min",
+      "point": "Un catalogue numérique, c’est la vitrine de ses produits dans le téléphone : une fiche par produit, avec photo, nom, quantité, prix, lieu et contact, partagée en un geste et mise à jour dès que quelque chose change.",
+      "intro": "À chaque client, Joseph répétait les mêmes informations. Avec un catalogue, il envoie tout en une fois, et le client voit les produits avant même de demander.",
+      "objectives": [
+        "Choisir le format de catalogue adapté à son téléphone.",
+        "Créer une fiche par produit.",
+        "Partager et mettre à jour son catalogue."
+      ],
+      "lessons": [
+        {
+          "title": "Trois formats simples",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Format",
+                "Comment",
+                "Pour qui"
+              ],
+              "rows": [
+                [
+                  "Catalogue de WhatsApp Business",
+                  "Produits avec photo, prix et description dans l’application",
+                  "Ceux qui ont WhatsApp Business (formation F6, module 6)"
+                ],
+                [
+                  "Une image par produit",
+                  "Photo du produit avec le nom, le prix et le contact écrits dessus",
+                  "Tout le monde, partageable aussi en statut"
+                ],
+                [
+                  "Liste de prix en message",
+                  "Un message court avec tous les produits et leurs prix, à copier et envoyer",
+                  "Les téléphones les plus simples"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour toucher des acheteurs de tout le pays : publier ses produits sur AgroConnect, rubrique Marché (formation F6, module 10)."
+            }
+          ]
+        },
+        {
+          "title": "La fiche de chaque produit",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Reprenez les rubriques de la fiche produit de la formation F6 (module 4) : produit et variété, quantité, conditionnement, qualité, prix, lieu, disponibilité, contact. Pas de fausse promesse, et une photo du vrai produit."
+            }
+          ]
+        },
+        {
+          "title": "Partager et mettre à jour",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Envoyer le catalogue aux clients réguliers et le publier en statut une fois par semaine.",
+                "Le mettre à jour dès que la quantité ou le prix change, et retirer un produit épuisé.",
+                "Garder une copie sur le téléphone pour la renvoyer rapidement."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le catalogue de Joseph",
+        "text": "Avec Grâce, Joseph crée trois fiches, chacune avec une photo prise le matin, le prix et son numéro.",
+        "head": [
+          "Produit",
+          "Fiche"
+        ],
+        "rows": [
+          [
+            "Gari",
+            "Sachets de 1 kg"
+          ],
+          [
+            "Arachide décortiquée",
+            "Sacs"
+          ],
+          [
+            "Manioc frais",
+            "Sur commande ; fiche retirée dès que le stock est épuisé",
+            "result"
+          ]
+        ],
+        "after": "Joseph envoie son catalogue à Martine et à ses autres clients, et le publie en statut chaque lundi."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Toujours répéter la même chose à chaque client ? »",
+            "Joseph qui tape le même message plusieurs fois"
+          ],
+          [
+            "0:30",
+            "Trois formats de catalogue.",
+            "Catalogue WhatsApp, image produit, liste de prix"
+          ],
+          [
+            "1:45",
+            "La fiche de chaque produit.",
+            "Grâce qui écrit le prix sur la photo"
+          ],
+          [
+            "2:45",
+            "Partager et mettre à jour.",
+            "Statut publié, fiche retirée quand le produit est épuisé"
+          ]
+        ]
+      },
+      "tool": "fiche",
+      "toolDefaults": {
+        "produit": "Gari, grain fin",
+        "quantite": "20 sachets",
+        "conditionnement": "Sachets de 1 kg, bien soudés",
+        "qualite": "Bien sec, tamisé",
+        "prix": "1 000 FCFA le sachet",
+        "lieu": "Magasin de la coopérative, ou livraison le jeudi en ville",
+        "disponibilite": "Cette semaine",
+        "contact": "Joseph, 6XX XX XX XX (WhatsApp)"
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Une photo du vrai produit prise le matin",
+            0
+          ],
+          [
+            "Un catalogue avec un produit épuisé depuis un mois",
+            1
+          ],
+          [
+            "Le prix et le contact sur chaque fiche",
+            0
+          ],
+          [
+            "Une photo trouvée sur Internet",
+            1
+          ],
+          [
+            "Publier le catalogue en statut chaque semaine",
+            0
+          ],
+          [
+            "Une fiche sans prix, « à discuter » seulement",
+            1
+          ]
+        ],
+        "then": "Créez ensuite la fiche d’un de vos produits avec le générateur, et envoyez-la à un client."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qu’un catalogue numérique ?",
+          "options": [
+            "Une fiche par produit, dans le téléphone",
+            "Un livre papier"
+          ],
+          "answer": 0,
+          "explain": "Partagé en un geste."
+        },
+        {
+          "q": "Quel format pour un téléphone simple ?",
+          "options": [
+            "Une liste de prix en message",
+            "Une vidéo longue"
+          ],
+          "answer": 0,
+          "explain": "À copier et envoyer."
+        },
+        {
+          "q": "Que doit contenir chaque fiche ?",
+          "options": [
+            "Photo, nom, quantité, prix, lieu, contact",
+            "Seulement une photo"
+          ],
+          "answer": 0,
+          "explain": "Comme la fiche produit de F6."
+        },
+        {
+          "q": "Quand mettre à jour le catalogue ?",
+          "options": [
+            "Dès que la quantité ou le prix change",
+            "Une fois par an"
+          ],
+          "answer": 0,
+          "explain": "Et retirer les produits épuisés."
+        },
+        {
+          "q": "Peut-on utiliser une photo trouvée sur Internet ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le client doit voir le vrai produit."
+        },
+        {
+          "q": "Où toucher des acheteurs de tout le pays ?",
+          "options": [
+            "Sur AgroConnect, rubrique Marché",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Formation F6, module 10."
+        }
+      ],
+      "summary": "Un format adapté à son téléphone, une fiche complète par produit avec une vraie photo, un partage régulier et une mise à jour dès que quelque chose change.",
+      "resource": "Modèle de liste de prix et modèle d’image produit."
+    },
+    {
+      "id": "m5",
+      "label": "Photos",
+      "number": 5,
+      "title": "Photographier et présenter ses produits",
+      "duration": "25 min",
+      "point": "Pour une bonne photo avec un téléphone : lumière du jour, fond propre, objectif essuyé, téléphone tenu des deux mains, et le vrai produit. Trois photos suffisent : l’ensemble, le détail, le conditionnement.",
+      "intro": "Joseph envoyait des photos sombres et floues, prises dans la case. Les clients posaient mille questions ou ne répondaient pas. Une photo nette vend avant même de parler.",
+      "objectives": [
+        "Prendre une photo nette avec son téléphone.",
+        "Réaliser les trois photos d’un produit.",
+        "Envoyer ses photos sans gaspiller son forfait."
+      ],
+      "lessons": [
+        {
+          "title": "Cinq gestes pour une photo nette",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Sortir à la lumière du jour, à l’ombre légère, sans soleil de face.",
+                "Poser le produit sur un fond propre : bâche, natte, mur clair.",
+                "Essuyer l’objectif du téléphone avec un tissu propre.",
+                "Tenir le téléphone des deux mains et toucher l’écran sur le produit pour faire la mise au point.",
+                "Photographier le vrai produit, sans filtre qui change les couleurs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trois photos par produit",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "L’ensemble (le stock), le détail (une poignée de grains de près), le conditionnement (le sac ou le sachet fermé). La formation F6 (module 5) approfondit ces techniques. Pour économiser le forfait, envoyez les photos en qualité normale."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les nouvelles photos de Joseph",
+        "text": "Le matin, Joseph pose trois sachets de gari sur une natte devant la maison, essuie l’objectif et prend les trois photos avec l’aide de Grâce.",
+        "after": "Il les ajoute à son catalogue. Martine répond dans l’heure : « Ils ont l’air très propres, je prends 10 sachets. »"
+      },
+      "video": {
+        "url": "",
+        "duration": "3 min",
+        "script": [
+          [
+            "0:00",
+            "« Une photo nette vend avant même de parler. »",
+            "Photo floue, puis photo nette du même produit"
+          ],
+          [
+            "0:30",
+            "Les cinq gestes, démontrés avec un téléphone simple.",
+            "Lumière, natte, tissu, deux mains, doigt sur l’écran"
+          ],
+          [
+            "2:00",
+            "Les trois photos et l’envoi en qualité normale.",
+            "Ensemble, détail, sachet fermé"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Photographier dans la case sans lumière",
+            1
+          ],
+          [
+            "Essuyer l’objectif avant la photo",
+            0
+          ],
+          [
+            "Poser le produit sur une natte propre",
+            0
+          ],
+          [
+            "Tenir le téléphone d’une main en marchant",
+            1
+          ],
+          [
+            "Toucher l’écran sur le produit avant de photographier",
+            0
+          ],
+          [
+            "Ajouter un filtre qui change la couleur du gari",
+            1
+          ]
+        ],
+        "then": "Prenez ensuite les trois photos d’un de vos produits."
+      },
+      "quiz": [
+        {
+          "q": "Où prendre la photo ?",
+          "options": [
+            "À la lumière du jour, à l’ombre légère",
+            "Dans la case"
+          ],
+          "answer": 0,
+          "explain": "Sans soleil de face."
+        },
+        {
+          "q": "Pourquoi essuyer l’objectif ?",
+          "options": [
+            "Pour éviter une photo floue",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Les doigts le salissent souvent."
+        },
+        {
+          "q": "Comment faire la mise au point ?",
+          "options": [
+            "Toucher l’écran sur le produit",
+            "Secouer le téléphone"
+          ],
+          "answer": 0,
+          "explain": "Le téléphone règle la netteté."
+        },
+        {
+          "q": "Combien de photos par produit ?",
+          "options": [
+            "Une",
+            "Trois"
+          ],
+          "answer": 1,
+          "explain": "Ensemble, détail, conditionnement."
+        },
+        {
+          "q": "Peut-on mettre un filtre qui change les couleurs ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le client doit voir le vrai produit."
+        },
+        {
+          "q": "En quelle qualité envoyer les photos ?",
+          "options": [
+            "Qualité normale",
+            "La plus lourde possible"
+          ],
+          "answer": 0,
+          "explain": "Assez nette, et moins de forfait."
+        }
+      ],
+      "summary": "Lumière du jour, fond propre, objectif essuyé, deux mains, vrai produit ; trois photos, envoyées en qualité normale.",
+      "resource": "Fiche illustrée « Cinq gestes pour une photo nette »."
+    },
+    {
+      "id": "m6",
+      "label": "Plateformes",
+      "number": 6,
+      "title": "Utiliser les plateformes numériques de commercialisation",
+      "duration": "30 min",
+      "point": "Une plateforme de vente met en relation vendeurs et acheteurs au-delà du village. Sur AgroConnect, on cherche des produits et des prix, on publie ses annonces, et l’on suit ses commandes, en restant prudent avec les paiements.",
+      "intro": "Le groupe WhatsApp de Joseph compte une centaine de personnes. Une plateforme comme AgroConnect est consultée par des acheteurs de tout le pays : c’est un marché beaucoup plus grand.",
+      "objectives": [
+        "Ouvrir AgroConnect et se repérer dans ses rubriques.",
+        "Chercher un produit et consulter les prix.",
+        "Appliquer les règles de prudence sur une plateforme."
+      ],
+      "lessons": [
+        {
+          "title": "Se repérer sur AgroConnect",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Ce qu’on y fait"
+              ],
+              "rows": [
+                [
+                  "Marché",
+                  "Chercher un produit par mot ou par catégorie ; voir les annonces avec prix, quantité minimale et lieu"
+                ],
+                [
+                  "Prix marché",
+                  "Comparer les prix pour situer le sien"
+                ],
+                [
+                  "Demande de devis",
+                  "Répondre aux acheteurs qui décrivent leur besoin"
+                ],
+                [
+                  "Commandes et notifications",
+                  "Suivre ses commandes et ne rien manquer"
+                ],
+                [
+                  "Climat",
+                  "Lire les alertes avant de récolter, sécher ou transporter"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La publication d’une annonce pas à pas est détaillée dans la formation F6 (module 10)."
+            }
+          ]
+        },
+        {
+          "title": "Les règles de prudence",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne jamais donner son code de mobile money, ni un code reçu par SMS.",
+                "Se méfier d’un acheteur inconnu qui demande des frais d’avance, ou qui envoie une « preuve de paiement » sans que l’argent soit arrivé.",
+                "Vérifier sur son compte que l’argent est bien arrivé avant de livrer.",
+                "Utiliser les moyens de paiement et de suivi proposés par la plateforme, quand ils existent."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Joseph découvre AgroConnect",
+        "text": "Grâce montre à son père la plateforme.",
+        "head": [
+          "Rubrique",
+          "Ce que Joseph découvre"
+        ],
+        "rows": [
+          [
+            "Marché",
+            "En tapant « gari », les annonces d’autres régions et leurs prix"
+          ],
+          [
+            "Prix marché",
+            "Son prix de 1 000 FCFA le sachet est cohérent"
+          ],
+          [
+            "Climat",
+            "Une alerte de fortes pluies : il ne sèche pas son manioc dehors cette semaine",
+            "result"
+          ]
+        ],
+        "after": "Joseph voit la plateforme comme un marché, et aussi comme une source d’information utile."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Cent personnes dans le groupe, tout le pays sur la plateforme. »",
+            "Groupe WhatsApp, puis écran d’accueil d’AgroConnect"
+          ],
+          [
+            "0:30",
+            "Les rubriques, une par une.",
+            "Captures d’écran réelles"
+          ],
+          [
+            "2:00",
+            "Les règles de prudence.",
+            "Code barré, « preuve de paiement » suspecte"
+          ],
+          [
+            "3:15",
+            "Joseph compare son prix et lit une alerte.",
+            "Joseph et Grâce devant le téléphone"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle rubrique ?",
+        "text": "Associez chaque besoin à la bonne rubrique d’AgroConnect.",
+        "choices": [
+          "Prix marché",
+          "Marché",
+          "Demande de devis",
+          "Climat",
+          "Commandes",
+          "Notifications"
+        ],
+        "items": [
+          [
+            "Savoir si son prix est cohérent",
+            0
+          ],
+          [
+            "Trouver qui vend du maïs dans une autre région",
+            1
+          ],
+          [
+            "Répondre à un acheteur qui cherche 30 sacs",
+            2
+          ],
+          [
+            "Savoir si de fortes pluies sont annoncées",
+            3
+          ],
+          [
+            "Suivre une commande en cours",
+            4
+          ],
+          [
+            "Être prévenu d’un nouveau message",
+            5
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quel avantage a une plateforme sur un groupe WhatsApp ?",
+          "options": [
+            "Des acheteurs de tout le pays",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Un marché beaucoup plus grand."
+        },
+        {
+          "q": "Où comparer les prix ?",
+          "options": [
+            "Dans la rubrique Prix marché",
+            "Dans la rubrique Climat"
+          ],
+          "answer": 0,
+          "explain": "Pour situer le sien."
+        },
+        {
+          "q": "Un acheteur envoie une « preuve de paiement » : que faire ?",
+          "options": [
+            "Livrer tout de suite",
+            "Vérifier sur son compte que l’argent est arrivé"
+          ],
+          "answer": 1,
+          "explain": "Les fausses preuves existent."
+        },
+        {
+          "q": "Peut-on donner un code reçu par SMS ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Il sert à confirmer vos opérations."
+        },
+        {
+          "q": "Où lire les alertes de fortes pluies ?",
+          "options": [
+            "Dans la rubrique Climat",
+            "Dans la rubrique Marché"
+          ],
+          "answer": 0,
+          "explain": "Elles viennent de l’ONACC."
+        },
+        {
+          "q": "Où apprendre à publier une annonce pas à pas ?",
+          "options": [
+            "Dans la formation F6, module 10",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Elle détaille la publication."
+        }
+      ],
+      "summary": "AgroConnect ouvre un marché à l’échelle du pays : chercher, comparer, répondre, suivre. Et toujours : ni code donné, ni livraison avant d’avoir vérifié le paiement.",
+      "resource": "Fiche « Se repérer sur AgroConnect », avec captures d’écran."
+    },
+    {
+      "id": "m7",
+      "label": "Commandes",
+      "number": 7,
+      "title": "Organiser ses commandes et ses contacts",
+      "duration": "30 min",
+      "point": "Des contacts bien nommés, un tableau des commandes avec leur statut, et des rappels sur le téléphone : on ne perd plus un client ni une livraison.",
+      "intro": "« C’était quel numéro, la dame du restaurant ? » « J’ai oublié la livraison de jeudi ! » Chaque oubli fait perdre une vente, et parfois un client.",
+      "objectives": [
+        "Enregistrer ses contacts avec un nom clair.",
+        "Suivre ses commandes avec leur statut.",
+        "Programmer un rappel pour une livraison."
+      ],
+      "lessons": [
+        {
+          "title": "Des contacts bien nommés",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Enregistrez chaque client avec son nom, son activité et son lieu : « Martine – restaurant – Ngaoundéré », « Bernadette – revendeuse – marché ». On retrouve ainsi n’importe qui en tapant « restaurant » ou « marché ». Avec WhatsApp Business, ajoutez des étiquettes : nouveau client, commande, payé, livré."
+            }
+          ]
+        },
+        {
+          "title": "Le tableau des commandes",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Statut",
+                "Signification"
+              ],
+              "rows": [
+                [
+                  "Reçue",
+                  "Le client a commandé, la commande est confirmée par écrit"
+                ],
+                [
+                  "Préparée",
+                  "Les produits sont pesés et emballés"
+                ],
+                [
+                  "Livrée",
+                  "Le client a reçu ses produits"
+                ],
+                [
+                  "Payée",
+                  "L’argent est arrivé sur le compte, vérifié"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les rappels",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "L’alarme ou l’agenda du téléphone peut sonner la veille d’une livraison : « Livrer 10 sachets à Martine demain 9 h ». Un rappel par jour suffit souvent."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La semaine de Joseph",
+        "text": "Joseph renomme ses contacts avec l’aide de Grâce et note trois commandes.",
+        "head": [
+          "Client",
+          "Commande",
+          "Livraison"
+        ],
+        "rows": [
+          [
+            "Martine – restaurant",
+            "10 sachets de gari",
+            "Jeudi"
+          ],
+          [
+            "Aïcha – épicerie",
+            "5 sachets de gari",
+            "Vendredi"
+          ],
+          [
+            "Bernadette – revendeuse",
+            "2 sacs d’arachide",
+            "Samedi",
+            "result"
+          ]
+        ],
+        "after": "Avec une alarme la veille de chaque livraison, les trois commandes sont livrées et payées sans un seul oubli."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« J’ai oublié la livraison de jeudi ! »",
+            "Joseph qui se frappe le front"
+          ],
+          [
+            "0:30",
+            "Des contacts bien nommés.",
+            "Liste de contacts avant et après"
+          ],
+          [
+            "1:30",
+            "Le tableau des commandes et ses quatre statuts.",
+            "Tableau qui se remplit"
+          ],
+          [
+            "2:45",
+            "Les rappels sur le téléphone.",
+            "Alarme qui sonne la veille d’une livraison"
+          ]
+        ]
+      },
+      "tool": "prospects",
+      "toolDefaults": {
+        "key": "commandes",
+        "heading": "Mon tableau des commandes",
+        "intro": "Notez chaque commande, son client, son statut et la date de livraison. Le tableau reste enregistré sur ce téléphone.",
+        "statuts": [
+          "Reçue",
+          "Préparée",
+          "Livrée",
+          "Payée"
+        ],
+        "cols": [
+          "Client",
+          "Commande",
+          "Statut",
+          "Livraison"
+        ],
+        "placeholder": "Produit et quantité",
+        "unit": "commande",
+        "emptyText": "Aucune commande. Ajoutez la première.",
+        "addLabel": "Ajouter une commande",
+        "newName": "Nouveau client",
+        "exemple": [
+          {
+            "n": "Martine – restaurant",
+            "c": "10 sachets de gari",
+            "s": 1,
+            "r": ""
+          },
+          {
+            "n": "Aïcha – épicerie",
+            "c": "5 sachets de gari",
+            "s": 0,
+            "r": ""
+          },
+          {
+            "n": "Bernadette – revendeuse",
+            "c": "2 sacs d’arachide",
+            "s": 0,
+            "r": ""
+          }
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Claire ou peu claire ?",
+        "text": "Classez ces façons de nommer un contact.",
+        "choices": [
+          "Claire",
+          "Peu claire"
+        ],
+        "items": [
+          [
+            "« Martine – restaurant – Ngaoundéré »",
+            0
+          ],
+          [
+            "« Madame »",
+            1
+          ],
+          [
+            "« Client 3 »",
+            1
+          ],
+          [
+            "« Bernadette – revendeuse – marché »",
+            0
+          ],
+          [
+            "« Aïcha – épicerie – quartier Bali »",
+            0
+          ],
+          [
+            "« La dame »",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Comment nommer un contact client ?",
+          "options": [
+            "Nom, activité et lieu",
+            "« Madame »"
+          ],
+          "answer": 0,
+          "explain": "On le retrouve facilement."
+        },
+        {
+          "q": "Quels sont les quatre statuts d’une commande ?",
+          "options": [
+            "Reçue, préparée, livrée, payée",
+            "Bien, mal, peut-être, non"
+          ],
+          "answer": 0,
+          "explain": "On sait toujours où on en est."
+        },
+        {
+          "q": "Quand une commande est-elle « payée » ?",
+          "options": [
+            "Quand l’argent est vérifié sur le compte",
+            "Quand le client le promet"
+          ],
+          "answer": 0,
+          "explain": "Pas sur une simple promesse."
+        },
+        {
+          "q": "À quoi sert une alarme la veille ?",
+          "options": [
+            "Ne pas oublier une livraison",
+            "Se réveiller tôt"
+          ],
+          "answer": 0,
+          "explain": "Le téléphone se souvient pour nous."
+        },
+        {
+          "q": "Que permettent les étiquettes de WhatsApp Business ?",
+          "options": [
+            "Classer les clients et les commandes",
+            "Changer les couleurs"
+          ],
+          "answer": 0,
+          "explain": "Nouveau client, commande, payé, livré."
+        },
+        {
+          "q": "Où tenir le tableau des commandes ?",
+          "options": [
+            "Sur papier, dans les notes ou sur la plateforme",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "L’important est de le tenir à jour."
+        }
+      ],
+      "summary": "Des contacts nommés avec le nom, l’activité et le lieu ; un tableau des commandes avec quatre statuts ; un rappel la veille de chaque livraison.",
+      "resource": "Modèle de tableau des commandes à imprimer."
+    },
+    {
+      "id": "m8",
+      "label": "Cybersécurité",
+      "number": 8,
+      "title": "Appliquer les règles essentielles de cybersécurité",
+      "duration": "35 min",
+      "point": "Sept règles protègent l’essentiel : verrouiller son téléphone, ne jamais donner ses codes, se méfier des liens et des appels inconnus, mettre à jour, sauvegarder, et savoir quoi faire en cas de perte ou de vol.",
+      "intro": "Un téléphone, c’est maintenant le carnet de clients, la caisse et le compte de mobile money. Le perdre ou se le faire pirater, c’est perdre bien plus qu’un appareil.",
+      "objectives": [
+        "Appliquer les sept règles de cybersécurité.",
+        "Reconnaître un faux agent et un lien dangereux.",
+        "Réagir vite en cas de perte, de vol ou d’arnaque."
+      ],
+      "lessons": [
+        {
+          "title": "Les sept règles",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Verrouiller son téléphone avec un code, un schéma ou l’empreinte.",
+                "Ne jamais donner son code de mobile money, ni un code reçu par SMS, à personne.",
+                "Ne pas cliquer sur un lien reçu d’un inconnu, même s’il promet un cadeau.",
+                "Se méfier des appels de « faux agents » qui demandent un code ou une opération.",
+                "Installer les applications et les mises à jour depuis le magasin officiel.",
+                "Sauvegarder ses contacts et ses photos importantes.",
+                "Savoir qui appeler en cas de perte, de vol ou d’arnaque."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le faux agent",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un inconnu appelle : « Je suis agent de votre opérateur, une erreur a été faite sur votre compte, donnez-moi le code que vous allez recevoir. » C’est une arnaque. Un vrai agent ne demande jamais un code. On raccroche, puis on appelle soi-même le service client officiel de son opérateur."
+            }
+          ]
+        },
+        {
+          "title": "En cas de perte, de vol ou d’arnaque",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Appeler tout de suite le service client officiel de son opérateur pour bloquer la carte SIM et le compte de mobile money.",
+                "Changer ses codes dès qu’on a un nouvel appareil.",
+                "Prévenir ses clients et le groupe de la coopérative, pour qu’un escroc ne se fasse pas passer pour soi.",
+                "En cas d’arnaque, déclarer les faits auprès des autorités compétentes."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’appel du faux agent",
+        "text": "Un soir, un inconnu appelle Joseph pour une « erreur sur son compte » et lui demande un code.",
+        "head": [
+          "Réflexe",
+          "Ce que fait Joseph"
+        ],
+        "rows": [
+          [
+            "Ne pas donner le code",
+            "Il raccroche"
+          ],
+          [
+            "Vérifier soi-même",
+            "Il appelle le service client officiel : tout va bien"
+          ],
+          [
+            "Protéger les autres",
+            "Paul, le responsable numérique de la coopérative, prévient tous les membres",
+            "result"
+          ]
+        ],
+        "after": "Grâce aux réflexes du module, personne dans la coopérative ne se fait piéger."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le téléphone, c’est aussi la caisse et le carnet de clients. »",
+            "Téléphone posé à côté d’une caisse"
+          ],
+          [
+            "0:30",
+            "Les sept règles.",
+            "Sept cartes illustrées"
+          ],
+          [
+            "2:15",
+            "Le faux agent : raccrocher et rappeler soi-même.",
+            "Joseph qui raccroche"
+          ],
+          [
+            "3:30",
+            "En cas de perte ou de vol : bloquer, changer, prévenir.",
+            "Appel au service client officiel"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon téléphone, prêt et protégé",
+        "text": "Projet final : cochez chaque point quand il est fait. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f3-projet",
+        "items": [
+          "Téléphone réglé pour économiser le forfait",
+          "Une information vérifiée avec les trois questions",
+          "Un message client complet et sa confirmation écrite",
+          "Un catalogue avec trois photos nettes",
+          "Un tableau des commandes à jour",
+          "Téléphone verrouillé et contacts sauvegardés"
+        ],
+        "then": "Montrez ces six points à votre formateur, avec l’aide d’un proche si besoin. L’attestation finale est délivrée avec au moins cinq points acquis sur six et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi verrouiller son téléphone ?",
+          "options": [
+            "Pour protéger ses clients, sa caisse et son compte",
+            "Pour faire joli"
+          ],
+          "answer": 0,
+          "explain": "En cas de perte ou de vol."
+        },
+        {
+          "q": "Un « agent » demande votre code : que faire ?",
+          "options": [
+            "Le lui donner",
+            "Raccrocher et appeler soi-même le service client officiel"
+          ],
+          "answer": 1,
+          "explain": "Un vrai agent ne demande jamais de code."
+        },
+        {
+          "q": "Peut-on cliquer sur un lien d’inconnu qui promet un cadeau ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est souvent un piège."
+        },
+        {
+          "q": "Que faire en premier si l’on perd son téléphone ?",
+          "options": [
+            "Bloquer la SIM et le compte de mobile money",
+            "Attendre"
+          ],
+          "answer": 0,
+          "explain": "Avant qu’un voleur s’en serve."
+        },
+        {
+          "q": "Pourquoi sauvegarder ses contacts ?",
+          "options": [
+            "Pour ne pas perdre ses clients",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Si le téléphone est perdu ou cassé."
+        },
+        {
+          "q": "Pourquoi prévenir ses clients après un vol ?",
+          "options": [
+            "Pour qu’un escroc ne se fasse pas passer pour soi",
+            "Ce n’est pas utile"
+          ],
+          "answer": 0,
+          "explain": "Ils ne répondront plus à ce numéro."
+        }
+      ],
+      "summary": "Verrouiller, ne jamais donner ses codes, se méfier des liens et des faux agents, mettre à jour, sauvegarder, et savoir réagir vite.",
+      "resource": "Fiche « Mes sept règles de sécurité » avec les numéros officiels à compléter."
+    }
+  ]
+}

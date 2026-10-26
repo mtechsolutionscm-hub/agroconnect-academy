@@ -1,0 +1,1804 @@
+{
+  "id": "f13",
+  "title": "Entrepreneuriat vert et économie circulaire",
+  "short": "Économie verte",
+  "lead": "Voir les déchets agricoles comme des ressources : les rendre au sol, les transformer, et parfois en faire une entreprise.",
+  "note": "Djibrilla, Pauline, Esther, Emmanuel, leur groupe et leurs chiffres sont fictifs. Certains résidus sont dangereux (grains moisis, eaux de pressage du manioc, emballages de produits de traitement) : jamais aux animaux, jamais dans les cours d’eau.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Principes",
+      "number": 1,
+      "title": "Comprendre les principes de l’économie circulaire",
+      "duration": "30 min",
+      "point": "L’économie linéaire prend, fabrique, jette. L’économie circulaire réduit d’abord, réutilise ce qui peut l’être, puis transforme ce qui reste en nouvelle ressource.",
+      "intro": "Nos grands-parents gaspillaient peu : le fumier retournait au champ, les tiges nourrissaient les bêtes. L’économie circulaire, c’est retrouver ce bon sens, avec des débouchés nouveaux et parfois rentables.",
+      "objectives": [
+        "Distinguer économie linéaire et économie circulaire.",
+        "Citer les trois gestes dans l’ordre : réduire, réutiliser, valoriser.",
+        "Dessiner la boucle de son exploitation."
+      ],
+      "lessons": [
+        {
+          "title": "Linéaire ou circulaire",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "Économie linéaire",
+                "Économie circulaire"
+              ],
+              "rows": [
+                [
+                  "Principe",
+                  "Prendre, fabriquer, jeter",
+                  "Réduire, réutiliser, valoriser"
+                ],
+                [
+                  "Résidus",
+                  "Déchets brûlés ou abandonnés",
+                  "Ressources pour le sol, les animaux, l’énergie ou la vente"
+                ],
+                [
+                  "Effet",
+                  "Sols appauvris, dépenses d’intrants, pollution",
+                  "Sols nourris, moins d’achats, nouveaux revenus"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trois gestes, dans l’ordre",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Réduire : éviter de produire des déchets et des pertes (formation F11), acheter juste ce qu’il faut.",
+                "Réutiliser : sacs, fûts, pots en verre consignés (formation F10), outils réparés (formation F18).",
+                "Valoriser : transformer ce qui reste en compost, en aliment pour les animaux, en combustible ou en produit à vendre."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "L’ordre compte : le meilleur déchet est celui qu’on ne produit pas."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La boucle de la coopérative de Hawa",
+        "text": "La coopérative referme peu à peu sa boucle.",
+        "head": [
+          "Avant",
+          "Maintenant"
+        ],
+        "rows": [
+          [
+            "Tiges de maïs brûlées",
+            "Compostées avec le fumier des chèvres"
+          ],
+          [
+            "Engrais acheté pour les légumes",
+            "Compost épandu sur les parcelles"
+          ],
+          [
+            "Sacs jetés",
+            "Sacs nettoyés et réutilisés, sauf ceux de produits de traitement"
+          ],
+          [
+            "Coques d’arachide en tas",
+            "Une idée à étudier par le groupe des jeunes",
+            "result"
+          ]
+        ],
+        "after": "Djibrilla et le groupe des jeunes réfléchissent à ce qu’ils pourraient faire des coques d’arachide."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Nos grands-parents gaspillaient peu. »",
+            "Un ancien qui épand du fumier"
+          ],
+          [
+            "0:30",
+            "Linéaire ou circulaire.",
+            "Une flèche droite, puis une boucle"
+          ],
+          [
+            "1:45",
+            "Réduire, réutiliser, valoriser.",
+            "Trois gestes illustrés"
+          ],
+          [
+            "3:00",
+            "La boucle de la coopérative.",
+            "Tiges, fumier, compost, légumes"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Circulaire ou linéaire ?",
+        "text": "Classez chaque geste.",
+        "choices": [
+          "Circulaire",
+          "Linéaire"
+        ],
+        "items": [
+          [
+            "Brûler les tiges de maïs",
+            1
+          ],
+          [
+            "Composter les épluchures",
+            0
+          ],
+          [
+            "Jeter les pots de miel vides",
+            1
+          ],
+          [
+            "Réparer la houe au lieu d’en racheter une",
+            0
+          ],
+          [
+            "Laisser les coques d’arachide pourrir en tas",
+            1
+          ],
+          [
+            "Vendre le fumier à un maraîcher",
+            0
+          ]
+        ],
+        "then": "Dessinez ensuite la boucle de votre exploitation : ce qui entre, ce qui sort, ce qui pourrait revenir."
+      },
+      "quiz": [
+        {
+          "q": "Quel est le principe de l’économie linéaire ?",
+          "options": [
+            "Prendre, fabriquer, jeter",
+            "Réduire, réutiliser, valoriser"
+          ],
+          "answer": 0,
+          "explain": "Les résidus deviennent des déchets."
+        },
+        {
+          "q": "Quels sont les trois gestes circulaires ?",
+          "options": [
+            "Réduire, réutiliser, valoriser",
+            "Acheter, vendre, jeter"
+          ],
+          "answer": 0,
+          "explain": "Dans cet ordre."
+        },
+        {
+          "q": "Quel geste vient en premier ?",
+          "options": [
+            "Valoriser",
+            "Réduire"
+          ],
+          "answer": 1,
+          "explain": "Le meilleur déchet est celui qu’on ne produit pas."
+        },
+        {
+          "q": "Réparer un outil, c’est quel geste ?",
+          "options": [
+            "Réutiliser",
+            "Valoriser"
+          ],
+          "answer": 0,
+          "explain": "On prolonge sa vie."
+        },
+        {
+          "q": "Composter des tiges, c’est quel geste ?",
+          "options": [
+            "Réduire",
+            "Valoriser"
+          ],
+          "answer": 1,
+          "explain": "Le résidu devient ressource."
+        },
+        {
+          "q": "Peut-on réutiliser un sac de produit de traitement ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Risque de contamination."
+        }
+      ],
+      "summary": "Réduire, réutiliser, valoriser : à la ferme, la boucle se referme entre le champ, les animaux, le compost et la vente.",
+      "resource": "Fiche « Dessiner la boucle de mon exploitation »."
+    },
+    {
+      "id": "m2",
+      "label": "Inventaire",
+      "number": 2,
+      "title": "Identifier les déchets et sous-produits agricoles valorisables",
+      "duration": "30 min",
+      "point": "Avant de valoriser, on fait l’inventaire : quels résidus, combien, à quelle période, où, et s’ils sont sains. Certains résidus sont dangereux et doivent être traités à part.",
+      "intro": "Un tas de coques d’arachide derrière le magasin, c’est un problème ou une matière première ? Tout dépend de ce qu’on sait en faire, et de la quantité disponible.",
+      "objectives": [
+        "Dresser l’inventaire des résidus de son exploitation ou de sa coopérative.",
+        "Estimer les quantités et les périodes.",
+        "Reconnaître les résidus dangereux à écarter."
+      ],
+      "lessons": [
+        {
+          "title": "Les résidus courants",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Résidu",
+                "D’où il vient",
+                "Pistes de valorisation"
+              ],
+              "rows": [
+                [
+                  "Tiges et feuilles de maïs",
+                  "Champ, après récolte",
+                  "Compost, paillage, fourrage"
+                ],
+                [
+                  "Rafles de maïs",
+                  "Égrenage",
+                  "Combustible, briquettes, compost"
+                ],
+                [
+                  "Coques d’arachide",
+                  "Décorticage",
+                  "Briquettes, compost, litière"
+                ],
+                [
+                  "Épluchures de manioc et de légumes",
+                  "Transformation, cuisine",
+                  "Compost ; aliment pour animaux seulement si sain et adapté"
+                ],
+                [
+                  "Fumier et litière",
+                  "Élevage",
+                  "Compost, fertilisation"
+                ],
+                [
+                  "Son et brisures de céréales",
+                  "Moulin, tri",
+                  "Aliment pour animaux"
+                ],
+                [
+                  "Cire d’abeille",
+                  "Apiculture",
+                  "Bougies, baumes, vente"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les résidus dangereux à écarter",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Grains, farines et aliments moisis : risque de toxines ; ni pour les personnes, ni pour les animaux (formation F11).",
+                "Eaux de pressage du manioc : elles peuvent contenir des composés toxiques ; ne pas les donner aux animaux ni les verser dans les rivières ou près des puits.",
+                "Emballages de produits de traitement : jamais réutilisés pour les aliments ou l’eau, ni brûlés à l’air libre ; demander aux services techniques comment s’en débarrasser."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire l’inventaire",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque résidu, notez la quantité (en sacs, en brouettes, en kilos), la période où il est disponible, l’endroit où il se trouve, et son état (sain ou douteux). Une valorisation n’est rentable que si le résidu est disponible en quantité suffisante et assez régulièrement."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’inventaire du groupe de Djibrilla",
+        "text": "Le groupe fait le tour de la coopérative.",
+        "head": [
+          "Résidu",
+          "Quantité par an",
+          "Période",
+          "État"
+        ],
+        "rows": [
+          [
+            "Coques d’arachide",
+            "Environ 60 sacs",
+            "Novembre à janvier",
+            "Sain"
+          ],
+          [
+            "Rafles de maïs",
+            "Environ 40 sacs",
+            "Octobre à décembre",
+            "Sain"
+          ],
+          [
+            "Fumier des chèvres",
+            "Environ 80 brouettes",
+            "Toute l’année",
+            "Sain"
+          ],
+          [
+            "Maïs moisi écarté au tri",
+            "Quelques sacs",
+            "À la récolte",
+            "Dangereux : à détruire",
+            "alert"
+          ]
+        ],
+        "after": "Le groupe sait maintenant sur quoi il peut compter, et ce qu’il doit écarter."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un tas de coques : problème ou matière première ? »",
+            "Tas de coques derrière un magasin"
+          ],
+          [
+            "0:30",
+            "Les résidus courants et leurs pistes.",
+            "Tiges, rafles, coques, fumier, cire"
+          ],
+          [
+            "2:00",
+            "Les résidus dangereux.",
+            "Maïs moisi, eaux de pressage, bidon de produit barrés"
+          ],
+          [
+            "3:00",
+            "L’inventaire du groupe de Djibrilla.",
+            "Tableau rempli au magasin"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Valorisable ou à écarter ?",
+        "text": "Classez chaque résidu.",
+        "choices": [
+          "Valorisable",
+          "À écarter"
+        ],
+        "items": [
+          [
+            "Coques d’arachide saines",
+            0
+          ],
+          [
+            "Maïs moisi écarté au tri",
+            1
+          ],
+          [
+            "Fumier de chèvres",
+            0
+          ],
+          [
+            "Bidon vide de produit de traitement",
+            1
+          ],
+          [
+            "Rafles de maïs",
+            0
+          ],
+          [
+            "Eaux de pressage du manioc",
+            1
+          ]
+        ],
+        "then": "Faites ensuite l’inventaire des résidus de votre exploitation ou de votre coopérative."
+      },
+      "quiz": [
+        {
+          "q": "Que note-t-on dans l’inventaire ?",
+          "options": [
+            "Quantité, période, lieu, état",
+            "Seulement le nom"
+          ],
+          "answer": 0,
+          "explain": "Pour savoir si la valorisation est possible."
+        },
+        {
+          "q": "Peut-on donner du maïs moisi aux animaux ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Risque de toxines."
+        },
+        {
+          "q": "Que faire des eaux de pressage du manioc ?",
+          "options": [
+            "Ni aux animaux, ni dans les rivières ou près des puits",
+            "Les donner aux porcs"
+          ],
+          "answer": 0,
+          "explain": "Elles peuvent être toxiques."
+        },
+        {
+          "q": "Peut-on brûler un bidon de produit de traitement ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Demander aux services techniques comment s’en débarrasser."
+        },
+        {
+          "q": "Une piste pour les coques d’arachide ?",
+          "options": [
+            "Briquettes ou compost",
+            "Aucune"
+          ],
+          "answer": 0,
+          "explain": "Elles brûlent bien et se compostent."
+        },
+        {
+          "q": "Pourquoi connaître les quantités ?",
+          "options": [
+            "Une valorisation n’est rentable qu’avec assez de matière",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Et de façon régulière."
+        }
+      ],
+      "summary": "Inventorier quantité, période, lieu et état de chaque résidu ; écarter les résidus dangereux ; ne valoriser que ce qui est sain et disponible en quantité.",
+      "resource": "Modèle d’inventaire des résidus."
+    },
+    {
+      "id": "m3",
+      "label": "Compost",
+      "number": 3,
+      "title": "Le compostage et la valorisation organique",
+      "duration": "35 min",
+      "point": "Un bon compost mélange matières sèches et matières humides, garde une humidité juste, reçoit de l’air et du temps. Il rend au sol ce que les récoltes lui ont pris.",
+      "intro": "L’engrais coûte cher et son prix monte. Le compost ne le remplace pas toujours entièrement, mais il nourrit le sol, retient l’eau et réduit les achats.",
+      "objectives": [
+        "Distinguer matières sèches, matières humides et matières interdites.",
+        "Monter et entretenir un tas ou une fosse de compost.",
+        "Reconnaître un compost mûr."
+      ],
+      "lessons": [
+        {
+          "title": "Ce qui va dans le compost",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Matières sèches (brunes)",
+                "Matières humides (vertes)",
+                "À ne pas mettre"
+              ],
+              "rows": [
+                [
+                  "Tiges de maïs, paille, feuilles sèches, coques d’arachide, rafles broyées",
+                  "Fumier, épluchures, herbes fraîches, résidus de légumes",
+                  "Plastiques, métaux, verre, emballages de produits de traitement, grains moisis"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mélangez à peu près autant de matières sèches que de matières humides. Trop d’humides, et le tas sent mauvais ; trop de sèches, et il ne se décompose pas."
+            }
+          ]
+        },
+        {
+          "title": "Monter et entretenir le compost",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Choisir un endroit à l’ombre, à l’abri du ruissellement, près des parcelles.",
+                "Monter le tas ou remplir la fosse en couches alternées : une couche sèche, une couche humide, une fine couche de terre.",
+                "Arroser pour que le tout soit humide comme une éponge essorée, sans ruisseler.",
+                "Retourner le tas toutes les deux à trois semaines pour l’aérer.",
+                "Couvrir pendant les fortes pluies pour éviter le lessivage."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Un tas qui chauffe au centre dans les premières semaines est bon signe : la décomposition est en marche."
+            }
+          ]
+        },
+        {
+          "title": "Reconnaître un compost mûr",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Après plusieurs semaines à quelques mois selon les matières et l’entretien, le compost est brun foncé, émietté, sent la terre de forêt, et on ne reconnaît plus les matières de départ. Il ne chauffe plus. On l’épand alors au pied des cultures ou on l’incorpore au sol."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La fosse de compost du groupe de Djibrilla",
+        "text": "Le groupe creuse deux fosses à l’ombre d’un manguier, près des parcelles de légumes.",
+        "head": [
+          "Étape",
+          "Ce que fait le groupe"
+        ],
+        "rows": [
+          [
+            "Matières",
+            "Rafles broyées, coques d’arachide, fumier de chèvres"
+          ],
+          [
+            "Montage",
+            "Couches alternées, arrosage"
+          ],
+          [
+            "Entretien",
+            "Retournement tous les quinze jours"
+          ],
+          [
+            "Continuité",
+            "Quand une fosse est mûre, la seconde est déjà en route",
+            "result"
+          ]
+        ],
+        "after": "Le groupe a du compost en continu pour les parcelles de la coopérative."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« L’engrais monte, le compost est déjà là. »",
+            "Sac d’engrais, puis un tas de tiges"
+          ],
+          [
+            "0:30",
+            "Matières sèches, humides, interdites.",
+            "Trois tas, un barré"
+          ],
+          [
+            "1:45",
+            "Monter et entretenir : couches, eau, retournement.",
+            "Démonstration, main dans le tas qui chauffe"
+          ],
+          [
+            "3:30",
+            "Reconnaître un compost mûr.",
+            "Poignée de compost brun foncé"
+          ],
+          [
+            "4:15",
+            "Les deux fosses du groupe de Djibrilla.",
+            "Deux fosses côte à côte"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Dans le compost ?",
+        "text": "Classez chaque matière.",
+        "choices": [
+          "Matière sèche",
+          "Matière humide",
+          "À ne pas mettre"
+        ],
+        "items": [
+          [
+            "Tiges de maïs",
+            0
+          ],
+          [
+            "Fumier de chèvres",
+            1
+          ],
+          [
+            "Sachet plastique",
+            2
+          ],
+          [
+            "Coques d’arachide",
+            0
+          ],
+          [
+            "Épluchures de légumes",
+            1
+          ],
+          [
+            "Bidon de produit de traitement",
+            2
+          ]
+        ],
+        "then": "Montez ensuite votre premier tas de compost."
+      },
+      "quiz": [
+        {
+          "q": "Le fumier est-il une matière sèche ou humide ?",
+          "options": [
+            "Sèche",
+            "Humide"
+          ],
+          "answer": 1,
+          "explain": "Riche et humide, il nourrit la décomposition."
+        },
+        {
+          "q": "Dans quelle proportion mélanger ?",
+          "options": [
+            "À peu près autant de sèches que d’humides",
+            "Seulement des humides"
+          ],
+          "answer": 0,
+          "explain": "Pour une bonne décomposition."
+        },
+        {
+          "q": "Quelle humidité viser ?",
+          "options": [
+            "Comme une éponge essorée",
+            "Complètement sec"
+          ],
+          "answer": 0,
+          "explain": "Sans ruisseler."
+        },
+        {
+          "q": "Pourquoi retourner le tas ?",
+          "options": [
+            "Pour l’aérer",
+            "Pour le refroidir à jamais"
+          ],
+          "answer": 0,
+          "explain": "La décomposition a besoin d’air."
+        },
+        {
+          "q": "Un tas qui chauffe, est-ce un problème ?",
+          "options": [
+            "Oui",
+            "Non, c’est bon signe"
+          ],
+          "answer": 1,
+          "explain": "La décomposition est en marche."
+        },
+        {
+          "q": "À quoi reconnaît-on un compost mûr ?",
+          "options": [
+            "Brun foncé, émietté, odeur de terre",
+            "Il sent mauvais"
+          ],
+          "answer": 0,
+          "explain": "On ne reconnaît plus les matières de départ."
+        }
+      ],
+      "summary": "Moitié sèches, moitié humides, en couches, humides comme une éponge essorée, retournées régulièrement : en quelques mois, un compost mûr pour nourrir le sol.",
+      "resource": "Fiche illustrée « Mon compost en cinq étapes »."
+    },
+    {
+      "id": "m4",
+      "label": "Filières",
+      "number": 4,
+      "title": "Identifier des opportunités de transformation des résidus",
+      "duration": "35 min",
+      "point": "Certains résidus peuvent devenir des produits à vendre. On choisit une filière selon cinq critères : la matière, le marché, l’investissement, le savoir-faire et les risques.",
+      "intro": "Le bois de chauffe devient rare et cher autour des villes. Des briquettes faites de coques et de rafles peuvent le remplacer : le déchet d’hier devient le produit de demain.",
+      "objectives": [
+        "Citer six filières de valorisation des résidus.",
+        "Associer chaque résidu à une ou deux filières possibles.",
+        "Évaluer une filière avec cinq critères."
+      ],
+      "lessons": [
+        {
+          "title": "Six filières de valorisation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Filière",
+                "Résidus utilisés",
+                "Point d’attention"
+              ],
+              "rows": [
+                [
+                  "Briquettes combustibles",
+                  "Coques d’arachide, rafles, sciure, avec un liant",
+                  "Presse et séchage ; tester la combustion avant de vendre"
+                ],
+                [
+                  "Compost en sac",
+                  "Tiges, fumier, épluchures",
+                  "Qualité constante, sacs propres"
+                ],
+                [
+                  "Aliments pour animaux",
+                  "Son, brisures, résidus sains",
+                  "Uniquement des matières saines, jamais moisies"
+                ],
+                [
+                  "Champignons (pleurotes)",
+                  "Paille, rafles, tiges",
+                  "Hygiène et savoir-faire ; formation préalable recommandée"
+                ],
+                [
+                  "Produits de la ruche",
+                  "Cire d’abeille",
+                  "Propreté et conditionnement (formation F10)"
+                ],
+                [
+                  "Biogaz",
+                  "Fumier, déchets organiques",
+                  "Investissement important ; installation par un technicien"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Évaluer une filière : cinq critères",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "La matière : en a-t-on assez, régulièrement (module 2) ?",
+                "Le marché : qui achète, à quel prix, face à quels concurrents ?",
+                "L’investissement : matériel, local, fonds de roulement (formation F15) ?",
+                "Le savoir-faire : sait-on le faire, ou faut-il se former ?",
+                "Les risques : santé, qualité, environnement."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Commencez par la filière qui demande le moins d’investissement et dont le marché est le plus sûr."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le choix du groupe de Djibrilla",
+        "text": "Avec 60 sacs de coques et 40 sacs de rafles par an, le groupe hésite entre briquettes et compost en sac.",
+        "head": [
+          "Critère",
+          "Briquettes"
+        ],
+        "rows": [
+          [
+            "Matière",
+            "100 sacs par an, d’octobre à janvier"
+          ],
+          [
+            "Marché",
+            "Des restauratrices du marché paient cher le charbon de bois"
+          ],
+          [
+            "Investissement",
+            "Une presse manuelle prêtée par une ONG pour l’essai"
+          ],
+          [
+            "Savoir-faire",
+            "À apprendre, avec un formateur"
+          ],
+          [
+            "Décision",
+            "Petite série testée par trois restauratrices avant d’investir",
+            "result"
+          ]
+        ],
+        "after": "Le groupe n’achètera sa propre presse que si le test est concluant."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le déchet d’hier, le produit de demain. »",
+            "Tas de coques, puis briquettes empilées"
+          ],
+          [
+            "0:30",
+            "Six filières, une par une.",
+            "Briquettes, compost, aliments, pleurotes, bougies, biodigesteur"
+          ],
+          [
+            "2:45",
+            "Cinq critères pour choisir.",
+            "Cinq cases cochées"
+          ],
+          [
+            "4:00",
+            "Le test des briquettes chez les restauratrices.",
+            "Foyer allumé avec des briquettes"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle filière ?",
+        "text": "Associez chaque résidu à une filière possible.",
+        "choices": [
+          "Briquettes",
+          "Compost en sac",
+          "Aliments pour animaux",
+          "Produits de la ruche",
+          "Champignons",
+          "Biogaz"
+        ],
+        "items": [
+          [
+            "Coques d’arachide",
+            0
+          ],
+          [
+            "Fumier de chèvres pour les maraîchers",
+            1
+          ],
+          [
+            "Son de maïs sain",
+            2
+          ],
+          [
+            "Cire d’abeille",
+            3
+          ],
+          [
+            "Paille pour un substrat de culture",
+            4
+          ],
+          [
+            "Fumier en grande quantité pour du gaz de cuisson",
+            5
+          ]
+        ],
+        "then": "Évaluez ensuite une filière pour vos propres résidus avec les cinq critères."
+      },
+      "quiz": [
+        {
+          "q": "Avec quoi fabrique-t-on des briquettes ?",
+          "options": [
+            "Coques, rafles, sciure, avec un liant",
+            "Du plastique"
+          ],
+          "answer": 0,
+          "explain": "Elles remplacent le bois ou le charbon."
+        },
+        {
+          "q": "Qui achète du compost en sac ?",
+          "options": [
+            "Maraîchers, pépinières, jardiniers",
+            "Personne"
+          ],
+          "answer": 0,
+          "explain": "Ils cherchent à nourrir leurs sols."
+        },
+        {
+          "q": "Peut-on faire des aliments avec des résidus moisis ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Seulement des matières saines."
+        },
+        {
+          "q": "Le biogaz demande-t-il peu d’investissement ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Installation par un technicien."
+        },
+        {
+          "q": "Quels sont les cinq critères ?",
+          "options": [
+            "Matière, marché, investissement, savoir-faire, risques",
+            "Couleur, odeur, poids, taille, prix"
+          ],
+          "answer": 0,
+          "explain": "Pour choisir sa filière."
+        },
+        {
+          "q": "Par quelle filière commencer ?",
+          "options": [
+            "Celle qui demande peu d’investissement et a un marché sûr",
+            "La plus chère"
+          ],
+          "answer": 0,
+          "explain": "On teste avant d’investir."
+        }
+      ],
+      "summary": "Briquettes, compost en sac, aliments, champignons, cire, biogaz : on choisit selon la matière, le marché, l’investissement, le savoir-faire et les risques, et on teste petit.",
+      "resource": "Fiche « Évaluer une filière en cinq critères »."
+    },
+    {
+      "id": "m5",
+      "label": "Modèle",
+      "number": 5,
+      "title": "Concevoir un modèle économique circulaire",
+      "duration": "35 min",
+      "point": "Un modèle économique circulaire répond sur une page à sept questions : matière, produit, clients, prix et canal, coûts, partenaires, et apport environnemental.",
+      "intro": "Une bonne idée verte ne suffit pas : il faut qu’elle tienne debout économiquement. Le modèle sur une page permet de voir d’un coup d’œil si tout s’emboîte.",
+      "objectives": [
+        "Remplir les sept cases du modèle économique circulaire.",
+        "Organiser un partenariat d’approvisionnement en résidus.",
+        "Vérifier la cohérence de son modèle."
+      ],
+      "lessons": [
+        {
+          "title": "Les sept cases",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Case",
+                "Question"
+              ],
+              "rows": [
+                [
+                  "Matière",
+                  "D’où viennent les résidus, en quelle quantité, à quel prix ou en échange de quoi ?"
+                ],
+                [
+                  "Produit",
+                  "Que fabrique-t-on, sous quel format ?"
+                ],
+                [
+                  "Clients",
+                  "Qui achète, et pourquoi préférer ce produit ?"
+                ],
+                [
+                  "Prix et canal",
+                  "À quel prix, et comment le produit arrive-t-il au client ?"
+                ],
+                [
+                  "Coûts",
+                  "Matière, main-d’œuvre, énergie, emballage, usure du matériel"
+                ],
+                [
+                  "Partenaires",
+                  "Qui fournit, qui forme, qui finance, qui aide à vendre ?"
+                ],
+                [
+                  "Apport environnemental",
+                  "Quels déchets évités, quelles ressources économisées ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sécuriser la matière",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les résidus gratuits ne le restent pas toujours : dès qu’ils ont de la valeur, d’autres les veulent. Écrivez un accord avec le fournisseur, par exemple la coopérative : quantités, période, prix ou contrepartie (une part des ventes, du compost rendu, un service)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le modèle des briquettes du groupe de Djibrilla",
+        "text": "Pauline, trésorière du groupe, vérifie que chaque case est cohérente avec les autres.",
+        "head": [
+          "Case",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Matière",
+            "Coques et rafles de la coopérative de Hawa, à petit prix, par accord écrit"
+          ],
+          [
+            "Produit",
+            "Briquettes en sacs de 5 kg"
+          ],
+          [
+            "Clients",
+            "Restauratrices du marché, comme Esther, et familles de Ngaoundéré"
+          ],
+          [
+            "Prix et canal",
+            "Vente directe au marché et livraison aux restaurants"
+          ],
+          [
+            "Coûts",
+            "Liant, main-d’œuvre, sacs, usure de la presse"
+          ],
+          [
+            "Partenaires",
+            "La coopérative ; Emmanuel, technicien d’une ONG, pour la formation"
+          ],
+          [
+            "Apport environnemental",
+            "Résidus valorisés au lieu d’être brûlés, bois de chauffe économisé",
+            "result"
+          ]
+        ],
+        "after": "Le modèle tient debout : Pauline peut passer aux chiffres."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une bonne idée verte doit aussi tenir debout. »",
+            "Un tas de briquettes, puis un cahier"
+          ],
+          [
+            "0:30",
+            "Les sept cases du modèle.",
+            "Une page divisée en sept"
+          ],
+          [
+            "2:00",
+            "Sécuriser la matière par un accord écrit.",
+            "Djibrilla et Hawa qui signent"
+          ],
+          [
+            "3:00",
+            "Le modèle du groupe, vérifié par Pauline.",
+            "Pauline qui coche les cases"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle case ?",
+        "text": "Associez chaque information à sa case.",
+        "choices": [
+          "Matière",
+          "Produit",
+          "Clients",
+          "Coûts",
+          "Partenaires",
+          "Apport environnemental"
+        ],
+        "items": [
+          [
+            "Des restauratrices qui paient cher le charbon",
+            2
+          ],
+          [
+            "Coques de la coopérative par accord écrit",
+            0
+          ],
+          [
+            "Sacs de 5 kg",
+            1
+          ],
+          [
+            "Bois de chauffe économisé",
+            5
+          ],
+          [
+            "Une ONG qui forme le groupe",
+            4
+          ],
+          [
+            "Liant, main-d’œuvre, sacs",
+            3
+          ]
+        ],
+        "then": "Remplissez ensuite les sept cases pour votre propre idée."
+      },
+      "quiz": [
+        {
+          "q": "Combien de cases dans le modèle circulaire ?",
+          "options": [
+            "Quatre",
+            "Sept"
+          ],
+          "answer": 1,
+          "explain": "Six cases économiques et l’apport environnemental."
+        },
+        {
+          "q": "Les résidus restent-ils toujours gratuits ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Dès qu’ils ont de la valeur, d’autres les veulent."
+        },
+        {
+          "q": "Comment sécuriser la matière ?",
+          "options": [
+            "Par un accord écrit avec le fournisseur",
+            "En espérant"
+          ],
+          "answer": 0,
+          "explain": "Quantités, période, prix ou contrepartie."
+        },
+        {
+          "q": "Une contrepartie possible pour la coopérative ?",
+          "options": [
+            "Une part des ventes ou du compost rendu",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pas forcément de l’argent."
+        },
+        {
+          "q": "Que met-on dans l’apport environnemental ?",
+          "options": [
+            "Les déchets évités, les ressources économisées",
+            "Le prix"
+          ],
+          "answer": 0,
+          "explain": "Il intéresse aussi les financeurs."
+        },
+        {
+          "q": "Pourquoi vérifier la cohérence des cases ?",
+          "options": [
+            "Pour s’assurer que tout s’emboîte",
+            "Pour remplir la page"
+          ],
+          "answer": 0,
+          "explain": "Avant de passer aux chiffres."
+        }
+      ],
+      "summary": "Sept cases sur une page : matière, produit, clients, prix et canal, coûts, partenaires, apport environnemental. La matière se sécurise par un accord écrit.",
+      "resource": "Canevas du modèle économique circulaire en sept cases."
+    },
+    {
+      "id": "m6",
+      "label": "Coûts et revenus",
+      "number": 6,
+      "title": "Calculer les coûts et les revenus potentiels",
+      "duration": "35 min",
+      "point": "Un projet vert se calcule comme une transformation : matière, rendement, coûts du lot, emballage, puis coût par unité et marge. La matière peu chère est un avantage, mais le travail et le matériel ont un coût.",
+      "intro": "« Les coques sont gratuites, donc tout est bénéfice ! » Faux : le liant, le travail, les sacs et l’usure de la presse se paient. Seul le calcul dit si le projet rapporte.",
+      "objectives": [
+        "Calculer le coût d’un lot de produit vert.",
+        "Calculer le coût par unité et la marge.",
+        "Estimer le revenu sur une saison selon la matière disponible."
+      ],
+      "lessons": [
+        {
+          "title": "Les coûts d’un lot",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On reprend la méthode de la formation F10 (module 7) : matière première, rendement mesuré, coûts du lot (liant, énergie, main-d’œuvre, usure du matériel), emballage par unité."
+            },
+            {
+              "type": "formula",
+              "text": "Coût par unité = Total des coûts du lot ÷ Nombre d’unités produites"
+            }
+          ]
+        },
+        {
+          "title": "Du lot à la saison",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le revenu de la saison dépend de la matière disponible (module 2) : nombre de lots possibles × marge par lot. Si la matière n’est disponible que trois mois, dites-le dans vos prévisions, ou cherchez d’autres fournisseurs."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Un lot de briquettes",
+        "text": "Pauline calcule le premier lot du groupe.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Coques et rafles : 250 kg à 10 FCFA",
+            "2 500"
+          ],
+          [
+            "Liant, main-d’œuvre et usure de la presse",
+            "10 000"
+          ],
+          [
+            "Sacs : 40 sacs à 50 FCFA",
+            "2 000"
+          ],
+          [
+            "Total du lot",
+            "14 500",
+            "strong"
+          ],
+          [
+            "Coût par sac de 5 kg : 14 500 ÷ 40",
+            "environ 360",
+            "result"
+          ]
+        ],
+        "after": "Vendu 1 000 FCFA le sac, chaque lot laisse environ 25 500 FCFA. Avec la matière de la coopérative, le groupe peut faire une dizaine de lots par saison. Esther, la première cliente, prend 8 sacs par mois."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Les coques sont gratuites, donc tout est bénéfice ? »",
+            "Djibrilla devant un tas de coques"
+          ],
+          [
+            "0:30",
+            "Les coûts d’un lot.",
+            "Liant, presse, sacs, mains au travail"
+          ],
+          [
+            "2:00",
+            "Le coût par sac et la marge.",
+            "Pauline qui calcule"
+          ],
+          [
+            "3:15",
+            "Du lot à la saison.",
+            "Calendrier des lots"
+          ]
+        ]
+      },
+      "tool": "transfo",
+      "toolDefaults": {
+        "matiere": 250,
+        "prixMatiere": 10,
+        "rendement": 80,
+        "coutsLot": 10000,
+        "tailleUnite": 5,
+        "emballage": 50,
+        "prixVente": 1000
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le gain par sac",
+        "text": "Un lot de compost en sac coûte 20 000 FCFA et donne 50 sacs, vendus 1 000 FCFA chacun. Combien gagne-t-on par sac, en FCFA ?",
+        "answer": 600,
+        "solution": "Coût par sac : 20 000 ÷ 50 = 400 FCFA. Gain par sac : 1 000 − 400 = 600 FCFA.",
+        "then": "Calculez ensuite un lot de votre propre produit vert avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Une matière gratuite rend-elle le produit gratuit ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le travail, le liant, les sacs et le matériel se paient."
+        },
+        {
+          "q": "Comment calculer le coût par unité ?",
+          "options": [
+            "Total du lot divisé par le nombre d’unités",
+            "Prix de vente divisé par deux"
+          ],
+          "answer": 0,
+          "explain": "Même méthode qu’en F10."
+        },
+        {
+          "q": "Lot à 30 000 FCFA pour 60 unités. Coût par unité ?",
+          "options": [
+            "500 FCFA",
+            "2 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "30 000 ÷ 60 = 500."
+        },
+        {
+          "q": "De quoi dépend le revenu de la saison ?",
+          "options": [
+            "Du nombre de lots possibles avec la matière disponible",
+            "De la météo seulement"
+          ],
+          "answer": 0,
+          "explain": "Et de la marge par lot."
+        },
+        {
+          "q": "Faut-il compter l’usure de la presse ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle devra être remplacée."
+        },
+        {
+          "q": "Matière disponible trois mois seulement : que faire ?",
+          "options": [
+            "Le dire dans les prévisions ou chercher d’autres fournisseurs",
+            "L’ignorer"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas surestimer le revenu."
+        }
+      ],
+      "summary": "Matière, rendement, coûts du lot, emballage : le coût par unité et la marge disent si le projet rapporte, et la matière disponible fixe le revenu de la saison.",
+      "resource": "Fiche de calcul d’un lot de produit vert."
+    },
+    {
+      "id": "m7",
+      "label": "Projet vert",
+      "number": 7,
+      "title": "Élaborer un projet d’entreprise verte",
+      "duration": "35 min",
+      "point": "Le projet tient sur une fiche : problème, solution, clients, modèle, chiffres, apport environnemental mesurable et étapes, du test au lancement.",
+      "intro": "Un projet vert intéresse les clients, les partenaires et les financeurs, à condition de prouver deux choses : qu’il rapporte, et qu’il fait vraiment du bien à l’environnement, chiffres à l’appui.",
+      "objectives": [
+        "Rédiger la fiche projet d’une entreprise verte.",
+        "Choisir des indicateurs environnementaux mesurables.",
+        "Planifier les étapes, du test au lancement."
+      ],
+      "lessons": [
+        {
+          "title": "La fiche projet",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Contenu"
+              ],
+              "rows": [
+                [
+                  "Nom du projet",
+                  "Court et parlant"
+                ],
+                [
+                  "Problème",
+                  "Environnemental et économique : déchets brûlés, bois cher"
+                ],
+                [
+                  "Solution",
+                  "Le produit et la façon de le fabriquer"
+                ],
+                [
+                  "Clients",
+                  "Qui achète, et pourquoi"
+                ],
+                [
+                  "Modèle et chiffres",
+                  "Les sept cases (module 5) et la marge (module 6)"
+                ],
+                [
+                  "Apport environnemental",
+                  "Indicateurs mesurables"
+                ],
+                [
+                  "Étapes",
+                  "Test, ajustement, lancement, croissance"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Des indicateurs verts mesurables",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "« Protéger la nature » ne se mesure pas. « Valoriser 2 tonnes de coques par an au lieu de les brûler » se mesure. Exemples : kilos de résidus valorisés, sacs de compost produits, bois de chauffe économisé par les clients, hectares fertilisés, emplois créés."
+            }
+          ]
+        },
+        {
+          "title": "Du test au lancement",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Tester : une petite série, quelques clients, des avis (formation F10, module 3).",
+                "Ajuster : produit, prix, emballage.",
+                "Lancer : production régulière, clients fidèles, cahier de caisse.",
+                "Grandir : plus de matière, plus de clients, puis éventuellement du matériel (formation F10, module 11)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le projet peut rester une activité de la coopérative ou devenir une entreprise à part : la forme se choisit avec les membres (formation F9)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La fiche « Briquettes Vertes de l’Adamaoua »",
+        "text": "Djibrilla et Pauline rédigent la fiche avec l’aide d’Emmanuel.",
+        "head": [
+          "Indicateur vert",
+          "Objectif annuel"
+        ],
+        "rows": [
+          [
+            "Coques et rafles valorisées",
+            "2 tonnes"
+          ],
+          [
+            "Sacs de briquettes vendus",
+            "400"
+          ],
+          [
+            "Jeunes occupés pendant la saison",
+            "3",
+            "result"
+          ]
+        ],
+        "after": "Après le test chez Esther et deux autres restauratrices, ils font des briquettes plus petites, qui s’allument plus vite."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Prouver qu’il rapporte, et qu’il fait du bien. »",
+            "Briquettes et champ propre"
+          ],
+          [
+            "0:30",
+            "La fiche projet.",
+            "Une fiche qui se remplit"
+          ],
+          [
+            "1:45",
+            "Des indicateurs verts mesurables.",
+            "« 2 tonnes valorisées » à l’écran"
+          ],
+          [
+            "2:45",
+            "Du test au lancement.",
+            "Esther qui allume un foyer avec les nouvelles briquettes"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur de fiche projet vert",
+        "intro": "Remplissez les rubriques de votre fiche. L’exemple de départ est le projet de Djibrilla et Pauline.",
+        "titre": "FICHE PROJET VERT",
+        "noDate": true,
+        "copyLabel": "Copier la fiche projet",
+        "outLabel": "Votre fiche projet",
+        "okText": "Fiche complète. Vérifiez que vos indicateurs verts sont chiffrés, puis partagez-la avec votre coopérative ou un partenaire.",
+        "champs": [
+          [
+            "Nom du projet",
+            "Briquettes Vertes de l’Adamaoua"
+          ],
+          [
+            "Problème",
+            "Coques et rafles brûlées ; bois de chauffe de plus en plus cher"
+          ],
+          [
+            "Solution",
+            "Briquettes en sacs de 5 kg, fabriquées avec une presse manuelle"
+          ],
+          [
+            "Clients",
+            "Restauratrices du marché et familles de Ngaoundéré"
+          ],
+          [
+            "Chiffres",
+            "Coût d’environ 360 FCFA par sac, vendu 1 000 FCFA ; une dizaine de lots par saison"
+          ],
+          [
+            "Indicateurs verts",
+            "2 tonnes de résidus valorisées par an, 400 sacs vendus, 3 jeunes occupés"
+          ],
+          [
+            "Étapes",
+            "Test chez trois restauratrices, ajustement, lancement à la prochaine récolte"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Mesurable ou vague ?",
+        "text": "Classez ces indicateurs.",
+        "choices": [
+          "Mesurable",
+          "Vague"
+        ],
+        "items": [
+          [
+            "« Protéger la nature »",
+            1
+          ],
+          [
+            "« Valoriser 2 tonnes de coques par an »",
+            0
+          ],
+          [
+            "« Être plus écologiques »",
+            1
+          ],
+          [
+            "« Produire 300 sacs de compost par saison »",
+            0
+          ],
+          [
+            "« Aider la planète »",
+            1
+          ],
+          [
+            "« Employer 3 jeunes pendant la saison »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Que doit prouver un projet vert ?",
+          "options": [
+            "Qu’il rapporte et qu’il fait du bien à l’environnement",
+            "Qu’il est joli"
+          ],
+          "answer": 0,
+          "explain": "Avec des chiffres."
+        },
+        {
+          "q": "« Protéger la nature » est-il un bon indicateur ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il ne se mesure pas."
+        },
+        {
+          "q": "Un bon indicateur vert ?",
+          "options": [
+            "Kilos de résidus valorisés",
+            "Être écologique"
+          ],
+          "answer": 0,
+          "explain": "Il se compte."
+        },
+        {
+          "q": "Par quoi commencer ?",
+          "options": [
+            "Un test avec une petite série",
+            "Un gros investissement"
+          ],
+          "answer": 0,
+          "explain": "Avant d’investir."
+        },
+        {
+          "q": "Le projet doit-il forcément devenir une entreprise à part ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il peut rester une activité de la coopérative."
+        },
+        {
+          "q": "Pourquoi ajuster après le test ?",
+          "options": [
+            "Pour corriger produit, prix ou emballage",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Selon les avis des clients."
+        }
+      ],
+      "summary": "Une fiche projet avec problème, solution, clients, modèle, chiffres et indicateurs verts mesurables ; puis tester, ajuster, lancer, grandir.",
+      "resource": "Modèle de fiche projet d’entreprise verte."
+    },
+    {
+      "id": "m8",
+      "label": "Partenaires",
+      "number": 8,
+      "title": "Identifier les partenaires et les sources potentielles de financement",
+      "duration": "35 min",
+      "point": "Un projet vert s’appuie sur des partenaires : fournisseurs de résidus, clients, formateurs, communes, ONG et financeurs. Il accède aux sources classiques (formation F15) et à des appuis liés au climat, à vérifier au cas par cas.",
+      "intro": "Seul, le groupe de jeunes n’aurait ni la matière, ni la presse, ni les clients. Avec la coopérative, une ONG et des restauratrices, il a tout. Les partenaires sont la première ressource d’un projet vert.",
+      "objectives": [
+        "Dresser la carte de ses partenaires.",
+        "Repérer les sources de financement adaptées à un projet vert.",
+        "Présenter son projet à un partenaire."
+      ],
+      "lessons": [
+        {
+          "title": "La carte des partenaires",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Partenaire",
+                "Ce qu’il apporte"
+              ],
+              "rows": [
+                [
+                  "Coopérative, producteurs",
+                  "La matière : résidus, fumier"
+                ],
+                [
+                  "Clients",
+                  "Les ventes, les avis, la fidélité"
+                ],
+                [
+                  "ONG et projets d’appui",
+                  "Formation, prêt de matériel, accompagnement"
+                ],
+                [
+                  "Commune",
+                  "Gestion des déchets, espaces, visibilité"
+                ],
+                [
+                  "Services techniques (MINADER, MINEPIA, IRAD)",
+                  "Conseil et validation technique"
+                ],
+                [
+                  "Écoles et universités",
+                  "Stagiaires, analyses, innovation"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Financer un projet vert",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les sources de la formation F15 : épargne, microfinance, crédit, programmes d’appui, concours.",
+                "Les programmes qui intègrent le climat : par exemple, PEA-Jeunes II prévoit un complément de financement pour le climat ; modalités à vérifier auprès des Délégations régionales du MINADER et du MINEPIA.",
+                "Les concours d’innovation verte, qui apportent visibilité et parfois un prix.",
+                "Le cofinancement par les partenaires : prêt de matériel, formation gratuite, matière à bas prix."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les indicateurs verts mesurables (module 7) sont souvent décisifs pour ces financeurs."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les partenaires du groupe de Djibrilla",
+        "text": "Chaque partenaire apporte une pièce du projet.",
+        "head": [
+          "Partenaire",
+          "Apport"
+        ],
+        "rows": [
+          [
+            "Coopérative de Hawa",
+            "Coques et rafles"
+          ],
+          [
+            "Emmanuel, technicien d’une ONG",
+            "Formation et presse prêtée pour l’essai"
+          ],
+          [
+            "Esther et deux restauratrices",
+            "Premiers achats et avis"
+          ],
+          [
+            "Programme d’appui aux jeunes",
+            "Demande de cofinancement de la presse, montée par Pauline",
+            "result"
+          ]
+        ],
+        "after": "Pauline met en avant les deux tonnes de résidus valorisées chaque année dans le dossier."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Seul, le groupe n’avait rien. Avec ses partenaires, il a tout. »",
+            "Le groupe entouré de ses partenaires"
+          ],
+          [
+            "0:30",
+            "La carte des partenaires.",
+            "Carte avec six cercles"
+          ],
+          [
+            "2:00",
+            "Financer un projet vert.",
+            "Dossier avec les indicateurs verts en avant"
+          ],
+          [
+            "3:15",
+            "Pauline présente le dossier de la presse.",
+            "Pauline face à un agent d’appui"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de projet vert",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f13-projet",
+        "items": [
+          "Inventaire des résidus",
+          "Modèle économique circulaire en sept cases",
+          "Calcul d’un lot (coût par unité, marge)",
+          "Fiche projet avec indicateurs verts chiffrés",
+          "Carte des partenaires",
+          "Piste de financement identifiée"
+        ],
+        "then": "Remettez votre dossier au formateur. L’attestation finale est délivrée quand le dossier est complet et que tous les quiz sont validés."
+      },
+      "quiz": [
+        {
+          "q": "Que fournit la coopérative à un projet de briquettes ?",
+          "options": [
+            "La matière : coques et rafles",
+            "Les clients"
+          ],
+          "answer": 0,
+          "explain": "Elle est le premier partenaire."
+        },
+        {
+          "q": "Que peut apporter une ONG ?",
+          "options": [
+            "Formation, prêt de matériel, accompagnement",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Un appui précieux au démarrage."
+        },
+        {
+          "q": "Qui valide les aspects techniques ?",
+          "options": [
+            "Les services techniques et l’IRAD",
+            "Les clients"
+          ],
+          "answer": 0,
+          "explain": "Pour un projet sûr."
+        },
+        {
+          "q": "Quel programme prévoit un complément de financement pour le climat ?",
+          "options": [
+            "PEA-Jeunes II",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Modalités à vérifier auprès des Délégations."
+        },
+        {
+          "q": "Qu’est-ce qui convainc souvent les financeurs verts ?",
+          "options": [
+            "Des indicateurs verts mesurables",
+            "De belles phrases"
+          ],
+          "answer": 0,
+          "explain": "Module 7."
+        },
+        {
+          "q": "Un partenaire peut-il cofinancer sans donner d’argent ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Prêt de matériel, formation, matière à bas prix."
+        }
+      ],
+      "summary": "Une carte des partenaires, les sources classiques et climat, des indicateurs verts mis en avant : un projet vert se construit à plusieurs.",
+      "resource": "Modèle de carte des partenaires."
+    }
+  ]
+}

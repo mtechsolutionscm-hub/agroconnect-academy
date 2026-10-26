@@ -1,4 +1,15 @@
-import { NextResponse } from 'next/server';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
+import { json, currentUser, postGuard, readJson, who } from '../../../../../lib/http';
+import { activity } from '../../../../../lib/academy';
 import { getRepo } from '../../../../../lib/repo';
-import { currentUser, jsonError, isSameOrigin } from '../../../../../lib/http';
-export async function POST(request:Request){if(!isSameOrigin(request))return jsonError('Origine refusée',403);const user=await currentUser(request);if(!user)return jsonError('Authentification requise',401);const body=await request.json().catch(()=>null);if(!body)return jsonError('Données invalides',400);try{await getRepo().recordActivity(user.id,body);return NextResponse.json({ok:true});}catch(e){console.error(e);return jsonError('Enregistrement impossible',503);}}
+
+export async function POST(req: Request) {
+  const blocked = postGuard(req);
+  if (blocked) return blocked;
+  const repo = await getRepo();
+  const user = await currentUser(req, repo);
+  const body = await readJson(req);
+  return json(await activity(repo, user, who(req, user), body));
+}

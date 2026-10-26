@@ -1,0 +1,2201 @@
+{
+  "id": "f4",
+  "title": "Créer son entreprise agricole",
+  "short": "Créer son entreprise",
+  "lead": "De l’idée au lancement : repérer une vraie opportunité, choisir l’activité adaptée, vérifier le marché, construire son plan.",
+  "note": "Rodrigue, Fadimatou, Abba, Sylvie, M. Ngono et leurs chiffres sont fictifs. Les formalités de création se vérifient auprès d’un CFCE avant toute démarche.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Opportunités",
+      "number": 1,
+      "title": "Comprendre les opportunités de l’entrepreneuriat agricole",
+      "duration": "30 min",
+      "point": "L’agriculture offre de vraies opportunités d’entreprise, de la production aux services. Mais une entreprise agricole demande du temps, de la rigueur et une bonne gestion des risques.",
+      "intro": "« L’agriculture, c’est pour ceux qui n’ont pas réussi. » Rodrigue a souvent entendu cette phrase. Pourtant, autour de lui, certains vivent très bien de l’agriculture, à condition de la traiter comme une entreprise.",
+      "objectives": [
+        "Citer quatre familles d’activités agricoles.",
+        "Distinguer les idées reçues des réalités de l’entrepreneuriat agricole.",
+        "Repérer trois opportunités dans son environnement."
+      ],
+      "lessons": [
+        {
+          "title": "Quatre familles d’activités",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Famille",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Production végétale",
+                  "Maraîchage, céréales, tubercules, fruits, semences"
+                ],
+                [
+                  "Élevage",
+                  "Volailles, petits ruminants, porcs, poissons, abeilles"
+                ],
+                [
+                  "Transformation",
+                  "Farines, gari, pâte d’arachide, miel en pot, légumes séchés (formation F10)"
+                ],
+                [
+                  "Services aux producteurs",
+                  "Location de matériel, transport, décorticage, conseil, services numériques"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les services sont souvent oubliés, alors qu’ils demandent peu de terre et répondent à des besoins réels."
+            }
+          ]
+        },
+        {
+          "title": "Idées reçues et réalités",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Idée reçue",
+                "Réalité"
+              ],
+              "rows": [
+                [
+                  "« Il faut beaucoup de terre »",
+                  "Beaucoup d’activités rentables demandent peu de terre : élevage, transformation, services"
+                ],
+                [
+                  "« Ça rapporte tout de suite »",
+                  "Il faut souvent une ou deux saisons avant d’être rentable"
+                ],
+                [
+                  "« Il suffit de produire »",
+                  "Il faut d’abord savoir à qui vendre (modules 2 et 4)"
+                ],
+                [
+                  "« On peut tout faire seul »",
+                  "Coopératives, partenaires et formation aident à réussir (formation F9)"
+                ],
+                [
+                  "« Le climat décide de tout »",
+                  "De bonnes pratiques réduisent beaucoup de risques (formation F12)"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les trois idées de Rodrigue",
+        "text": "De retour près de Ngaoundéré, Rodrigue note trois idées.",
+        "head": [
+          "Idée",
+          "Famille"
+        ],
+        "rows": [
+          [
+            "Élever des poulets de chair",
+            "Élevage"
+          ],
+          [
+            "Cultiver des légumes de saison sèche",
+            "Production végétale"
+          ],
+          [
+            "Louer une décortiqueuse aux producteurs d’arachide",
+            "Services aux producteurs",
+            "result"
+          ]
+        ],
+        "after": "Sa cousine Fadimatou, qui élève des poules depuis cinq ans, lui conseille de ne rien choisir avant d’avoir parlé à des clients."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« L’agriculture, c’est pour ceux qui n’ont pas réussi ? »",
+            "Rodrigue, diplôme en main, devant un champ"
+          ],
+          [
+            "0:30",
+            "Quatre familles d’activités.",
+            "Champ, poulailler, atelier, décortiqueuse"
+          ],
+          [
+            "1:45",
+            "Cinq idées reçues, cinq réalités.",
+            "Cartes « vrai ou faux »"
+          ],
+          [
+            "3:00",
+            "Les trois idées de Rodrigue et le conseil de Fadimatou.",
+            "Fadimatou dans son poulailler"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Idée reçue ou réalité ?",
+        "text": "Classez ces phrases.",
+        "choices": [
+          "Idée reçue",
+          "Réalité"
+        ],
+        "items": [
+          [
+            "« Il faut beaucoup de terre pour entreprendre en agriculture »",
+            0
+          ],
+          [
+            "« Il faut souvent une ou deux saisons pour être rentable »",
+            1
+          ],
+          [
+            "« Il suffit de produire, les clients viendront »",
+            0
+          ],
+          [
+            "« Les services aux producteurs sont une vraie opportunité »",
+            1
+          ],
+          [
+            "« On réussit mieux seul »",
+            0
+          ],
+          [
+            "« De bonnes pratiques réduisent les risques climatiques »",
+            1
+          ]
+        ],
+        "then": "Notez ensuite trois opportunités dans votre environnement."
+      },
+      "quiz": [
+        {
+          "q": "Combien de familles d’activités agricoles ?",
+          "options": [
+            "Deux",
+            "Quatre"
+          ],
+          "answer": 1,
+          "explain": "Production, élevage, transformation, services."
+        },
+        {
+          "q": "Faut-il beaucoup de terre pour entreprendre ?",
+          "options": [
+            "Toujours",
+            "Pas toujours"
+          ],
+          "answer": 1,
+          "explain": "Élevage, transformation et services en demandent peu."
+        },
+        {
+          "q": "Une entreprise agricole rapporte-t-elle tout de suite ?",
+          "options": [
+            "Souvent",
+            "Rarement"
+          ],
+          "answer": 1,
+          "explain": "Il faut souvent une ou deux saisons."
+        },
+        {
+          "q": "Que faut-il savoir avant de produire ?",
+          "options": [
+            "À qui vendre",
+            "La couleur du logo"
+          ],
+          "answer": 0,
+          "explain": "Le marché d’abord."
+        },
+        {
+          "q": "La location de matériel est-elle une activité agricole ?",
+          "options": [
+            "Oui, un service aux producteurs",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle répond à un vrai besoin."
+        },
+        {
+          "q": "Faut-il tout faire seul ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Coopératives et partenaires aident."
+        }
+      ],
+      "summary": "Production, élevage, transformation, services : l’agriculture offre de vraies opportunités, à condition de commencer par le marché, d’accepter le temps nécessaire et de ne pas rester seul.",
+      "resource": "Fiche « Mes trois opportunités »."
+    },
+    {
+      "id": "m2",
+      "label": "Problème",
+      "number": 2,
+      "title": "Identifier un problème et une opportunité de marché",
+      "duration": "30 min",
+      "point": "Une bonne idée d’entreprise part d’un problème réel que des clients veulent résoudre, et pour lequel ils sont prêts à payer. On le trouve en observant, en écoutant et en comptant, pas en supposant.",
+      "intro": "Beaucoup d’entreprises échouent parce qu’elles vendent quelque chose que personne n’a demandé. Celles qui réussissent ont d’abord écouté leurs futurs clients.",
+      "objectives": [
+        "Repérer des problèmes de clients en observant et en écoutant.",
+        "Tester une idée avec trois questions.",
+        "Distinguer un fait observé d’une supposition."
+      ],
+      "lessons": [
+        {
+          "title": "Observer, écouter, compter",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Observer : au marché, au champ, à la coopérative, qu’est-ce qui manque, qu’est-ce qui est difficile, qu’est-ce qui coûte cher ?",
+                "Écouter : demander à au moins dix personnes ce qui les gêne le plus dans leur activité.",
+                "Compter : combien de personnes ont ce problème, et à quelle fréquence ?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les trois questions pour tester une idée",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Qui a ce problème, et combien sont-ils ?",
+                "Seraient-ils prêts à payer pour une solution, et combien ?",
+                "Qui le résout déjà, et comment ?"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Si personne n’a vraiment le problème, ou si personne ne veut payer, l’idée doit être changée, même si elle plaisait beaucoup."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Ce que Rodrigue entend sur le terrain",
+        "text": "Rodrigue parle à quinze personnes.",
+        "head": [
+          "Qui",
+          "Problème entendu"
+        ],
+        "rows": [
+          [
+            "Les restauratrices",
+            "Manquent de tomates en saison sèche"
+          ],
+          [
+            "Les producteurs d’arachide de la coopérative",
+            "Passent des jours à décortiquer à la main, paieraient pour une machine proche"
+          ],
+          [
+            "Abba, commerçant au marché",
+            "Les poulets de chair se vendent, mais beaucoup de jeunes en élèvent déjà",
+            "result"
+          ]
+        ],
+        "after": "Trois problèmes réels, à comparer au module 3."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Vendre ce que personne n’a demandé ? »",
+            "Cartons d’invendus"
+          ],
+          [
+            "0:30",
+            "Observer, écouter, compter.",
+            "Rodrigue au marché, carnet en main"
+          ],
+          [
+            "1:45",
+            "Les trois questions.",
+            "Trois cartes"
+          ],
+          [
+            "3:00",
+            "Ce que Rodrigue entend : trois problèmes réels.",
+            "Restauratrice, producteur d’arachide, Abba"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Fait ou supposition ?",
+        "text": "Classez ces phrases.",
+        "choices": [
+          "Fait observé",
+          "Supposition"
+        ],
+        "items": [
+          [
+            "« J’ai parlé à quinze producteurs qui décortiquent à la main »",
+            0
+          ],
+          [
+            "« Tout le monde voudra mes poulets »",
+            1
+          ],
+          [
+            "« Huit restauratrices m’ont dit manquer de tomates en saison sèche »",
+            0
+          ],
+          [
+            "« Les gens paieront sûrement cher »",
+            1
+          ],
+          [
+            "« Au marché, j’ai compté six vendeurs de poulets de chair »",
+            0
+          ],
+          [
+            "« Il n’y a sans doute aucun concurrent »",
+            1
+          ]
+        ],
+        "then": "Interrogez ensuite au moins dix personnes de votre entourage sur leurs difficultés."
+      },
+      "quiz": [
+        {
+          "q": "D’où part une bonne idée d’entreprise ?",
+          "options": [
+            "D’un problème réel de clients",
+            "D’un rêve"
+          ],
+          "answer": 0,
+          "explain": "Qu’ils veulent résoudre et payer."
+        },
+        {
+          "q": "À combien de personnes parler au minimum ?",
+          "options": [
+            "Deux",
+            "Au moins dix"
+          ],
+          "answer": 1,
+          "explain": "Pour dépasser les impressions."
+        },
+        {
+          "q": "Quelle est la deuxième question pour tester une idée ?",
+          "options": [
+            "Seraient-ils prêts à payer, et combien ?",
+            "Est-ce que l’idée me plaît ?"
+          ],
+          "answer": 0,
+          "explain": "Sinon il n’y a pas de marché."
+        },
+        {
+          "q": "« Tout le monde voudra mon produit » est-il un fait ?",
+          "options": [
+            "Oui",
+            "Non, une supposition"
+          ],
+          "answer": 1,
+          "explain": "À vérifier sur le terrain."
+        },
+        {
+          "q": "Que faire si personne ne veut payer ?",
+          "options": [
+            "Insister",
+            "Changer d’idée"
+          ],
+          "answer": 1,
+          "explain": "Même si elle plaisait."
+        },
+        {
+          "q": "Pourquoi regarder qui résout déjà le problème ?",
+          "options": [
+            "Pour connaître la concurrence",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Module 4."
+        }
+      ],
+      "summary": "Observer, écouter, compter ; tester chaque idée avec trois questions ; s’appuyer sur des faits, pas sur des suppositions.",
+      "resource": "Fiche d’entretien « Dix personnes, dix problèmes »."
+    },
+    {
+      "id": "m3",
+      "label": "Choisir",
+      "number": 3,
+      "title": "Choisir une activité adaptée à son environnement",
+      "duration": "30 min",
+      "point": "Entre plusieurs idées, on choisit celle qui correspond le mieux à sa situation, avec une grille simple : six critères notés de 1 à 3, que l’on additionne.",
+      "intro": "On choisit souvent l’activité qui nous plaît ou que le voisin a réussie. Mais ce qui marche pour lui dépend de sa terre, de son eau, de son argent et de ses compétences.",
+      "objectives": [
+        "Noter une activité sur six critères.",
+        "Comparer deux ou trois activités avec la grille.",
+        "Justifier son choix."
+      ],
+      "lessons": [
+        {
+          "title": "Les six critères",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Critère",
+                "Question",
+                "Note 3 si…"
+              ],
+              "rows": [
+                [
+                  "Marché",
+                  "Y a-t-il des clients prêts à payer ?",
+                  "Demande forte et vérifiée"
+                ],
+                [
+                  "Compétences",
+                  "Sait-on le faire, ou peut-on l’apprendre vite ?",
+                  "On sait déjà le faire"
+                ],
+                [
+                  "Capital",
+                  "Combien faut-il pour démarrer ?",
+                  "Peu d’argent nécessaire"
+                ],
+                [
+                  "Ressources",
+                  "Terre, eau, électricité, routes sont-elles disponibles ?",
+                  "Tout est sur place"
+                ],
+                [
+                  "Risques",
+                  "Maladies, climat, prix, vol ?",
+                  "Risques faibles ou bien maîtrisés"
+                ],
+                [
+                  "Temps",
+                  "Combien de temps faut-il, et quand ?",
+                  "Compatible avec sa vie et ses autres activités"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La note 1 signifie que le critère est défavorable, la note 2 qu’il est moyen."
+            }
+          ]
+        },
+        {
+          "title": "Lire la grille",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On additionne les notes : l’activité au total le plus élevé convient le mieux, sauf si un critère à 1 bloque tout (pas d’eau pour du maraîchage, par exemple). On cherche alors à lever ce blocage, ou l’on choisit l’activité suivante."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La grille de Rodrigue",
+        "text": "Rodrigue note ses trois idées.",
+        "head": [
+          "Critère",
+          "Poulets",
+          "Légumes",
+          "Décortiqueuse"
+        ],
+        "rows": [
+          [
+            "Marché",
+            "2",
+            "3",
+            "3"
+          ],
+          [
+            "Compétences",
+            "3",
+            "2",
+            "2"
+          ],
+          [
+            "Capital",
+            "2",
+            "2",
+            "1"
+          ],
+          [
+            "Ressources",
+            "3",
+            "1",
+            "3"
+          ],
+          [
+            "Risques",
+            "1",
+            "2",
+            "2"
+          ],
+          [
+            "Temps",
+            "2",
+            "2",
+            "3"
+          ],
+          [
+            "Total",
+            "13",
+            "12",
+            "14",
+            "result"
+          ]
+        ],
+        "after": "La décortiqueuse arrive en tête, mais le capital est un point faible : Rodrigue commencera avec une machine d’occasion révisée et en parlera à la coopérative de Hawa. Le maraîchage est bloqué par le manque d’eau."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Ce qui marche pour le voisin marchera-t-il pour moi ? »",
+            "Deux exploitations différentes"
+          ],
+          [
+            "0:30",
+            "Les six critères.",
+            "Six icônes"
+          ],
+          [
+            "2:00",
+            "Lire la grille, et le critère qui bloque.",
+            "Une case à 1 entourée"
+          ],
+          [
+            "3:00",
+            "La grille de Rodrigue.",
+            "Tableau qui se remplit, 14 en tête"
+          ]
+        ]
+      },
+      "tool": "choix",
+      "toolDefaults": {
+        "criteres": [
+          "Marché",
+          "Compétences",
+          "Capital",
+          "Ressources",
+          "Risques",
+          "Temps"
+        ],
+        "options": [
+          [
+            "Poulets de chair",
+            [
+              2,
+              3,
+              2,
+              3,
+              1,
+              2
+            ]
+          ],
+          [
+            "Légumes de saison sèche",
+            [
+              3,
+              2,
+              2,
+              1,
+              2,
+              2
+            ]
+          ],
+          [
+            "Location de décortiqueuse",
+            [
+              3,
+              2,
+              1,
+              3,
+              2,
+              3
+            ]
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le total",
+        "text": "Une activité obtient : marché 3, compétences 2, capital 2, ressources 3, risques 2, temps 3. Quel est son total ?",
+        "answer": 15,
+        "unit": "points",
+        "solution": "3 + 2 + 2 + 3 + 2 + 3 = 15.",
+        "then": "Comparez ensuite deux ou trois de vos idées avec la grille."
+      },
+      "quiz": [
+        {
+          "q": "Combien de critères dans la grille ?",
+          "options": [
+            "Trois",
+            "Six"
+          ],
+          "answer": 1,
+          "explain": "Marché, compétences, capital, ressources, risques, temps."
+        },
+        {
+          "q": "Que signifie une note de 1 ?",
+          "options": [
+            "Le critère est défavorable",
+            "Le critère est excellent"
+          ],
+          "answer": 0,
+          "explain": "3 est la meilleure note."
+        },
+        {
+          "q": "Le total le plus élevé gagne-t-il toujours ?",
+          "options": [
+            "Oui",
+            "Pas si un critère bloque tout"
+          ],
+          "answer": 1,
+          "explain": "Par exemple, pas d’eau pour le maraîchage."
+        },
+        {
+          "q": "Que faire d’un critère bloquant ?",
+          "options": [
+            "L’ignorer",
+            "Chercher à le lever ou choisir l’activité suivante"
+          ],
+          "answer": 1,
+          "explain": "Il ne s’ignore pas."
+        },
+        {
+          "q": "D’où vient la note du marché ?",
+          "options": [
+            "Des entretiens du module 2",
+            "D’une intuition"
+          ],
+          "answer": 0,
+          "explain": "Des faits, pas des suppositions."
+        },
+        {
+          "q": "La grille décide-t-elle à notre place ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle aide à réfléchir à tout."
+        }
+      ],
+      "summary": "Six critères notés de 1 à 3, un total pour comparer, et une attention aux critères bloquants : on choisit l’activité qui convient à sa situation.",
+      "resource": "Grille de choix à imprimer."
+    },
+    {
+      "id": "m4",
+      "label": "Demande",
+      "number": 4,
+      "title": "Étudier la demande et la concurrence",
+      "duration": "35 min",
+      "point": "Avant d’investir, on estime combien les clients achèteront, et l’on regarde qui leur vend déjà. Une petite enquête et un relevé de la concurrence suffisent pour un premier chiffre prudent.",
+      "intro": "« Il y a beaucoup de producteurs d’arachide, donc beaucoup de clients pour ma décortiqueuse. » Combien, exactement ? Et combien viendront chez Rodrigue plutôt qu’ailleurs ?",
+      "objectives": [
+        "Mener une petite enquête auprès des clients.",
+        "Estimer la demande avec un calcul simple.",
+        "Décrire ses concurrents et trouver ce qui le distinguera."
+      ],
+      "lessons": [
+        {
+          "title": "La petite enquête",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Interrogez au moins quinze clients possibles, avec quatre questions :"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Achetez-vous ce produit ou ce service aujourd’hui ? Où ?",
+                "Combien, et à quelle fréquence ?",
+                "À quel prix ?",
+                "Qu’est-ce qui ne vous convient pas dans ce que vous trouvez aujourd’hui ?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimer la demande",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Demande = Nombre de clients × Quantité par achat × Nombre d’achats"
+            },
+            {
+              "type": "p",
+              "text": "On ne gagnera pas tous les clients dès la première année : par prudence, on prévoit d’en servir seulement une partie, et on le justifie."
+            }
+          ]
+        },
+        {
+          "title": "Regarder la concurrence",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque concurrent, notez où il est, son prix, sa qualité, ses horaires, ce que les clients lui reprochent. Cherchez ce qui vous distinguera : la proximité, la rapidité, la qualité, le service, le prix."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La demande pour la décortiqueuse de Rodrigue",
+        "text": "Rodrigue fait son calcul après son enquête.",
+        "head": [
+          "Calcul",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Producteurs d’arachide autour du village",
+            "60"
+          ],
+          [
+            "Sacs à décortiquer par producteur et par an",
+            "8"
+          ],
+          [
+            "Demande totale",
+            "480 sacs par an"
+          ],
+          [
+            "Part visée la première année, par prudence",
+            "40 %"
+          ],
+          [
+            "Sacs à décortiquer la première année",
+            "environ 190",
+            "result"
+          ]
+        ],
+        "after": "Le seul concurrent est un moulin en ville, à deux heures de route, fermé le dimanche. Rodrigue misera sur la proximité et un service le jour même. Abba lui confirme qu’il préfère des sacs propres et bien triés."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Beaucoup de producteurs, donc beaucoup de clients ? Combien, exactement ? »",
+            "Rodrigue devant un champ d’arachide"
+          ],
+          [
+            "0:30",
+            "La petite enquête en quatre questions.",
+            "Rodrigue qui interroge des producteurs"
+          ],
+          [
+            "1:45",
+            "Le calcul de la demande et la part prudente.",
+            "60 × 8 = 480, puis 40 %"
+          ],
+          [
+            "3:15",
+            "Regarder la concurrence et se distinguer.",
+            "Le moulin en ville, fermé le dimanche"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la demande",
+        "text": "Quinze restaurants achètent chacun 20 kg de légumes par semaine. Quelle est la demande totale par semaine, en kilos ?",
+        "answer": 300,
+        "unit": "kg",
+        "solution": "15 × 20 = 300 kg par semaine.",
+        "then": "Menez ensuite votre petite enquête auprès d’au moins quinze clients possibles."
+      },
+      "quiz": [
+        {
+          "q": "Combien de clients interroger au minimum ?",
+          "options": [
+            "Trois",
+            "Au moins quinze"
+          ],
+          "answer": 1,
+          "explain": "Pour un premier chiffre fiable."
+        },
+        {
+          "q": "Comment calcule-t-on la demande ?",
+          "options": [
+            "Clients × quantité par achat × nombre d’achats",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Un calcul simple."
+        },
+        {
+          "q": "40 clients, 5 kg, 4 fois par mois. Demande mensuelle ?",
+          "options": [
+            "800 kg",
+            "49 kg",
+            "200 kg"
+          ],
+          "answer": 0,
+          "explain": "40 × 5 × 4 = 800."
+        },
+        {
+          "q": "Gagnera-t-on tous les clients dès la première année ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On prévoit une part prudente."
+        },
+        {
+          "q": "Que noter pour chaque concurrent ?",
+          "options": [
+            "Lieu, prix, qualité, horaires, reproches des clients",
+            "Son âge"
+          ],
+          "answer": 0,
+          "explain": "Pour trouver comment se distinguer."
+        },
+        {
+          "q": "Comment se distinguer d’un concurrent lointain ?",
+          "options": [
+            "Par la proximité et la rapidité",
+            "En copiant ses horaires"
+          ],
+          "answer": 0,
+          "explain": "Le client gagne du temps."
+        }
+      ],
+      "summary": "Une enquête en quatre questions, une demande calculée et prudente, un relevé de la concurrence, et une raison claire pour laquelle les clients viendront chez soi.",
+      "resource": "Fiche d’enquête client et tableau de relevé de la concurrence."
+    },
+    {
+      "id": "m5",
+      "label": "Modèle",
+      "number": 5,
+      "title": "Définir son modèle économique",
+      "duration": "35 min",
+      "point": "Le modèle économique explique en six cases comment l’entreprise gagne de l’argent : clients, offre, canaux, revenus, coûts, ressources et partenaires.",
+      "intro": "Une machine et des clients ne suffisent pas : il faut que l’argent qui entre dépasse l’argent qui sort, saison après saison. Le modèle économique le montre sur une page.",
+      "objectives": [
+        "Remplir les six cases de son modèle économique.",
+        "Estimer ses revenus et ses coûts sur une année.",
+        "Repérer une source de revenus complémentaire."
+      ],
+      "lessons": [
+        {
+          "title": "Les six cases",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Case",
+                "Question"
+              ],
+              "rows": [
+                [
+                  "Clients",
+                  "Qui achète, et combien sont-ils ?"
+                ],
+                [
+                  "Offre",
+                  "Que propose-t-on, et pourquoi le client nous choisirait-il ?"
+                ],
+                [
+                  "Canaux",
+                  "Comment le client nous trouve-t-il et achète-t-il ?"
+                ],
+                [
+                  "Revenus",
+                  "Combien, à quel prix, sur quel volume ?"
+                ],
+                [
+                  "Coûts",
+                  "Qu’est-ce qui coûte, chaque mois ou par unité ?"
+                ],
+                [
+                  "Ressources et partenaires",
+                  "De quoi et de qui a-t-on besoin ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Revenus et coûts sur un an",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Résultat = Prix × Volume − Coûts"
+            },
+            {
+              "type": "p",
+              "text": "Une activité saisonnière peut ajouter un service à une autre période pour mieux utiliser son matériel."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le modèle de Rodrigue",
+        "text": "Rodrigue remplit les six cases.",
+        "head": [
+          "Case",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Clients",
+            "Producteurs d’arachide et de maïs du village et de la coopérative de Hawa"
+          ],
+          [
+            "Offre",
+            "Décorticage et égrenage sur place, le jour même"
+          ],
+          [
+            "Canaux",
+            "Bouche-à-oreille, coopérative, groupe WhatsApp, AgroConnect"
+          ],
+          [
+            "Revenus",
+            "190 sacs d’arachide à 1 500 FCFA et 120 sacs de maïs à 1 000 FCFA : 405 000 FCFA par an"
+          ],
+          [
+            "Coûts",
+            "Carburant, entretien, aide saisonnière : environ 160 000 FCFA par an"
+          ],
+          [
+            "Ressources et partenaires",
+            "Machine d’occasion révisée par M. Ngono, technicien ; coopérative de Hawa",
+            "result"
+          ]
+        ],
+        "after": "Résultat estimé : environ 245 000 FCFA par an, avant le remboursement de la machine. L’égrenage du maïs fait travailler la machine hors de la saison de l’arachide."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une machine et des clients ne suffisent pas. »",
+            "La décortiqueuse au repos"
+          ],
+          [
+            "0:30",
+            "Les six cases.",
+            "Une page divisée en six"
+          ],
+          [
+            "2:00",
+            "Revenus, coûts, résultat.",
+            "Calcul à l’écran"
+          ],
+          [
+            "3:00",
+            "Le service en plus : l’égrenage du maïs.",
+            "La machine qui tourne avec du maïs"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle case ?",
+        "text": "Associez chaque information à sa case.",
+        "choices": [
+          "Clients",
+          "Offre",
+          "Canaux",
+          "Revenus",
+          "Coûts",
+          "Ressources et partenaires"
+        ],
+        "items": [
+          [
+            "Producteurs d’arachide du village",
+            0
+          ],
+          [
+            "Décorticage le jour même",
+            1
+          ],
+          [
+            "Groupe WhatsApp de la coopérative",
+            2
+          ],
+          [
+            "1 500 FCFA par sac",
+            3
+          ],
+          [
+            "Carburant et entretien",
+            4
+          ],
+          [
+            "Technicien qui révise la machine",
+            5
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de cases dans le modèle économique ?",
+          "options": [
+            "Quatre",
+            "Six"
+          ],
+          "answer": 1,
+          "explain": "Clients, offre, canaux, revenus, coûts, ressources."
+        },
+        {
+          "q": "Comment calcule-t-on le résultat ?",
+          "options": [
+            "Prix × volume − coûts",
+            "Prix + coûts"
+          ],
+          "answer": 0,
+          "explain": "Sur une période donnée."
+        },
+        {
+          "q": "200 sacs à 1 000 FCFA, coûts 80 000 FCFA. Résultat ?",
+          "options": [
+            "120 000 FCFA",
+            "280 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "200 000 − 80 000."
+        },
+        {
+          "q": "À quoi sert un service complémentaire ?",
+          "options": [
+            "Faire travailler le matériel toute l’année",
+            "Compliquer"
+          ],
+          "answer": 0,
+          "explain": "Et augmenter les revenus."
+        },
+        {
+          "q": "Les canaux, c’est quoi ?",
+          "options": [
+            "La façon dont le client nous trouve et achète",
+            "Les rivières"
+          ],
+          "answer": 0,
+          "explain": "Bouche-à-oreille, coopérative, plateforme."
+        },
+        {
+          "q": "Pourquoi noter les partenaires ?",
+          "options": [
+            "On ne réussit pas seul",
+            "Pour remplir la page"
+          ],
+          "answer": 0,
+          "explain": "Technicien, coopérative, fournisseurs."
+        }
+      ],
+      "summary": "Six cases sur une page, un résultat estimé sur l’année, et si possible un service complémentaire pour mieux utiliser ses moyens.",
+      "resource": "Canevas du modèle économique en six cases."
+    },
+    {
+      "id": "m6",
+      "label": "Besoins",
+      "number": 6,
+      "title": "Évaluer les besoins en équipements, en personnel et en financement",
+      "duration": "35 min",
+      "point": "On liste tout ce qu’il faut pour démarrer : le matériel, les personnes, l’argent pour tenir jusqu’aux premières recettes. Puis on décide d’où viendra l’argent.",
+      "intro": "Beaucoup d’entreprises s’arrêtent au bout de trois mois, non pas faute de clients, mais faute d’avoir prévu une balance, un abri ou l’argent du carburant.",
+      "objectives": [
+        "Dresser la liste complète des équipements.",
+        "Estimer les besoins en personnel.",
+        "Calculer son besoin total et prévoir son financement."
+      ],
+      "lessons": [
+        {
+          "title": "Trois listes",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Équipements : la machine, mais aussi l’abri, la balance, les bâches, les sacs, les outils d’entretien (formation F18). Pour chaque ligne, deux devis.",
+                "Personnel : qui fait quoi, à quelle période, et combien cela coûte. Le travail du porteur compte aussi (formation F14).",
+                "Fonds de roulement : carburant, pièces, main-d’œuvre des premiers mois, jusqu’aux premières recettes (formation F15, module 1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "D’où viendra l’argent",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On combine apport personnel, partenaires et crédit, sans compter sur une subvention non accordée (formation F15, modules 2 et 3). Le crédit doit rester remboursable avec le résultat prévu au module 5."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les besoins de Rodrigue",
+        "text": "Rodrigue chiffre ses besoins avec des devis.",
+        "head": [
+          "Besoin ou ressource",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Décortiqueuse d’occasion révisée",
+            "350 000"
+          ],
+          [
+            "Abri en tôle",
+            "80 000"
+          ],
+          [
+            "Balance",
+            "40 000"
+          ],
+          [
+            "Bâches et petit matériel",
+            "20 000"
+          ],
+          [
+            "Fonds de roulement des deux premiers mois",
+            "60 000"
+          ],
+          [
+            "Total des besoins",
+            "550 000",
+            "strong"
+          ],
+          [
+            "Apport de Rodrigue",
+            "150 000"
+          ],
+          [
+            "Participation de la coopérative, contre un tarif préférentiel pour ses membres",
+            "150 000"
+          ],
+          [
+            "Crédit de microfinance, étudié avec Sylvie, agente de crédit",
+            "250 000",
+            "result"
+          ]
+        ],
+        "after": "Rodrigue fait tourner la machine ; un aide saisonnier le rejoint pendant les deux mois de forte activité."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Arrêté au bout de trois mois, faute d’une balance. »",
+            "Machine sans abri, sous la pluie"
+          ],
+          [
+            "0:30",
+            "Équipements, personnel, fonds de roulement.",
+            "Trois listes"
+          ],
+          [
+            "2:00",
+            "D’où viendra l’argent.",
+            "Trois piles : apport, partenaire, crédit"
+          ],
+          [
+            "3:00",
+            "Le plan de financement de Rodrigue.",
+            "Rodrigue et Sylvie au guichet"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le besoin total",
+        "text": "Une activité demande une machine à 200 000 FCFA, un abri à 50 000 FCFA, une balance à 30 000 FCFA et 40 000 FCFA de fonds de roulement. Quel est le besoin total, en FCFA ?",
+        "answer": 320000,
+        "solution": "200 000 + 50 000 + 30 000 + 40 000 = 320 000 FCFA.",
+        "then": "Dressez ensuite vos trois listes : équipements, personnel, fonds de roulement."
+      },
+      "quiz": [
+        {
+          "q": "Quelles sont les trois listes ?",
+          "options": [
+            "Équipements, personnel, fonds de roulement",
+            "Amis, famille, voisins"
+          ],
+          "answer": 0,
+          "explain": "Pour ne rien oublier."
+        },
+        {
+          "q": "La machine suffit-elle comme équipement ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Abri, balance, bâches, outils comptent aussi."
+        },
+        {
+          "q": "Le travail du porteur compte-t-il ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Il a une valeur."
+        },
+        {
+          "q": "Peut-on compter sur une subvention non accordée ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On la traite comme un bonus."
+        },
+        {
+          "q": "Un partenaire peut-il cofinancer ?",
+          "options": [
+            "Oui, contre un avantage convenu",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "Par exemple un tarif préférentiel."
+        },
+        {
+          "q": "À quoi sert le fonds de roulement ?",
+          "options": [
+            "Tenir jusqu’aux premières recettes",
+            "Acheter la machine"
+          ],
+          "answer": 0,
+          "explain": "Carburant, pièces, main-d’œuvre."
+        }
+      ],
+      "summary": "Trois listes complètes, un besoin total chiffré avec des devis, et un financement combiné et remboursable.",
+      "resource": "Modèle de tableau des besoins et du financement."
+    },
+    {
+      "id": "m7",
+      "label": "Plan d’affaires",
+      "number": 7,
+      "title": "Construire un plan d’affaires",
+      "duration": "35 min",
+      "point": "Le plan d’affaires rassemble tout le travail des modules précédents en un document court : résumé, porteur, marché, offre, organisation, chiffres sur trois ans, risques. Il sert à décider, à convaincre et à piloter.",
+      "intro": "Le plan d’affaires n’est pas seulement pour la banque : c’est d’abord la carte de route du porteur. Celui qui l’a écrit sait où il va et comment.",
+      "objectives": [
+        "Organiser son plan d’affaires en sept parties.",
+        "Présenter des chiffres simples sur trois ans.",
+        "Rédiger un résumé qui donne envie de lire la suite."
+      ],
+      "lessons": [
+        {
+          "title": "Les sept parties",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Partie",
+                "Vient de…"
+              ],
+              "rows": [
+                [
+                  "Résumé d’une page",
+                  "Tout le plan, écrit en dernier"
+                ],
+                [
+                  "Le porteur",
+                  "Expérience, formation, motivation"
+                ],
+                [
+                  "Le marché",
+                  "Modules 2 et 4 : problème, demande, concurrence"
+                ],
+                [
+                  "L’offre et le modèle",
+                  "Module 5"
+                ],
+                [
+                  "L’organisation",
+                  "Module 6 : équipements, personnel, partenaires"
+                ],
+                [
+                  "Les chiffres sur trois ans",
+                  "Revenus, coûts, résultat, financement (formations F14 et F15)"
+                ],
+                [
+                  "Les risques",
+                  "Les risques et leurs mesures (formation F15, module 8)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les chiffres sur trois ans",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un tableau simple suffit : revenus, coûts, résultat et remboursement, pour l’année 1, l’année 2 et l’année 3. On reste prudent : on fait grandir le volume pas à pas, en le justifiant."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les trois ans de Rodrigue",
+        "text": "Chiffres en FCFA, fictifs.",
+        "head": [
+          "",
+          "Année 1",
+          "Année 2",
+          "Année 3"
+        ],
+        "rows": [
+          [
+            "Revenus",
+            "405 000",
+            "500 000",
+            "580 000"
+          ],
+          [
+            "Coûts",
+            "160 000",
+            "190 000",
+            "215 000"
+          ],
+          [
+            "Résultat avant remboursement",
+            "245 000",
+            "310 000",
+            "365 000"
+          ],
+          [
+            "Remboursement du crédit",
+            "150 000",
+            "130 000",
+            "0",
+            "result"
+          ]
+        ],
+        "after": "La hausse des revenus vient de nouveaux membres de la coopérative et d’un village voisin qui a demandé le service."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le plan d’affaires, c’est d’abord ma carte de route. »",
+            "Rodrigue qui feuillette son plan"
+          ],
+          [
+            "0:30",
+            "Les sept parties.",
+            "Sept intercalaires"
+          ],
+          [
+            "2:00",
+            "Les chiffres sur trois ans, prudents.",
+            "Tableau sur trois colonnes"
+          ],
+          [
+            "3:15",
+            "Le résumé qui donne envie de lire.",
+            "Une page bien remplie"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur de résumé du plan d’affaires",
+        "intro": "Remplissez les rubriques. L’exemple de départ est le résumé de Rodrigue.",
+        "titre": "RÉSUMÉ DU PLAN D’AFFAIRES",
+        "noDate": true,
+        "copyLabel": "Copier le résumé",
+        "outLabel": "Votre résumé, à relire",
+        "okText": "Résumé complet. Relisez-le à voix haute : il doit tenir sur une page et donner envie de lire la suite.",
+        "champs": [
+          [
+            "Le projet",
+            "Service de décorticage d’arachide et d’égrenage de maïs, près de Ngaoundéré"
+          ],
+          [
+            "Le problème",
+            "Les producteurs décortiquent à la main pendant des jours ; le moulin le plus proche est à deux heures de route"
+          ],
+          [
+            "Les clients",
+            "60 producteurs autour du village et les membres de la coopérative de Hawa"
+          ],
+          [
+            "Le porteur",
+            "Rodrigue, 28 ans, licencié, formé par AgroConnect Academy"
+          ],
+          [
+            "Les chiffres",
+            "Résultat estimé de 245 000 FCFA la première année, 365 000 FCFA la troisième"
+          ],
+          [
+            "Le besoin",
+            "550 000 FCFA : 150 000 d’apport, 150 000 de la coopérative, 250 000 de crédit"
+          ],
+          [
+            "Les risques",
+            "Panne en pleine saison : entretien et réserve ; concurrence : proximité et service le jour même"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle partie du plan ?",
+        "text": "Associez chaque élément à sa partie.",
+        "choices": [
+          "Résumé",
+          "Le porteur",
+          "Le marché",
+          "L’organisation",
+          "Les chiffres",
+          "Les risques"
+        ],
+        "items": [
+          [
+            "60 producteurs, 480 sacs par an",
+            2
+          ],
+          [
+            "Licence et deux ans d’expérience",
+            1
+          ],
+          [
+            "Machine, abri, aide saisonnier",
+            3
+          ],
+          [
+            "Résultat de 245 000 FCFA la première année",
+            4
+          ],
+          [
+            "Panne en pleine saison, et sa réserve",
+            5
+          ],
+          [
+            "Une page qui présente tout le projet",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de parties dans le plan d’affaires ?",
+          "options": [
+            "Trois",
+            "Sept"
+          ],
+          "answer": 1,
+          "explain": "Du résumé aux risques."
+        },
+        {
+          "q": "À qui sert d’abord le plan d’affaires ?",
+          "options": [
+            "Au porteur lui-même",
+            "À personne"
+          ],
+          "answer": 0,
+          "explain": "C’est sa carte de route."
+        },
+        {
+          "q": "Sur combien d’années présenter les chiffres ?",
+          "options": [
+            "Une",
+            "Trois"
+          ],
+          "answer": 1,
+          "explain": "Année 1, 2 et 3."
+        },
+        {
+          "q": "Comment faire grandir les chiffres ?",
+          "options": [
+            "Pas à pas, en le justifiant",
+            "En les doublant chaque année"
+          ],
+          "answer": 0,
+          "explain": "Plus de clients, un nouveau service."
+        },
+        {
+          "q": "Quand écrire le résumé ?",
+          "options": [
+            "En premier",
+            "En dernier"
+          ],
+          "answer": 1,
+          "explain": "Il résume tout le reste."
+        },
+        {
+          "q": "D’où viennent les risques et leurs mesures ?",
+          "options": [
+            "De la formation F15, module 8",
+            "D’une intuition"
+          ],
+          "answer": 0,
+          "explain": "Matrice et mesures."
+        }
+      ],
+      "summary": "Sept parties, des chiffres prudents sur trois ans, un résumé écrit en dernier : le plan d’affaires sert à décider, à convaincre et à piloter.",
+      "resource": "Modèle de plan d’affaires en sept parties."
+    },
+    {
+      "id": "m8",
+      "label": "Formalités",
+      "number": 8,
+      "title": "Comprendre les formalités de création d’entreprise au Cameroun",
+      "duration": "30 min",
+      "point": "Au Cameroun, on crée son entreprise auprès d’un Centre de formalités de création des entreprises (CFCE), guichet unique, ou en ligne sur MyBusiness.cm. On choisit d’abord sa forme : entreprise individuelle, société ou coopérative.",
+      "intro": "Rester dans l’informel semble plus simple. Mais une entreprise déclarée peut signer des contrats, ouvrir un compte à son nom, répondre à des appels d’offres et convaincre plus facilement un financeur.",
+      "objectives": [
+        "Citer les principales formes d’entreprise possibles.",
+        "Savoir où et comment faire ses formalités.",
+        "Connaître les documents obtenus à la fin de la procédure."
+      ],
+      "lessons": [
+        {
+          "title": "Choisir sa forme",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Forme",
+                "Pour qui"
+              ],
+              "rows": [
+                [
+                  "Entreprise individuelle : commerçant immatriculé, ou entreprenant (déclaration simplifiée)",
+                  "Une personne seule qui démarre une petite activité"
+                ],
+                [
+                  "Société, le plus souvent une SARL, éventuellement avec un seul associé",
+                  "Un projet plus important, ou plusieurs associés"
+                ],
+                [
+                  "Coopérative",
+                  "Plusieurs producteurs qui s’unissent (formation F9)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le statut d’entreprenant, prévu par le droit OHADA et introduit au Cameroun par les textes de 2012 sur la création d’entreprises, permet de commencer avec des formalités allégées. Demandez conseil au CFCE ou à un professionnel pour choisir."
+            }
+          ]
+        },
+        {
+          "title": "Où et comment",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les CFCE : des guichets uniques fonctionnent notamment à Yaoundé, Douala, Garoua, Bafoussam et Bamenda.",
+                "En ligne : le guichet électronique MyBusiness.cm permet de commencer les démarches à distance.",
+                "Ailleurs : dans les villes sans CFCE, la création se fait auprès des administrations habilitées."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pièces, frais et délais dépendent de la forme choisie : renseignez-vous auprès du CFCE avant de constituer votre dossier."
+            }
+          ]
+        },
+        {
+          "title": "Ce que l’on obtient",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "L’immatriculation au Registre du commerce et du crédit mobilier (RCCM).",
+                "La carte de contribuable, avec son numéro d’identification.",
+                "L’immatriculation à la CNPS comme employeur, si l’on emploie des salariés."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Après la création viennent des obligations : tenir sa comptabilité (formation F14), déclarer et payer ses impôts, déclarer ses salariés. Un comptable peut aider."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Rodrigue déclare son entreprise",
+        "text": "Pour démarrer seul avec une petite activité, Rodrigue choisit l’entreprise individuelle.",
+        "head": [
+          "Étape",
+          "Ce que fait Rodrigue"
+        ],
+        "rows": [
+          [
+            "Se renseigner",
+            "Il contacte le CFCE de Garoua sur les pièces, les frais et les délais"
+          ],
+          [
+            "Déclarer",
+            "Il commence les démarches sur MyBusiness.cm"
+          ],
+          [
+            "Obtenir",
+            "RCCM et carte de contribuable"
+          ],
+          [
+            "Séparer l’argent",
+            "Il ouvre un compte au nom de son entreprise",
+            "result"
+          ]
+        ],
+        "after": "Son entreprise peut maintenant signer un accord écrit avec la coopérative de Hawa."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Rester dans l’informel semble plus simple… »",
+            "Rodrigue qui hésite devant un guichet"
+          ],
+          [
+            "0:30",
+            "Trois formes possibles.",
+            "Une personne, des associés, une coopérative"
+          ],
+          [
+            "1:45",
+            "Les CFCE, MyBusiness.cm, les administrations habilitées.",
+            "Guichet unique, écran du site"
+          ],
+          [
+            "3:00",
+            "RCCM, carte de contribuable, CNPS, et les obligations qui suivent.",
+            "Documents posés sur la table"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle forme ?",
+        "text": "Associez chaque situation à la forme la plus adaptée.",
+        "choices": [
+          "Entreprise individuelle",
+          "Société",
+          "Coopérative"
+        ],
+        "items": [
+          [
+            "Une jeune femme qui démarre seule un petit atelier de pâte d’arachide",
+            0
+          ],
+          [
+            "Trois associés qui montent une unité de transformation",
+            1
+          ],
+          [
+            "Vingt producteurs qui veulent vendre ensemble",
+            2
+          ],
+          [
+            "Un porteur seul qui veut commencer avec des formalités allégées",
+            0
+          ],
+          [
+            "Deux frères qui investissent ensemble dans un camion de transport",
+            1
+          ],
+          [
+            "Un groupement de femmes qui veut acheter ses intrants en commun",
+            2
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qu’un CFCE ?",
+          "options": [
+            "Un guichet unique de création d’entreprises",
+            "Une banque"
+          ],
+          "answer": 0,
+          "explain": "Il regroupe les administrations concernées."
+        },
+        {
+          "q": "Peut-on commencer les démarches en ligne ?",
+          "options": [
+            "Oui, sur MyBusiness.cm",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Le guichet électronique."
+        },
+        {
+          "q": "Que faire dans une ville sans CFCE ?",
+          "options": [
+            "S’adresser aux administrations habilitées",
+            "Renoncer"
+          ],
+          "answer": 0,
+          "explain": "Ou commencer en ligne."
+        },
+        {
+          "q": "Quel statut permet des formalités allégées ?",
+          "options": [
+            "L’entreprenant",
+            "La société anonyme"
+          ],
+          "answer": 0,
+          "explain": "Pour une petite activité individuelle."
+        },
+        {
+          "q": "Qu’obtient-on à la fin ?",
+          "options": [
+            "RCCM et carte de contribuable, CNPS si l’on emploie",
+            "Un diplôme"
+          ],
+          "answer": 0,
+          "explain": "Les documents de l’entreprise."
+        },
+        {
+          "q": "Que faut-il faire après la création ?",
+          "options": [
+            "Tenir sa comptabilité et déclarer ses impôts",
+            "Plus rien"
+          ],
+          "answer": 0,
+          "explain": "Les obligations commencent."
+        }
+      ],
+      "summary": "Choisir sa forme, faire ses formalités au CFCE ou en ligne, obtenir RCCM et carte de contribuable, puis respecter ses obligations.",
+      "resource": "Fiche « Mes formalités, étape par étape », à compléter avec les informations du CFCE."
+    },
+    {
+      "id": "m9",
+      "label": "Lancement",
+      "number": 9,
+      "title": "Préparer un plan de lancement",
+      "duration": "30 min",
+      "point": "Le lancement se prépare sur 90 jours, calés sur la saison : un mois pour s’installer, un mois pour tester avec les premiers clients, un mois pour ajuster et se faire connaître.",
+      "intro": "Lancer trop tôt, c’est attendre des clients qui n’ont pas encore récolté. Lancer trop tard, c’est les laisser partir ailleurs. Un plan de 90 jours met chaque tâche au bon moment.",
+      "objectives": [
+        "Découper son lancement en trois périodes.",
+        "Caler son plan sur le calendrier agricole.",
+        "Prévoir la communication du lancement."
+      ],
+      "lessons": [
+        {
+          "title": "Trois périodes de 30 jours",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Période",
+                "Ce que l’on fait"
+              ],
+              "rows": [
+                [
+                  "Jours 1 à 30 : s’installer",
+                  "Formalités, achat et installation du matériel, essai technique, cahier de caisse ouvert"
+                ],
+                [
+                  "Jours 31 à 60 : tester",
+                  "Premiers clients, prix appliqués, avis recueillis, problèmes notés"
+                ],
+                [
+                  "Jours 61 à 90 : ajuster et se faire connaître",
+                  "Corrections, communication, nouveaux clients"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Caler sur la saison",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Partez de la date à laquelle les clients ont besoin du produit ou du service (la récolte, la saison sèche, une fête) et remontez le temps. Le matériel doit être prêt et testé avant ce moment."
+            }
+          ]
+        },
+        {
+          "title": "Faire connaître son lancement",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Annonce en réunion de coopérative, message dans les groupes, statut WhatsApp, annonce sur AgroConnect, démonstration gratuite le premier jour. Un premier client satisfait en amène d’autres."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les 90 jours de Rodrigue",
+        "text": "La récolte d’arachide commence fin octobre.",
+        "head": [
+          "Quand",
+          "Ce que fait Rodrigue"
+        ],
+        "rows": [
+          [
+            "Août",
+            "Révision de la machine par M. Ngono"
+          ],
+          [
+            "Septembre",
+            "Construction de l’abri, formalités terminées"
+          ],
+          [
+            "1er octobre",
+            "Démonstration gratuite à la coopérative de Hawa"
+          ],
+          [
+            "Octobre",
+            "Premiers sacs traités ; les producteurs demandent des passages dans les villages"
+          ],
+          [
+            "Novembre",
+            "Tournée dans les villages deux jours par semaine",
+            "result"
+          ]
+        ],
+        "after": "Chaque étape arrive au bon moment, avant que les clients n’en aient besoin."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Trop tôt, les clients n’ont pas récolté ; trop tard, ils sont partis. »",
+            "Calendrier agricole"
+          ],
+          [
+            "0:30",
+            "Trois périodes de 30 jours.",
+            "Trois blocs de couleur"
+          ],
+          [
+            "2:00",
+            "Caler sur la saison.",
+            "Flèche qui remonte depuis la récolte"
+          ],
+          [
+            "3:00",
+            "La démonstration gratuite de Rodrigue.",
+            "Producteurs autour de la machine"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle période ?",
+        "text": "Associez chaque tâche à sa période.",
+        "choices": [
+          "S’installer",
+          "Tester",
+          "Ajuster et se faire connaître"
+        ],
+        "items": [
+          [
+            "Faire réviser la machine",
+            0
+          ],
+          [
+            "Recueillir l’avis des premiers clients",
+            1
+          ],
+          [
+            "Organiser une tournée après les premières remarques",
+            2
+          ],
+          [
+            "Terminer ses formalités",
+            0
+          ],
+          [
+            "Appliquer ses prix aux premiers clients",
+            1
+          ],
+          [
+            "Publier une annonce et lancer la communication",
+            2
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Sur combien de jours se prépare le lancement ?",
+          "options": [
+            "30",
+            "90"
+          ],
+          "answer": 1,
+          "explain": "Trois périodes de 30 jours."
+        },
+        {
+          "q": "Que fait-on dans les 30 premiers jours ?",
+          "options": [
+            "On s’installe",
+            "On fait la fête"
+          ],
+          "answer": 0,
+          "explain": "Formalités, matériel, essai technique."
+        },
+        {
+          "q": "D’où part-on pour caler le plan ?",
+          "options": [
+            "De la date où les clients ont besoin du service",
+            "D’aujourd’hui"
+          ],
+          "answer": 0,
+          "explain": "Et l’on remonte le temps."
+        },
+        {
+          "q": "Quand le matériel doit-il être prêt ?",
+          "options": [
+            "Avant la période de forte demande",
+            "Après"
+          ],
+          "answer": 0,
+          "explain": "Testé et révisé."
+        },
+        {
+          "q": "Un bon moyen de se faire connaître au départ ?",
+          "options": [
+            "Une démonstration gratuite",
+            "Attendre"
+          ],
+          "answer": 0,
+          "explain": "Les clients voient le service."
+        },
+        {
+          "q": "Que fait-on des remarques des premiers clients ?",
+          "options": [
+            "On ajuste son offre",
+            "On les ignore"
+          ],
+          "answer": 0,
+          "explain": "Comme la tournée de Rodrigue."
+        }
+      ],
+      "summary": "90 jours en trois périodes, calés sur la saison : s’installer, tester, ajuster et se faire connaître.",
+      "resource": "Modèle de plan de lancement sur 90 jours."
+    },
+    {
+      "id": "m10",
+      "label": "Performances",
+      "number": 10,
+      "title": "Suivre les performances de son entreprise",
+      "duration": "35 min",
+      "point": "Chaque mois, on suit quelques chiffres clés : chiffre d’affaires, clients, volume, marge, trésorerie, satisfaction. On les compare au plan et l’on décide d’une action.",
+      "intro": "Un conducteur regarde son tableau de bord ; un entrepreneur aussi. Sans chiffres, on ne sait pas si l’entreprise va bien avant qu’il ne soit trop tard.",
+      "objectives": [
+        "Choisir cinq ou six indicateurs simples.",
+        "Remplir un tableau de bord mensuel.",
+        "Décider d’une action à partir des chiffres."
+      ],
+      "lessons": [
+        {
+          "title": "Six indicateurs",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Indicateur",
+                "Ce qu’il dit"
+              ],
+              "rows": [
+                [
+                  "Chiffre d’affaires du mois",
+                  "Ce que l’on a vendu"
+                ],
+                [
+                  "Nombre de clients",
+                  "Si l’on attire et garde des clients"
+                ],
+                [
+                  "Volume traité ou vendu",
+                  "L’activité réelle"
+                ],
+                [
+                  "Marge du mois",
+                  "Chiffre d’affaires moins les coûts du mois"
+                ],
+                [
+                  "Trésorerie en fin de mois",
+                  "Si l’on peut payer ce qui vient (formation F14, module 7)"
+                ],
+                [
+                  "Clients satisfaits",
+                  "Avis, réclamations, clients qui reviennent"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le rendez-vous du mois",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une heure par mois : remplir le tableau à partir du cahier de caisse, comparer au plan, chercher la raison des écarts, décider d’une ou deux actions. On note la décision, pour vérifier le mois suivant si elle a marché."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le tableau de bord de novembre",
+        "text": "Rodrigue compare le prévu et le réalisé.",
+        "head": [
+          "Indicateur",
+          "Prévu",
+          "Réalisé"
+        ],
+        "rows": [
+          [
+            "Sacs traités",
+            "60",
+            "72"
+          ],
+          [
+            "Clients",
+            "25",
+            "31"
+          ],
+          [
+            "Chiffre d’affaires",
+            "90 000 FCFA",
+            "108 000 FCFA"
+          ],
+          [
+            "Coûts du mois",
+            "35 000 FCFA",
+            "41 000 FCFA"
+          ],
+          [
+            "Marge",
+            "55 000 FCFA",
+            "67 000 FCFA",
+            "result"
+          ]
+        ],
+        "after": "La tournée a apporté six nouveaux clients, mais le carburant fait monter les coûts : Rodrigue regroupe ses passages, deux jours fixes par semaine."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un conducteur regarde son tableau de bord ; un entrepreneur aussi. »",
+            "Tableau de bord d’une moto, puis un cahier"
+          ],
+          [
+            "0:30",
+            "Six indicateurs.",
+            "Six cases"
+          ],
+          [
+            "1:45",
+            "Le rendez-vous du mois.",
+            "Rodrigue avec son cahier de caisse"
+          ],
+          [
+            "2:45",
+            "Le tableau de novembre et la décision.",
+            "Prévu et réalisé côte à côte"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de création",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f4-dossier",
+        "items": [
+          "Grille de choix et enquête clients",
+          "Modèle économique en six cases",
+          "Tableau des besoins et du financement",
+          "Plan d’affaires avec son résumé",
+          "Fiche des formalités, vérifiée auprès du CFCE",
+          "Plan de lancement sur 90 jours",
+          "Tableau de bord mensuel"
+        ],
+        "then": "Remettez votre dossier au formateur. L’attestation finale est délivrée avec au moins six pièces acquises sur sept et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Combien d’indicateurs suivre ?",
+          "options": [
+            "Cinq ou six",
+            "Cinquante"
+          ],
+          "answer": 0,
+          "explain": "Simples et utiles."
+        },
+        {
+          "q": "Chiffre d’affaires 60 000 FCFA, coûts 22 000 FCFA. Marge ?",
+          "options": [
+            "38 000 FCFA",
+            "82 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "60 000 − 22 000."
+        },
+        {
+          "q": "D’où viennent les chiffres ?",
+          "options": [
+            "Du cahier de caisse",
+            "De la mémoire"
+          ],
+          "answer": 0,
+          "explain": "Formation F14."
+        },
+        {
+          "q": "Que faire d’un écart avec le plan ?",
+          "options": [
+            "En chercher la raison et décider d’une action",
+            "Le cacher"
+          ],
+          "answer": 0,
+          "explain": "Pas seulement le constater."
+        },
+        {
+          "q": "Pourquoi noter la décision ?",
+          "options": [
+            "Pour vérifier le mois suivant si elle a marché",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "On apprend de ses choix."
+        },
+        {
+          "q": "À quoi sert l’indicateur de trésorerie ?",
+          "options": [
+            "Savoir si l’on peut payer ce qui vient",
+            "Compter les clients"
+          ],
+          "answer": 0,
+          "explain": "Une entreprise rentable peut manquer de liquidités."
+        }
+      ],
+      "summary": "Six indicateurs, un rendez-vous chaque mois, une comparaison au plan et une décision notée : c’est ainsi que l’on pilote son entreprise.",
+      "resource": "Modèle de tableau de bord mensuel."
+    }
+  ]
+}

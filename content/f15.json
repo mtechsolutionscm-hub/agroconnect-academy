@@ -1,0 +1,2193 @@
+{
+  "id": "f15",
+  "title": "Préparer un dossier de financement agricole",
+  "short": "Financement",
+  "lead": "Savoir de combien on a besoin, auprès de qui le chercher, ce qu’on peut rembourser, et comment le présenter.",
+  "note": "Moussa et ses chiffres sont fictifs. Les programmes et organismes cités sont des exemples, pas des recommandations : vérifiez leurs conditions avant tout dépôt. AgroConnect n’accorde pas de crédit. Les programmes sérieux ne font jamais payer l’accès au dossier.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Mes besoins",
+      "number": 1,
+      "title": "Identifier ses besoins de financement",
+      "duration": "30 min",
+      "point": "Un besoin de financement se chiffre en deux parties : l’investissement, ce que l’on achète pour durer, et le fonds de roulement, ce qu’il faut pour faire tourner l’activité jusqu’aux premières ventes.",
+      "intro": "« Il me faut un million. » Pour quoi faire, exactement ? Un financeur pose toujours cette question. Celui qui répond ligne par ligne, avec des devis, est déjà pris au sérieux.",
+      "objectives": [
+        "Distinguer investissement et fonds de roulement.",
+        "Chiffrer chaque besoin à partir de devis ou de prix relevés.",
+        "Calculer son besoin total, sans l’oublier ni le gonfler."
+      ],
+      "lessons": [
+        {
+          "title": "Deux sortes de besoins",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Besoin",
+                "Définition",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Investissement",
+                  "Ce qui sert plusieurs années",
+                  "Motopompe, clôture, décortiqueuse, magasin"
+                ],
+                [
+                  "Fonds de roulement",
+                  "Ce qu’il faut dépenser avant d’encaisser les premières ventes",
+                  "Semences, engrais, carburant, main-d’œuvre des premiers mois"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le fonds de roulement est souvent oublié : on achète la machine, puis on n’a plus de quoi la faire tourner."
+            }
+          ]
+        },
+        {
+          "title": "Chiffrer sérieusement",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Demander au moins deux devis pour chaque investissement.",
+                "Pour le fonds de roulement, partir du budget de saison et du plan de trésorerie (formation F14, modules 6 et 7).",
+                "Ne rien oublier : transport, installation, frais de dossier.",
+                "Ne rien gonfler : un besoin gonflé se repère et coûte des intérêts inutiles."
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Besoin total = Investissement + Fonds de roulement"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le besoin de Moussa",
+        "text": "Moussa, 26 ans, veut lancer une parcelle de maraîchage irrigué près de Ngaoundéré.",
+        "head": [
+          "Poste",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Motopompe, le moins cher de deux devis",
+            "250 000"
+          ],
+          [
+            "Tuyaux et raccords",
+            "60 000"
+          ],
+          [
+            "Clôture de la parcelle",
+            "90 000"
+          ],
+          [
+            "Fûts de stockage d’eau",
+            "30 000"
+          ],
+          [
+            "Total investissement",
+            "430 000",
+            "strong"
+          ],
+          [
+            "Semences et plants",
+            "40 000"
+          ],
+          [
+            "Compost et fumier",
+            "30 000"
+          ],
+          [
+            "Carburant pour trois mois",
+            "45 000"
+          ],
+          [
+            "Main-d’œuvre des trois premiers mois",
+            "60 000"
+          ],
+          [
+            "Total fonds de roulement",
+            "175 000",
+            "strong"
+          ],
+          [
+            "Besoin total",
+            "605 000",
+            "result"
+          ]
+        ],
+        "after": "Chaque ligne est justifiée par un devis ou un prix relevé."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Il me faut un million. — Pour quoi faire ? »",
+            "Moussa face à un agent de microfinance"
+          ],
+          [
+            "0:30",
+            "Investissement et fonds de roulement.",
+            "Une motopompe, puis des semences et du carburant"
+          ],
+          [
+            "1:45",
+            "Chiffrer avec des devis.",
+            "Deux devis comparés"
+          ],
+          [
+            "3:00",
+            "Le besoin total de Moussa : 605 000 FCFA.",
+            "Tableau qui se remplit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le besoin total",
+        "text": "Une coopérative veut acheter une décortiqueuse à 300 000 FCFA et prévoit 150 000 FCFA de fonds de roulement pour les premiers mois. Quel est son besoin total, en FCFA ?",
+        "answer": 450000,
+        "solution": "300 000 + 150 000 = 450 000 FCFA.",
+        "then": "Listez ensuite votre propre besoin, ligne par ligne, en séparant investissement et fonds de roulement."
+      },
+      "quiz": [
+        {
+          "q": "Une motopompe, c’est quel besoin ?",
+          "options": [
+            "Un investissement",
+            "Du fonds de roulement"
+          ],
+          "answer": 0,
+          "explain": "Elle sert plusieurs années."
+        },
+        {
+          "q": "Le carburant des premiers mois, c’est quel besoin ?",
+          "options": [
+            "Un investissement",
+            "Du fonds de roulement"
+          ],
+          "answer": 1,
+          "explain": "Il est dépensé avant les premières ventes."
+        },
+        {
+          "q": "Combien de devis demander ?",
+          "options": [
+            "Un",
+            "Au moins deux"
+          ],
+          "answer": 1,
+          "explain": "Pour comparer et justifier le prix."
+        },
+        {
+          "q": "Quel besoin oublie-t-on souvent ?",
+          "options": [
+            "Le fonds de roulement",
+            "L’investissement"
+          ],
+          "answer": 0,
+          "explain": "Sans lui, l’investissement ne tourne pas."
+        },
+        {
+          "q": "Pourquoi ne pas gonfler son besoin ?",
+          "options": [
+            "Il se repère et coûte des intérêts inutiles",
+            "Ce n’est pas grave"
+          ],
+          "answer": 0,
+          "explain": "La crédibilité compte."
+        },
+        {
+          "q": "D’où viennent les chiffres du fonds de roulement ?",
+          "options": [
+            "Du budget et du plan de trésorerie",
+            "D’une estimation au hasard"
+          ],
+          "answer": 0,
+          "explain": "Formation F14."
+        }
+      ],
+      "summary": "Investissement plus fonds de roulement, chaque ligne justifiée par un devis ou un prix relevé : ni oubli, ni gonflement.",
+      "resource": "Modèle de tableau des besoins de financement."
+    },
+    {
+      "id": "m2",
+      "label": "Sources",
+      "number": 2,
+      "title": "Comprendre les principales sources de financement",
+      "duration": "35 min",
+      "point": "Six grandes sources : épargne et entourage, microfinance et coopératives d’épargne et de crédit, banques, crédit fournisseur ou acheteur, programmes publics et d’appui, concours. Chacune a son coût, ses conditions et son public.",
+      "intro": "Beaucoup de porteurs de projets pensent « banque » ou « subvention », et rien d’autre. Or le bon financement dépend du projet : un petit fonds de roulement ne se finance pas comme une machine.",
+      "objectives": [
+        "Citer les six grandes sources de financement.",
+        "Comparer leurs avantages et leurs exigences.",
+        "Choisir la source ou la combinaison adaptée à son projet."
+      ],
+      "lessons": [
+        {
+          "title": "Les six sources",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Source",
+                "Pour quoi",
+                "Ce qu’il faut savoir"
+              ],
+              "rows": [
+                [
+                  "Épargne, tontine, famille",
+                  "Petits montants, apport personnel",
+                  "Pas d’intérêt bancaire, mais un engagement envers ses proches"
+                ],
+                [
+                  "Microfinance (EMF) et coopératives d’épargne et de crédit",
+                  "Fonds de roulement, petit matériel",
+                  "Établissements agréés et contrôlés ; souvent une épargne préalable et une garantie demandées"
+                ],
+                [
+                  "Banques",
+                  "Montants plus importants, entreprises structurées",
+                  "Dossier complet, garanties, historique de comptes"
+                ],
+                [
+                  "Crédit fournisseur ou acheteur",
+                  "Intrants avancés, remboursés à la récolte",
+                  "Engagement de vente ou de remboursement (F9, module 9)"
+                ],
+                [
+                  "Programmes publics et d’appui",
+                  "Projets de jeunes, de groupements, de filières",
+                  "Appels à candidatures, critères précis, souvent cofinancement"
+                ],
+                [
+                  "Concours et prix",
+                  "Projets innovants",
+                  "Montants limités, forte concurrence, visibilité"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Des programmes qui existent au Cameroun",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PEA-Jeunes II (Programme de promotion de l’entrepreneuriat agropastoral des jeunes, phase 2) : sous la tutelle du MINADER et du MINEPIA, cofinancé par le FIDA, prévu sur 2026 à 2033. Il appuie la création et le développement d’entreprises agropastorales de jeunes, y compris leur accès au financement, notamment par des microfinances partenaires.",
+                "ACEFA, avec l’appui de l’AFD : conseil agricole et cofinancement de projets portés par des groupements de producteurs et des organisations professionnelles agricoles."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Conditions et dates d’ouverture des appels : renseignez-vous auprès des Délégations régionales du MINADER et du MINEPIA. Avant de travailler avec une microfinance, vérifiez qu’elle est agréée."
+            }
+          ]
+        },
+        {
+          "title": "Combiner les sources",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un projet se finance rarement d’une seule source. On combine souvent un apport personnel, un crédit et, quand c’est possible, une subvention. L’apport personnel montre au financeur que l’on s’engage soi-même. On ne compte jamais sur une subvention tant qu’elle n’est pas accordée."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les pistes de Moussa",
+        "text": "Pour ses 605 000 FCFA, Moussa étudie trois pistes.",
+        "head": [
+          "Piste",
+          "Montant envisagé"
+        ],
+        "rows": [
+          [
+            "Épargne et tontine",
+            "125 000 FCFA"
+          ],
+          [
+            "Crédit d’une microfinance agréée de Ngaoundéré",
+            "480 000 FCFA"
+          ],
+          [
+            "Programme d’appui aux jeunes, s’il remplit les critères",
+            "Bonus, pas compté d’avance",
+            "result"
+          ]
+        ],
+        "after": "Moussa construit son plan sans la subvention : si elle arrive, il empruntera moins."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Banque ou subvention ? Il y a bien plus de choix. »",
+            "Six portes à ouvrir"
+          ],
+          [
+            "0:30",
+            "Les six sources, une par une.",
+            "Tontine, guichet de microfinance, banque, fournisseur"
+          ],
+          [
+            "2:30",
+            "Des programmes qui existent, et comment se renseigner.",
+            "Délégation régionale"
+          ],
+          [
+            "3:45",
+            "Combiner les sources : les pistes de Moussa.",
+            "Trois piles de billets qui s’assemblent"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle source ?",
+        "text": "Associez chaque besoin à la source la plus adaptée.",
+        "choices": [
+          "Épargne ou microfinance",
+          "Crédit acheteur",
+          "Programme pour groupements",
+          "Programme pour jeunes",
+          "Concours",
+          "Banque"
+        ],
+        "items": [
+          [
+            "50 000 FCFA de semences pour un petit producteur",
+            0
+          ],
+          [
+            "Des intrants avancés par une provenderie, remboursés en maïs",
+            1
+          ],
+          [
+            "Un projet collectif d’une coopérative",
+            2
+          ],
+          [
+            "Le projet agropastoral d’un jeune entrepreneur",
+            3
+          ],
+          [
+            "Un projet innovant à faire connaître",
+            4
+          ],
+          [
+            "20 millions pour une unité de transformation structurée",
+            5
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de grandes sources de financement ?",
+          "options": [
+            "Deux",
+            "Six"
+          ],
+          "answer": 1,
+          "explain": "De l’épargne aux concours."
+        },
+        {
+          "q": "Que demande souvent une microfinance ?",
+          "options": [
+            "Une épargne préalable et une garantie",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Selon l’établissement."
+        },
+        {
+          "q": "Qu’est-ce que le crédit acheteur ?",
+          "options": [
+            "L’acheteur avance les intrants, remboursés à la récolte",
+            "Un prêt de la famille"
+          ],
+          "answer": 0,
+          "explain": "Il engage à lui vendre."
+        },
+        {
+          "q": "Quel programme vise les jeunes entrepreneurs agropastoraux ?",
+          "options": [
+            "PEA-Jeunes II",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Sous la tutelle du MINADER et du MINEPIA."
+        },
+        {
+          "q": "Pourquoi un apport personnel ?",
+          "options": [
+            "Il montre son propre engagement",
+            "Il n’a aucun intérêt"
+          ],
+          "answer": 0,
+          "explain": "Les financeurs y sont attentifs."
+        },
+        {
+          "q": "Que faire avant de traiter avec une microfinance ?",
+          "options": [
+            "Vérifier qu’elle est agréée",
+            "Payer des frais pour accéder au dossier"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les arnaques."
+        }
+      ],
+      "summary": "Six sources, chacune pour un usage. Combiner apport personnel, crédit et appui, vérifier les conditions et l’agrément, et ne jamais compter sur une subvention non accordée.",
+      "resource": "Tableau comparatif des sources de financement et liste des questions à poser à un financeur."
+    },
+    {
+      "id": "m3",
+      "label": "Rembourser",
+      "number": 3,
+      "title": "Évaluer sa capacité de remboursement",
+      "duration": "35 min",
+      "point": "On ne rembourse qu’avec ce qui reste une fois l’activité et la famille payées : l’excédent. Une mensualité prudente n’en prend qu’une partie, et le calendrier de remboursement doit suivre celui des ventes.",
+      "intro": "Un crédit trop lourd peut faire perdre plus que le projet : le matériel saisi, l’épargne engloutie, la confiance de la famille. Calculer sa capacité de remboursement avant de signer, c’est se protéger.",
+      "objectives": [
+        "Calculer son excédent mensuel.",
+        "Déterminer une mensualité prudente.",
+        "Demander un calendrier de remboursement adapté à son activité."
+      ],
+      "lessons": [
+        {
+          "title": "L’excédent",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Excédent = Recettes − Charges de l’activité − Dépenses de la famille − Autres remboursements"
+            },
+            {
+              "type": "p",
+              "text": "On le calcule avec des chiffres prudents : des ventes plutôt basses, des charges plutôt hautes."
+            }
+          ]
+        },
+        {
+          "title": "Une mensualité prudente",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Repère prudent de cette formation : ne pas consacrer au remboursement plus de la moitié de l’excédent. L’autre moitié sert de réserve pour les imprévus. Chaque établissement applique ses propres règles."
+            },
+            {
+              "type": "formula",
+              "text": "Mensualité prudente ≤ Excédent ÷ 2"
+            }
+          ]
+        },
+        {
+          "title": "Un calendrier qui suit les ventes",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ventes régulières (maraîchage, petit commerce) : un remboursement mensuel convient.",
+                "Une seule récolte par an (maïs, arachide) : demander un remboursement après la récolte.",
+                "Avant les premières ventes : demander un différé, quelques mois sans rembourser le capital.",
+                "Demander par écrit le coût total : intérêts, frais de dossier, assurance."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La capacité de Moussa",
+        "text": "Par mois, à partir du quatrième mois, avec des chiffres prudents.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Ventes de légumes prévues",
+            "150 000"
+          ],
+          [
+            "Charges de l’activité",
+            "−50 000"
+          ],
+          [
+            "Dépenses de la famille",
+            "−30 000"
+          ],
+          [
+            "Autres remboursements",
+            "0"
+          ],
+          [
+            "Excédent",
+            "70 000",
+            "strong"
+          ],
+          [
+            "Mensualité prudente, au plus",
+            "35 000",
+            "result"
+          ]
+        ],
+        "after": "Moussa emprunte 480 000 FCFA. Avec un coût total illustratif de 12 %, il remboursera 537 600 FCFA sur 18 mois après trois mois de différé, soit environ 29 900 FCFA par mois : c’est sous sa mensualité prudente."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un crédit trop lourd peut faire perdre plus que le projet. »",
+            "Une motopompe emportée"
+          ],
+          [
+            "0:30",
+            "Calculer l’excédent.",
+            "Recettes moins trois colonnes de dépenses"
+          ],
+          [
+            "1:45",
+            "La mensualité prudente : la moitié au plus.",
+            "Un billet coupé en deux"
+          ],
+          [
+            "2:45",
+            "Un calendrier qui suit les ventes, et le différé.",
+            "Calendrier avec les mois de vente"
+          ],
+          [
+            "4:00",
+            "La capacité de Moussa.",
+            "Tableau, 29 900 sous 35 000"
+          ]
+        ]
+      },
+      "tool": "capacite",
+      "toolDefaults": {
+        "recettes": 150000,
+        "charges": 50000,
+        "famille": 30000,
+        "autres": 0,
+        "montant": 480000,
+        "cout": 12,
+        "duree": 18
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la mensualité prudente",
+        "text": "Votre excédent mensuel est de 80 000 FCFA. Quelle est votre mensualité prudente maximale, selon le repère de cette formation, en FCFA ?",
+        "answer": 40000,
+        "solution": "80 000 ÷ 2 = 40 000 FCFA.",
+        "then": "Vérifiez ensuite votre propre projet de crédit avec la calculette."
+      },
+      "quiz": [
+        {
+          "q": "Avec quoi rembourse-t-on ?",
+          "options": [
+            "Avec l’excédent",
+            "Avec les recettes brutes"
+          ],
+          "answer": 0,
+          "explain": "Ce qui reste après l’activité, la famille et les autres dettes."
+        },
+        {
+          "q": "Faut-il compter les dépenses de la famille ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elles ne disparaissent pas pendant le crédit."
+        },
+        {
+          "q": "Quel est le repère prudent de cette formation ?",
+          "options": [
+            "Une mensualité d’au plus la moitié de l’excédent",
+            "Tout l’excédent"
+          ],
+          "answer": 0,
+          "explain": "Le reste sert de réserve."
+        },
+        {
+          "q": "Une seule récolte par an : quel remboursement demander ?",
+          "options": [
+            "Mensuel dès le premier mois",
+            "Après la récolte"
+          ],
+          "answer": 1,
+          "explain": "Le calendrier suit les ventes."
+        },
+        {
+          "q": "Qu’est-ce qu’un différé ?",
+          "options": [
+            "Quelques mois sans rembourser le capital, avant les premières ventes",
+            "Une pénalité"
+          ],
+          "answer": 0,
+          "explain": "Utile au démarrage."
+        },
+        {
+          "q": "Que demander par écrit ?",
+          "options": [
+            "Le coût total : intérêts, frais, assurance",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Avant de signer."
+        }
+      ],
+      "summary": "Calculer l’excédent avec des chiffres prudents, n’en consacrer que la moitié au remboursement, et demander un calendrier et un différé adaptés aux ventes.",
+      "resource": "Fiche « Ma capacité de remboursement »."
+    },
+    {
+      "id": "m4",
+      "label": "Plan de financement",
+      "number": 4,
+      "title": "Préparer un budget prévisionnel et un plan de financement",
+      "duration": "30 min",
+      "point": "Deux tableaux clés : le plan de financement, où les ressources couvrent exactement les besoins, et le compte prévisionnel de la première année, où l’activité dégage de quoi rembourser.",
+      "intro": "Le financeur veut deux réponses : « D’où vient tout l’argent du projet ? » et « Le projet gagnera-t-il assez pour rembourser ? » Ces deux tableaux y répondent sur une page.",
+      "objectives": [
+        "Construire un plan de financement équilibré.",
+        "Préparer un compte prévisionnel sur un an.",
+        "Vérifier la cohérence entre les deux tableaux."
+      ],
+      "lessons": [
+        {
+          "title": "Le plan de financement",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "D’un côté les emplois (les besoins du module 1), de l’autre les ressources (les sources du module 2). Les deux totaux doivent être égaux."
+            },
+            {
+              "type": "formula",
+              "text": "Total des emplois = Total des ressources"
+            }
+          ]
+        },
+        {
+          "title": "Le compte prévisionnel de la première année",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On reprend le budget de saison (formation F14, module 6) sur douze mois : les recettes prévues, toutes les charges de l’activité, l’usure du matériel (F14, module 3) et le coût du crédit. Le résultat doit couvrir le remboursement du capital et les besoins de la famille."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le compte prévisionnel de Moussa",
+        "text": "Son plan de financement est équilibré : 605 000 FCFA d’emplois (430 000 d’investissement, 175 000 de fonds de roulement) pour 605 000 FCFA de ressources (125 000 d’apport, 480 000 de crédit).",
+        "head": [
+          "Compte prévisionnel, année 1",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Ventes de légumes, 9 mois à 150 000",
+            "1 350 000"
+          ],
+          [
+            "Charges de l’activité, 9 mois à 50 000",
+            "−450 000"
+          ],
+          [
+            "Fonds de roulement des trois premiers mois",
+            "−175 000"
+          ],
+          [
+            "Usure du matériel : 430 000 ÷ 5 ans",
+            "−86 000"
+          ],
+          [
+            "Coût du crédit pour l’année, estimé",
+            "−40 000"
+          ],
+          [
+            "Résultat de l’année 1",
+            "599 000",
+            "result"
+          ]
+        ],
+        "after": "Avec ce résultat, Moussa peut payer ses mensualités et les dépenses de sa famille. Il ajoute un scénario prudent avec des ventes plus basses de 30 %."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« D’où vient l’argent ? Et le projet gagnera-t-il assez ? »",
+            "Un agent de crédit qui lit un dossier"
+          ],
+          [
+            "0:30",
+            "Le plan de financement : emplois égaux aux ressources.",
+            "Une balance à deux plateaux"
+          ],
+          [
+            "1:45",
+            "Le compte prévisionnel sur un an.",
+            "Tableau de Moussa qui se remplit"
+          ],
+          [
+            "3:15",
+            "Le scénario prudent.",
+            "Deux colonnes, normale et prudente"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Équilibrez le plan",
+        "text": "Un projet coûte 1 500 000 FCFA. Le porteur apporte 300 000 FCFA et obtient une subvention de 600 000 FCFA. Quel crédit faut-il pour équilibrer le plan de financement, en FCFA ?",
+        "answer": 600000,
+        "solution": "1 500 000 − 300 000 − 600 000 = 600 000 FCFA.",
+        "then": "Construisez ensuite le plan de financement et le compte prévisionnel de votre projet."
+      },
+      "quiz": [
+        {
+          "q": "Que doit montrer le plan de financement ?",
+          "options": [
+            "Que les ressources couvrent exactement les besoins",
+            "Le prix de vente"
+          ],
+          "answer": 0,
+          "explain": "Emplois égaux aux ressources."
+        },
+        {
+          "q": "Qu’appelle-t-on les emplois ?",
+          "options": [
+            "Les besoins : investissement et fonds de roulement",
+            "Les salariés"
+          ],
+          "answer": 0,
+          "explain": "Module 1."
+        },
+        {
+          "q": "Projet de 800 000 FCFA, apport 200 000 FCFA, sans subvention. Crédit ?",
+          "options": [
+            "600 000 FCFA",
+            "1 000 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "800 000 − 200 000."
+        },
+        {
+          "q": "Que doit couvrir le résultat prévisionnel ?",
+          "options": [
+            "Le remboursement et les besoins de la famille",
+            "Rien de particulier"
+          ],
+          "answer": 0,
+          "explain": "Sinon le projet n’est pas viable."
+        },
+        {
+          "q": "Faut-il compter l’usure du matériel ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Le matériel devra être remplacé."
+        },
+        {
+          "q": "Pourquoi un scénario prudent ?",
+          "options": [
+            "Pour montrer qu’on rembourse même si les ventes baissent",
+            "Pour allonger le dossier"
+          ],
+          "answer": 0,
+          "explain": "Le financeur y est très attentif."
+        }
+      ],
+      "summary": "Un plan de financement équilibré, un compte prévisionnel sur un an qui couvre le remboursement, et un scénario prudent pour rassurer.",
+      "resource": "Modèles du plan de financement et du compte prévisionnel."
+    },
+    {
+      "id": "m5",
+      "label": "Le dossier",
+      "number": 5,
+      "title": "Construire un dossier de projet",
+      "duration": "35 min",
+      "point": "Un bon dossier suit un ordre que le financeur connaît : un résumé d’une page, le porteur, le projet, le marché, les aspects techniques, les chiffres, puis les annexes.",
+      "intro": "Un agent de crédit lit des dizaines de dossiers. Celui qui trouve en deux minutes ce qu’il cherche donne une bonne impression ; celui qui doit chercher partout se méfie.",
+      "objectives": [
+        "Organiser son dossier en huit parties.",
+        "Rédiger un résumé d’une page.",
+        "Rassembler les pièces justificatives demandées."
+      ],
+      "lessons": [
+        {
+          "title": "Les huit parties du dossier",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Partie",
+                "Contenu"
+              ],
+              "rows": [
+                [
+                  "1. Page de garde",
+                  "Titre du projet, nom du porteur, lieu, date, montant demandé"
+                ],
+                [
+                  "2. Résumé",
+                  "Une page : le projet, le marché, le besoin, le remboursement"
+                ],
+                [
+                  "3. Le porteur",
+                  "Expérience, formation, membres du groupe ou de la coopérative"
+                ],
+                [
+                  "4. Le projet",
+                  "Quoi, où, pour qui, pourquoi maintenant"
+                ],
+                [
+                  "5. Le marché",
+                  "Clients, prix, concurrents, canaux de vente (formation F6)"
+                ],
+                [
+                  "6. Les aspects techniques",
+                  "Comment on produit, avec quel matériel, quelles pratiques"
+                ],
+                [
+                  "7. Les chiffres",
+                  "Besoins, plan de financement, compte prévisionnel, capacité de remboursement"
+                ],
+                [
+                  "8. Les annexes",
+                  "Devis, pièces d’identité, documents sur le terrain, statuts, photos"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le résumé d’une page",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On l’écrit en dernier, mais on le place en premier. Il répond à cinq questions : que fait le projet ? pour quels clients ? combien faut-il ? comment sera-t-il financé ? comment sera-t-il remboursé ?"
+            }
+          ]
+        },
+        {
+          "title": "Les pièces justificatives",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les pièces demandées varient selon l’organisme : demandez toujours la liste exacte. On y trouve souvent une pièce d’identité, un document montrant que l’on peut utiliser le terrain (titre, attestation, accord écrit du propriétaire), les statuts et le procès-verbal de l’assemblée pour une coopérative, et les devis. Une pièce manquante peut bloquer tout le dossier."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le dossier de Moussa",
+        "text": "Moussa rédige 8 pages et 6 annexes, avec un résumé d’une page.",
+        "head": [
+          "Annexe",
+          "Pourquoi"
+        ],
+        "rows": [
+          [
+            "Deux devis de motopompe",
+            "Justifier le prix"
+          ],
+          [
+            "Accord écrit de son oncle pour la parcelle",
+            "Prouver l’accès au terrain"
+          ],
+          [
+            "Carte d’identité",
+            "Identifier le porteur"
+          ],
+          [
+            "Attestation de formation AgroConnect Academy",
+            "Montrer ses compétences"
+          ],
+          [
+            "Trois photos de la parcelle",
+            "Montrer le terrain réel",
+            "result"
+          ]
+        ],
+        "after": "L’agent de crédit trouve tout en quelques minutes."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Deux minutes pour convaincre. »",
+            "Un agent de crédit avec une pile de dossiers"
+          ],
+          [
+            "0:30",
+            "Les huit parties du dossier.",
+            "Huit intercalaires de couleur"
+          ],
+          [
+            "2:30",
+            "Le résumé d’une page.",
+            "Une page avec cinq questions"
+          ],
+          [
+            "3:45",
+            "Les pièces justificatives.",
+            "Chemise d’annexes bien rangée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle partie du dossier ?",
+        "text": "Associez chaque élément à sa partie.",
+        "choices": [
+          "Page de garde",
+          "Résumé",
+          "Le porteur",
+          "Le marché",
+          "Les chiffres",
+          "Les annexes"
+        ],
+        "items": [
+          [
+            "Le montant demandé et le nom du porteur",
+            0
+          ],
+          [
+            "La liste des clients et les prix du marché",
+            3
+          ],
+          [
+            "Les devis de la motopompe",
+            5
+          ],
+          [
+            "Le plan de financement",
+            4
+          ],
+          [
+            "L’expérience du porteur",
+            2
+          ],
+          [
+            "« Comment sera-t-il remboursé ? » en quelques lignes",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de parties dans le dossier ?",
+          "options": [
+            "Trois",
+            "Huit"
+          ],
+          "answer": 1,
+          "explain": "De la page de garde aux annexes."
+        },
+        {
+          "q": "Quand écrire le résumé ?",
+          "options": [
+            "En dernier, mais on le place en premier",
+            "En premier"
+          ],
+          "answer": 0,
+          "explain": "Il résume tout le reste."
+        },
+        {
+          "q": "Quelle longueur pour le résumé ?",
+          "options": [
+            "Une page",
+            "Dix pages"
+          ],
+          "answer": 0,
+          "explain": "Le financeur le lit en premier."
+        },
+        {
+          "q": "Où placer les devis ?",
+          "options": [
+            "En annexe",
+            "Dans le résumé"
+          ],
+          "answer": 0,
+          "explain": "Ils justifient les montants."
+        },
+        {
+          "q": "Les pièces demandées sont-elles partout les mêmes ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Demandez la liste exacte à chaque organisme."
+        },
+        {
+          "q": "Que prouve l’accord écrit du propriétaire ?",
+          "options": [
+            "Que l’on peut utiliser le terrain",
+            "Que le projet est rentable"
+          ],
+          "answer": 0,
+          "explain": "Pour un terrain qui n’est pas à soi."
+        }
+      ],
+      "summary": "Huit parties dans l’ordre attendu, un résumé d’une page écrit en dernier, et toutes les pièces demandées en annexe.",
+      "resource": "Modèle de dossier en huit parties."
+    },
+    {
+      "id": "m6",
+      "label": "Résultats",
+      "number": 6,
+      "title": "Présenter les résultats attendus",
+      "duration": "30 min",
+      "point": "Un financeur veut savoir ce que son argent va produire. On présente des résultats précis et vérifiables : un chiffre, une date, une façon de le mesurer.",
+      "intro": "« Améliorer la vie des jeunes » ne convainc personne. « Vendre 400 kg de légumes par mois d’ici juin 2027 et employer deux jeunes » convainc, parce que cela se vérifie.",
+      "objectives": [
+        "Transformer un objectif vague en résultat précis.",
+        "Choisir des résultats économiques, sociaux et environnementaux.",
+        "Indiquer comment chaque résultat sera mesuré."
+      ],
+      "lessons": [
+        {
+          "title": "Un résultat précis",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quoi et combien : 400 kg de légumes.",
+                "Pour quand : d’ici juin 2027.",
+                "Comment on le vérifie : cahier de caisse, bons de livraison."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trois sortes de résultats",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Sorte",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Économiques",
+                  "Production, ventes, revenus, remboursement à temps"
+                ],
+                [
+                  "Sociaux",
+                  "Emplois créés, femmes et jeunes impliqués, membres formés"
+                ],
+                [
+                  "Environnementaux",
+                  "Pertes réduites, sols protégés, eau économisée (formations F11 et F12)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les programmes d’appui sont souvent attentifs aux résultats sociaux et environnementaux ; les établissements de crédit, surtout aux résultats économiques et au remboursement."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les résultats attendus de Moussa",
+        "text": "Chaque résultat a un chiffre, une date et une preuve.",
+        "head": [
+          "Résultat",
+          "Pour quand",
+          "Vérifié par"
+        ],
+        "rows": [
+          [
+            "400 kg de légumes vendus par mois",
+            "Juin 2027",
+            "Cahier de caisse"
+          ],
+          [
+            "2 jeunes employés à temps partiel",
+            "Mars 2027",
+            "Registre de paie"
+          ],
+          [
+            "Toutes les mensualités payées à temps",
+            "Fin du crédit",
+            "Relevés de la microfinance"
+          ],
+          [
+            "Goutte-à-goutte sur toute la parcelle",
+            "Avril 2027",
+            "Photos et visite",
+            "result"
+          ]
+        ],
+        "after": "Le financeur sait exactement ce qu’il pourra vérifier."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Améliorer la vie », ou « vendre 400 kg par mois » ?",
+            "Deux phrases côte à côte"
+          ],
+          [
+            "0:30",
+            "Quoi et combien, pour quand, vérifié comment.",
+            "Trois cases"
+          ],
+          [
+            "1:45",
+            "Trois sortes de résultats.",
+            "Billets, personnes, sol protégé"
+          ],
+          [
+            "3:00",
+            "Les résultats de Moussa.",
+            "Tableau qui se remplit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Précis ou vague ?",
+        "text": "Classez ces résultats.",
+        "choices": [
+          "Précis",
+          "Vague"
+        ],
+        "items": [
+          [
+            "« Améliorer nos revenus »",
+            1
+          ],
+          [
+            "« Vendre 200 sacs de maïs trié d’ici décembre 2027 »",
+            0
+          ],
+          [
+            "« Aider la communauté »",
+            1
+          ],
+          [
+            "« Former 25 membres au tri avant la récolte »",
+            0
+          ],
+          [
+            "« Être plus modernes »",
+            1
+          ],
+          [
+            "« Réduire le taux de pertes de 10 % à 5 % en une saison »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quels sont les trois éléments d’un bon résultat ?",
+          "options": [
+            "Quoi et combien, pour quand, comment le vérifier",
+            "Un titre, une photo, une signature"
+          ],
+          "answer": 0,
+          "explain": "Il doit pouvoir se contrôler."
+        },
+        {
+          "q": "« Aider la communauté » est-il un bon résultat ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Trop vague pour être vérifié."
+        },
+        {
+          "q": "Un emploi créé est quel type de résultat ?",
+          "options": [
+            "Social",
+            "Environnemental"
+          ],
+          "answer": 0,
+          "explain": "Comme les femmes et les jeunes impliqués."
+        },
+        {
+          "q": "Un taux de pertes réduit est quel type de résultat ?",
+          "options": [
+            "Environnemental, et aussi économique",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Moins de gaspillage, plus de ventes."
+        },
+        {
+          "q": "Comment vérifier des ventes ?",
+          "options": [
+            "Avec le cahier de caisse et les bons de livraison",
+            "Avec une promesse"
+          ],
+          "answer": 0,
+          "explain": "Des preuves écrites."
+        },
+        {
+          "q": "À quoi sont attentifs les créditeurs ?",
+          "options": [
+            "Aux résultats économiques et au remboursement",
+            "Aux couleurs du dossier"
+          ],
+          "answer": 0,
+          "explain": "Ils doivent être remboursés."
+        }
+      ],
+      "summary": "Des résultats chiffrés, datés et vérifiables, économiques, sociaux et environnementaux, adaptés à ce que regarde chaque financeur.",
+      "resource": "Modèle de tableau des résultats attendus."
+    },
+    {
+      "id": "m7",
+      "label": "Argumentaire",
+      "number": 7,
+      "title": "Préparer un argumentaire pour un financeur",
+      "duration": "30 min",
+      "point": "Devant un financeur, on présente son projet en trois minutes : le problème, la solution, les preuves, les chiffres, la demande et son engagement. Puis on répond calmement aux questions.",
+      "intro": "Le dossier ouvre la porte ; l’entretien la franchit. Le financeur investit dans un projet, mais aussi dans une personne : il veut voir qu’elle connaît son affaire.",
+      "objectives": [
+        "Construire un argumentaire en six temps.",
+        "Le présenter en trois minutes.",
+        "Préparer les réponses aux questions difficiles."
+      ],
+      "lessons": [
+        {
+          "title": "L’argumentaire en six temps",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Le problème : « À Ngaoundéré, les légumes manquent en saison sèche et les prix montent. »",
+                "La solution : « Une parcelle irriguée qui produit toute l’année. »",
+                "Les preuves : clients déjà intéressés, expérience, formation, essais.",
+                "Les chiffres : besoin, plan de financement, mensualité et capacité de remboursement.",
+                "La demande : le montant exact, pour quoi, sur quelle durée.",
+                "L’engagement : l’apport personnel, le suivi proposé au financeur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les questions difficiles",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "« Et si les ventes baissent ? » : le scénario prudent (module 4).",
+                "« Et si la motopompe tombe en panne ? » : l’entretien (formation F18) et la réserve.",
+                "« Pourquoi vous ? » : l’expérience, la formation.",
+                "Si l’on ne sait pas, on le dit et on promet de revenir avec la réponse."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’argumentaire de Moussa",
+        "text": "Moussa répète son argumentaire devant sa coopérative, chronomètre en main.",
+        "head": [
+          "Question difficile",
+          "Réponse de Moussa"
+        ],
+        "rows": [
+          [
+            "« Avez-vous des clients ? »",
+            "Une lettre de deux restaurants intéressés par ses légumes en saison sèche"
+          ],
+          [
+            "« Et si les ventes baissent ? »",
+            "Son scénario prudent, à −30 % de ventes"
+          ],
+          [
+            "« Et si la motopompe tombe en panne ? »",
+            "Son carnet d’entretien et sa réserve de 30 000 FCFA",
+            "result"
+          ]
+        ],
+        "after": "Le jour de l’entretien, Moussa tient ses trois minutes et répond sans hésiter."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le dossier ouvre la porte ; l’entretien la franchit. »",
+            "Moussa qui entre dans un bureau"
+          ],
+          [
+            "0:30",
+            "Les six temps de l’argumentaire.",
+            "Six cartes numérotées"
+          ],
+          [
+            "2:00",
+            "Les questions difficiles.",
+            "Échange avec l’agent de crédit"
+          ],
+          [
+            "3:15",
+            "La répétition devant la coopérative.",
+            "Chronomètre, applaudissements"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur d’argumentaire",
+        "intro": "Remplissez les six temps. L’exemple de départ est l’argumentaire de Moussa.",
+        "titre": "MON ARGUMENTAIRE EN SIX TEMPS",
+        "noDate": true,
+        "copyLabel": "Copier l’argumentaire",
+        "outLabel": "Votre argumentaire, à répéter",
+        "okText": "Les six temps sont remplis. Répétez-le à voix haute : il doit tenir en trois minutes.",
+        "champs": [
+          [
+            "1. Le problème",
+            "À Ngaoundéré, les légumes manquent en saison sèche et les prix montent."
+          ],
+          [
+            "2. La solution",
+            "Une parcelle irriguée de maraîchage qui produit toute l’année."
+          ],
+          [
+            "3. Les preuves",
+            "Deux restaurants intéressés par écrit, formation AgroConnect Academy, essai réussi la saison passée."
+          ],
+          [
+            "4. Les chiffres",
+            "Besoin de 605 000 FCFA, mensualité d’environ 29 900 FCFA pour un excédent de 70 000 FCFA."
+          ],
+          [
+            "5. La demande",
+            "Un crédit de 480 000 FCFA sur 18 mois, avec trois mois de différé."
+          ],
+          [
+            "6. L’engagement",
+            "125 000 FCFA d’apport personnel et un rapport trimestriel sur les ventes."
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Convaincant ou faible ?",
+        "text": "Classez ces arguments.",
+        "choices": [
+          "Convaincant",
+          "Faible"
+        ],
+        "items": [
+          [
+            "« Deux restaurants m’ont écrit qu’ils achèteraient mes légumes »",
+            0
+          ],
+          [
+            "« Tout le monde aime les légumes »",
+            1
+          ],
+          [
+            "« Même avec 30 % de ventes en moins, je rembourse »",
+            0
+          ],
+          [
+            "« Je suis sûr que ça va marcher »",
+            1
+          ],
+          [
+            "« J’apporte 125 000 FCFA de mon épargne »",
+            0
+          ],
+          [
+            "« J’ai besoin d’argent, c’est tout »",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de temps pour l’argumentaire ?",
+          "options": [
+            "Environ trois minutes",
+            "Une heure"
+          ],
+          "answer": 0,
+          "explain": "Le financeur pose ensuite ses questions."
+        },
+        {
+          "q": "Par quoi commencer ?",
+          "options": [
+            "Le problème",
+            "La demande d’argent"
+          ],
+          "answer": 0,
+          "explain": "Il montre l’utilité du projet."
+        },
+        {
+          "q": "Qu’est-ce qu’une bonne preuve ?",
+          "options": [
+            "Des clients déjà intéressés, par écrit",
+            "Une impression"
+          ],
+          "answer": 0,
+          "explain": "Plus fort qu’une promesse."
+        },
+        {
+          "q": "Que faire si l’on ne connaît pas une réponse ?",
+          "options": [
+            "Le dire et promettre de revenir avec",
+            "Inventer"
+          ],
+          "answer": 0,
+          "explain": "L’honnêteté inspire confiance."
+        },
+        {
+          "q": "« Et si les ventes baissent ? » : que montrer ?",
+          "options": [
+            "Le scénario prudent",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Module 4."
+        },
+        {
+          "q": "Pourquoi répéter devant d’autres ?",
+          "options": [
+            "Pour tenir le temps et gagner en assurance",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Et repérer les points faibles."
+        }
+      ],
+      "summary": "Problème, solution, preuves, chiffres, demande, engagement : trois minutes, répétées, et des réponses honnêtes aux questions difficiles.",
+      "resource": "Fiche « Mon argumentaire en six temps »."
+    },
+    {
+      "id": "m8",
+      "label": "Risques",
+      "number": 8,
+      "title": "Identifier les risques et les mesures d’atténuation",
+      "duration": "30 min",
+      "point": "Tout projet a des risques. Un dossier sérieux les nomme, les classe et indique pour chacun ce que l’on fait pour les réduire.",
+      "intro": "Cacher un risque ne le fait pas disparaître ; le financeur le voit de toute façon. Le montrer avec sa solution prouve qu’on maîtrise son projet.",
+      "objectives": [
+        "Citer six familles de risques d’un projet agricole.",
+        "Les classer avec la matrice des risques.",
+        "Proposer une mesure d’atténuation pour chaque risque prioritaire."
+      ],
+      "lessons": [
+        {
+          "title": "Six familles de risques",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Risque",
+                "Exemples de mesures d’atténuation"
+              ],
+              "rows": [
+                [
+                  "Climat",
+                  "Pratiques d’adaptation, eau stockée, semis échelonnés (formation F12)"
+                ],
+                [
+                  "Prix et débouchés",
+                  "Plusieurs clients, contrats, vente groupée (formation F6)"
+                ],
+                [
+                  "Matériel",
+                  "Entretien, carnet, réserve pour pièces (formation F18)"
+                ],
+                [
+                  "Pertes après récolte",
+                  "Séchage, tri, stockage, vente à temps (formation F11)"
+                ],
+                [
+                  "Personnes",
+                  "Rôles partagés, réserve familiale"
+                ],
+                [
+                  "Vol et sécurité",
+                  "Clôture, gardiennage, rangement du matériel"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Renseignez-vous aussi sur l’existence d’une assurance agricole ou matérielle adaptée auprès des établissements financiers."
+            }
+          ]
+        },
+        {
+          "title": "Classer et répondre",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On reprend la matrice des risques (formation F12, module 2) : probabilité de 1 à 3, gravité de 1 à 3. Pour chaque risque dont le score atteint 6 ou plus, le dossier présente une mesure concrète."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les risques du projet de Moussa",
+        "text": "Moussa présente ses risques et leurs mesures dans son dossier.",
+        "head": [
+          "Risque",
+          "Score",
+          "Mesure"
+        ],
+        "rows": [
+          [
+            "Panne de la motopompe en saison sèche",
+            "6",
+            "Entretien hebdomadaire, réserve de 30 000 FCFA"
+          ],
+          [
+            "Prix bas quand tout le monde vend",
+            "6",
+            "Deux restaurants sous accord, vente en saison sèche"
+          ],
+          [
+            "Poche de sécheresse",
+            "6",
+            "Fûts, paillage, goutte-à-goutte"
+          ],
+          [
+            "Vol de matériel",
+            "4",
+            "Clôture, motopompe rangée chaque soir"
+          ]
+        ],
+        "after": "Le financeur voit que Moussa a pensé aux problèmes avant qu’ils arrivent."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Cacher un risque ne le fait pas disparaître. »",
+            "Un dossier avec une page vide"
+          ],
+          [
+            "0:30",
+            "Six familles de risques.",
+            "Six icônes"
+          ],
+          [
+            "2:00",
+            "La matrice et les mesures.",
+            "Matrice qui se remplit"
+          ],
+          [
+            "3:00",
+            "Les risques du projet de Moussa.",
+            "Moussa qui range la motopompe le soir"
+          ]
+        ]
+      },
+      "tool": "risques",
+      "toolDefaults": {
+        "risques": [
+          [
+            "Panne de la motopompe en saison sèche",
+            2,
+            3
+          ],
+          [
+            "Prix bas quand tout le monde vend",
+            3,
+            2
+          ],
+          [
+            "Poche de sécheresse",
+            2,
+            3
+          ],
+          [
+            "Vol de matériel",
+            2,
+            2
+          ],
+          [
+            "Maladie du porteur",
+            1,
+            3
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle mesure ?",
+        "text": "Associez chaque risque à la mesure la plus adaptée.",
+        "choices": [
+          "Entretien et réserve pour pièces",
+          "Plusieurs clients et contrats",
+          "Eau stockée et paillage",
+          "Clôture et rangement",
+          "Séchage et stockage",
+          "Rôles partagés"
+        ],
+        "items": [
+          [
+            "La motopompe tombe en panne",
+            0
+          ],
+          [
+            "Les prix chutent à la récolte",
+            1
+          ],
+          [
+            "Une poche de sécheresse",
+            2
+          ],
+          [
+            "Le matériel est volé",
+            3
+          ],
+          [
+            "Des sacs moisissent au magasin",
+            4
+          ],
+          [
+            "Le seul responsable tombe malade",
+            5
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Faut-il montrer les risques dans le dossier ?",
+          "options": [
+            "Oui, avec leurs mesures",
+            "Non, il faut les cacher"
+          ],
+          "answer": 0,
+          "explain": "Cela prouve qu’on maîtrise son projet."
+        },
+        {
+          "q": "À partir de quel score proposer une mesure ?",
+          "options": [
+            "2",
+            "6"
+          ],
+          "answer": 1,
+          "explain": "Les risques prioritaires."
+        },
+        {
+          "q": "Une mesure contre le risque de prix ?",
+          "options": [
+            "Plusieurs clients et des contrats",
+            "Un seul acheteur"
+          ],
+          "answer": 0,
+          "explain": "On ne dépend pas d’un seul acheteur."
+        },
+        {
+          "q": "Une mesure contre le risque de panne ?",
+          "options": [
+            "Entretien et réserve pour pièces",
+            "Attendre"
+          ],
+          "answer": 0,
+          "explain": "Formation F18."
+        },
+        {
+          "q": "Une mesure contre le risque de sécheresse ?",
+          "options": [
+            "Eau stockée et paillage",
+            "Semer plus tôt"
+          ],
+          "answer": 0,
+          "explain": "Formation F12."
+        },
+        {
+          "q": "Où se renseigner sur une assurance ?",
+          "options": [
+            "Auprès des établissements financiers",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Selon ce qui existe dans la zone."
+        }
+      ],
+      "summary": "Nommer les risques, les classer avec la matrice, et présenter une mesure concrète pour chaque risque prioritaire.",
+      "resource": "Modèle de tableau des risques et des mesures."
+    },
+    {
+      "id": "m9",
+      "label": "Engagements",
+      "number": 9,
+      "title": "Comprendre les engagements associés à un financement",
+      "duration": "30 min",
+      "point": "Un crédit ou une subvention engage : rembourser selon l’échéancier, apporter des garanties, utiliser l’argent comme prévu, rendre compte. On lit tout, on fait relire, on garde une copie, et on ne signe jamais ce qu’on n’a pas compris.",
+      "intro": "Une signature engage la famille et parfois la coopérative tout entière. Les mauvaises surprises viennent presque toujours d’une clause que l’on n’avait pas lue.",
+      "objectives": [
+        "Repérer les six points à vérifier dans un contrat de crédit.",
+        "Comprendre les obligations liées à une subvention.",
+        "Appliquer les quatre règles avant de signer."
+      ],
+      "lessons": [
+        {
+          "title": "Six points à vérifier dans un contrat de crédit",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Point",
+                "Question à se poser"
+              ],
+              "rows": [
+                [
+                  "Montant",
+                  "Est-ce bien le montant demandé ?"
+                ],
+                [
+                  "Coût total",
+                  "Intérêts, frais de dossier, assurance : combien au total ?"
+                ],
+                [
+                  "Échéancier",
+                  "Combien, et à quelles dates ? Y a-t-il un différé ?"
+                ],
+                [
+                  "Garanties",
+                  "Caution, matériel donné en garantie, épargne bloquée ?"
+                ],
+                [
+                  "Pénalités",
+                  "Que coûte un retard ? Que se passe-t-il en cas d’impayé ?"
+                ],
+                [
+                  "Remboursement anticipé",
+                  "Peut-on rembourser plus tôt, et à quel coût ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les obligations d’une subvention",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une subvention ne se rembourse pas, mais elle engage : utiliser l’argent exactement pour ce qui est prévu, garder les justificatifs, apporter parfois une contrepartie, rendre des rapports et accepter des visites de suivi. Une utilisation non conforme peut obliger à rendre la subvention."
+            }
+          ]
+        },
+        {
+          "title": "Les quatre règles avant de signer",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Lire tout le contrat, y compris les petites lignes.",
+                "Faire relire par une personne de confiance : un conseiller, un responsable de coopérative.",
+                "Ne jamais signer un document incomplet ou en blanc.",
+                "Garder une copie signée de tout ce que l’on signe."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le contrat de Moussa",
+        "text": "Avant de signer, Moussa lit son contrat avec la trésorière de la coopérative.",
+        "head": [
+          "Découverte",
+          "Réaction"
+        ],
+        "rows": [
+          [
+            "Des frais de dossier non annoncés oralement",
+            "Recalcul du coût total"
+          ],
+          [
+            "Une épargne bloquée de 10 % du prêt",
+            "Recalcul de la capacité de remboursement"
+          ],
+          [
+            "Capacité toujours prudente",
+            "Signature, copie rangée dans le classeur",
+            "result"
+          ]
+        ],
+        "after": "Sans cette lecture, Moussa aurait signé sans connaître le vrai coût de son crédit."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une signature engage toute la famille. »",
+            "Un stylo au-dessus d’un contrat"
+          ],
+          [
+            "0:30",
+            "Les six points à vérifier.",
+            "Contrat annoté"
+          ],
+          [
+            "2:00",
+            "Les obligations d’une subvention.",
+            "Classeur de justificatifs"
+          ],
+          [
+            "3:00",
+            "Les quatre règles, et le contrat de Moussa.",
+            "Moussa et la trésorière qui lisent ensemble"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou danger ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Danger"
+        ],
+        "items": [
+          [
+            "Signer sans lire les conditions de retard",
+            1
+          ],
+          [
+            "Demander par écrit le coût total",
+            0
+          ],
+          [
+            "Signer une page laissée en blanc « à compléter plus tard »",
+            1
+          ],
+          [
+            "Garder une copie signée",
+            0
+          ],
+          [
+            "Utiliser une subvention pour autre chose que le projet",
+            1
+          ],
+          [
+            "Faire relire le contrat par une personne de confiance",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Que comprend le coût total d’un crédit ?",
+          "options": [
+            "Intérêts, frais de dossier, assurance",
+            "Le taux seulement"
+          ],
+          "answer": 0,
+          "explain": "Pas seulement le taux."
+        },
+        {
+          "q": "Qu’est-ce qu’une garantie ?",
+          "options": [
+            "Ce que le prêteur peut saisir ou retenir en cas d’impayé",
+            "Un cadeau"
+          ],
+          "answer": 0,
+          "explain": "Caution, matériel, épargne bloquée."
+        },
+        {
+          "q": "Une subvention se rembourse-t-elle ?",
+          "options": [
+            "Non, sauf si elle est mal utilisée",
+            "Oui, toujours"
+          ],
+          "answer": 0,
+          "explain": "Elle oblige à un usage conforme."
+        },
+        {
+          "q": "Peut-on signer une page en blanc ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "On ne sait pas ce qui y sera écrit."
+        },
+        {
+          "q": "Pourquoi garder une copie signée ?",
+          "options": [
+            "Pour prouver ce qui a été convenu",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "En cas de désaccord."
+        },
+        {
+          "q": "Que faire si le coût total change ?",
+          "options": [
+            "Recalculer sa capacité de remboursement",
+            "Signer quand même"
+          ],
+          "answer": 0,
+          "explain": "Module 3."
+        }
+      ],
+      "summary": "Six points à vérifier dans un crédit, des obligations réelles pour une subvention, et quatre règles : lire, faire relire, jamais en blanc, garder une copie.",
+      "resource": "Liste de contrôle « Avant de signer »."
+    },
+    {
+      "id": "m10",
+      "label": "Suivi des fonds",
+      "number": 10,
+      "title": "Suivre l’utilisation des fonds obtenus",
+      "duration": "35 min",
+      "point": "L’argent obtenu se garde à part, s’utilise comme prévu, se justifie pièce par pièce et se suit dans un tableau prévu et réalisé. En cas de difficulté, on prévient le financeur tôt.",
+      "intro": "Le premier financement ouvre la porte au second, à condition d’avoir bien utilisé le premier. Un porteur qui rend des comptes clairs devient un client que les financeurs recherchent.",
+      "objectives": [
+        "Séparer l’argent du projet de son argent personnel.",
+        "Suivre les dépenses dans un tableau prévu et réalisé.",
+        "Rendre compte au financeur et le prévenir en cas de difficulté."
+      ],
+      "lessons": [
+        {
+          "title": "Séparer et justifier",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Un compte ou une caisse réservé au projet (formation F14, module 8).",
+                "Chaque dépense justifiée par un reçu ou une facture, classé dans le classeur du projet.",
+                "Les achats faits selon les devis du dossier ; tout changement important est expliqué."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le tableau prévu et réalisé",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On reprend les lignes du plan de financement et on note, pour chacune, ce qui a été réellement dépensé. Les écarts importants sont expliqués (formation F14, module 6)."
+            }
+          ]
+        },
+        {
+          "title": "Rendre compte et prévenir",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Envoyer au financeur les rapports demandés, aux dates prévues, avec les résultats atteints (module 6).",
+                "En cas de difficulté, prévenir avant la date de remboursement : un financeur prévenu peut souvent réaménager l’échéancier ; un financeur mis devant le fait accompli applique les pénalités."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le suivi de Moussa",
+        "text": "Moussa compare chaque ligne de son plan à ce qu’il a dépensé.",
+        "head": [
+          "Ligne",
+          "Prévu (FCFA)",
+          "Réalisé (FCFA)"
+        ],
+        "rows": [
+          [
+            "Motopompe",
+            "250 000",
+            "250 000"
+          ],
+          [
+            "Tuyaux et raccords",
+            "60 000",
+            "68 000"
+          ],
+          [
+            "Clôture",
+            "90 000",
+            "82 000"
+          ],
+          [
+            "Fûts",
+            "30 000",
+            "30 000"
+          ],
+          [
+            "Fonds de roulement",
+            "175 000",
+            "175 000"
+          ],
+          [
+            "Total",
+            "605 000",
+            "605 000",
+            "result"
+          ]
+        ],
+        "after": "La hausse des tuyaux est compensée par la clôture en bois de récupération. Au quatrième mois, une panne retarde les ventes : Moussa prévient sa microfinance, qui décale d’un mois sa première mensualité."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le premier financement ouvre la porte au second. »",
+            "Une porte qui s’ouvre sur une autre"
+          ],
+          [
+            "0:30",
+            "Séparer et justifier.",
+            "Deux caisses, un classeur de reçus"
+          ],
+          [
+            "1:45",
+            "Le tableau prévu et réalisé.",
+            "Tableau de Moussa"
+          ],
+          [
+            "3:00",
+            "Rendre compte et prévenir tôt.",
+            "Moussa au téléphone avec la microfinance"
+          ]
+        ]
+      },
+      "tool": "budget",
+      "toolDefaults": {
+        "reserve": 0,
+        "postes": [
+          [
+            "Motopompe",
+            250000
+          ],
+          [
+            "Tuyaux et raccords",
+            60000
+          ],
+          [
+            "Clôture",
+            90000
+          ],
+          [
+            "Fûts",
+            30000
+          ],
+          [
+            "Fonds de roulement",
+            175000
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de financement",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f15-dossier",
+        "items": [
+          "Résumé d’une page",
+          "Dossier en huit parties",
+          "Plan de financement équilibré",
+          "Compte prévisionnel avec scénario prudent",
+          "Calcul de capacité de remboursement",
+          "Tableau des résultats attendus",
+          "Tableau des risques et des mesures",
+          "Argumentaire en six temps, répété"
+        ],
+        "then": "Remettez votre dossier au formateur. L’attestation finale est délivrée avec un dossier complet et tous les quiz validés. Le formateur peut proposer un entretien blanc, comme devant un vrai financeur."
+      },
+      "quiz": [
+        {
+          "q": "Où garder l’argent du projet ?",
+          "options": [
+            "Sur un compte ou une caisse à part",
+            "Avec l’argent de la famille"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas le mélanger."
+        },
+        {
+          "q": "Que garder pour chaque dépense ?",
+          "options": [
+            "Le reçu ou la facture",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Ce sont les justificatifs."
+        },
+        {
+          "q": "À quoi sert le tableau prévu et réalisé ?",
+          "options": [
+            "À suivre les écarts et les expliquer",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Il rassure le financeur."
+        },
+        {
+          "q": "Quand prévenir le financeur d’une difficulté ?",
+          "options": [
+            "Dès qu’elle arrive, avant l’échéance",
+            "Après trois retards"
+          ],
+          "answer": 0,
+          "explain": "Il peut alors réaménager."
+        },
+        {
+          "q": "Que risque-t-on si l’on ne prévient pas ?",
+          "options": [
+            "Des pénalités",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Le financeur applique le contrat."
+        },
+        {
+          "q": "Pourquoi bien utiliser le premier financement ?",
+          "options": [
+            "Il ouvre la porte au suivant",
+            "Ce n’est pas important"
+          ],
+          "answer": 0,
+          "explain": "La confiance se construit."
+        }
+      ],
+      "summary": "Séparer, justifier, suivre le prévu et le réalisé, rendre compte et prévenir tôt : c’est ainsi que l’on devient un emprunteur de confiance.",
+      "resource": "Modèle de tableau prévu et réalisé et modèle de rapport au financeur."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "f18",
+  "title": "Entretenir son matériel agricole",
+  "short": "Entretien du matériel",
+  "lead": "Un matériel qui dure plus longtemps, tombe moins en panne et reste sûr à utiliser.",
+  "note": "La coopérative de Hawa et ses chiffres sont fictifs. Pour chaque machine, la notice du fabricant fait foi ; les réparations sur moteurs et machines électriques se font avec un technicien qualifié.",
+  "passMark": 0.8,
+  "noFinalProject": true,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Entretien",
+      "number": 1,
+      "title": "Bien entretenir son matériel agricole",
+      "duration": "45 min",
+      "point": "Un matériel entretenu coûte moins cher qu’un matériel réparé : nettoyer, vérifier, graisser, remplacer à temps, ranger à l’abri, et tout noter. Toujours moteur arrêté et en sécurité.",
+      "intro": "La motopompe tombe en panne en pleine saison sèche, faute d’huile. Réparation, jours sans arrosage, légumes perdus : la panne coûte bien plus que dix minutes d’entretien par semaine.",
+      "objectives": [
+        "Appliquer les cinq gestes d’entretien à tout matériel.",
+        "Entretenir correctement un pulvérisateur, un moteur et une machine de transformation.",
+        "Respecter les règles de sécurité pendant l’entretien.",
+        "Tenir un carnet d’entretien."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq gestes pour tout matériel",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Nettoyer après chaque usage : terre, résidus, poussière.",
+                "Vérifier avant chaque usage : pièces desserrées, fuites, usure, bruit anormal.",
+                "Graisser et lubrifier les parties mobiles, selon la notice.",
+                "Remplacer à temps les pièces d’usure (joints, courroies, lames, filtres), avant qu’elles ne cassent.",
+                "Ranger à l’abri de la pluie, du soleil et des animaux, surélevé et propre."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Selon le matériel",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Matériel",
+                "Entretien essentiel"
+              ],
+              "rows": [
+                [
+                  "Outils manuels (houe, machette)",
+                  "Nettoyer et sécher après usage, affûter, huiler légèrement le métal contre la rouille, resserrer ou remplacer les manches abîmés"
+                ],
+                [
+                  "Pulvérisateur",
+                  "Rincer après chaque usage avec des gants ; verser les eaux de rinçage sur la parcelle traitée, loin des puits, rivières et habitations ; vérifier joints, buse et lance ; ranger hors de portée des enfants"
+                ],
+                [
+                  "Motopompe et moteurs",
+                  "Moteur arrêté et froid avant toute intervention ; vérifier l’huile avant chaque démarrage ; nettoyer le filtre à air ; carburant propre, dans un bidon adapté, loin de toute flamme ; vidange selon la notice"
+                ],
+                [
+                  "Moulin, décortiqueuse, égreneuse",
+                  "Machine coupée et débranchée avant tout nettoyage ; nettoyer après chaque production ; vérifier tension et usure des courroies ; graisser les roulements selon la notice ; contrôler l’usure des meules ou des batteurs"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La sécurité d’abord",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Jamais d’intervention sur une machine en marche, branchée ou chaude.",
+                "Gants et protections pour le pulvérisateur et les produits.",
+                "Pas de flamme ni de cigarette près du carburant.",
+                "Les enfants restent à distance des machines et des produits.",
+                "Une réparation qu’on ne maîtrise pas se confie à un technicien qualifié."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le carnet d’entretien",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque machine, notez la date, ce qui a été fait (nettoyage, huile, pièce changée), le coût et qui l’a fait. Le carnet rappelle ce qui est dû, montre le coût réel de la machine et rassure les membres qui la partagent."
+            },
+            {
+              "type": "p",
+              "text": "Dans une coopérative, un responsable du matériel est désigné (formation F9, module 3)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La motopompe de la coopérative de Hawa",
+        "text": "La coopérative compare deux saisons.",
+        "head": [
+          "",
+          "Sans entretien",
+          "Avec entretien"
+        ],
+        "rows": [
+          [
+            "Entretien (huile, filtre, temps)",
+            "0",
+            "15 000 FCFA"
+          ],
+          [
+            "Panne en pleine saison",
+            "Réparation 85 000 FCFA",
+            "Aucune"
+          ],
+          [
+            "Jours sans arrosage",
+            "10 jours, légumes perdus",
+            "Aucun",
+            "result"
+          ]
+        ],
+        "after": "La coopérative désigne un responsable du matériel, affiche le carnet d’entretien au magasin et vérifie l’huile avant chaque démarrage."
+      },
+      "video": {
+        "url": "",
+        "duration": "6 min",
+        "script": [
+          [
+            "0:00",
+            "« Dix minutes d’entretien, ou dix jours sans eau ? »",
+            "Motopompe arrêtée, champ sec"
+          ],
+          [
+            "0:30",
+            "Les cinq gestes pour tout matériel.",
+            "Nettoyer, vérifier, graisser, remplacer, ranger"
+          ],
+          [
+            "1:45",
+            "Outils, pulvérisateur, moteur, machine de transformation.",
+            "Démonstrations courtes"
+          ],
+          [
+            "4:00",
+            "La sécurité d’abord.",
+            "Moteur arrêté, gants, bidon loin du feu"
+          ],
+          [
+            "5:00",
+            "Le carnet d’entretien de la coopérative.",
+            "Carnet affiché au magasin"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Vérifier l’huile avant de démarrer la motopompe",
+            0
+          ],
+          [
+            "Nettoyer le moulin pendant qu’il tourne",
+            1
+          ],
+          [
+            "Rincer le pulvérisateur et verser l’eau dans la rivière",
+            1
+          ],
+          [
+            "Affûter et huiler la houe",
+            0
+          ],
+          [
+            "Ranger la décortiqueuse sous la pluie",
+            1
+          ],
+          [
+            "Noter chaque entretien dans le carnet",
+            0
+          ]
+        ],
+        "then": "Créez ensuite le carnet d’entretien de votre principale machine : une page, avec date, opération, coût et responsable."
+      },
+      "quiz": [
+        {
+          "q": "Quand nettoyer son matériel ?",
+          "options": [
+            "Après chaque usage",
+            "Une fois par an"
+          ],
+          "answer": 0,
+          "explain": "La saleté abîme et fait rouiller."
+        },
+        {
+          "q": "Que vérifier avant de démarrer un moteur ?",
+          "options": [
+            "Le niveau d’huile",
+            "La couleur"
+          ],
+          "answer": 0,
+          "explain": "Un moteur sans huile casse vite."
+        },
+        {
+          "q": "Peut-on nettoyer une machine en marche ?",
+          "options": [
+            "Oui, si on fait attention",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Coupez et débranchez d’abord."
+        },
+        {
+          "q": "Où verser les eaux de rinçage du pulvérisateur ?",
+          "options": [
+            "Sur la parcelle traitée, loin des points d’eau",
+            "Dans la rivière"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas polluer l’eau de boisson."
+        },
+        {
+          "q": "Où trouver la bonne huile et les fréquences d’entretien ?",
+          "options": [
+            "Dans la notice du fabricant",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Elle fait foi pour chaque machine."
+        },
+        {
+          "q": "À quoi sert le carnet d’entretien ?",
+          "options": [
+            "Suivre ce qui est fait et ce qui est dû",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Et connaître le coût réel de la machine."
+        }
+      ],
+      "summary": "Nettoyer, vérifier, graisser, remplacer à temps, ranger à l’abri. Toujours moteur arrêté et en sécurité. Tout noter dans le carnet, et suivre la notice.",
+      "resource": "Carnet d’entretien à imprimer, une page par machine."
+    }
+  ]
+}

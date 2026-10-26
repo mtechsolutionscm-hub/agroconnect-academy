@@ -1,14 +1,83 @@
-import mysql, { type Pool, type RowDataPacket, type ResultSetHeader } from 'mysql2/promise';
-import type { AcademyRepo, User, ProgressRecord, ActivityRecord, AttemptRecord } from './types';
-export class MysqlRepo implements AcademyRepo {
- private pool:Pool;
- constructor(){const {DB_HOST,DB_USER,DB_PASSWORD,DB_NAME}=process.env;if(!DB_HOST||!DB_USER||!DB_PASSWORD||!DB_NAME)throw new Error('MySQL environment variables are missing');this.pool=mysql.createPool({host:DB_HOST,port:Number(process.env.DB_PORT||3306),user:DB_USER,password:DB_PASSWORD,database:DB_NAME,connectionLimit:Number(process.env.DB_CONNECTION_LIMIT||10),ssl:process.env.DB_SSL==='true'?{}:undefined});}
- async findUserByEmail(email:string):Promise<User|null>{const [rows]=await this.pool.execute<(RowDataPacket&User)[]>('SELECT id,email,name,password_hash AS passwordHash,role FROM users WHERE email=? LIMIT 1',[email.toLowerCase()]);return rows[0]?{...rows[0],id:String(rows[0].id)}:null;}
- async findUserById(id:string):Promise<User|null>{const [rows]=await this.pool.execute<(RowDataPacket&User)[]>('SELECT id,email,name,password_hash AS passwordHash,role FROM users WHERE id=? LIMIT 1',[id]);return rows[0]?{...rows[0],id:String(rows[0].id)}:null;}
- async createUser(x:{name:string;email:string;passwordHash:string}):Promise<User>{const [res]=await this.pool.execute<ResultSetHeader>('INSERT INTO users(email,name,password_hash,role) VALUES(?,?,?,?)',[x.email.toLowerCase(),x.name,x.passwordHash,'learner']);return{id:String(res.insertId),email:x.email.toLowerCase(),name:x.name,passwordHash:x.passwordHash,role:'learner'};}
- async listProgress(userId:string):Promise<ProgressRecord[]>{const [rows]=await this.pool.execute<(RowDataPacket&{course_id:string;progress:number;updated_at:Date})[]>('SELECT course_id,progress,updated_at FROM course_progress WHERE user_id=?',[userId]);return rows.map(x=>({courseId:x.course_id,progress:Number(x.progress),updatedAt:x.updated_at?.toISOString()}));}
- async saveProgress(userId:string,courseId:string,progress:number):Promise<void>{await this.pool.execute('INSERT INTO course_progress(user_id,course_id,progress) VALUES(?,?,?) ON DUPLICATE KEY UPDATE progress=VALUES(progress)',[userId,courseId,Math.max(0,Math.min(100,Math.round(progress)))]);}
- async recordActivity(userId:string,a:ActivityRecord):Promise<void>{await this.pool.execute('INSERT INTO academy_activity(user_id,course_id,kind,payload_json) VALUES(?,?,?,?)',[userId,a.courseId||null,a.kind||'activity',JSON.stringify(a.payload??a)]);}
- async recordAttempt(userId:string,a:AttemptRecord):Promise<void>{await this.pool.execute('INSERT INTO academy_attempts(user_id,course_id,score,answers_json) VALUES(?,?,?,?)',[userId,a.courseId,a.score,JSON.stringify(a.answers??null)]);}
- async getCertificate(userId:string,courseId:string):Promise<unknown|null>{const [rows]=await this.pool.execute<(RowDataPacket&{id:number;course_id:string;issued_at:Date})[]>('SELECT id,course_id,issued_at FROM academy_certificates WHERE user_id=? AND course_id=? LIMIT 1',[userId,courseId]);return rows[0]?{id:String(rows[0].id),courseId:rows[0].course_id,issuedAt:rows[0].issued_at?.toISOString()}:null;}
+/**
+ * Implémentation MySQL du stockage (pilote mysql2, requêtes préparées uniquement).
+ * NON EXÉCUTÉE pendant le développement (pas de MySQL disponible) : à valider avec npm run test:mysql.
+ */
+import mysql from 'mysql2/promise';
+import { env } from '../env';
+import type { Repo, User, ProgressRow, CertRow, Role } from './types';
+
+let pool: mysql.Pool | null = null;
+function db(): mysql.Pool {
+  if (!pool) {
+    pool = mysql.createPool({
+      host: env.db.host, port: env.db.port, user: env.db.user, password: env.db.password, database: env.db.name,
+      connectionLimit: env.db.connectionLimit, charset: 'utf8mb4', timezone: 'Z', dateStrings: false,
+      ssl: env.db.ssl ? { rejectUnauthorized: true } : undefined,
+    });
+  }
+  return pool;
+}
+
+type Row = Record<string, any>;
+async function rows(sql: string, params: unknown[] = []): Promise<Row[]> {
+  const [r] = await db().execute(sql, params as any[]);
+  return r as Row[];
+}
+async function run(sql: string, params: unknown[] = []): Promise<mysql.ResultSetHeader> {
+  const [r] = await db().execute(sql, params as any[]);
+  return r as mysql.ResultSetHeader;
+}
+
+const toUser = (r: Row): User => ({ id: Number(r.id), email: r.email, name: r.name, passwordHash: r.password_hash, role: r.role as Role, createdAt: r.created_at });
+const toProgress = (r: Row): ProgressRow => ({ userId: Number(r.user_id), formation: r.formation, module: r.module, best: Number(r.best), total: Number(r.total), passed: !!r.passed, passedAt: r.passed_at, updatedAt: r.updated_at });
+const toCert = (r: Row): CertRow => ({ id: Number(r.id), code: r.code, userId: Number(r.user_id), formation: r.formation, module: r.module, holderName: r.holder_name, score: r.score, issuedAt: r.issued_at, status: r.status });
+
+export function mysqlRepo(): Repo {
+  return {
+    async findUserByEmail(email) { const r = await rows('SELECT * FROM users WHERE email = ?', [email.toLowerCase()]); return r[0] ? toUser(r[0]) : null; },
+    async findUserById(id) { const r = await rows('SELECT * FROM users WHERE id = ?', [id]); return r[0] ? toUser(r[0]) : null; },
+    async createUser(u) {
+      try {
+        const res = await run('INSERT INTO users (email, name, password_hash, role) VALUES (?, ?, ?, ?)', [u.email.toLowerCase(), u.name, u.passwordHash, u.role]);
+        return this.findUserById(res.insertId);
+      } catch (e: any) {
+        if (e && e.code === 'ER_DUP_ENTRY') return null;
+        throw e;
+      }
+    },
+    async insertAttempt(a) {
+      await run('INSERT INTO aca_attempts (user_id, formation, module, good, total, passed) VALUES (?, ?, ?, ?, ?, ?)', [a.userId, a.formation, a.module, a.good, a.total, a.passed ? 1 : 0]);
+    },
+    async getProgress(u, f, m) { const r = await rows('SELECT * FROM aca_progress WHERE user_id = ? AND formation = ? AND module = ?', [u, f, m]); return r[0] ? toProgress(r[0]) : null; },
+    async upsertProgress(p) {
+      await run(
+        'INSERT INTO aca_progress (user_id, formation, module, best, total, passed, passed_at) VALUES (?, ?, ?, ?, ?, ?, ?) ' +
+        'ON DUPLICATE KEY UPDATE best = VALUES(best), total = VALUES(total), passed = VALUES(passed), passed_at = VALUES(passed_at)',
+        [p.userId, p.formation, p.module, p.best, p.total, p.passed ? 1 : 0, p.passedAt]
+      );
+    },
+    async listProgress(u, f) { return (await rows('SELECT * FROM aca_progress WHERE user_id = ? AND formation = ?', [u, f])).map(toProgress); },
+    async getActiveCert(u, f, m) { const r = await rows("SELECT * FROM aca_certificates WHERE user_id = ? AND formation = ? AND module = ? AND status = 'active' ORDER BY id LIMIT 1", [u, f, m]); return r[0] ? toCert(r[0]) : null; },
+    async insertCert(c) {
+      try {
+        await run('INSERT INTO aca_certificates (code, user_id, formation, module, holder_name, score, issued_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+          [c.code, c.userId, c.formation, c.module, c.holderName, c.score, c.issuedAt, c.status]);
+        return true;
+      } catch (e: any) {
+        if (e && e.code === 'ER_DUP_ENTRY') return false;
+        throw e;
+      }
+    },
+    async findCertByCode(code) { const r = await rows('SELECT * FROM aca_certificates WHERE code = ?', [code]); return r[0] ? toCert(r[0]) : null; },
+    async hit(bucket, win) {
+      const start = Math.floor(Date.now() / 1000 / win) * win;
+      await run('INSERT INTO aca_rate_limits (bucket, window_start, hits) VALUES (?, ?, 1) ON DUPLICATE KEY UPDATE hits = hits + 1', [bucket.slice(0, 190), start]);
+      const r = await rows('SELECT hits FROM aca_rate_limits WHERE bucket = ? AND window_start = ?', [bucket.slice(0, 190), start]);
+      return r[0] ? Number(r[0].hits) : 1;
+    },
+    async log(e) {
+      await run('INSERT INTO aca_audit_log (user_id, action, object_type, object_id, details) VALUES (?, ?, ?, ?, ?)',
+        [e.userId, e.action.slice(0, 40), e.objectType.slice(0, 20), e.objectId.slice(0, 64), e.details === undefined ? null : JSON.stringify(e.details)]);
+    },
+  };
 }

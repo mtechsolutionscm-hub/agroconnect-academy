@@ -1,0 +1,2209 @@
+{
+  "id": "f9",
+  "title": "Créer et gérer une coopérative agricole",
+  "short": "Coopérative",
+  "lead": "Des besoins communs, des rôles clairs et une gouvernance conforme au droit OHADA.",
+  "note": "Hawa, son groupement près de Ngaoundéré et tous les chiffres sont fictifs. Les règles juridiques citées viennent de l’Acte uniforme OHADA ; faites confirmer les démarches auprès du service compétent.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Principes",
+      "number": 1,
+      "title": "Comprendre les principes du mouvement coopératif",
+      "duration": "30 min",
+      "point": "Une coopérative est une entreprise que ses membres possèdent et dirigent ensemble, pour répondre à des besoins communs, selon sept principes reconnus dans le monde entier.",
+      "intro": "« Seul, on va plus vite ; ensemble, on va plus loin. » La coopérative donne une forme concrète à ce proverbe : acheter moins cher, vendre plus cher, et peser face aux acheteurs.",
+      "objectives": [
+        "Définir une coopérative en une phrase.",
+        "Citer au moins cinq des sept principes coopératifs.",
+        "Distinguer une coopérative d’une entreprise ordinaire et d’une tontine."
+      ],
+      "lessons": [
+        {
+          "title": "Ce qu’est une coopérative",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une coopérative est un groupement de personnes qui s’unissent volontairement pour satisfaire leurs besoins économiques et sociaux communs, au moyen d’une entreprise qu’elles possèdent ensemble et dirigent démocratiquement."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "Entreprise ordinaire",
+                "Coopérative",
+                "Tontine"
+              ],
+              "rows": [
+                [
+                  "But",
+                  "Faire du profit pour les associés",
+                  "Servir les besoins des membres",
+                  "Épargner et s’entraider"
+                ],
+                [
+                  "Pouvoir",
+                  "Selon le capital détenu",
+                  "Un membre, une voix",
+                  "Selon les règles du groupe"
+                ],
+                [
+                  "Activité",
+                  "Vend à des clients",
+                  "Achète, vend, produit pour et avec ses membres",
+                  "Circulation d’argent entre membres"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les sept principes coopératifs",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ces principes sont ceux de l’Alliance coopérative internationale."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Adhésion volontaire et ouverte à tous.",
+                "Pouvoir démocratique exercé par les membres : un membre, une voix.",
+                "Participation économique des membres : chacun apporte au capital et profite des résultats.",
+                "Autonomie et indépendance : la coopérative reste dirigée par ses membres.",
+                "Éducation, formation et information des membres.",
+                "Coopération entre les coopératives.",
+                "Engagement envers la communauté."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La réunion de Hawa",
+        "text": "Un producteur demande : « Si j’apporte plus d’argent, j’aurai plus de voix ? »",
+        "after": "Hawa explique le deuxième principe : chaque membre a une voix, quel que soit son apport. En revanche, chacun profite des résultats selon ce qu’il a vendu ou acheté par la coopérative."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Seul, on va plus vite ; ensemble, on va plus loin. »",
+            "Un producteur seul, puis un groupe"
+          ],
+          [
+            "0:30",
+            "Entreprise, coopérative, tontine : trois choses différentes.",
+            "Trois colonnes"
+          ],
+          [
+            "1:30",
+            "Les sept principes, avec un exemple chacun.",
+            "Sept cartes illustrées"
+          ],
+          [
+            "3:15",
+            "Un membre, une voix : la question du producteur.",
+            "Mains levées en réunion"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Principe respecté ?",
+        "text": "Pour chaque situation, dites si elle respecte les principes coopératifs.",
+        "choices": [
+          "Respecte",
+          "Ne respecte pas"
+        ],
+        "items": [
+          [
+            "Chaque membre vote une fois en assemblée",
+            0
+          ],
+          [
+            "Le plus gros producteur décide seul des prix",
+            1
+          ],
+          [
+            "La coopérative forme ses membres au tri du maïs",
+            0
+          ],
+          [
+            "Un commerçant extérieur dirige la coopérative à la place des membres",
+            1
+          ],
+          [
+            "Deux coopératives achètent leurs engrais ensemble",
+            0
+          ],
+          [
+            "On refuse un producteur du village sans raison",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "À qui appartient une coopérative ?",
+          "options": [
+            "À son président",
+            "À ses membres",
+            "À l’État"
+          ],
+          "answer": 1,
+          "explain": "Ils la possèdent et la dirigent ensemble."
+        },
+        {
+          "q": "Combien de voix pour chaque membre ?",
+          "options": [
+            "Une",
+            "Selon son apport"
+          ],
+          "answer": 0,
+          "explain": "Quel que soit son apport au capital."
+        },
+        {
+          "q": "Combien de principes coopératifs ?",
+          "options": [
+            "Trois",
+            "Sept",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Ceux de l’Alliance coopérative internationale."
+        },
+        {
+          "q": "Une coopérative est-elle une tontine ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle exerce une activité économique pour ses membres."
+        },
+        {
+          "q": "Que signifie l’autonomie ?",
+          "options": [
+            "Les membres restent maîtres de leur coopérative",
+            "Chacun fait ce qu’il veut"
+          ],
+          "answer": 0,
+          "explain": "Aucun extérieur ne la dirige à leur place."
+        },
+        {
+          "q": "Former les membres fait-il partie des principes ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "C’est le cinquième principe."
+        }
+      ],
+      "summary": "Une coopérative appartient à ses membres, sert leurs besoins communs et suit sept principes, dont « un membre, une voix ».",
+      "resource": "Affiche « Les sept principes coopératifs » à placer au magasin."
+    },
+    {
+      "id": "m2",
+      "label": "Besoins communs",
+      "number": 2,
+      "title": "Identifier les besoins communs des producteurs",
+      "duration": "30 min",
+      "point": "Une coopérative solide naît d’un besoin que les membres partagent vraiment et qu’ils traitent mieux ensemble que seuls.",
+      "intro": "Beaucoup de groupements se créent pour recevoir un appui, puis s’arrêtent quand l’appui s’arrête. Ceux qui durent sont nés d’un vrai besoin commun.",
+      "objectives": [
+        "Recueillir les besoins des membres en une réunion.",
+        "Calculer le gain d’un achat groupé.",
+        "Choisir les deux ou trois besoins prioritaires."
+      ],
+      "lessons": [
+        {
+          "title": "Les besoins que l’on traite mieux ensemble",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Besoin",
+                "Ce que la coopérative peut faire"
+              ],
+              "rows": [
+                [
+                  "Intrants trop chers",
+                  "Acheter en gros les semences et l’engrais"
+                ],
+                [
+                  "Prix de vente trop bas",
+                  "Vendre en gros, à des acheteurs plus importants"
+                ],
+                [
+                  "Pertes au stockage",
+                  "Un magasin commun, bien tenu"
+                ],
+                [
+                  "Transport coûteux",
+                  "Louer un camion pour tous"
+                ],
+                [
+                  "Matériel trop cher pour un seul",
+                  "Acheter ou louer en commun (batteuse, décortiqueuse)"
+                ],
+                [
+                  "Accès au crédit",
+                  "Présenter un dossier collectif, plus crédible"
+                ],
+                [
+                  "Manque de formation",
+                  "Organiser des formations pour tous"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La réunion des besoins",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Chaque membre cite ses trois principales difficultés.",
+                "On regroupe les difficultés semblables.",
+                "On compte combien de membres sont concernés par chacune.",
+                "On estime le gain si on la traite ensemble.",
+                "On retient deux ou trois priorités : beaucoup de membres concernés, gain important, action faisable."
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Économie totale = (Prix détail − Prix en gros) × Nombre de sacs"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’achat groupé d’engrais",
+        "text": "Le groupement de Hawa compare l’achat individuel et l’achat groupé.",
+        "head": [
+          "Calcul",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "30 membres × 4 sacs d’engrais",
+            "120 sacs"
+          ],
+          [
+            "Prix au détail",
+            "20 000 FCFA le sac"
+          ],
+          [
+            "Prix en gros, négocié par la coopérative",
+            "17 500 FCFA le sac"
+          ],
+          [
+            "Économie par sac",
+            "2 500 FCFA"
+          ],
+          [
+            "Économie totale pour les membres",
+            "300 000 FCFA",
+            "result"
+          ]
+        ],
+        "after": "Le groupement retient trois priorités : l’achat groupé d’engrais, la vente groupée du maïs et un magasin commun."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Pourquoi certains groupements durent, et d’autres non ? »",
+            "Un panneau de groupement délavé"
+          ],
+          [
+            "0:30",
+            "Les sept besoins que l’on traite mieux ensemble.",
+            "Icônes : engrais, sac, magasin, camion"
+          ],
+          [
+            "1:45",
+            "La réunion des besoins, en cinq étapes.",
+            "Membres qui écrivent sur des papiers"
+          ],
+          [
+            "3:00",
+            "Le calcul de l’achat groupé.",
+            "300 000 FCFA qui s’affiche"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez l’économie",
+        "text": "Vingt-cinq membres achètent chacun 2 sacs de semences. Le prix au détail est de 18 000 FCFA ; la coopérative obtient 16 000 FCFA en gros. Quelle est l’économie totale, en FCFA ?",
+        "answer": 100000,
+        "solution": "25 × 2 = 50 sacs ; 2 000 FCFA d’économie par sac ; 100 000 FCFA au total.",
+        "then": "Organisez ensuite la réunion des besoins avec votre groupement et notez vos trois priorités."
+      },
+      "quiz": [
+        {
+          "q": "Sur quoi repose une coopérative durable ?",
+          "options": [
+            "Un vrai besoin commun",
+            "Un appui extérieur"
+          ],
+          "answer": 0,
+          "explain": "L’appui s’arrête un jour ; le besoin reste."
+        },
+        {
+          "q": "Première étape de la réunion des besoins ?",
+          "options": [
+            "Chaque membre cite ses difficultés",
+            "Le président décide"
+          ],
+          "answer": 0,
+          "explain": "On part de la réalité des membres."
+        },
+        {
+          "q": "40 sacs, économie de 1 500 FCFA par sac. Économie totale ?",
+          "options": [
+            "60 000 FCFA",
+            "15 000 FCFA",
+            "41 500 FCFA"
+          ],
+          "answer": 0,
+          "explain": "40 × 1 500 = 60 000."
+        },
+        {
+          "q": "Combien de priorités retenir au début ?",
+          "options": [
+            "Deux ou trois",
+            "Toutes"
+          ],
+          "answer": 0,
+          "explain": "Mieux vaut réussir peu que rater beaucoup."
+        },
+        {
+          "q": "Un dossier de crédit collectif est-il plus crédible ?",
+          "options": [
+            "Souvent oui",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "Le groupe partage le risque et montre son organisation."
+        },
+        {
+          "q": "Quels critères pour choisir une priorité ?",
+          "options": [
+            "Membres concernés, gain, faisabilité",
+            "L’avis du plus âgé"
+          ],
+          "answer": 0,
+          "explain": "Les trois comptent ensemble."
+        }
+      ],
+      "summary": "Partir des difficultés réelles des membres, chiffrer le gain, et commencer par deux ou trois priorités faisables.",
+      "resource": "Fiche d’animation « La réunion des besoins »."
+    },
+    {
+      "id": "m3",
+      "label": "Rôles",
+      "number": 3,
+      "title": "Organiser les membres et les responsabilités",
+      "duration": "35 min",
+      "point": "Chaque membre sait ce qu’il apporte et ce qu’il reçoit ; chaque responsable sait ce qu’il fait et devant qui il répond. Tout est écrit.",
+      "intro": "« Ce n’est pas mon travail. » « Personne ne m’a dit. » Dans beaucoup de groupements, les tâches retombent sur deux ou trois personnes, qui finissent par se décourager. Des rôles clairs évitent cela.",
+      "objectives": [
+        "Énoncer les droits et les obligations d’un membre.",
+        "Décrire les tâches des cinq responsables clés.",
+        "Appliquer la règle des deux personnes pour l’argent."
+      ],
+      "lessons": [
+        {
+          "title": "Devenir membre",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conditions d’adhésion : les membres partagent un lien commun défini dans les statuts (par exemple : producteurs de maïs d’un même arrondissement).",
+                "Apport : chaque membre souscrit au moins une part sociale.",
+                "Droits : voter en assemblée, utiliser les services, être informé, être élu.",
+                "Obligations : respecter les statuts et le règlement intérieur, livrer ou acheter par la coopérative comme convenu, participer aux assemblées."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les cinq responsables clés",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Responsable",
+                "Tâches principales"
+              ],
+              "rows": [
+                [
+                  "Président",
+                  "Anime les réunions, représente la coopérative, veille à l’application des décisions"
+                ],
+                [
+                  "Secrétaire",
+                  "Convoque, rédige les comptes rendus, tient le registre des membres"
+                ],
+                [
+                  "Trésorier",
+                  "Tient la caisse et le cahier de caisse, présente les comptes"
+                ],
+                [
+                  "Magasinier",
+                  "Reçoit, pèse, stocke et sort les produits, tient le cahier de stock"
+                ],
+                [
+                  "Chargé commercial",
+                  "Cherche les acheteurs, prépare les offres, suit les commandes"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les titres exacts des organes (comité de gestion, conseil d’administration) dépendent de la forme juridique : c’est l’objet du module 4."
+            }
+          ]
+        },
+        {
+          "title": "La règle des deux personnes",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour l’argent et le stock, une personne fait, une autre vérifie : le trésorier tient la caisse, mais deux signatures sont nécessaires pour une dépense importante. Le magasinier sort les sacs, mais une autre personne contrôle les bons de sortie."
+            },
+            {
+              "type": "p",
+              "text": "Cette règle protège la coopérative, et aussi les responsables contre les soupçons."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le tableau des rôles du groupement de Hawa",
+        "text": "Jusqu’ici, le président faisait presque tout. En assemblée, le groupement répartit les rôles.",
+        "head": [
+          "Rôle",
+          "Qui"
+        ],
+        "rows": [
+          [
+            "Président",
+            "Le président actuel, confirmé"
+          ],
+          [
+            "Secrétaire",
+            "Un membre nouvellement élu"
+          ],
+          [
+            "Trésorière",
+            "Hawa, confirmée"
+          ],
+          [
+            "Magasinier",
+            "Un membre désigné"
+          ],
+          [
+            "Chargé commercial",
+            "Un jeune membre à l’aise avec le téléphone"
+          ]
+        ],
+        "after": "Le tableau est affiché au magasin, avec la règle des deux signatures au-delà de 50 000 FCFA."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Ce n’est pas mon travail. — Personne ne m’a dit. »",
+            "Deux membres qui se renvoient la tâche"
+          ],
+          [
+            "0:30",
+            "Droits et obligations du membre.",
+            "Une carte de membre"
+          ],
+          [
+            "1:45",
+            "Les cinq responsables et leurs tâches.",
+            "Cinq personnages avec leur outil"
+          ],
+          [
+            "3:30",
+            "La règle des deux personnes.",
+            "Deux signatures sur un bon de dépense"
+          ],
+          [
+            "4:30",
+            "Le tableau des rôles affiché au magasin.",
+            "Un tableau au mur"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Qui fait quoi ?",
+        "text": "Associez chaque tâche au bon responsable.",
+        "choices": [
+          "Président",
+          "Secrétaire",
+          "Trésorier",
+          "Magasinier",
+          "Chargé commercial"
+        ],
+        "items": [
+          [
+            "Rédiger le compte rendu de l’assemblée",
+            1
+          ],
+          [
+            "Peser les sacs à l’entrée du magasin",
+            3
+          ],
+          [
+            "Tenir le cahier de caisse",
+            2
+          ],
+          [
+            "Contacter une provenderie",
+            4
+          ],
+          [
+            "Animer la réunion",
+            0
+          ],
+          [
+            "Tenir le registre des membres",
+            1
+          ]
+        ],
+        "then": "Remplissez ensuite le tableau des rôles de votre coopérative, avec un nom pour chaque responsabilité."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce que le lien commun ?",
+          "options": [
+            "Ce que les membres partagent, défini dans les statuts",
+            "Le téléphone du président"
+          ],
+          "answer": 0,
+          "explain": "Il fixe qui peut adhérer."
+        },
+        {
+          "q": "Que souscrit un membre en adhérant ?",
+          "options": [
+            "Au moins une part sociale",
+            "Un prêt"
+          ],
+          "answer": 0,
+          "explain": "C’est son apport au capital."
+        },
+        {
+          "q": "Qui tient le cahier de caisse ?",
+          "options": [
+            "Le magasinier",
+            "Le trésorier"
+          ],
+          "answer": 1,
+          "explain": "Il présente aussi les comptes."
+        },
+        {
+          "q": "Qui tient le registre des membres ?",
+          "options": [
+            "Le secrétaire",
+            "Le chargé commercial"
+          ],
+          "answer": 0,
+          "explain": "Avec les comptes rendus."
+        },
+        {
+          "q": "Que dit la règle des deux personnes ?",
+          "options": [
+            "Une personne fait, une autre vérifie",
+            "Deux personnes font la même chose"
+          ],
+          "answer": 0,
+          "explain": "Pour l’argent et le stock."
+        },
+        {
+          "q": "Cette règle protège-t-elle aussi les responsables ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle écarte les soupçons."
+        }
+      ],
+      "summary": "Des membres qui connaissent leurs droits et obligations, cinq responsables aux tâches écrites, et la règle des deux personnes pour l’argent et le stock.",
+      "resource": "Modèle de tableau des rôles et fiche de tâches de chaque responsable."
+    },
+    {
+      "id": "m4",
+      "label": "Gouvernance",
+      "number": 4,
+      "title": "Comprendre les règles de gouvernance",
+      "duration": "35 min",
+      "point": "Dans tout l’espace OHADA, une coopérative choisit entre deux formes : la SCOOPS, dès 5 membres, ou la SCOOP-CA, dès 15 membres. L’assemblée générale décide, un organe gère et un autre contrôle.",
+      "intro": "Une bonne gouvernance, c’est savoir qui décide, qui exécute et qui vérifie. Quand c’est clair, les membres ont confiance ; quand c’est flou, les soupçons arrivent vite.",
+      "objectives": [
+        "Nommer le texte qui régit les coopératives au Cameroun.",
+        "Distinguer la SCOOPS et la SCOOP-CA.",
+        "Décrire le rôle des trois organes : décision, gestion, contrôle."
+      ],
+      "lessons": [
+        {
+          "title": "Le cadre juridique",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les coopératives sont régies par l’Acte uniforme OHADA relatif au droit des sociétés coopératives, adopté le 15 décembre 2010. Il s’applique dans tous les pays membres de l’OHADA, dont le Cameroun."
+            },
+            {
+              "type": "p",
+              "text": "Une coopérative existe juridiquement après son immatriculation au registre des sociétés coopératives. Au Cameroun, la démarche se fait auprès du service départemental chargé du registre des coopératives : confirmez-la auprès de la Délégation départementale du MINADER."
+            }
+          ]
+        },
+        {
+          "title": "Deux formes de coopérative",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "SCOOPS (simplifiée)",
+                "SCOOP-CA (avec conseil d’administration)"
+              ],
+              "rows": [
+                [
+                  "Membres au minimum",
+                  "5 personnes physiques ou morales",
+                  "15 personnes physiques ou morales"
+                ],
+                [
+                  "Organe de gestion",
+                  "Comité de gestion de 3 membres au plus (jusqu’à 5 à partir de 100 membres)",
+                  "Conseil d’administration de 3 à 12 membres, et un responsable sous contrat"
+                ],
+                [
+                  "Organe de contrôle",
+                  "Commission de surveillance",
+                  "Conseil de surveillance"
+                ],
+                [
+                  "Pour qui",
+                  "Petits groupements, fonctionnement simple",
+                  "Coopératives nombreuses ou aux opérations importantes, frais plus élevés"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sources : documents publiés par l’OHADA (différences SCOOPS et SCOOP-CA, modèles de statuts)."
+            }
+          ]
+        },
+        {
+          "title": "Décider, gérer, contrôler",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Décider : l’assemblée générale. Tous les membres, une voix chacun. Elle adopte les statuts, élit les responsables, approuve les comptes et les grandes décisions.",
+                "Gérer : le comité de gestion ou le conseil d’administration. Il applique les décisions et gère au quotidien.",
+                "Contrôler : la commission ou le conseil de surveillance. Il vérifie la gestion et en rend compte à l’assemblée."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les statuts fixent les règles principales ; le règlement intérieur précise le fonctionnement pratique. Ces deux documents se rédigent avec l’appui d’un juriste ou du service compétent."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le choix du groupement de Hawa",
+        "text": "Le groupement compte 30 membres : il peut choisir l’une ou l’autre forme.",
+        "head": [
+          "Critère",
+          "SCOOPS",
+          "SCOOP-CA"
+        ],
+        "rows": [
+          [
+            "Simplicité",
+            "Plus simple",
+            "Plus lourde"
+          ],
+          [
+            "Coût de fonctionnement",
+            "Plus faible",
+            "Plus élevé"
+          ],
+          [
+            "Croissance forte prévue",
+            "Possible",
+            "Mieux adaptée"
+          ],
+          [
+            "Choix du groupement",
+            "Retenue",
+            "—",
+            "result"
+          ]
+        ],
+        "after": "Les membres élisent un comité de gestion de trois membres et une commission de surveillance, puis prennent rendez-vous au service départemental pour l’immatriculation."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Qui décide ? Qui exécute ? Qui vérifie ? »",
+            "Trois points d’interrogation"
+          ],
+          [
+            "0:30",
+            "Le cadre OHADA, en mots simples.",
+            "Carte de l’espace OHADA"
+          ],
+          [
+            "1:30",
+            "SCOOPS ou SCOOP-CA : le tableau.",
+            "Deux colonnes qui se remplissent"
+          ],
+          [
+            "3:15",
+            "Les trois organes.",
+            "Schéma : assemblée, gestion, contrôle"
+          ],
+          [
+            "4:30",
+            "Le choix du groupement de Hawa.",
+            "Vote à main levée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle forme est possible ?",
+        "text": "Pour chaque groupement, choisissez la bonne réponse.",
+        "choices": [
+          "SCOOPS seulement",
+          "Les deux",
+          "Aucune"
+        ],
+        "items": [
+          [
+            "8 producteurs",
+            0
+          ],
+          [
+            "4 producteurs voisins",
+            2
+          ],
+          [
+            "20 membres",
+            1
+          ],
+          [
+            "12 membres qui voudraient un conseil d’administration",
+            0
+          ],
+          [
+            "15 membres",
+            1
+          ],
+          [
+            "3 producteurs",
+            2
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quel texte régit les coopératives au Cameroun ?",
+          "options": [
+            "L’Acte uniforme OHADA relatif au droit des sociétés coopératives",
+            "Le code de la route"
+          ],
+          "answer": 0,
+          "explain": "Adopté le 15 décembre 2010."
+        },
+        {
+          "q": "Combien de membres au minimum pour une SCOOPS ?",
+          "options": [
+            "3",
+            "5",
+            "15"
+          ],
+          "answer": 1,
+          "explain": "Personnes physiques ou morales."
+        },
+        {
+          "q": "Et pour une SCOOP-CA ?",
+          "options": [
+            "5",
+            "10",
+            "15"
+          ],
+          "answer": 2,
+          "explain": "Avec un conseil d’administration."
+        },
+        {
+          "q": "Quel organe décide ?",
+          "options": [
+            "L’assemblée générale",
+            "Le trésorier"
+          ],
+          "answer": 0,
+          "explain": "Tous les membres, une voix chacun."
+        },
+        {
+          "q": "Quel organe contrôle dans une SCOOPS ?",
+          "options": [
+            "La commission de surveillance",
+            "Le comité de gestion"
+          ],
+          "answer": 0,
+          "explain": "Dans la SCOOP-CA, c’est le conseil de surveillance."
+        },
+        {
+          "q": "Quand la coopérative existe-t-elle juridiquement ?",
+          "options": [
+            "Dès la première réunion",
+            "Après son immatriculation au registre des sociétés coopératives"
+          ],
+          "answer": 1,
+          "explain": "Les statuts seuls ne suffisent pas."
+        }
+      ],
+      "summary": "Droit OHADA, deux formes (SCOOPS dès 5 membres, SCOOP-CA dès 15), trois organes : l’assemblée décide, un organe gère, un autre contrôle.",
+      "resource": "Fiche comparative SCOOPS et SCOOP-CA, et modèles de statuts publiés par l’OHADA."
+    },
+    {
+      "id": "m5",
+      "label": "Registres",
+      "number": 5,
+      "title": "Tenir les registres administratifs et financiers",
+      "duration": "35 min",
+      "point": "Cinq registres tenus à jour suffisent à prouver qui est membre, ce qui a été décidé, où est l’argent et où sont les sacs.",
+      "intro": "« Qui a déposé combien de sacs ? » « Qui a décidé cette dépense ? » Sans registre, ces questions finissent en disputes. Avec un registre, la réponse est écrite.",
+      "objectives": [
+        "Citer les cinq registres d’une coopérative et leur contenu.",
+        "Remplir un bon de dépôt en deux exemplaires.",
+        "Classer les pièces justificatives."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq registres",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Registre",
+                "Ce qu’il contient",
+                "Tenu par"
+              ],
+              "rows": [
+                [
+                  "Registre des membres",
+                  "Nom, date d’adhésion, parts sociales souscrites et libérées",
+                  "Secrétaire"
+                ],
+                [
+                  "Registre des comptes rendus",
+                  "Décisions des assemblées et des réunions, signées",
+                  "Secrétaire"
+                ],
+                [
+                  "Cahier de caisse",
+                  "Entrées, sorties et solde de l’argent de la coopérative",
+                  "Trésorier"
+                ],
+                [
+                  "Cahier de stock",
+                  "Sacs entrés et sortis du magasin, par membre et par acheteur",
+                  "Magasinier"
+                ],
+                [
+                  "Classeur des pièces",
+                  "Reçus, factures, bons de commande et de livraison, contrats",
+                  "Trésorier"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les membres ont le droit de consulter les documents de la coopérative, dans les conditions prévues par les statuts."
+            }
+          ]
+        },
+        {
+          "title": "Le bon de dépôt",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Chaque dépôt d’un membre au magasin donne lieu à un bon numéroté, en deux exemplaires : un pour le membre, un pour le magasin. Il indique la date, le nom du membre, le produit, le nombre de sacs, le poids et la qualité constatée, et porte les deux signatures."
+            }
+          ]
+        },
+        {
+          "title": "Bien tenir les registres",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Écrire au stylo, sans effacer : une erreur se barre d’un trait et se corrige à côté.",
+                "Numéroter les pages et les bons.",
+                "Mettre à jour le jour même.",
+                "Garder les registres au magasin ou au siège, pas à la maison d’un responsable.",
+                "Photographier les pages importantes, pour en garder une copie."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les bons de dépôt de Hawa",
+        "text": "Avant la vente groupée, deux membres affirmaient avoir déposé plus de sacs que ce que le magasinier avait noté. Hawa introduit les bons de dépôt numérotés en deux exemplaires.",
+        "after": "À la vente suivante, chaque membre présente son exemplaire : plus aucune contestation."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Qui a déposé combien de sacs ? »",
+            "Deux membres qui se disputent au magasin"
+          ],
+          [
+            "0:30",
+            "Les cinq registres, un par un.",
+            "Cinq cahiers posés sur une table"
+          ],
+          [
+            "2:15",
+            "Le bon de dépôt en deux exemplaires.",
+            "Carnet à souche, deux signatures"
+          ],
+          [
+            "3:30",
+            "Bien tenir : stylo, numéros, le jour même, au siège.",
+            "Une page barrée proprement"
+          ],
+          [
+            "4:30",
+            "La vente sans contestation.",
+            "Membres qui montrent leur bon"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel registre ?",
+        "text": "Associez chaque information au bon registre.",
+        "choices": [
+          "Registre des membres",
+          "Comptes rendus",
+          "Cahier de caisse",
+          "Cahier de stock",
+          "Classeur des pièces"
+        ],
+        "items": [
+          [
+            "La date d’adhésion d’un membre",
+            0
+          ],
+          [
+            "La décision d’acheter une bascule",
+            1
+          ],
+          [
+            "Le paiement du transporteur",
+            2
+          ],
+          [
+            "La sortie de 20 sacs pour la provenderie",
+            3
+          ],
+          [
+            "La facture d’achat de l’engrais",
+            4
+          ],
+          [
+            "Le nombre de parts sociales d’un membre",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de registres de base ?",
+          "options": [
+            "Deux",
+            "Cinq",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Membres, comptes rendus, caisse, stock, pièces."
+        },
+        {
+          "q": "Où noter les sacs déposés par un membre ?",
+          "options": [
+            "Dans le cahier de stock, avec un bon de dépôt",
+            "Dans sa mémoire"
+          ],
+          "answer": 0,
+          "explain": "Le membre garde son exemplaire."
+        },
+        {
+          "q": "Combien d’exemplaires pour un bon de dépôt ?",
+          "options": [
+            "Un",
+            "Deux"
+          ],
+          "answer": 1,
+          "explain": "Un pour le membre, un pour le magasin."
+        },
+        {
+          "q": "Comment corriger une erreur ?",
+          "options": [
+            "L’effacer",
+            "La barrer d’un trait et écrire la correction à côté"
+          ],
+          "answer": 1,
+          "explain": "Ne jamais effacer."
+        },
+        {
+          "q": "Où garder les registres ?",
+          "options": [
+            "Au magasin ou au siège",
+            "Chez le président"
+          ],
+          "answer": 0,
+          "explain": "Ils appartiennent à la coopérative."
+        },
+        {
+          "q": "Les membres peuvent-ils consulter les documents ?",
+          "options": [
+            "Oui, selon les statuts",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "C’est leur droit d’information."
+        }
+      ],
+      "summary": "Cinq registres, des bons de dépôt en deux exemplaires, des écritures au stylo le jour même, et des documents gardés au siège.",
+      "resource": "Modèles des cinq registres et carnet de bons de dépôt à imprimer."
+    },
+    {
+      "id": "m6",
+      "label": "Ventes groupées",
+      "number": 6,
+      "title": "Organiser les achats et les ventes groupés",
+      "duration": "40 min",
+      "point": "Une vente groupée suit quatre étapes : annoncer, collecter, vendre, répartir. Chaque membre est payé selon ses sacs, après déduction des frais votés en assemblée.",
+      "intro": "Vendre ensemble, c’est obtenir un meilleur prix. Mais si la répartition de l’argent n’est pas claire, la deuxième vente groupée n’aura jamais lieu.",
+      "objectives": [
+        "Dérouler les quatre étapes d’une vente groupée.",
+        "Calculer le montant dû à chaque membre.",
+        "Organiser un achat groupé d’intrants."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre étapes de la vente groupée",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Annoncer : date de collecte, qualité exigée (tri, séchage, poids du sac), frais par sac votés en assemblée.",
+                "Collecter : pesée et contrôle de qualité au magasin, bon de dépôt pour chaque membre (module 5).",
+                "Vendre : au meilleur acheteur, avec un bon de commande écrit.",
+                "Répartir : payer chaque membre selon ses sacs, et afficher le décompte."
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Montant dû au membre = Sacs déposés × (Prix obtenu − Frais par sac)"
+            },
+            {
+              "type": "p",
+              "text": "Les frais par sac couvrent le transport, les sacs, la manutention, et une éventuelle retenue pour la coopérative. Leur montant est décidé en assemblée, avant la collecte."
+            }
+          ]
+        },
+        {
+          "title": "L’achat groupé",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Recueillir les commandes de chaque membre, signées.",
+                "Encaisser un acompte, noté dans le cahier de caisse.",
+                "Comparer au moins deux fournisseurs, puis acheter.",
+                "Distribuer contre signature, et afficher les quantités et le prix payé."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La répartition de la vente à la provenderie",
+        "text": "La coopérative a vendu 20 sacs à 14 250 FCFA. L’assemblée avait fixé les frais à 750 FCFA par sac (500 pour le transport, 250 de retenue). Chaque membre touche 13 500 FCFA par sac.",
+        "head": [
+          "Membre",
+          "Sacs déposés",
+          "Montant dû (FCFA)"
+        ],
+        "rows": [
+          [
+            "Membre A",
+            "10",
+            "135 000"
+          ],
+          [
+            "Membre B",
+            "6",
+            "81 000"
+          ],
+          [
+            "Membre C",
+            "4",
+            "54 000"
+          ],
+          [
+            "Total",
+            "20",
+            "270 000",
+            "result"
+          ]
+        ],
+        "after": "Le décompte est affiché au magasin et lu en réunion."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« La première vente groupée est facile. La deuxième dépend de la première. »",
+            "Membres devant le magasin"
+          ],
+          [
+            "0:30",
+            "Les quatre étapes.",
+            "Annonce, pesée, camion, paiement"
+          ],
+          [
+            "2:15",
+            "La répartition, calculée et affichée.",
+            "Tableau au mur du magasin"
+          ],
+          [
+            "3:45",
+            "L’achat groupé d’intrants.",
+            "Distribution de sacs d’engrais contre signature"
+          ]
+        ]
+      },
+      "tool": "repartition",
+      "toolDefaults": {
+        "prix": 14250,
+        "frais": 750,
+        "membres": [
+          [
+            "Membre A",
+            10
+          ],
+          [
+            "Membre B",
+            6
+          ],
+          [
+            "Membre C",
+            4
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le montant dû",
+        "text": "Un membre a déposé 8 sacs. La coopérative a vendu à 15 000 FCFA le sac, avec 1 000 FCFA de frais par sac. Combien lui revient-il, en FCFA ?",
+        "answer": 112000,
+        "solution": "8 × (15 000 − 1 000) = 112 000 FCFA.",
+        "then": "Préparez ensuite le décompte de votre prochaine vente groupée avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Quelles sont les quatre étapes ?",
+          "options": [
+            "Annoncer, collecter, vendre, répartir",
+            "Vendre, puis voir"
+          ],
+          "answer": 0,
+          "explain": "Dans cet ordre."
+        },
+        {
+          "q": "Qui fixe les frais par sac ?",
+          "options": [
+            "Le trésorier, après la vente",
+            "L’assemblée, avant la collecte"
+          ],
+          "answer": 1,
+          "explain": "Pas de surprise au moment du paiement."
+        },
+        {
+          "q": "5 sacs, prix 14 000 FCFA, frais 500 FCFA. Montant dû ?",
+          "options": [
+            "67 500 FCFA",
+            "70 000 FCFA",
+            "2 500 FCFA"
+          ],
+          "answer": 0,
+          "explain": "5 × 13 500 = 67 500."
+        },
+        {
+          "q": "Faut-il afficher le décompte ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "La transparence fait revenir les membres."
+        },
+        {
+          "q": "Que demander avant un achat groupé ?",
+          "options": [
+            "Une commande signée et un acompte",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "La coopérative n’avance pas l’argent sans garantie."
+        },
+        {
+          "q": "Combien de fournisseurs comparer ?",
+          "options": [
+            "Un seul",
+            "Au moins deux"
+          ],
+          "answer": 1,
+          "explain": "Pour obtenir le meilleur prix."
+        }
+      ],
+      "summary": "Annoncer, collecter, vendre, répartir. Des frais votés d’avance, un montant calculé par membre, et un décompte affiché.",
+      "resource": "Modèles de fiche d’annonce, de commande d’intrants et de décompte à afficher."
+    },
+    {
+      "id": "m7",
+      "label": "Négocier",
+      "number": 7,
+      "title": "Négocier avec les acheteurs et les partenaires",
+      "duration": "30 min",
+      "point": "Au nom de la coopérative, on ne négocie pas seul : on part avec un mandat de l’assemblée, on revient rendre compte, et on signe des engagements écrits.",
+      "intro": "Un dirigeant qui accepte seul un prix trop bas, ou une convention qui engage la coopérative sans l’avoir dit, peut détruire la confiance en une journée. Le mandat protège à la fois les membres et les négociateurs.",
+      "objectives": [
+        "Rédiger un mandat de négociation.",
+        "Préparer une négociation collective.",
+        "Vérifier qu’un partenariat respecte l’autonomie de la coopérative."
+      ],
+      "lessons": [
+        {
+          "title": "Le mandat",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avant de négocier une vente importante, l’assemblée (ou l’organe de gestion, selon les statuts) fixe par écrit :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Les négociateurs : deux personnes, jamais une seule.",
+                "Les limites : prix plancher, quantité maximale, délai de paiement acceptable.",
+                "Ce qui doit revenir devant les membres avant d’être signé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Préparer et conduire la négociation",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Consolider l’offre : volume total des membres, qualité, calendrier de livraison.",
+                "Connaître ses limites (le mandat) et ses arguments (qualité constante, volume, régularité).",
+                "Échanger chaque concession contre une contrepartie, comme dans la formation F6 (module 8).",
+                "Mettre l’accord par écrit et le faire signer par la personne habilitée par les statuts.",
+                "Rendre compte aux membres, avec le document signé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les partenariats",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "ONG, commune, services techniques, institution de microfinance : un partenariat se formalise par une convention qui précise ce que chacun apporte et s’engage à faire, sa durée et la façon d’en rendre compte. Elle est présentée aux membres avant signature."
+            },
+            {
+              "type": "p",
+              "text": "On refuse une convention qui ferait diriger la coopérative par le partenaire : c’est le principe d’autonomie (module 1)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le contrat de saison avec la provenderie",
+        "text": "L’assemblée donne mandat à Hawa et au chargé commercial.",
+        "head": [
+          "Point",
+          "Mandat",
+          "Résultat obtenu"
+        ],
+        "rows": [
+          [
+            "Prix du sac",
+            "Pas moins de 13 500 FCFA",
+            "13 800 FCFA"
+          ],
+          [
+            "Quantité",
+            "200 sacs au plus",
+            "180 sacs"
+          ],
+          [
+            "Paiement",
+            "15 jours au plus",
+            "10 jours",
+            "result"
+          ]
+        ],
+        "after": "Le contrat est signé par le président, comme le prévoient les statuts, puis lu en réunion."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Il a signé seul. Les membres l’apprennent au marché. »",
+            "Membres mécontents"
+          ],
+          [
+            "0:30",
+            "Le mandat écrit.",
+            "Un document signé en assemblée"
+          ],
+          [
+            "1:30",
+            "Préparer et conduire la négociation à deux.",
+            "Hawa et le chargé commercial face à l’acheteur"
+          ],
+          [
+            "2:45",
+            "Les conventions de partenariat.",
+            "Poignée de mains avec une ONG"
+          ],
+          [
+            "3:30",
+            "Le compte rendu aux membres.",
+            "Lecture du contrat en réunion"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Négocier à deux, avec un mandat écrit",
+            0
+          ],
+          [
+            "Accepter seul un prix sous le plancher fixé par l’assemblée",
+            1
+          ],
+          [
+            "Lire le contrat signé aux membres",
+            0
+          ],
+          [
+            "Signer une convention qui laisse l’ONG choisir le président",
+            1
+          ],
+          [
+            "Consolider les volumes de tous les membres avant de négocier",
+            0
+          ],
+          [
+            "Promettre 300 sacs quand les membres en ont déclaré 180",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de négociateurs au minimum ?",
+          "options": [
+            "Un",
+            "Deux"
+          ],
+          "answer": 1,
+          "explain": "On ne négocie jamais seul au nom des membres."
+        },
+        {
+          "q": "Que contient le mandat ?",
+          "options": [
+            "Les négociateurs, les limites, ce qui revient aux membres",
+            "Le menu du repas"
+          ],
+          "answer": 0,
+          "explain": "Il fixe le cadre de la négociation."
+        },
+        {
+          "q": "Qui signe le contrat ?",
+          "options": [
+            "N’importe quel membre",
+            "La personne habilitée par les statuts"
+          ],
+          "answer": 1,
+          "explain": "Souvent le président."
+        },
+        {
+          "q": "Que faire après la signature ?",
+          "options": [
+            "Rendre compte aux membres",
+            "Garder le contrat pour soi"
+          ],
+          "answer": 0,
+          "explain": "Avec le document signé."
+        },
+        {
+          "q": "Une convention peut-elle confier la direction au partenaire ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Ce serait contraire au principe d’autonomie."
+        },
+        {
+          "q": "Peut-on promettre plus que les volumes déclarés ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On perdrait la confiance de l’acheteur."
+        }
+      ],
+      "summary": "Un mandat écrit, deux négociateurs, des engagements signés par la personne habilitée, et un compte rendu aux membres. Les partenariats respectent l’autonomie de la coopérative.",
+      "resource": "Modèles de mandat de négociation et de convention de partenariat."
+    },
+    {
+      "id": "m8",
+      "label": "Conflits",
+      "number": 8,
+      "title": "Prévenir les conflits et améliorer la transparence",
+      "duration": "35 min",
+      "point": "La plupart des conflits dans une coopérative naissent d’un manque d’information ; la transparence les prévient, et une procédure claire règle ceux qui surviennent.",
+      "intro": "Une rumeur sur la caisse peut faire partir la moitié des membres en quelques semaines, même quand la caisse est juste. Montrer les chiffres coûte moins cher que de réparer la confiance perdue.",
+      "objectives": [
+        "Citer les cinq causes fréquentes de conflit.",
+        "Associer chaque cause à son outil de prévention.",
+        "Conduire le règlement d’un conflit en quatre étapes."
+      ],
+      "lessons": [
+        {
+          "title": "Causes et prévention",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Cause fréquente",
+                "Outil de prévention"
+              ],
+              "rows": [
+                [
+                  "Doutes sur l’argent",
+                  "Comptes affichés après chaque vente ; règle des deux signatures"
+                ],
+                [
+                  "Pesée ou qualité contestée",
+                  "Pesée publique et bons de dépôt (module 5)"
+                ],
+                [
+                  "Décisions prises sans les membres",
+                  "Assemblées régulières, comptes rendus lus et signés"
+                ],
+                [
+                  "Favoritisme",
+                  "Règles écrites et identiques pour tous, dans le règlement intérieur"
+                ],
+                [
+                  "Rumeurs",
+                  "Information régulière : réunion mensuelle, message au groupe des membres"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Régler un conflit en quatre étapes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Écouter chaque partie, séparément, sans juger.",
+                "Établir les faits avec les registres : bons de dépôt, cahier de caisse, comptes rendus.",
+                "Proposer une solution fondée sur les règles écrites, avec une personne neutre si besoin : un membre respecté, un comité de sages, un agent d’appui.",
+                "Consigner la décision dans le registre des comptes rendus, et l’appliquer."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Quand le conflit dépasse la coopérative, les statuts et l’organe de contrôle (commission ou conseil de surveillance) indiquent la suite à donner."
+            }
+          ]
+        },
+        {
+          "title": "La confiance comme capital",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La confiance entre membres, et entre la coopérative et ses acheteurs, est un capital au même titre que l’argent : elle se construit lentement et se perd vite. La Formation 0 Confiance, fondée sur l’Arbre de Confiance®, approfondira la façon de la bâtir."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La rumeur sur la caisse",
+        "text": "Une rumeur dit que la retenue de 250 FCFA par sac a disparu. Hawa ne se défend pas en paroles.",
+        "head": [
+          "Action",
+          "Effet"
+        ],
+        "rows": [
+          [
+            "Hawa affiche le cahier de caisse et le décompte de la vente",
+            "Les membres voient les chiffres"
+          ],
+          [
+            "La commission de surveillance présente son contrôle en réunion",
+            "Un organe neutre confirme"
+          ],
+          [
+            "La coopérative décide d’afficher les comptes après chaque vente",
+            "La rumeur ne peut plus revenir",
+            "result"
+          ]
+        ],
+        "after": "La retenue était bien en caisse. La transparence a réglé le conflit avant qu’il éclate."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« On dit que la caisse est vide… »",
+            "Membres qui chuchotent"
+          ],
+          [
+            "0:30",
+            "Cinq causes, cinq outils de prévention.",
+            "Tableau qui se complète"
+          ],
+          [
+            "2:00",
+            "Régler un conflit en quatre étapes.",
+            "Médiation sous un arbre"
+          ],
+          [
+            "3:30",
+            "La rumeur démentie par les chiffres.",
+            "Comptes affichés au magasin"
+          ],
+          [
+            "4:30",
+            "« La confiance est un capital. »",
+            "Un arbre qui grandit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel outil ?",
+        "text": "Associez chaque situation au bon outil.",
+        "choices": [
+          "Affichage des comptes",
+          "Pesée publique",
+          "Assemblée générale",
+          "Médiation",
+          "Information régulière",
+          "Deux signatures"
+        ],
+        "items": [
+          [
+            "Des membres doutent de la caisse après une vente",
+            0
+          ],
+          [
+            "Un membre conteste le poids de ses sacs",
+            1
+          ],
+          [
+            "Le comité a acheté du matériel sans consulter personne",
+            2
+          ],
+          [
+            "Deux membres se disputent et ne veulent plus se parler",
+            3
+          ],
+          [
+            "Une rumeur circule sur un responsable",
+            4
+          ],
+          [
+            "Le trésorier veut payer seul une grosse dépense",
+            5
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "D’où viennent la plupart des conflits ?",
+          "options": [
+            "D’un manque d’information",
+            "Du mauvais temps"
+          ],
+          "answer": 0,
+          "explain": "La transparence les prévient."
+        },
+        {
+          "q": "Que faire après chaque vente ?",
+          "options": [
+            "Afficher les comptes",
+            "Partir en vacances"
+          ],
+          "answer": 0,
+          "explain": "Les membres voient où va l’argent."
+        },
+        {
+          "q": "Première étape pour régler un conflit ?",
+          "options": [
+            "Désigner un coupable",
+            "Écouter chaque partie, séparément"
+          ],
+          "answer": 1,
+          "explain": "Chacun doit se sentir entendu."
+        },
+        {
+          "q": "Avec quoi établir les faits ?",
+          "options": [
+            "Les registres",
+            "Les rumeurs"
+          ],
+          "answer": 0,
+          "explain": "Bons de dépôt, caisse, comptes rendus."
+        },
+        {
+          "q": "Où consigner la décision ?",
+          "options": [
+            "Dans le registre des comptes rendus",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Elle s’applique ensuite à tous."
+        },
+        {
+          "q": "Qui contrôle la gestion pour les membres ?",
+          "options": [
+            "La commission ou le conseil de surveillance",
+            "L’acheteur"
+          ],
+          "answer": 0,
+          "explain": "Selon la forme de la coopérative."
+        }
+      ],
+      "summary": "Prévenir par la transparence : comptes affichés, pesée publique, assemblées, règles écrites, information régulière. Régler en quatre étapes : écouter, établir les faits, proposer, consigner.",
+      "resource": "Fiche « Régler un conflit en quatre étapes » et modèle de tableau d’affichage des comptes."
+    },
+    {
+      "id": "m9",
+      "label": "Partenariats",
+      "number": 9,
+      "title": "Développer les partenariats commerciaux",
+      "duration": "30 min",
+      "point": "Un partenariat commercial durable repose sur un contrat écrit qui couvre huit points, avec un partenaire choisi pour sa fiabilité autant que pour son prix.",
+      "intro": "Vendre au jour le jour, c’est recommencer à chaque récolte. Un contrat de saison donne de la visibilité : les membres savent à l’avance combien ils vendront, et à quel prix.",
+      "objectives": [
+        "Citer quatre types de partenariats commerciaux.",
+        "Évaluer un partenaire avec quatre critères.",
+        "Vérifier qu’un contrat couvre les huit points essentiels."
+      ],
+      "lessons": [
+        {
+          "title": "Les types de partenariats",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Partenariat",
+                "Intérêt",
+                "Point de vigilance"
+              ],
+              "rows": [
+                [
+                  "Contrat de saison avec un transformateur",
+                  "Volume et prix connus à l’avance",
+                  "Qualité exigée à tenir sur toute la saison"
+                ],
+                [
+                  "Fourniture à une institution (cantine, hôpital)",
+                  "Commandes régulières",
+                  "Procédures et délais de paiement"
+                ],
+                [
+                  "Agriculture contractuelle : l’acheteur avance les intrants, remboursés sur la récolte",
+                  "Pas besoin de trésorerie pour semer",
+                  "Respecter l’engagement de vente, sans vendre ailleurs"
+                ],
+                [
+                  "Union avec d’autres coopératives",
+                  "Plus de volume, plus de poids face aux acheteurs",
+                  "Règles communes à définir ensemble"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Choisir un partenaire",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fiabilité de paiement : se renseigner auprès d’autres fournisseurs.",
+                "Volume et régularité : combien, et combien de fois par an ?",
+                "Conditions : prix, délai de paiement, qualité, transport.",
+                "Respect de l’autonomie : le partenaire ne décide pas à la place des membres."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les huit points d’un contrat",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Les parties et les signataires habilités.",
+                "Le produit et la qualité exigée.",
+                "Les quantités et le calendrier de livraison.",
+                "Le prix, ou la façon de le calculer.",
+                "Les modalités et délais de paiement.",
+                "Les avances éventuelles et leur remboursement.",
+                "Ce qui se passe en cas de problème : retard, qualité, litige.",
+                "La durée et les conditions de fin du contrat."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour un contrat important, faites-le relire par un juriste ou un agent d’appui avant de signer."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les partenaires de la coopérative de Hawa",
+        "text": "Après le contrat avec la provenderie, la coopérative élargit ses partenariats.",
+        "head": [
+          "Partenaire",
+          "Type"
+        ],
+        "rows": [
+          [
+            "Provenderie de Ngaoundéré",
+            "Contrat de saison"
+          ],
+          [
+            "Cantine d’un collège",
+            "Fourniture à une institution"
+          ],
+          [
+            "Union de trois coopératives",
+            "Vente groupée d’arachide",
+            "result"
+          ]
+        ],
+        "after": "Chaque contrat est vérifié avec la liste des huit points, puis présenté en assemblée."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Vendre au jour le jour, c’est recommencer à chaque récolte. »",
+            "Calendrier vide"
+          ],
+          [
+            "0:30",
+            "Quatre types de partenariats.",
+            "Usine, cantine, champ, trois coopératives réunies"
+          ],
+          [
+            "1:45",
+            "Choisir un partenaire : quatre critères.",
+            "Une balance qui pèse le pour et le contre"
+          ],
+          [
+            "2:45",
+            "Les huit points du contrat.",
+            "Liste cochée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Dans le contrat ou pas ?",
+        "text": "Pour chaque élément, dites s’il doit figurer dans un contrat de saison.",
+        "choices": [
+          "Doit figurer",
+          "Inutile"
+        ],
+        "items": [
+          [
+            "La qualité exigée",
+            0
+          ],
+          [
+            "La couleur du camion de l’acheteur",
+            1
+          ],
+          [
+            "Le délai de paiement",
+            0
+          ],
+          [
+            "Ce qui se passe en cas de retard",
+            0
+          ],
+          [
+            "Le calendrier de livraison",
+            0
+          ],
+          [
+            "Le nom du chauffeur",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Intérêt d’un contrat de saison ?",
+          "options": [
+            "Volume et prix connus à l’avance",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Les membres peuvent s’organiser."
+        },
+        {
+          "q": "Qu’est-ce que l’agriculture contractuelle ?",
+          "options": [
+            "L’acheteur avance les intrants, remboursés sur la récolte",
+            "Un contrat de travail"
+          ],
+          "answer": 0,
+          "explain": "Elle engage à vendre à cet acheteur."
+        },
+        {
+          "q": "Vendre ailleurs une récolte promise est-il acceptable ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est rompre l’engagement et perdre le partenaire."
+        },
+        {
+          "q": "Comment vérifier la fiabilité de paiement ?",
+          "options": [
+            "Se renseigner auprès d’autres fournisseurs",
+            "Le croire sur parole"
+          ],
+          "answer": 0,
+          "explain": "Les références comptent."
+        },
+        {
+          "q": "Combien de points essentiels dans un contrat ?",
+          "options": [
+            "Trois",
+            "Huit",
+            "Vingt"
+          ],
+          "answer": 1,
+          "explain": "Des parties jusqu’à la fin du contrat."
+        },
+        {
+          "q": "Pourquoi s’unir avec d’autres coopératives ?",
+          "options": [
+            "Plus de volume et de poids face aux acheteurs",
+            "Pour avoir plus de réunions"
+          ],
+          "answer": 0,
+          "explain": "C’est le sixième principe coopératif."
+        }
+      ],
+      "summary": "Contrats de saison, institutions, agriculture contractuelle, unions. Un partenaire fiable, un contrat en huit points, présenté aux membres.",
+      "resource": "Liste de contrôle « Les huit points d’un contrat »."
+    },
+    {
+      "id": "m10",
+      "label": "Numérique",
+      "number": 10,
+      "title": "Utiliser le numérique pour améliorer la gestion collective",
+      "duration": "30 min",
+      "point": "Le téléphone rend la gestion plus rapide et plus visible : groupe des membres, mobile money, registres photographiés, et AgroConnect pour vendre. Le papier reste pour ceux qui n’ont pas de smartphone.",
+      "intro": "Un décompte affiché au magasin n’est vu que par ceux qui passent. Envoyé dans le groupe des membres, il est vu par tous le soir même.",
+      "objectives": [
+        "Animer un groupe des membres avec des règles claires.",
+        "Payer les membres par mobile money en gardant la trace.",
+        "Utiliser AgroConnect au nom de la coopérative."
+      ],
+      "lessons": [
+        {
+          "title": "Les outils numériques utiles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Outil",
+                "Usage dans la coopérative"
+              ],
+              "rows": [
+                [
+                  "Groupe WhatsApp des membres",
+                  "Convocations, décomptes, informations officielles"
+                ],
+                [
+                  "Mobile money",
+                  "Payer les membres et encaisser les acomptes, avec une trace de chaque opération"
+                ],
+                [
+                  "Photos des registres",
+                  "Garder une copie des pages importantes et des bons"
+                ],
+                [
+                  "Tableur sur téléphone",
+                  "Tenir la caisse, le stock et les décomptes"
+                ],
+                [
+                  "AgroConnect",
+                  "Publier les annonces de la coopérative, répondre aux demandes de devis, suivre les commandes"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les règles à fixer",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Le groupe des membres sert aux informations officielles, pas aux rumeurs ni aux débats personnels.",
+                "Les paiements par mobile money vont sur le numéro du membre, noté dans le registre ; les frais de transfert sont prévus.",
+                "Les codes secrets restent personnels : aucun responsable ne demande le code d’un membre (formation F1, module 7).",
+                "Tout ce qui est envoyé dans le groupe est aussi lu en réunion, pour ceux qui n’ont pas de smartphone."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La coopérative de Hawa s’équipe",
+        "text": "Hawa crée le groupe des membres avec trois règles affichées en description.",
+        "head": [
+          "Outil",
+          "Ce que fait la coopérative"
+        ],
+        "rows": [
+          [
+            "Groupe des membres",
+            "Photo du décompte après chaque vente"
+          ],
+          [
+            "Mobile money",
+            "Paiement de chaque membre, référence notée dans le cahier de caisse"
+          ],
+          [
+            "AgroConnect",
+            "Annonces publiées par le chargé commercial"
+          ],
+          [
+            "Réunion mensuelle",
+            "Information des deux membres sans smartphone",
+            "result"
+          ]
+        ],
+        "after": "Personne n’est oublié, et chaque paiement laisse une trace."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le décompte au mur, ou dans tous les téléphones ? »",
+            "Un mur, puis un écran"
+          ],
+          [
+            "0:30",
+            "Les cinq outils numériques.",
+            "Icônes : groupe, mobile money, appareil photo, tableur, AgroConnect"
+          ],
+          [
+            "1:45",
+            "Les règles à fixer.",
+            "Description du groupe avec trois règles"
+          ],
+          [
+            "3:00",
+            "Personne n’est oublié : la réunion mensuelle.",
+            "Hawa lisant le décompte à voix haute"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel outil ?",
+        "text": "Associez chaque besoin au bon outil.",
+        "choices": [
+          "Mobile money",
+          "Groupe des membres",
+          "Photo des registres",
+          "AgroConnect",
+          "Tableur",
+          "Réunion"
+        ],
+        "items": [
+          [
+            "Payer 20 membres après une vente",
+            0
+          ],
+          [
+            "Informer tous les membres de la date de l’assemblée",
+            1
+          ],
+          [
+            "Garder une copie du registre des membres",
+            2
+          ],
+          [
+            "Répondre à un acheteur qui demande 50 sacs",
+            3
+          ],
+          [
+            "Calculer le stock du magasin",
+            4
+          ],
+          [
+            "Informer un membre sans smartphone",
+            5
+          ]
+        ],
+        "then": "Projet final : la coopérative remet au formateur la liste de ses besoins prioritaires, son tableau des rôles, le choix argumenté de sa forme juridique, la photo de ses registres, le décompte d’une vente groupée et sa procédure de règlement des conflits. L’attestation finale est délivrée avec au moins cinq pièces acquises sur six et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "À quoi sert le groupe des membres ?",
+          "options": [
+            "Aux informations officielles",
+            "Aux rumeurs"
+          ],
+          "answer": 0,
+          "explain": "Les débats personnels n’y ont pas leur place."
+        },
+        {
+          "q": "Pourquoi payer par mobile money ?",
+          "options": [
+            "Chaque paiement laisse une trace",
+            "C’est plus joli"
+          ],
+          "answer": 0,
+          "explain": "On note la référence dans le cahier de caisse."
+        },
+        {
+          "q": "Un responsable peut-il demander le code d’un membre ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Les codes restent personnels."
+        },
+        {
+          "q": "Comment informer les membres sans smartphone ?",
+          "options": [
+            "En réunion",
+            "On ne peut pas"
+          ],
+          "answer": 0,
+          "explain": "Tout est aussi lu à voix haute."
+        },
+        {
+          "q": "Que publier sur AgroConnect ?",
+          "options": [
+            "Les annonces de la coopérative",
+            "Les codes des membres"
+          ],
+          "answer": 0,
+          "explain": "Et répondre aux demandes de devis."
+        },
+        {
+          "q": "Pourquoi photographier les registres ?",
+          "options": [
+            "Pour garder une copie",
+            "Pour les publier"
+          ],
+          "answer": 0,
+          "explain": "En cas de perte ou de dégât."
+        }
+      ],
+      "summary": "Groupe des membres, mobile money, photos, tableur et AgroConnect : plus rapide et plus visible. Avec des règles claires, et sans oublier ceux qui n’ont pas de smartphone.",
+      "resource": "Modèle de règles du groupe des membres et fiche « Payer les membres par mobile money »."
+    }
+  ]
+}

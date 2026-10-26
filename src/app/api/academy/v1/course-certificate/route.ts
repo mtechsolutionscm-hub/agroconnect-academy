@@ -1,4 +1,15 @@
-import { NextResponse } from 'next/server';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
+import { json, currentUser, postGuard, readJson } from '../../../../../lib/http';
+import { courseCertificate } from '../../../../../lib/academy';
 import { getRepo } from '../../../../../lib/repo';
-import { currentUser, jsonError } from '../../../../../lib/http';
-export async function GET(request:Request){const user=await currentUser(request);if(!user)return jsonError('Authentification requise',401);const courseId=new URL(request.url).searchParams.get('courseId');if(!courseId)return jsonError('Formation requise',400);try{const certificate=await getRepo().getCertificate(user.id,courseId);if(!certificate)return jsonError('Attestation non disponible',404);return NextResponse.json(certificate);}catch(e){console.error(e);return jsonError('Service indisponible',503);}}
+
+export async function POST(req: Request) {
+  const blocked = postGuard(req);
+  if (blocked) return blocked;
+  const repo = await getRepo();
+  const user = await currentUser(req, repo);
+  const body = await readJson(req);
+  return json(await courseCertificate(repo, user, body));
+}

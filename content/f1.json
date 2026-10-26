@@ -1,6 +1,1666 @@
 {
   "id": "f1",
-  "title": "Formation agricole F1",
-  "description": "Contenu provisoire — archive source complète à importer pour restaurer les leçons détaillées.",
-  "lessons": []
+  "title": "Comprendre et utiliser l’intelligence artificielle",
+  "short": "Comprendre l’IA",
+  "lead": "Utiliser un assistant d’IA de façon utile et prudente, depuis votre smartphone.",
+  "note": "Moussa, étudiant à Ngaoundéré, et ses échanges sont fictifs. Les outils cités sont des exemples, pas des recommandations : leurs fonctions et leurs prix changent souvent.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Qu’est-ce que l’IA ?",
+      "number": 1,
+      "title": "Comprendre ce qu’est l’intelligence artificielle",
+      "duration": "25 min",
+      "point": "L’IA est un programme qui a appris à partir d’énormément d’exemples : il prédit une réponse probable, il ne « sait » pas comme un humain.",
+      "intro": "Vous utilisez déjà l’IA sans le savoir : le clavier qui devine le mot suivant, la traduction automatique, le téléphone qui reconnaît votre visage. Ce module met des mots simples sur ce qui se passe.",
+      "objectives": [
+        "Expliquer en une phrase ce qu’est l’IA.",
+        "Reconnaître au moins 5 usages de l’IA sur 6 dans la vie courante.",
+        "Citer deux choses que l’IA fait bien et deux choses qu’elle fait mal."
+      ],
+      "lessons": [
+        {
+          "title": "Une définition simple",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une intelligence artificielle est un programme entraîné sur une très grande quantité de textes, d’images ou de sons. À force d’exemples, il apprend à reconnaître des formes et à produire une réponse qui ressemble à ce qu’il a vu."
+            },
+            {
+              "type": "p",
+              "text": "L’IA ressemble à un apprenti qui aurait lu des millions de livres d’agriculture, mais qui n’a jamais mis les pieds dans votre champ. Il parle bien, il connaît beaucoup de choses, mais il ne connaît ni votre sol, ni votre marché, ni la pluie de cette année."
+            }
+          ]
+        },
+        {
+          "title": "Ce que l’IA fait bien, ce qu’elle fait mal",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "L’IA fait bien",
+                "L’IA fait mal"
+              ],
+              "rows": [
+                [
+                  "Rédiger un message, une lettre, une annonce",
+                  "Connaître les prix du jour ou les faits très récents"
+                ],
+                [
+                  "Résumer et expliquer simplement un texte",
+                  "Connaître votre situation locale si vous ne la décrivez pas"
+                ],
+                [
+                  "Proposer des idées, des plans, des listes",
+                  "Garantir qu’une information est vraie : elle peut inventer avec assurance"
+                ],
+                [
+                  "Traduire entre les grandes langues",
+                  "Maîtriser les langues locales, souvent mal couvertes"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le point essentiel : l’IA peut se tromper en ayant l’air sûre d’elle. Le module 6 apprend à vérifier."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La première question de Moussa",
+        "text": "Moussa demande à un assistant : « Quel est le prix du maïs à Ngaoundéré aujourd’hui ? » L’assistant répond avec un chiffre précis. Moussa vérifie au marché : le chiffre est faux.",
+        "after": "L’IA n’avait pas accès aux prix du jour ; elle a produit une réponse plausible. Moussa retient la leçon : l’IA est forte pour rédiger, pas pour donner les prix du marché."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Vous utilisez déjà l’IA. La preuve ? Votre clavier. »",
+            "Clavier de téléphone qui propose des mots"
+          ],
+          [
+            "0:30",
+            "La définition, avec l’image de l’apprenti.",
+            "Un apprenti entouré de livres, puis devant un champ inconnu"
+          ],
+          [
+            "1:30",
+            "Ce que l’IA fait bien, ce qu’elle fait mal.",
+            "Deux colonnes, coches vertes et croix"
+          ],
+          [
+            "2:45",
+            "L’histoire du prix du maïs.",
+            "Moussa au marché, son téléphone et l’ardoise des prix"
+          ],
+          [
+            "3:40",
+            "« Utilisez l’IA pour écrire et réfléchir, et vérifiez toujours. »",
+            "Moussa qui sourit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "IA ou pas ?",
+        "text": "Pour chaque objet, dites s’il utilise de l’intelligence artificielle.",
+        "choices": [
+          "Utilise de l’IA",
+          "N’utilise pas d’IA"
+        ],
+        "items": [
+          [
+            "Le clavier qui propose le mot suivant",
+            0
+          ],
+          [
+            "Une calculatrice",
+            1
+          ],
+          [
+            "La traduction automatique d’un message",
+            0
+          ],
+          [
+            "Une lampe torche",
+            1
+          ],
+          [
+            "Le déverrouillage du téléphone par le visage",
+            0
+          ],
+          [
+            "Une radio FM",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Comment l’IA apprend-elle ?",
+          "options": [
+            "À partir d’énormément d’exemples",
+            "En visitant les champs",
+            "Elle sait tout dès le départ"
+          ],
+          "answer": 0,
+          "explain": "Elle repère des formes dans les données."
+        },
+        {
+          "q": "L’IA comprend-elle le monde comme un humain ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle produit une réponse probable."
+        },
+        {
+          "q": "Peut-elle se tromper en ayant l’air sûre d’elle ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle peut inventer avec assurance."
+        },
+        {
+          "q": "Est-elle fiable pour donner les prix du jour au marché ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle n’a pas, en général, ces informations à jour."
+        },
+        {
+          "q": "Pour quoi est-elle très utile ?",
+          "options": [
+            "Rédiger, résumer, proposer des idées",
+            "Prédire la pluie de demain dans votre village",
+            "Remplacer un vétérinaire"
+          ],
+          "answer": 0,
+          "explain": "Ce sont ses points forts."
+        },
+        {
+          "q": "Que faire de ses réponses importantes ?",
+          "options": [
+            "Les croire",
+            "Les vérifier"
+          ],
+          "answer": 1,
+          "explain": "Auprès d’une source fiable ou d’un spécialiste."
+        }
+      ],
+      "summary": "L’IA prédit des réponses à partir d’exemples. Elle est excellente pour écrire et expliquer, mais elle peut se tromper : vérifiez ce qui compte.",
+      "resource": "Fiche « L’IA en une page » : définition, points forts, points faibles."
+    },
+    {
+      "id": "m2",
+      "label": "Les outils",
+      "number": 2,
+      "title": "Les principales catégories d’outils d’IA",
+      "duration": "25 min",
+      "point": "Il n’existe pas une IA, mais plusieurs familles d’outils : on choisit la famille selon la tâche.",
+      "intro": "On ne laboure pas avec une machette. Avec l’IA, c’est pareil : chaque tâche a son outil.",
+      "objectives": [
+        "Nommer les cinq grandes familles d’outils d’IA.",
+        "Associer correctement au moins 5 tâches sur 6 à la bonne famille.",
+        "Tenir compte du coût et des données mobiles avant de choisir."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq familles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Famille",
+                "Ce qu’elle fait",
+                "Exemples d’usage"
+              ],
+              "rows": [
+                [
+                  "Assistants conversationnels",
+                  "Écrire, expliquer, résumer, répondre à des questions",
+                  "ChatGPT, Claude, Gemini, Meta AI"
+                ],
+                [
+                  "Images",
+                  "Créer ou retoucher une image à partir d’une description",
+                  "Affiche, visuel pour une publication"
+                ],
+                [
+                  "Voix",
+                  "Transcrire un vocal, traduire à l’oral, lire un texte à voix haute",
+                  "Comprendre un vocal en langue étrangère"
+                ],
+                [
+                  "Vision",
+                  "Reconnaître ce qu’il y a sur une photo, lire un document photographié",
+                  "Identifier une plante, extraire le texte d’une facture"
+                ],
+                [
+                  "Outils intégrés",
+                  "L’IA cachée dans des applications que l’on utilise déjà",
+                  "Correcteur du clavier, traduction dans la messagerie"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les noms d’outils changent vite. Retenez surtout les familles : elles restent."
+            }
+          ]
+        },
+        {
+          "title": "Avant de choisir",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Le coût : beaucoup d’outils ont une version gratuite limitée et une version payante.",
+                "Les données mobiles : le texte consomme peu ; les images, la voix et la vidéo consomment beaucoup plus.",
+                "La langue : les grandes langues sont bien couvertes ; le fulfulde, l’ewondo ou le ghomala le sont souvent mal.",
+                "La fiabilité : une identification de plante ou de maladie par photo est une piste, pas un diagnostic. Elle se vérifie avec un agent technique."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les outils de Moussa",
+        "text": "Pour la vente de la coopérative, Moussa utilise trois familles d’outils.",
+        "head": [
+          "Tâche",
+          "Famille"
+        ],
+        "rows": [
+          [
+            "Rédiger l’annonce de vente",
+            "Assistant conversationnel"
+          ],
+          [
+            "Créer l’affiche",
+            "Images"
+          ],
+          [
+            "Comprendre le vocal d’un acheteur en anglais",
+            "Voix"
+          ]
+        ],
+        "after": "Trois tâches, trois familles d’outils."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« On ne laboure pas avec une machette. »",
+            "Machette et houe côte à côte"
+          ],
+          [
+            "0:30",
+            "Les cinq familles, une par une.",
+            "Cinq icônes : bulle, image, micro, œil, engrenage"
+          ],
+          [
+            "2:30",
+            "Coût, données, langue, fiabilité.",
+            "Jauge de forfait Internet"
+          ],
+          [
+            "3:30",
+            "La journée de Moussa, trois outils.",
+            "Moussa passant d’une application à l’autre"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle famille d’outil ?",
+        "text": "Associez chaque tâche à la bonne famille.",
+        "choices": [
+          "Assistant",
+          "Images",
+          "Voix",
+          "Vision"
+        ],
+        "items": [
+          [
+            "Rédiger une annonce de vente",
+            0
+          ],
+          [
+            "Créer une affiche",
+            1
+          ],
+          [
+            "Comprendre un message vocal en anglais",
+            2
+          ],
+          [
+            "Lire le texte d’une facture photographiée",
+            3
+          ],
+          [
+            "Résumer un long document",
+            0
+          ],
+          [
+            "Identifier une plante sur une photo",
+            3
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle famille pour rédiger une lettre ?",
+          "options": [
+            "Assistant conversationnel",
+            "Images",
+            "Vision"
+          ],
+          "answer": 0,
+          "explain": "C’est sa fonction principale."
+        },
+        {
+          "q": "Quelle famille pour créer une affiche ?",
+          "options": [
+            "Voix",
+            "Images",
+            "Vision"
+          ],
+          "answer": 1,
+          "explain": "Elle produit une image à partir d’une description."
+        },
+        {
+          "q": "Quelle famille pour transcrire un message vocal ?",
+          "options": [
+            "Voix",
+            "Images",
+            "Outils intégrés"
+          ],
+          "answer": 0,
+          "explain": "Elle transforme la parole en texte."
+        },
+        {
+          "q": "Qu’est-ce qui consomme le plus de données mobiles ?",
+          "options": [
+            "Le texte",
+            "Les images, la voix et la vidéo"
+          ],
+          "answer": 1,
+          "explain": "Le texte consomme peu."
+        },
+        {
+          "q": "L’identification d’une maladie par photo suffit-elle ?",
+          "options": [
+            "Oui",
+            "Non, c’est une piste à vérifier"
+          ],
+          "answer": 1,
+          "explain": "Un agent technique doit confirmer."
+        },
+        {
+          "q": "Puisque les noms d’outils changent, que retenir ?",
+          "options": [
+            "Les familles d’outils",
+            "Le nom du plus connu"
+          ],
+          "answer": 0,
+          "explain": "Les familles restent valables."
+        }
+      ],
+      "summary": "Cinq familles : conversation, images, voix, vision, outils intégrés. Choisissez selon la tâche, le coût, les données et la langue.",
+      "resource": "Fiche « Quel outil pour quelle tâche ? »."
+    },
+    {
+      "id": "m3",
+      "label": "Converser",
+      "number": 3,
+      "title": "Utiliser un assistant conversationnel",
+      "duration": "35 min",
+      "point": "On parle à un assistant comme à un collaborateur : on demande, on lit, puis on relance jusqu’à obtenir ce qu’on veut.",
+      "intro": "La première réponse est rarement la meilleure. Ceux qui obtiennent de bons résultats ne posent pas la question parfaite : ils savent relancer.",
+      "objectives": [
+        "Ouvrir un assistant et commencer une conversation.",
+        "Améliorer une réponse avec au moins trois relances différentes.",
+        "Savoir quand ouvrir une nouvelle conversation."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq gestes de base",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Ouvrir l’assistant, par son application ou dans le navigateur du téléphone. La plupart demandent de créer un compte.",
+                "Écrire sa demande en phrases simples, comme à une personne.",
+                "Lire la réponse jusqu’au bout, avec un œil critique.",
+                "Relancer pour corriger ou préciser, dans la même conversation : l’assistant se souvient de ce qui précède.",
+                "Ouvrir une nouvelle conversation pour un nouveau sujet, afin d’éviter les mélanges."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les relances qui marchent",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pour…",
+                "Dites par exemple…"
+              ],
+              "rows": [
+                [
+                  "Raccourcir",
+                  "« Fais plus court, trois phrases maximum. »"
+                ],
+                [
+                  "Simplifier",
+                  "« Explique avec des mots simples, pour un producteur. »"
+                ],
+                [
+                  "Changer le ton",
+                  "« Plus chaleureux », ou « plus professionnel »"
+                ],
+                [
+                  "Corriger",
+                  "« Le prix n’est pas 12 000 mais 14 500 FCFA. Corrige. »"
+                ],
+                [
+                  "Obtenir des choix",
+                  "« Propose-moi trois versions différentes. »"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Moussa annonce la vente de la coopérative",
+        "text": "Voici l’échange, relance après relance.",
+        "head": [
+          "Qui",
+          "Message"
+        ],
+        "rows": [
+          [
+            "Moussa",
+            "Écris un message WhatsApp pour annoncer que la coopérative vend du maïs."
+          ],
+          [
+            "Assistant",
+            "Propose un message long et général, sans prix ni lieu."
+          ],
+          [
+            "Moussa",
+            "Ajoute : 40 sacs de maïs trié, 14 500 FCFA le sac, retrait au magasin de la coopérative à Ngaoundéré. Fais court."
+          ],
+          [
+            "Assistant",
+            "Propose un message de quatre lignes, clair et complet.",
+            "result"
+          ],
+          [
+            "Moussa",
+            "Propose deux autres versions, une plus chaleureuse."
+          ]
+        ],
+        "after": "Moussa choisit, relit, vérifie le prix et le numéro, puis envoie. L’assistant a rédigé ; c’est Moussa qui a décidé et vérifié."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« La première réponse est rarement la bonne. Et ce n’est pas grave. »",
+            "Écran d’un assistant avec une réponse longue"
+          ],
+          [
+            "0:30",
+            "Les cinq gestes de base.",
+            "Doigt qui tape sur l’écran, étape par étape"
+          ],
+          [
+            "1:45",
+            "L’échange de Moussa, relance après relance.",
+            "Captures d’écran successives"
+          ],
+          [
+            "3:45",
+            "Le tableau des relances.",
+            "Cinq bulles de relance"
+          ],
+          [
+            "4:30",
+            "« L’IA rédige, vous décidez et vous vérifiez. »",
+            "Moussa qui appuie sur « Envoyer »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou à éviter ?",
+        "text": "Ouvrez d’abord un assistant, demandez un message pour vendre un produit que vous connaissez, et faites au moins trois relances. Puis classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "À éviter"
+        ],
+        "items": [
+          [
+            "Relancer pour corriger un prix",
+            0
+          ],
+          [
+            "Envoyer la réponse sans la relire",
+            1
+          ],
+          [
+            "Ouvrir une nouvelle conversation pour un nouveau sujet",
+            0
+          ],
+          [
+            "Demander trois versions pour choisir",
+            0
+          ],
+          [
+            "Croire un chiffre sans le vérifier",
+            1
+          ],
+          [
+            "Préciser le public visé",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "La première réponse est-elle toujours la meilleure ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On l’améliore par des relances."
+        },
+        {
+          "q": "L’assistant se souvient-il de ce qui précède dans la conversation ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "C’est pourquoi on relance dans la même conversation."
+        },
+        {
+          "q": "Quand ouvrir une nouvelle conversation ?",
+          "options": [
+            "À chaque question",
+            "Pour un nouveau sujet",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Pour éviter les mélanges."
+        },
+        {
+          "q": "Quelle relance pour un texte trop long ?",
+          "options": [
+            "« Fais mieux »",
+            "« Fais plus court, trois phrases maximum »"
+          ],
+          "answer": 1,
+          "explain": "Une consigne précise donne un meilleur résultat."
+        },
+        {
+          "q": "Faut-il relire avant d’envoyer ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Les prix, noms et numéros doivent être vérifiés."
+        },
+        {
+          "q": "Qui est responsable du message envoyé ?",
+          "options": [
+            "L’IA",
+            "Vous"
+          ],
+          "answer": 1,
+          "explain": "L’IA propose, vous décidez."
+        }
+      ],
+      "summary": "Demander, lire, relancer, vérifier. Une conversation par sujet, et c’est toujours vous qui décidez.",
+      "resource": "Fiche « Mes relances favorites » à garder sur son téléphone."
+    },
+    {
+      "id": "m4",
+      "label": "Bien demander",
+      "number": 4,
+      "title": "Rédiger des instructions efficaces",
+      "duration": "40 min",
+      "point": "Une bonne instruction contient quatre ingrédients : un rôle, un contexte, une tâche et un format.",
+      "intro": "« Écris une annonce » donne une annonce banale. « Tu es commercial d’une coopérative… » donne une annonce qui vend. La différence tient en quelques lignes.",
+      "objectives": [
+        "Nommer les quatre ingrédients d’une instruction.",
+        "Transformer une demande vague en instruction complète.",
+        "Produire trois instructions prêtes à l’emploi pour son activité."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre ingrédients",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ingrédient",
+                "La question à se poser",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Rôle",
+                  "Qui doit parler ?",
+                  "« Tu es chargé de communication d’une coopérative agricole. »"
+                ],
+                [
+                  "Contexte",
+                  "Que doit savoir l’assistant ?",
+                  "« Nous vendons 40 sacs de maïs trié à Ngaoundéré, 14 500 FCFA le sac. Nos clients sont des commerçants. »"
+                ],
+                [
+                  "Tâche",
+                  "Que faut-il produire ?",
+                  "« Rédige une annonce pour un groupe WhatsApp de commerçants. »"
+                ],
+                [
+                  "Format",
+                  "Sous quelle forme ?",
+                  "« Cinq lignes maximum, ton professionnel, termine par le numéro de contact. »"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "On peut ajouter des contraintes (« ne promets pas de livraison ») ou un exemple de ce qu’on aime."
+            }
+          ]
+        },
+        {
+          "title": "Avant, après",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Instruction vague",
+                "Instruction complète"
+              ],
+              "rows": [
+                [
+                  "« Écris un message pour mes clients. »",
+                  "« Tu es gérant d’une boutique d’intrants. Mes clients sont des producteurs de maïs de l’Adamaoua. Rédige un SMS pour annoncer l’arrivée des semences. Trois lignes, ton simple, avec le prix et l’adresse. »"
+                ],
+                [
+                  "« Aide-moi pour ma coopérative. »",
+                  "« Tu es conseiller en gestion de coopératives. Notre coopérative de 25 membres n’arrive pas à tenir ses réunions. Propose un ordre du jour type pour une réunion d’une heure, en liste numérotée. »"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Moussa prépare l’assemblée de la coopérative",
+        "text": "Moussa remplit les quatre ingrédients avant d’écrire à l’assistant.",
+        "head": [
+          "Ingrédient",
+          "Ce qu’écrit Moussa"
+        ],
+        "rows": [
+          [
+            "Rôle",
+            "Tu es secrétaire d’une coopérative de producteurs de maïs."
+          ],
+          [
+            "Contexte",
+            "L’assemblée annuelle a lieu samedi, 30 membres sont attendus."
+          ],
+          [
+            "Tâche",
+            "Rédige la convocation."
+          ],
+          [
+            "Format",
+            "Une page, ton respectueux, avec la date, l’heure, le lieu et trois points à l’ordre du jour."
+          ]
+        ],
+        "after": "La première réponse est presque prête : il n’a plus qu’à vérifier les informations pratiques."
+      },
+      "video": {
+        "url": "",
+        "duration": "6 min",
+        "script": [
+          [
+            "0:00",
+            "Deux demandes, deux résultats : la banale et celle qui vend.",
+            "Écran partagé en deux"
+          ],
+          [
+            "0:40",
+            "Les quatre ingrédients, un par un.",
+            "Quatre cartes qui s’assemblent"
+          ],
+          [
+            "2:40",
+            "Avant, après : deux transformations.",
+            "Texte vague qui se complète"
+          ],
+          [
+            "4:30",
+            "Moussa et la convocation.",
+            "Moussa écrivant son instruction"
+          ],
+          [
+            "5:30",
+            "« Rôle, contexte, tâche, format : quatre mots à retenir. »",
+            "Les quatre mots à l’écran"
+          ]
+        ]
+      },
+      "tool": "prompt",
+      "toolDefaults": {
+        "role": "Tu es chargé de communication d’une coopérative agricole.",
+        "contexte": "Nous vendons 40 sacs de maïs trié à Ngaoundéré, 14 500 FCFA le sac. Nos clients sont des commerçants.",
+        "tache": "Rédige une annonce pour un groupe WhatsApp de commerçants.",
+        "format": "Cinq lignes maximum, ton professionnel, termine par le numéro de contact."
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Vague ou complète ?",
+        "text": "Classez ces instructions.",
+        "choices": [
+          "Vague",
+          "Complète"
+        ],
+        "items": [
+          [
+            "« Fais-moi une affiche »",
+            0
+          ],
+          [
+            "« Tu es formateur agricole. Explique à des producteurs débutants comment tenir un cahier de caisse, en cinq étapes numérotées »",
+            1
+          ],
+          [
+            "« Parle-moi du maïs »",
+            0
+          ],
+          [
+            "« Résume ce texte en trois phrases simples pour un public rural »",
+            1
+          ],
+          [
+            "« Aide-moi »",
+            0
+          ],
+          [
+            "« Tu es commercial. Propose trois slogans de six mots maximum pour du miel de l’Adamaoua »",
+            1
+          ]
+        ],
+        "then": "Écrivez ensuite trois instructions complètes pour votre activité avec le générateur ci-dessus, et testez-les dans un assistant."
+      },
+      "quiz": [
+        {
+          "q": "Quels sont les quatre ingrédients d’une instruction ?",
+          "options": [
+            "Rôle, contexte, tâche, format",
+            "Bonjour, merci, s’il te plaît, au revoir",
+            "Titre, date, lieu, prix"
+          ],
+          "answer": 0,
+          "explain": "Ils couvrent qui, quoi, pour qui et comment."
+        },
+        {
+          "q": "À quoi sert le contexte ?",
+          "options": [
+            "À décorer la demande",
+            "À donner à l’IA les informations qu’elle n’a pas"
+          ],
+          "answer": 1,
+          "explain": "Sans contexte, la réponse reste générale."
+        },
+        {
+          "q": "« Trois lignes maximum » est quel ingrédient ?",
+          "options": [
+            "Le rôle",
+            "Le format",
+            "La tâche"
+          ],
+          "answer": 1,
+          "explain": "Il fixe la forme de la réponse."
+        },
+        {
+          "q": "« Tu es conseiller agricole » est quel ingrédient ?",
+          "options": [
+            "Le rôle",
+            "Le contexte",
+            "Le format"
+          ],
+          "answer": 0,
+          "explain": "Il donne le point de vue et le niveau de langage."
+        },
+        {
+          "q": "Une instruction complète dispense-t-elle de vérifier ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "La réponse peut toujours contenir des erreurs."
+        },
+        {
+          "q": "Peut-on donner un exemple de ce qu’on aime ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Un exemple guide très bien l’assistant."
+        }
+      ],
+      "summary": "Rôle, contexte, tâche, format. Une instruction complète fait gagner du temps, mais la vérification reste indispensable.",
+      "resource": "Modèle d’instruction à quatre cases, et dix instructions types pour l’agriculture."
+    },
+    {
+      "id": "m5",
+      "label": "Rédiger et analyser",
+      "number": 5,
+      "title": "Utiliser l’IA pour rédiger, organiser et analyser",
+      "duration": "35 min",
+      "point": "L’IA rend trois grands services au quotidien : rédiger un texte, mettre de l’ordre dans des notes, et tirer l’essentiel d’un document.",
+      "intro": "Un compte rendu de réunion, une lettre à la mairie, un guide de vingt pages à lire : ces tâches prennent des heures. Avec l’IA, elles prennent quelques minutes, à condition de bien vérifier.",
+      "objectives": [
+        "Classer une tâche parmi les trois usages : rédiger, organiser, analyser.",
+        "Transformer des notes en désordre en document clair.",
+        "Obtenir le résumé d’un long texte et vérifier qu’il est fidèle."
+      ],
+      "lessons": [
+        {
+          "title": "Les trois usages",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Usage",
+                "Ce que l’on demande",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Rédiger",
+                  "Produire un texte à partir de quelques informations",
+                  "Une lettre de demande de partenariat"
+                ],
+                [
+                  "Organiser",
+                  "Mettre en ordre des informations déjà là",
+                  "Transformer des notes de réunion en compte rendu"
+                ],
+                [
+                  "Analyser",
+                  "Tirer l’essentiel d’un texte ou de données",
+                  "Résumer un guide, comparer deux offres"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les précautions propres à chaque usage",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rédiger : relire les noms, les dates, les montants et le ton avant d’envoyer.",
+                "Organiser : vérifier que rien n’a été oublié ni ajouté. L’IA peut « compléter » des notes avec des informations inventées.",
+                "Analyser : comparer le résumé au texte d’origine sur deux ou trois points clés, et refaire soi-même les calculs importants."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le compte rendu de Moussa",
+        "text": "Après la réunion de la coopérative, Moussa a des notes en désordre. Il écrit : « Tu es secrétaire de coopérative. Voici mes notes de réunion. Mets-les en compte rendu : participants, décisions, actions avec responsables. Ne rajoute aucune information qui n’est pas dans mes notes. »",
+        "after": "Il vérifie ensuite chaque décision avec le président avant de diffuser le document."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Des notes partout, et un compte rendu à rendre ce soir. »",
+            "Cahier griffonné"
+          ],
+          [
+            "0:30",
+            "Les trois usages : rédiger, organiser, analyser.",
+            "Trois icônes : stylo, classeur, loupe"
+          ],
+          [
+            "1:45",
+            "Moussa transforme ses notes en compte rendu.",
+            "Avant et après, côte à côte"
+          ],
+          [
+            "3:30",
+            "Les précautions : relire, ne rien ajouter, refaire les calculs.",
+            "Une calculatrice à côté du téléphone"
+          ],
+          [
+            "4:30",
+            "« L’IA fait le brouillon, vous faites la vérification. »",
+            "Moussa qui signe le compte rendu"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel usage ?",
+        "text": "Classez ces tâches parmi les trois usages.",
+        "choices": [
+          "Rédiger",
+          "Organiser",
+          "Analyser"
+        ],
+        "items": [
+          [
+            "Écrire une lettre de demande de partenariat",
+            0
+          ],
+          [
+            "Mettre en ordre les notes d’une réunion",
+            1
+          ],
+          [
+            "Résumer un guide technique de vingt pages",
+            2
+          ],
+          [
+            "Transformer une liste de membres en tableau",
+            1
+          ],
+          [
+            "Comparer deux offres de fournisseurs",
+            2
+          ],
+          [
+            "Rédiger une annonce de recrutement",
+            0
+          ]
+        ],
+        "then": "Essayez ensuite sur un vrai texte : demandez le résumé d’un document que vous connaissez, et vérifiez trois points."
+      },
+      "quiz": [
+        {
+          "q": "Transformer des notes en compte rendu, c’est quel usage ?",
+          "options": [
+            "Rédiger",
+            "Organiser",
+            "Analyser"
+          ],
+          "answer": 1,
+          "explain": "Les informations existent déjà, on les met en ordre."
+        },
+        {
+          "q": "Résumer un guide, c’est quel usage ?",
+          "options": [
+            "Rédiger",
+            "Organiser",
+            "Analyser"
+          ],
+          "answer": 2,
+          "explain": "On en tire l’essentiel."
+        },
+        {
+          "q": "L’IA peut-elle ajouter des informations absentes de vos notes ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Il faut le lui interdire et vérifier."
+        },
+        {
+          "q": "Peut-on faire entièrement confiance à ses calculs ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Les calculs importants se refont."
+        },
+        {
+          "q": "Comment vérifier un résumé ?",
+          "options": [
+            "Le comparer au texte sur quelques points clés",
+            "Le lire deux fois",
+            "Demander à l’IA s’il est juste"
+          ],
+          "answer": 0,
+          "explain": "Un résumé peut déformer."
+        },
+        {
+          "q": "Quelle phrase aide à limiter les inventions ?",
+          "options": [
+            "« Fais au mieux »",
+            "« N’ajoute aucune information absente de mes notes »"
+          ],
+          "answer": 1,
+          "explain": "Une consigne claire réduit le risque."
+        }
+      ],
+      "summary": "Rédiger, organiser, analyser : l’IA fait le brouillon en quelques minutes. Vous vérifiez les faits, les chiffres et la fidélité.",
+      "resource": "Trois instructions types : compte rendu, lettre, résumé."
+    },
+    {
+      "id": "m6",
+      "label": "Limites et risques",
+      "number": 6,
+      "title": "Identifier les limites, les erreurs et les risques de l’IA",
+      "duration": "35 min",
+      "point": "L’IA peut inventer, être dépassée ou donner un conseil dangereux : trois questions suffisent pour savoir quand vérifier.",
+      "intro": "Un mauvais message, on le corrige. Une mauvaise dose de produit de traitement, on ne la rattrape pas. Savoir quand ne pas faire confiance à l’IA est aussi important que savoir l’utiliser.",
+      "objectives": [
+        "Citer les cinq risques principaux de l’IA.",
+        "Appliquer les trois questions de vérification à une réponse.",
+        "Reconnaître une arnaque utilisant une fausse voix ou une fausse image."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq risques",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Risque",
+                "Ce qui se passe",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Invention",
+                  "L’IA produit un chiffre, une source ou un fait qui n’existe pas",
+                  "Une référence de loi qui n’existe pas"
+                ],
+                [
+                  "Information dépassée",
+                  "Elle ne connaît pas les changements récents",
+                  "Un prix, une réglementation, un programme d’appui"
+                ],
+                [
+                  "Conseil inadapté",
+                  "Elle répond avec des exemples d’ailleurs",
+                  "Un calendrier de semis pensé pour un autre climat"
+                ],
+                [
+                  "Conseil dangereux",
+                  "Elle donne une dose ou un traitement sans connaître la situation",
+                  "Produit phytosanitaire, médicament vétérinaire"
+                ],
+                [
+                  "Faux contenus",
+                  "Des escrocs créent de fausses voix, images ou vidéos",
+                  "Un faux vocal d’un proche qui demande de l’argent"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les trois questions de vérification",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "D’où vient l’information ? L’IA cite-t-elle une source que je peux ouvrir ?",
+                "Puis-je la confirmer ailleurs ? Auprès d’une source officielle (MINADER, IRAD, service vétérinaire), d’un agent technique ou d’une personne de confiance.",
+                "Que se passe-t-il si c’est faux ? Plus le risque est grand (santé, argent, produits dangereux), plus la vérification est obligatoire."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour les produits phytosanitaires, la santé animale et l’alimentation, la règle est simple : l’IA peut aider à préparer ses questions, mais la décision se prend avec un professionnel."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La dose de Moussa",
+        "text": "Moussa demande à un assistant la dose d’un produit de traitement pour le maïs de son oncle. L’assistant donne un chiffre précis, sans hésiter.",
+        "head": [
+          "Question",
+          "Réponse de Moussa"
+        ],
+        "rows": [
+          [
+            "D’où vient l’information ?",
+            "Aucune source citée"
+          ],
+          [
+            "Puis-je la confirmer ailleurs ?",
+            "Oui, au poste agricole"
+          ],
+          [
+            "Que se passe-t-il si c’est faux ?",
+            "Risque élevé pour la culture et la santé",
+            "alert"
+          ]
+        ],
+        "after": "Au poste agricole, l’agent lui indique une autre dose, adaptée au produit réellement vendu dans la zone et à son étiquette."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un mauvais message se corrige. Une mauvaise dose, non. »",
+            "Pulvérisateur posé au bord d’un champ"
+          ],
+          [
+            "0:30",
+            "Les cinq risques, un par un.",
+            "Cinq panneaux d’avertissement"
+          ],
+          [
+            "2:00",
+            "Les trois questions de vérification.",
+            "Trois doigts levés"
+          ],
+          [
+            "3:15",
+            "Moussa au poste agricole.",
+            "Moussa face à un agent, étiquette du produit en gros plan"
+          ],
+          [
+            "4:15",
+            "Le faux vocal qui demande de l’argent : raccrocher et rappeler le vrai numéro.",
+            "Téléphone avec un vocal suspect"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "À vérifier ou risque faible ?",
+        "text": "Pour chaque réponse de l’IA, dites s’il faut la vérifier absolument.",
+        "choices": [
+          "Risque faible",
+          "À vérifier absolument"
+        ],
+        "items": [
+          [
+            "Un slogan pour vendre du miel",
+            0
+          ],
+          [
+            "La dose d’un médicament pour les poulets",
+            1
+          ],
+          [
+            "La date limite d’un appel à projets",
+            1
+          ],
+          [
+            "Une idée de titre pour une affiche",
+            0
+          ],
+          [
+            "Le montant d’une subvention publique",
+            1
+          ],
+          [
+            "Une reformulation plus polie d’un message",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "L’IA peut-elle inventer une source ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle produit parfois des références qui n’existent pas."
+        },
+        {
+          "q": "Qui décide d’une dose de produit de traitement ?",
+          "options": [
+            "L’IA",
+            "Un professionnel, avec l’étiquette du produit"
+          ],
+          "answer": 1,
+          "explain": "L’IA ne connaît ni le produit exact ni la situation."
+        },
+        {
+          "q": "Quelle est la première question de vérification ?",
+          "options": [
+            "D’où vient l’information ?",
+            "Est-ce bien écrit ?"
+          ],
+          "answer": 0,
+          "explain": "Une source vérifiable inspire plus confiance."
+        },
+        {
+          "q": "Un conseil de semis peut-il être pensé pour un autre climat ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "L’IA mélange souvent des exemples d’ailleurs."
+        },
+        {
+          "q": "Un vocal d’un proche demande de l’argent en urgence. Que faire ?",
+          "options": [
+            "Envoyer vite",
+            "Raccrocher et rappeler son vrai numéro"
+          ],
+          "answer": 1,
+          "explain": "Les voix peuvent être imitées."
+        },
+        {
+          "q": "Plus le risque est grand, plus il faut…",
+          "options": [
+            "Aller vite",
+            "Vérifier"
+          ],
+          "answer": 1,
+          "explain": "Santé, argent et produits dangereux exigent une confirmation."
+        }
+      ],
+      "summary": "Cinq risques : invention, information dépassée, conseil inadapté, conseil dangereux, faux contenus. Trois questions avant de faire confiance.",
+      "resource": "Fiche « Les trois questions » à coller près de son téléphone."
+    },
+    {
+      "id": "m7",
+      "label": "Mes données",
+      "number": 7,
+      "title": "Protéger ses données personnelles et professionnelles",
+      "duration": "30 min",
+      "point": "Ce que l’on tape dans un assistant peut être conservé : on n’y met jamais de code secret, et on anonymise les informations sur les autres.",
+      "intro": "Un code PIN de mobile money donné au mauvais endroit, et l’épargne d’une saison disparaît. Les bons réflexes tiennent en quelques règles.",
+      "objectives": [
+        "Distinguer les informations que l’on peut partager de celles que l’on ne partage jamais.",
+        "Anonymiser un texte avant de le donner à l’IA.",
+        "Sécuriser son compte et reconnaître une fausse application."
+      ],
+      "lessons": [
+        {
+          "title": "Ce que l’on ne donne jamais",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les codes secrets : code PIN de mobile money, mot de passe, code reçu par SMS pour confirmer une opération.",
+                "Les numéros de pièce d’identité et de compte bancaire.",
+                "Les informations personnelles des autres (membres, clients) sans leur accord."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Selon l’outil, les conversations peuvent être conservées ou servir à améliorer le service. Vérifiez les paramètres de confidentialité de l’outil que vous utilisez."
+            }
+          ]
+        },
+        {
+          "title": "Anonymiser et sécuriser",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Anonymiser : remplacer les noms par « Membre A », « Client B », et retirer les numéros de téléphone avant de coller un texte.",
+                "Mot de passe : long, différent pour chaque compte, jamais partagé. Activer la double vérification quand l’outil la propose.",
+                "Vraies applications : télécharger depuis le magasin officiel du téléphone, se méfier des copies qui demandent un paiement ou un code."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La liste des membres",
+        "text": "Moussa veut que l’IA classe la liste des 30 membres de la coopérative par village. Avant, il anonymise.",
+        "head": [
+          "Avant",
+          "Ce que voit l’IA"
+        ],
+        "rows": [
+          [
+            "Nom du membre et son numéro de téléphone",
+            "Membre 1, Membre 2… sans numéro"
+          ],
+          [
+            "Village de chaque membre",
+            "Village de chaque membre"
+          ]
+        ],
+        "after": "Moussa garde chez lui la correspondance entre numéros et noms. L’IA fait le travail sans jamais voir de données personnelles."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un code donné au mauvais endroit, et l’épargne d’une saison disparaît. »",
+            "Cadenas ouvert sur un téléphone"
+          ],
+          [
+            "0:30",
+            "Ce que l’on ne donne jamais.",
+            "Trois cartes barrées : PIN, mot de passe, pièce d’identité"
+          ],
+          [
+            "1:45",
+            "Anonymiser : la liste de Moussa.",
+            "Noms remplacés par « Membre 1, 2, 3 »"
+          ],
+          [
+            "3:00",
+            "Mot de passe, double vérification, vraies applications.",
+            "Magasin d’applications officiel"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Partager ou jamais ?",
+        "text": "Pour chaque information, dites si elle peut être donnée à un assistant.",
+        "choices": [
+          "Peut être donnée",
+          "Jamais"
+        ],
+        "items": [
+          [
+            "Le code PIN de votre compte mobile money",
+            1
+          ],
+          [
+            "Le prix de vente de votre maïs",
+            0
+          ],
+          [
+            "Le numéro de votre carte d’identité",
+            1
+          ],
+          [
+            "Une liste de membres dont les noms sont remplacés par des numéros",
+            0
+          ],
+          [
+            "Le mot de passe de votre messagerie",
+            1
+          ],
+          [
+            "La description de votre activité",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Peut-on donner son code PIN à un assistant ?",
+          "options": [
+            "Oui, s’il le demande",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Aucun service sérieux n’en a besoin."
+        },
+        {
+          "q": "Les conversations peuvent-elles être conservées ?",
+          "options": [
+            "Oui, selon l’outil",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "Vérifiez les paramètres de confidentialité."
+        },
+        {
+          "q": "Qu’est-ce qu’anonymiser ?",
+          "options": [
+            "Remplacer les noms et retirer les numéros",
+            "Écrire en majuscules",
+            "Effacer la conversation"
+          ],
+          "answer": 0,
+          "explain": "L’IA travaille sans données personnelles."
+        },
+        {
+          "q": "Un bon mot de passe est…",
+          "options": [
+            "Court et facile",
+            "Long, unique, jamais partagé"
+          ],
+          "answer": 1,
+          "explain": "Un même mot de passe partout est un risque."
+        },
+        {
+          "q": "Une application demande un paiement pour « débloquer l’IA ». Que faire ?",
+          "options": [
+            "Payer",
+            "Se méfier et passer par le magasin officiel"
+          ],
+          "answer": 1,
+          "explain": "Les fausses applications sont courantes."
+        },
+        {
+          "q": "Peut-on partager les données des membres sans leur accord ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elles leur appartiennent."
+        }
+      ],
+      "summary": "Jamais de code ni de numéro d’identité, des données anonymisées, un compte bien protégé et des applications officielles.",
+      "resource": "Fiche « Mes six règles de sécurité »."
+    },
+    {
+      "id": "m8",
+      "label": "Projet pratique",
+      "number": 8,
+      "title": "Réaliser un projet pratique avec l’IA",
+      "duration": "45 min",
+      "point": "Vous créez avec l’IA un kit de communication réel pour votre activité ou une coopérative, puis vous le vérifiez.",
+      "intro": "C’est le moment de tout mettre ensemble. À la fin de ce module, vous aurez des textes que vous utiliserez dès demain.",
+      "objectives": [
+        "Produire les quatre pièces d’un kit de communication avec l’IA.",
+        "Noter les instructions utilisées pour pouvoir les réutiliser.",
+        "Vérifier chaque pièce avec la fiche de contrôle."
+      ],
+      "lessons": [
+        {
+          "title": "Le kit de communication",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pièce",
+                "Contenu attendu"
+              ],
+              "rows": [
+                [
+                  "Présentation de l’activité",
+                  "Cinq lignes : qui, quoi, où, depuis quand, ce qui vous distingue"
+                ],
+                [
+                  "Annonce de vente",
+                  "Message WhatsApp de cinq lignes maximum, avec produit, prix, lieu et contact"
+                ],
+                [
+                  "Réponse type",
+                  "Réponse polie à un client qui demande le prix et les conditions"
+                ],
+                [
+                  "Fiche de contrôle remplie",
+                  "La vérification de chaque pièce (leçon 8.2)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La fiche de contrôle",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les noms, les prix, les lieux et les numéros sont exacts.",
+                "Rien n’a été inventé ou promis à tort.",
+                "Le ton convient au public visé.",
+                "Aucune donnée sensible n’a été donnée à l’IA.",
+                "L’instruction utilisée est notée pour la réutiliser."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le kit de Moussa",
+        "text": "Moussa réalise le kit pour la coopérative de son oncle. Il utilise le générateur d’instructions pour chaque pièce et relance deux fois l’annonce pour la raccourcir.",
+        "after": "Il fait relire le tout par le président, corrige un prix erroné et retire une promesse de livraison que la coopérative ne peut pas tenir."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Tout ce que vous avez appris tient dans ce kit. »",
+            "Quatre fiches posées sur une table"
+          ],
+          [
+            "0:30",
+            "Les quatre pièces du kit.",
+            "Chaque pièce à l’écran, une par une"
+          ],
+          [
+            "2:00",
+            "La fiche de contrôle, appliquée par Moussa.",
+            "Coches qui apparaissent, une erreur corrigée"
+          ],
+          [
+            "3:15",
+            "« Envoyez votre kit à votre formateur, et utilisez-le dès demain. »",
+            "Moussa qui envoie un message WhatsApp"
+          ]
+        ]
+      },
+      "tool": "prompt",
+      "toolDefaults": {
+        "role": "Tu es chargé de communication.",
+        "contexte": "",
+        "tache": "Rédige une présentation de mon activité en cinq lignes.",
+        "format": "Cinq lignes, ton simple et chaleureux."
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon projet final",
+        "text": "Cochez chaque étape quand elle est faite. Votre liste reste enregistrée sur ce téléphone.",
+        "items": [
+          "Présentation de l’activité rédigée et vérifiée",
+          "Annonce de vente rédigée et vérifiée",
+          "Réponse type au client rédigée et vérifiée",
+          "Fiche de contrôle remplie pour les trois pièces",
+          "Instructions utilisées notées",
+          "Kit relu par une personne qui connaît l’activité",
+          "Kit envoyé au formateur par WhatsApp ou par la plateforme"
+        ],
+        "then": "L’attestation finale est délivrée par le formateur avec au moins trois pièces acquises sur quatre et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Combien de pièces contient le kit ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Présentation, annonce, réponse type, fiche de contrôle."
+        },
+        {
+          "q": "Pourquoi noter les instructions utilisées ?",
+          "options": [
+            "Pour les réutiliser",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Une bonne instruction sert plusieurs fois."
+        },
+        {
+          "q": "Faut-il faire relire le kit ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Une personne qui connaît l’activité repère les erreurs."
+        },
+        {
+          "q": "L’IA promet une livraison impossible. Que faire ?",
+          "options": [
+            "Laisser",
+            "Retirer la promesse"
+          ],
+          "answer": 1,
+          "explain": "On ne promet que ce que l’on peut tenir."
+        },
+        {
+          "q": "Peut-on donner à l’IA le code PIN de la coopérative pour « aller plus vite » ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Aucune tâche de communication n’en a besoin."
+        },
+        {
+          "q": "Qui valide l’attestation finale ?",
+          "options": [
+            "La plateforme",
+            "Le formateur"
+          ],
+          "answer": 1,
+          "explain": "Après examen du projet."
+        }
+      ],
+      "summary": "Quatre pièces, une fiche de contrôle, des instructions notées. Le kit est prêt à servir dès demain.",
+      "resource": "Fiche de contrôle du kit, à imprimer."
+    }
+  ]
 }

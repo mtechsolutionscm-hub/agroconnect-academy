@@ -1,0 +1,1712 @@
+{
+  "id": "f12",
+  "title": "Agriculture durable et adaptation au changement climatique",
+  "short": "Climat",
+  "lead": "Comprendre le changement climatique, repérer les risques de sa zone et adapter ses pratiques pour continuer à produire.",
+  "note": "Hamadou et ses chiffres sont fictifs. Les pratiques et variétés sont à adapter à votre zone avec les services techniques du MINADER et l’IRAD.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Comprendre",
+      "number": 1,
+      "title": "Comprendre les changements climatiques et leurs effets sur l’agriculture",
+      "duration": "30 min",
+      "point": "La météo, c’est le temps qu’il fait aujourd’hui ; le climat, c’est le temps qu’il fait en moyenne sur de longues années. Le climat change : il fait plus chaud et les pluies sont moins prévisibles.",
+      "intro": "« Avant, on savait quand semer. Aujourd’hui, la pluie arrive, s’arrête, revient trop fort. » Beaucoup de producteurs le constatent. Comprendre ce qui se passe est la première étape pour s’adapter.",
+      "objectives": [
+        "Distinguer la météo du climat.",
+        "Citer quatre changements climatiques qui touchent l’agriculture.",
+        "Relier chaque changement à un effet sur sa production."
+      ],
+      "lessons": [
+        {
+          "title": "Météo et climat",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "Météo",
+                "Climat"
+              ],
+              "rows": [
+                [
+                  "Durée",
+                  "Quelques heures à quelques jours",
+                  "Des dizaines d’années"
+                ],
+                [
+                  "Exemple",
+                  "« Il va pleuvoir demain à Ngaoundéré »",
+                  "« La saison des pluies commence de plus en plus tard »"
+                ],
+                [
+                  "Utile pour",
+                  "Organiser la semaine : traitement, récolte, transport",
+                  "Choisir ses cultures, ses variétés, ses investissements"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le changement climatique est principalement causé par les gaz à effet de serre rejetés par les activités humaines, qui réchauffent l’atmosphère."
+            }
+          ]
+        },
+        {
+          "title": "Ce qui change, et ce que cela fait à l’agriculture",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Changement",
+                "Effet sur l’agriculture"
+              ],
+              "rows": [
+                [
+                  "Températures plus élevées",
+                  "Stress des plantes et des animaux, sols qui sèchent plus vite, nouveaux ravageurs"
+                ],
+                [
+                  "Début des pluies plus irrégulier",
+                  "Semis ratés, ressemis coûteux"
+                ],
+                [
+                  "Poches de sécheresse en saison des pluies",
+                  "Floraison ou remplissage des grains compromis"
+                ],
+                [
+                  "Pluies plus violentes",
+                  "Érosion des sols, inondations, séchage et stockage plus difficiles"
+                ],
+                [
+                  "Vents forts",
+                  "Cultures couchées, dégâts aux bâtiments"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les alertes publiées par l’ONACC dans la rubrique Climat d’AgroConnect décrivent ces risques, région par région."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les trois dernières saisons de Hamadou",
+        "text": "Hamadou cultive du maïs et des légumes près de Ngaoundéré.",
+        "head": [
+          "Saison",
+          "Ce qui s’est passé"
+        ],
+        "rows": [
+          [
+            "Il y a deux ans",
+            "Semis aux premières pluies, puis deux semaines sans pluie : ressemis"
+          ],
+          [
+            "L’an dernier",
+            "Une pluie très forte emporte une partie du sol de sa parcelle en pente"
+          ],
+          [
+            "Cette année",
+            "La chaleur fatigue ses tomates",
+            "result"
+          ]
+        ],
+        "after": "Trois problèmes différents, une même cause de fond."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Avant, on savait quand semer. »",
+            "Un ancien qui regarde le ciel"
+          ],
+          [
+            "0:30",
+            "Météo et climat : la différence.",
+            "Un jour de pluie, puis un calendrier de plusieurs années"
+          ],
+          [
+            "1:30",
+            "Cinq changements, cinq effets.",
+            "Champ sec, ravine d’érosion, maïs couché par le vent"
+          ],
+          [
+            "3:15",
+            "Les trois saisons de Hamadou.",
+            "Hamadou dans son champ"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Météo ou climat ?",
+        "text": "Pour chaque phrase, choisissez.",
+        "choices": [
+          "Météo",
+          "Climat"
+        ],
+        "items": [
+          [
+            "« Il va pleuvoir cet après-midi »",
+            0
+          ],
+          [
+            "« Depuis dix ans, la saison sèche dure plus longtemps »",
+            1
+          ],
+          [
+            "« Demain, vent fort sur le plateau »",
+            0
+          ],
+          [
+            "« Les nuits sont de plus en plus chaudes au fil des années »",
+            1
+          ],
+          [
+            "« Orage prévu ce soir »",
+            0
+          ],
+          [
+            "« Les premières pluies arrivent de moins en moins régulièrement »",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle est la différence entre météo et climat ?",
+          "options": [
+            "La météo, c’est quelques jours ; le climat, des dizaines d’années",
+            "C’est la même chose"
+          ],
+          "answer": 0,
+          "explain": "Le climat est une moyenne sur le long terme."
+        },
+        {
+          "q": "Quelle est la cause principale du changement climatique ?",
+          "options": [
+            "Les gaz à effet de serre rejetés par les activités humaines",
+            "La lune"
+          ],
+          "answer": 0,
+          "explain": "Ils réchauffent l’atmosphère."
+        },
+        {
+          "q": "Quel effet ont les pluies très violentes ?",
+          "options": [
+            "Érosion des sols et inondations",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Le sol fertile est emporté."
+        },
+        {
+          "q": "Un début de pluies irrégulier peut causer quoi ?",
+          "options": [
+            "Des semis ratés et des ressemis",
+            "Une meilleure récolte"
+          ],
+          "answer": 0,
+          "explain": "Le producteur perd semences et travail."
+        },
+        {
+          "q": "Qui publie les alertes climatiques reprises par AgroConnect ?",
+          "options": [
+            "L’ONACC",
+            "Un réseau social"
+          ],
+          "answer": 0,
+          "explain": "Observatoire national sur les changements climatiques."
+        },
+        {
+          "q": "Le climat sert-il à choisir ses variétés ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Les décisions de long terme se fondent sur le climat."
+        }
+      ],
+      "summary": "La météo, c’est demain ; le climat, ce sont les années. Il fait plus chaud et les pluies sont moins prévisibles : cela touche les semis, les sols, les récoltes et le stockage.",
+      "resource": "Fiche « Météo ou climat ? » et lien vers les alertes de la rubrique Climat d’AgroConnect."
+    },
+    {
+      "id": "m2",
+      "label": "Mes risques",
+      "number": 2,
+      "title": "Identifier les risques climatiques dans sa zone",
+      "duration": "30 min",
+      "point": "Chaque zone a ses propres risques. On les repère avec la mémoire des anciens, le calendrier des saisons et les alertes officielles, puis on les classe : probabilité multipliée par gravité.",
+      "intro": "On ne peut pas se préparer à tout. Classer ses risques permet de mettre son temps et son argent là où ils protègent le plus.",
+      "objectives": [
+        "Utiliser trois sources pour repérer les risques de sa zone.",
+        "Noter chaque risque selon sa probabilité et sa gravité.",
+        "Classer ses risques pour choisir ses priorités."
+      ],
+      "lessons": [
+        {
+          "title": "Trois sources pour repérer les risques",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La mémoire des anciens et des membres : quelles années ont été difficiles, et pourquoi ?",
+                "Le calendrier des saisons : dessiner, mois par mois, les pluies, les travaux et les problèmes rencontrés.",
+                "Les alertes officielles : les bulletins de l’ONACC dans la rubrique Climat d’AgroConnect, et les conseils des services techniques."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La matrice des risques",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Note",
+                "Probabilité",
+                "Gravité"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Rare",
+                  "Petits dégâts"
+                ],
+                [
+                  "2",
+                  "Certaines années",
+                  "Dégâts importants"
+                ],
+                [
+                  "3",
+                  "Presque chaque année",
+                  "Perte d’une grande partie de la récolte"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Score du risque = Probabilité × Gravité"
+            },
+            {
+              "type": "p",
+              "text": "Un score de 6 à 9 est une priorité ; de 3 à 4, à surveiller ; de 1 à 2, risque faible."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La matrice de Hamadou",
+        "text": "Hamadou note ses risques avec les anciens de son village.",
+        "head": [
+          "Risque",
+          "Probabilité",
+          "Gravité",
+          "Score"
+        ],
+        "rows": [
+          [
+            "Début des pluies irrégulier",
+            "3",
+            "3",
+            "9",
+            "alert"
+          ],
+          [
+            "Pluies violentes et érosion de la parcelle en pente",
+            "3",
+            "2",
+            "6"
+          ],
+          [
+            "Poche de sécheresse pendant la floraison",
+            "2",
+            "3",
+            "6"
+          ],
+          [
+            "Chaleur sur les légumes",
+            "2",
+            "2",
+            "4"
+          ],
+          [
+            "Nouveaux ravageurs",
+            "2",
+            "2",
+            "4"
+          ],
+          [
+            "Vents forts",
+            "1",
+            "2",
+            "2"
+          ]
+        ],
+        "after": "Hamadou retient trois priorités : le début irrégulier des pluies, l’érosion et les poches de sécheresse."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« On ne peut pas se préparer à tout. »",
+            "Hamadou devant plusieurs problèmes à la fois"
+          ],
+          [
+            "0:30",
+            "Trois sources : les anciens, le calendrier, les alertes.",
+            "Réunion au village, calendrier dessiné au sol"
+          ],
+          [
+            "1:45",
+            "La matrice : probabilité fois gravité.",
+            "Grille de 3 sur 3 qui se remplit"
+          ],
+          [
+            "3:15",
+            "Les trois priorités de Hamadou.",
+            "Trois risques entourés"
+          ]
+        ]
+      },
+      "tool": "risques",
+      "toolDefaults": {
+        "risques": [
+          [
+            "Début des pluies irrégulier",
+            3,
+            3
+          ],
+          [
+            "Pluies violentes et érosion",
+            3,
+            2
+          ],
+          [
+            "Poche de sécheresse pendant la floraison",
+            2,
+            3
+          ],
+          [
+            "Chaleur sur les légumes",
+            2,
+            2
+          ],
+          [
+            "Nouveaux ravageurs",
+            2,
+            2
+          ],
+          [
+            "Vents forts",
+            1,
+            2
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le score",
+        "text": "Un risque arrive certaines années (probabilité 2) et peut faire perdre une grande partie de la récolte (gravité 3). Quel est son score ?",
+        "answer": 6,
+        "unit": "score",
+        "solution": "2 × 3 = 6 : c’est une priorité.",
+        "then": "Dressez ensuite avec votre groupe le calendrier des saisons et la matrice des risques de votre zone, avec l’outil ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi classer ses risques ?",
+          "options": [
+            "Pour mettre ses efforts là où ils protègent le plus",
+            "Pour avoir peur"
+          ],
+          "answer": 0,
+          "explain": "On ne peut pas tout traiter."
+        },
+        {
+          "q": "Quelles trois sources utiliser ?",
+          "options": [
+            "Les anciens, le calendrier des saisons, les alertes officielles",
+            "Les rumeurs du marché"
+          ],
+          "answer": 0,
+          "explain": "Elles se complètent."
+        },
+        {
+          "q": "Comment se calcule le score ?",
+          "options": [
+            "Probabilité multipliée par gravité",
+            "Probabilité plus gravité"
+          ],
+          "answer": 0,
+          "explain": "Chacune notée de 1 à 3."
+        },
+        {
+          "q": "Probabilité 3, gravité 3. Score ?",
+          "options": [
+            "6",
+            "9",
+            "3"
+          ],
+          "answer": 1,
+          "explain": "Priorité absolue."
+        },
+        {
+          "q": "À partir de quel score parle-t-on de priorité ?",
+          "options": [
+            "2",
+            "6"
+          ],
+          "answer": 1,
+          "explain": "De 6 à 9."
+        },
+        {
+          "q": "Où trouver les alertes officielles ?",
+          "options": [
+            "Dans la rubrique Climat d’AgroConnect",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Avec les bulletins de l’ONACC."
+        }
+      ],
+      "summary": "Repérer ses risques avec les anciens, le calendrier et les alertes ; les noter de 1 à 3 ; multiplier ; traiter d’abord les scores de 6 à 9.",
+      "resource": "Modèles du calendrier des saisons et de la matrice des risques, à remplir en groupe."
+    },
+    {
+      "id": "m3",
+      "label": "Alertes",
+      "number": 3,
+      "title": "Comprendre les informations météorologiques",
+      "duration": "30 min",
+      "point": "Prévision pour les prochains jours, bulletin sur dix jours ou une saison, alerte quand un risque élevé est annoncé : savoir les lire permet de transformer l’information en décision.",
+      "intro": "L’information climatique ne sert à rien si elle reste sur le téléphone. La question à se poser est toujours la même : qu’est-ce que je fais de différent, à cause de cette information ?",
+      "objectives": [
+        "Distinguer prévision, bulletin et alerte.",
+        "Lire une alerte en quatre points.",
+        "Prendre une décision adaptée à partir d’une information."
+      ],
+      "lessons": [
+        {
+          "title": "Trois sortes d’informations",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Information",
+                "Horizon",
+                "Sert à décider"
+              ],
+              "rows": [
+                [
+                  "Prévision météo",
+                  "1 à 3 jours",
+                  "Traiter, récolter, sécher, transporter cette semaine"
+                ],
+                [
+                  "Bulletin sur dix jours ou une saison (ONACC)",
+                  "10 jours à quelques mois",
+                  "Quand semer, quelle variété, quelles réserves prévoir"
+                ],
+                [
+                  "Alerte",
+                  "La période concernée",
+                  "Se protéger d’un risque élevé annoncé"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lire une alerte en quatre points",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "La zone : ma région, mon département sont-ils concernés ?",
+                "La période : de quelle date à quelle date ?",
+                "Le risque et son niveau : sécheresse, pluies fortes, vents violents, chaleur ; risque élevé ou modéré.",
+                "Les conseils : que recommandent l’ONACC et les services techniques ?"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une prévision n’est jamais une certitude. « Risque élevé » signifie que l’événement est probable, pas qu’il est sûr : on se prépare, sans tout arrêter."
+            }
+          ]
+        },
+        {
+          "title": "De l’information à la décision",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Information",
+                "Décision adaptée"
+              ],
+              "rows": [
+                [
+                  "Fortes pluies prévues dans les trois jours",
+                  "Rentrer ou couvrir le maïs en séchage, reporter le traitement"
+                ],
+                [
+                  "Début des pluies annoncé en retard",
+                  "Attendre l’installation réelle des pluies, préparer des semences de cycle plus court"
+                ],
+                [
+                  "Poche de sécheresse annoncée",
+                  "Pailler, prioriser l’arrosage des cultures les plus sensibles"
+                ],
+                [
+                  "Vents violents annoncés",
+                  "Renforcer le toit du magasin, reporter un transport"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Hamadou et l’alerte de fortes pluies",
+        "text": "Un lundi, la rubrique Climat d’AgroConnect publie une alerte pour l’Adamaoua : risque élevé de fortes pluies du mercredi au vendredi.",
+        "head": [
+          "Point de l’alerte",
+          "Lecture de Hamadou"
+        ],
+        "rows": [
+          [
+            "Zone",
+            "Adamaoua : je suis concerné"
+          ],
+          [
+            "Période",
+            "Du mercredi au vendredi"
+          ],
+          [
+            "Risque",
+            "Fortes pluies, risque élevé"
+          ],
+          [
+            "Décision",
+            "Rentrer le maïs en séchage dès mardi soir, reporter le traitement des tomates",
+            "result"
+          ]
+        ],
+        "after": "Le mercredi, un orage éclate : son maïs est à l’abri."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Qu’est-ce que je fais de différent, à cause de cette information ? »",
+            "Hamadou devant son téléphone"
+          ],
+          [
+            "0:30",
+            "Prévision, bulletin, alerte.",
+            "Trois horizons sur une ligne de temps"
+          ],
+          [
+            "1:30",
+            "Lire une alerte en quatre points.",
+            "Une alerte de la rubrique Climat annotée"
+          ],
+          [
+            "2:45",
+            "De l’information à la décision.",
+            "Maïs rentré avant l’orage"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Adaptée ou risquée ?",
+        "text": "Pour chaque décision, choisissez.",
+        "choices": [
+          "Décision adaptée",
+          "Décision risquée"
+        ],
+        "items": [
+          [
+            "Laisser le maïs sécher dehors malgré une alerte de fortes pluies",
+            1
+          ],
+          [
+            "Reporter un traitement avant une forte pluie annoncée",
+            0
+          ],
+          [
+            "Semer dès la première averse alors qu’un début de pluies tardif est annoncé",
+            1
+          ],
+          [
+            "Pailler avant une poche de sécheresse annoncée",
+            0
+          ],
+          [
+            "Ignorer une alerte parce qu’une prévision n’est jamais sûre",
+            1
+          ],
+          [
+            "Renforcer le toit du magasin avant des vents violents",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle information pour décider d’un traitement cette semaine ?",
+          "options": [
+            "La prévision météo",
+            "Le bulletin saisonnier"
+          ],
+          "answer": 0,
+          "explain": "Elle couvre les prochains jours."
+        },
+        {
+          "q": "Quelle information pour choisir sa date de semis ?",
+          "options": [
+            "Le bulletin sur dix jours ou la saison",
+            "La prévision d’aujourd’hui"
+          ],
+          "answer": 0,
+          "explain": "Il donne la tendance."
+        },
+        {
+          "q": "Quels sont les quatre points d’une alerte ?",
+          "options": [
+            "Zone, période, risque et niveau, conseils",
+            "Titre, date, auteur, signature"
+          ],
+          "answer": 0,
+          "explain": "Dans cet ordre."
+        },
+        {
+          "q": "« Risque élevé » veut-il dire que l’événement est certain ?",
+          "options": [
+            "Oui",
+            "Non, il est probable"
+          ],
+          "answer": 1,
+          "explain": "On se prépare sans tout arrêter."
+        },
+        {
+          "q": "Fortes pluies annoncées : que faire du maïs en séchage ?",
+          "options": [
+            "Le rentrer ou le couvrir",
+            "Le laisser"
+          ],
+          "answer": 0,
+          "explain": "Formation F11, module 2."
+        },
+        {
+          "q": "Où lire les alertes ONACC ?",
+          "options": [
+            "Dans la rubrique Climat d’AgroConnect",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Elles y sont publiées par région."
+        }
+      ],
+      "summary": "Prévision pour la semaine, bulletin pour la saison, alerte pour se protéger. Lire zone, période, risque et conseils, puis décider ce que l’on fait de différent.",
+      "resource": "Fiche « Lire une alerte en quatre points »."
+    },
+    {
+      "id": "m4",
+      "label": "Pratiques",
+      "number": 4,
+      "title": "Découvrir les pratiques agricoles adaptées au climat",
+      "duration": "35 min",
+      "point": "S’adapter, c’est combiner plusieurs pratiques simples : variétés adaptées, semis au bon moment, cultures et revenus diversifiés, associations et arbres qui protègent les sols. Aucune pratique ne suffit seule.",
+      "intro": "Le climat change, mais les producteurs ont des solutions. Beaucoup sont déjà connues dans les villages ; il s’agit de les choisir selon ses risques prioritaires et de les combiner.",
+      "objectives": [
+        "Citer six pratiques d’adaptation.",
+        "Relier chaque pratique au risque qu’elle réduit.",
+        "Choisir trois pratiques pour son exploitation."
+      ],
+      "lessons": [
+        {
+          "title": "Six pratiques d’adaptation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pratique",
+                "Risque réduit",
+                "En pratique"
+              ],
+              "rows": [
+                [
+                  "Variétés adaptées",
+                  "Sécheresse, saison courte",
+                  "Cycle plus court ou plus tolérantes à la sécheresse ; semences de qualité, à choisir avec l’IRAD ou le MINADER"
+                ],
+                [
+                  "Semer au bon moment",
+                  "Début des pluies irrégulier",
+                  "Attendre que les pluies soient installées et le sol bien humide, selon les repères locaux et les bulletins"
+                ],
+                [
+                  "Échelonner les semis",
+                  "Début irrégulier, poches de sécheresse",
+                  "Semer en deux ou trois fois pour ne pas tout perdre"
+                ],
+                [
+                  "Associer et alterner les cultures",
+                  "Baisse de fertilité, ravageurs",
+                  "Maïs associé ou alterné avec une légumineuse (haricot, arachide, soja), qui enrichit le sol en azote"
+                ],
+                [
+                  "Arbres et haies",
+                  "Vents, chaleur, érosion",
+                  "Haies brise-vent, arbres dans les parcelles (agroforesterie)"
+                ],
+                [
+                  "Diversifier ses revenus",
+                  "Mauvaise année sur une culture",
+                  "Plusieurs cultures, petit élevage, apiculture, transformation (formation F10)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Combiner selon ses priorités",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Partez de votre matrice des risques (module 2) et choisissez, pour chaque risque prioritaire, une ou deux pratiques. Commencez petit, sur une partie de la parcelle, pour comparer avec votre pratique habituelle avant de généraliser."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les choix de Hamadou",
+        "text": "Hamadou associe une ou deux pratiques à chacune de ses trois priorités.",
+        "head": [
+          "Risque prioritaire",
+          "Pratiques choisies"
+        ],
+        "rows": [
+          [
+            "Début des pluies irrégulier",
+            "Attendre l’installation des pluies, semer en deux fois"
+          ],
+          [
+            "Poches de sécheresse",
+            "Variété à cycle plus court conseillée par l’agent du poste agricole, sur un quart d’hectare"
+          ],
+          [
+            "Érosion de la parcelle en pente",
+            "Haie le long de la pente et association maïs-haricot"
+          ]
+        ],
+        "after": "En fin de saison, Hamadou comparera la parcelle d’essai et le reste de son champ."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le climat change, mais les producteurs ont des solutions. »",
+            "Champ diversifié et verdoyant"
+          ],
+          [
+            "0:30",
+            "Les six pratiques, une par une.",
+            "Semences, semis échelonné, association maïs-haricot, haie, ruches"
+          ],
+          [
+            "3:00",
+            "Combiner selon ses priorités, et commencer petit.",
+            "Parcelle d’essai délimitée"
+          ],
+          [
+            "4:00",
+            "Les choix de Hamadou.",
+            "Hamadou avec l’agent du poste agricole"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Adaptation ou risque ?",
+        "text": "Pour chaque pratique, choisissez.",
+        "choices": [
+          "Aide à s’adapter",
+          "Augmente le risque"
+        ],
+        "items": [
+          [
+            "Semer tout son champ dès la première averse",
+            1
+          ],
+          [
+            "Associer maïs et haricot",
+            0
+          ],
+          [
+            "Défricher les arbres de la parcelle en pente",
+            1
+          ],
+          [
+            "Semer en deux fois",
+            0
+          ],
+          [
+            "Essayer une nouvelle variété sur une petite parcelle",
+            0
+          ],
+          [
+            "Ne cultiver qu’une seule culture",
+            1
+          ]
+        ],
+        "then": "Choisissez ensuite trois pratiques pour vos risques prioritaires."
+      },
+      "quiz": [
+        {
+          "q": "Une seule pratique suffit-elle ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On combine plusieurs pratiques."
+        },
+        {
+          "q": "Pourquoi échelonner les semis ?",
+          "options": [
+            "Pour ne pas tout perdre si la pluie s’arrête",
+            "Pour travailler plus"
+          ],
+          "answer": 0,
+          "explain": "Le risque est réparti."
+        },
+        {
+          "q": "Que fait une légumineuse associée au maïs ?",
+          "options": [
+            "Elle enrichit le sol en azote",
+            "Elle abîme le sol"
+          ],
+          "answer": 0,
+          "explain": "Haricot, arachide, soja."
+        },
+        {
+          "q": "À quoi servent les haies ?",
+          "options": [
+            "Contre le vent, la chaleur et l’érosion",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Elles protègent sols et cultures."
+        },
+        {
+          "q": "Auprès de qui choisir une variété adaptée ?",
+          "options": [
+            "L’IRAD ou les services du MINADER",
+            "N’importe quel vendeur"
+          ],
+          "answer": 0,
+          "explain": "Avec des semences de qualité."
+        },
+        {
+          "q": "Comment tester une nouvelle pratique ?",
+          "options": [
+            "Sur une petite parcelle, en comparant",
+            "Sur tout le champ d’un coup"
+          ],
+          "answer": 0,
+          "explain": "Avant de généraliser."
+        }
+      ],
+      "summary": "Variétés adaptées, semis au bon moment et échelonnés, associations, arbres et revenus diversifiés. Choisir selon ses risques prioritaires et tester petit.",
+      "resource": "Fiche « Mes trois pratiques d’adaptation » et fiche de suivi d’une parcelle d’essai."
+    },
+    {
+      "id": "m5",
+      "label": "Sols",
+      "number": 5,
+      "title": "Comprendre la gestion durable des sols",
+      "duration": "35 min",
+      "point": "Un sol vivant retient l’eau, nourrit les plantes et résiste aux pluies violentes. On le protège en freinant l’érosion, en le gardant couvert et en lui rendant de la matière organique, au lieu de le brûler.",
+      "intro": "La terre noire du dessus est la plus fertile. Une seule pluie violente peut l’emporter, et il faut des années pour la reconstituer.",
+      "objectives": [
+        "Reconnaître les signes d’un sol qui s’abîme.",
+        "Choisir une technique contre l’érosion pour une parcelle en pente.",
+        "Enrichir son sol en matière organique."
+      ],
+      "lessons": [
+        {
+          "title": "Les signes d’un sol qui s’abîme",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ravines après la pluie, racines déchaussées, croûte dure en surface, eau qui ruisselle au lieu de s’infiltrer, rendements qui baissent d’année en année."
+            }
+          ]
+        },
+        {
+          "title": "Freiner l’érosion",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Technique",
+                "Principe"
+              ],
+              "rows": [
+                [
+                  "Travailler en suivant les courbes de niveau",
+                  "Les lignes de culture coupent la pente au lieu de la descendre"
+                ],
+                [
+                  "Cordons pierreux",
+                  "Lignes de pierres le long des courbes de niveau, qui ralentissent l’eau et retiennent la terre"
+                ],
+                [
+                  "Haies et bandes enherbées",
+                  "Une ligne vivante qui freine le ruissellement et fixe le sol"
+                ],
+                [
+                  "Sol couvert",
+                  "Paillage ou plantes de couverture, qui protègent du choc des gouttes"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nourrir le sol",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Apporter du compost et du fumier bien décomposés.",
+                "Laisser ou enfouir les résidus de culture au lieu de les brûler : le brûlis détruit la matière organique.",
+                "Associer ou alterner avec des légumineuses (module 4).",
+                "Garder le sol couvert le plus longtemps possible."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La parcelle en pente de Hamadou",
+        "text": "Hamadou trace avec un voisin les courbes de niveau de sa parcelle.",
+        "head": [
+          "Action",
+          "Effet"
+        ],
+        "rows": [
+          [
+            "Deux cordons pierreux",
+            "L’eau ralentit"
+          ],
+          [
+            "Une haie en bas de la pente",
+            "La terre reste sur place"
+          ],
+          [
+            "Paillage entre les rangs",
+            "Le sol reste couvert et humide"
+          ],
+          [
+            "Tiges de maïs compostées au lieu d’être brûlées",
+            "La matière organique revient au sol",
+            "result"
+          ]
+        ],
+        "after": "Après les premières fortes pluies, l’eau ne creuse plus de ravine."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Une pluie, et la meilleure terre s’en va. »",
+            "Eau boueuse qui dévale une parcelle"
+          ],
+          [
+            "0:30",
+            "Les signes d’un sol qui s’abîme.",
+            "Ravine, racines déchaussées, croûte"
+          ],
+          [
+            "1:30",
+            "Courbes de niveau, cordons pierreux, haies, paillage.",
+            "Traçage au niveau à eau, pose des pierres"
+          ],
+          [
+            "3:30",
+            "Nourrir le sol : compost, résidus, légumineuses.",
+            "Tas de compost, tiges enfouies"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Brûler les tiges de maïs après la récolte",
+            1
+          ],
+          [
+            "Poser un cordon pierreux le long d’une courbe de niveau",
+            0
+          ],
+          [
+            "Labourer dans le sens de la pente",
+            1
+          ],
+          [
+            "Pailler entre les rangs",
+            0
+          ],
+          [
+            "Apporter du compost bien décomposé",
+            0
+          ],
+          [
+            "Laisser le sol nu toute la saison sèche",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Un signe d’érosion ?",
+          "options": [
+            "Des ravines après la pluie",
+            "Des feuilles vertes"
+          ],
+          "answer": 0,
+          "explain": "La terre est emportée."
+        },
+        {
+          "q": "Dans quel sens cultiver une pente ?",
+          "options": [
+            "En suivant les courbes de niveau",
+            "Dans le sens de la pente"
+          ],
+          "answer": 0,
+          "explain": "Pour couper la pente."
+        },
+        {
+          "q": "À quoi sert un cordon pierreux ?",
+          "options": [
+            "Ralentir l’eau et retenir la terre",
+            "Décorer le champ"
+          ],
+          "answer": 0,
+          "explain": "Le long des courbes de niveau."
+        },
+        {
+          "q": "Faut-il brûler les résidus de culture ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le brûlis détruit la matière organique."
+        },
+        {
+          "q": "Pourquoi garder le sol couvert ?",
+          "options": [
+            "Pour le protéger des pluies et garder l’humidité",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Paillage ou plantes de couverture."
+        },
+        {
+          "q": "Que rapporte une légumineuse au sol ?",
+          "options": [
+            "De l’azote",
+            "Du sel"
+          ],
+          "answer": 0,
+          "explain": "Elle l’enrichit."
+        }
+      ],
+      "summary": "Freiner l’eau avec les courbes de niveau, les cordons et les haies ; couvrir le sol ; le nourrir de compost et de résidus ; ne plus brûler.",
+      "resource": "Fiche « Tracer les courbes de niveau avec un niveau à eau » et fiche « Faire son compost »."
+    },
+    {
+      "id": "m6",
+      "label": "Eau",
+      "number": 6,
+      "title": "Découvrir les pratiques de gestion de l’eau",
+      "duration": "30 min",
+      "point": "L’eau devient plus rare à certains moments et trop abondante à d’autres. On la récupère quand elle tombe, on la garde dans le sol, et on l’utilise sans gaspiller.",
+      "intro": "Chaque grosse pluie qui ruisselle est de l’eau perdue pour les jours secs. Récupérer et économiser l’eau, c’est tenir pendant les poches de sécheresse.",
+      "objectives": [
+        "Calculer l’eau que l’on peut récupérer sur un toit.",
+        "Garder l’humidité dans le sol.",
+        "Arroser de façon économe."
+      ],
+      "lessons": [
+        {
+          "title": "Récupérer l’eau de pluie",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un millimètre de pluie tombant sur un mètre carré donne un litre d’eau."
+            },
+            {
+              "type": "formula",
+              "text": "Litres récupérés = Surface du toit (m²) × Pluie (mm)"
+            },
+            {
+              "type": "p",
+              "text": "On récupère l’eau des toits dans des fûts ou des citernes couverts, contre les moustiques et les salissures, et le ruissellement des parcelles dans des mares ou des bassins, là où c’est possible."
+            }
+          ]
+        },
+        {
+          "title": "Garder l’eau dans le sol",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Paillage : il réduit l’évaporation.",
+                "Matière organique (module 5) : un sol riche retient mieux l’eau.",
+                "Cordons et haies : l’eau s’infiltre au lieu de ruisseler.",
+                "Dans les zones les plus sèches, des cuvettes de plantation (zaï, demi-lunes) concentrent l’eau au pied des plantes ; à adapter avec les services techniques."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Arroser sans gaspiller",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Arroser tôt le matin ou en fin de journée, quand l’évaporation est faible.",
+                "Arroser au pied des plantes, pas les feuilles ni les allées.",
+                "Un goutte-à-goutte simple, même artisanal, économise beaucoup d’eau pour le maraîchage.",
+                "Entretenir la motopompe et les tuyaux (formation F18) pour éviter les fuites.",
+                "Protéger puits et sources : pas de produits de traitement ni de rinçage à proximité."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La citerne de Hamadou",
+        "text": "Le toit de sa maison mesure 40 m².",
+        "head": [
+          "Calcul",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Toit de 40 m² × pluie de 25 mm",
+            "1 000 litres"
+          ],
+          [
+            "Stockage",
+            "Deux fûts couverts"
+          ],
+          [
+            "Usage",
+            "Arrosage des pépinières de tomates, au pied, le matin, pendant une poche de sécheresse",
+            "result"
+          ]
+        ],
+        "after": "Une seule bonne pluie bien récupérée permet de tenir plusieurs jours secs."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Chaque grosse pluie qui ruisselle, c’est de l’eau perdue. »",
+            "Eau qui coule d’un toit sur le sol"
+          ],
+          [
+            "0:30",
+            "Récupérer l’eau du toit : le calcul.",
+            "Gouttière, fût couvert"
+          ],
+          [
+            "1:45",
+            "Garder l’eau dans le sol.",
+            "Paillage, cuvette de plantation"
+          ],
+          [
+            "2:45",
+            "Arroser sans gaspiller.",
+            "Arrosage au pied le matin, goutte-à-goutte"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez l’eau du toit",
+        "text": "Un magasin de coopérative a un toit de 60 m². Combien de litres récupère-t-on avec une pluie de 20 mm ?",
+        "answer": 1200,
+        "unit": "litres",
+        "solution": "60 × 20 = 1 200 litres.",
+        "then": "Calculez ensuite l’eau que vous pourriez récupérer sur votre propre toit."
+      },
+      "quiz": [
+        {
+          "q": "1 mm de pluie sur 1 m² donne combien d’eau ?",
+          "options": [
+            "1 litre",
+            "10 litres",
+            "1 seau"
+          ],
+          "answer": 0,
+          "explain": "C’est la base du calcul."
+        },
+        {
+          "q": "Toit de 30 m², pluie de 10 mm. Litres ?",
+          "options": [
+            "300 litres",
+            "40 litres",
+            "3 000 litres"
+          ],
+          "answer": 0,
+          "explain": "30 × 10 = 300."
+        },
+        {
+          "q": "Pourquoi couvrir les fûts ?",
+          "options": [
+            "Contre les moustiques et les salissures",
+            "Pour faire joli"
+          ],
+          "answer": 0,
+          "explain": "Une eau propre et sans larves."
+        },
+        {
+          "q": "Quand arroser ?",
+          "options": [
+            "Tôt le matin ou en fin de journée",
+            "À midi"
+          ],
+          "answer": 0,
+          "explain": "Moins d’évaporation."
+        },
+        {
+          "q": "Où arroser ?",
+          "options": [
+            "Au pied des plantes",
+            "Sur les feuilles et les allées"
+          ],
+          "answer": 0,
+          "explain": "L’eau va aux racines."
+        },
+        {
+          "q": "Que faire près d’un puits ?",
+          "options": [
+            "Ne pas utiliser ni rincer de produits de traitement",
+            "Y laver le pulvérisateur"
+          ],
+          "answer": 0,
+          "explain": "Pour protéger l’eau de boisson."
+        }
+      ],
+      "summary": "Récupérer l’eau de pluie, la garder dans le sol, arroser au pied aux heures fraîches, et protéger les points d’eau.",
+      "resource": "Fiche « Calculer l’eau de mon toit » et fiche « Fabriquer un goutte-à-goutte simple »."
+    },
+    {
+      "id": "m7",
+      "label": "Ressources",
+      "number": 7,
+      "title": "Réduire les pertes et optimiser les ressources",
+      "duration": "30 min",
+      "point": "S’adapter, c’est aussi ne rien gaspiller : des intrants utilisés au bon moment, des résidus valorisés, moins d’énergie consommée, et des récoltes protégées après le champ.",
+      "intro": "Chaque sac d’engrais mal placé, chaque tige brûlée, chaque sac de maïs moisi au magasin est une ressource perdue. Dans un climat plus difficile, on ne peut plus se le permettre.",
+      "objectives": [
+        "Citer quatre sources de gaspillage sur une exploitation.",
+        "Valoriser ses résidus et déchets agricoles.",
+        "Relier la réduction des pertes à l’adaptation au climat."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre gaspillages à éviter",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Gaspillage",
+                "Ce que l’on fait à la place"
+              ],
+              "rows": [
+                [
+                  "Intrants mal utilisés",
+                  "Engrais et traitements au bon moment, selon les conseils techniques et l’étiquette ; pas d’apport juste avant une forte pluie annoncée"
+                ],
+                [
+                  "Résidus brûlés ou abandonnés",
+                  "Compost, paillage, alimentation animale pour les résidus sains"
+                ],
+                [
+                  "Énergie gaspillée",
+                  "Foyers améliorés pour la transformation, séchage solaire"
+                ],
+                [
+                  "Récoltes perdues après le champ",
+                  "Séchage, tri, stockage et vente à temps (formation F11)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Valoriser ce qui reste",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tiges, feuilles et coques deviennent compost ou paillage.",
+                "Le fumier des animaux retourne aux champs.",
+                "Les épluchures et sous-produits sains peuvent nourrir les animaux ; jamais les produits moisis.",
+                "La formation F13 Entrepreneuriat vert et économie circulaire approfondira la transformation des déchets en revenus."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le cycle de l’exploitation de Hamadou",
+        "text": "Hamadou referme la boucle de son exploitation.",
+        "head": [
+          "Ressource",
+          "Ce qu’il en fait"
+        ],
+        "rows": [
+          [
+            "Tiges de maïs et fumier des chèvres",
+            "Compost épandu sur les légumes"
+          ],
+          [
+            "Maïs récolté",
+            "Séché sur bâche et stocké avec la coopérative de Hawa"
+          ],
+          [
+            "Engrais",
+            "Plus jamais épandu la veille d’une alerte de fortes pluies",
+            "result"
+          ]
+        ],
+        "after": "Moins de dépenses, moins de pertes, un sol plus riche."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Chaque ressource perdue compte double quand le climat se durcit. »",
+            "Tiges qui brûlent, sac moisi"
+          ],
+          [
+            "0:30",
+            "Les quatre gaspillages.",
+            "Engrais lessivé par la pluie, foyer ouvert, sac percé"
+          ],
+          [
+            "2:00",
+            "Valoriser ce qui reste.",
+            "Compost, fumier, animaux nourris"
+          ],
+          [
+            "3:15",
+            "Le cycle de l’exploitation de Hamadou.",
+            "Une boucle : champ, animaux, compost, champ"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Gaspillage ou bonne gestion ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne gestion",
+          "Gaspillage"
+        ],
+        "items": [
+          [
+            "Brûler les tiges de maïs",
+            1
+          ],
+          [
+            "Composter les résidus avec le fumier",
+            0
+          ],
+          [
+            "Épandre l’engrais juste avant une forte pluie annoncée",
+            1
+          ],
+          [
+            "Donner des épluchures saines aux animaux",
+            0
+          ],
+          [
+            "Donner du maïs moisi aux poules",
+            1
+          ],
+          [
+            "Sécher les légumes dans un séchoir solaire",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi ne pas épandre l’engrais avant une forte pluie ?",
+          "options": [
+            "Il risque d’être emporté",
+            "Il devient plus fort"
+          ],
+          "answer": 0,
+          "explain": "L’argent part avec l’eau."
+        },
+        {
+          "q": "Que faire des tiges de maïs ?",
+          "options": [
+            "Les composter ou pailler",
+            "Les brûler"
+          ],
+          "answer": 0,
+          "explain": "Au lieu de les brûler."
+        },
+        {
+          "q": "Peut-on donner du maïs moisi aux animaux ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Les toxines sont dangereuses pour eux aussi."
+        },
+        {
+          "q": "À quoi sert un foyer amélioré ?",
+          "options": [
+            "À consommer moins de bois",
+            "À cuire plus lentement"
+          ],
+          "answer": 0,
+          "explain": "Moins de dépenses et moins de déforestation."
+        },
+        {
+          "q": "Quelle formation traite les pertes après récolte ?",
+          "options": [
+            "F11",
+            "F1"
+          ],
+          "answer": 0,
+          "explain": "Séchage, tri, stockage, vente."
+        },
+        {
+          "q": "Le fumier a-t-il une valeur ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Il enrichit les sols."
+        }
+      ],
+      "summary": "Intrants au bon moment, résidus valorisés, énergie économisée, récoltes protégées : une exploitation qui gaspille moins résiste mieux.",
+      "resource": "Fiche « Le cycle de mon exploitation »."
+    },
+    {
+      "id": "m8",
+      "label": "Mon plan",
+      "number": 8,
+      "title": "Élaborer un plan d’adaptation pour une exploitation agricole",
+      "duration": "40 min",
+      "point": "Le plan d’adaptation rassemble tout sur une page : risques prioritaires, pratiques choisies, qui fait quoi et quand, ce que cela coûte, et comment on mesure les résultats. On le revoit à chaque saison.",
+      "intro": "Les modules précédents ont donné les outils. Le plan d’adaptation les met en ordre, pour passer de « il faudrait » à « voici ce que je fais cette saison ».",
+      "objectives": [
+        "Construire son plan d’adaptation en cinq parties.",
+        "Choisir des indicateurs simples pour suivre les résultats.",
+        "Réviser son plan en fin de saison."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq parties du plan",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Risques prioritaires : les scores de 6 à 9 de la matrice (module 2).",
+                "Pratiques choisies : une ou deux par risque (modules 4 à 7).",
+                "Calendrier et responsables : quoi, quand, qui.",
+                "Coûts : argent et temps, en commençant par ce qui coûte peu.",
+                "Suivi : deux ou trois indicateurs notés chaque saison, par exemple le rendement de la parcelle d’essai, les ressemis évités, les jours sans eau."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le plan d’adaptation de Hamadou",
+        "text": "Une page, quatre lignes.",
+        "head": [
+          "Risque prioritaire",
+          "Pratique",
+          "Indicateur"
+        ],
+        "rows": [
+          [
+            "Début des pluies irrégulier",
+            "Attendre l’installation des pluies, semer en deux fois",
+            "Ressemis évités"
+          ],
+          [
+            "Poches de sécheresse",
+            "Variété à cycle plus court sur un quart d’hectare, paillage",
+            "Rendement de la parcelle d’essai"
+          ],
+          [
+            "Érosion",
+            "Cordons pierreux, haie, compost",
+            "Ravines après les fortes pluies"
+          ],
+          [
+            "Eau pour les légumes",
+            "Deux fûts sur le toit, arrosage au pied le matin",
+            "Jours sans eau",
+            "result"
+          ]
+        ],
+        "after": "En fin de saison, Hamadou compare les indicateurs à l’année précédente et ajuste son plan."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« De « il faudrait » à « voici ce que je fais ». »",
+            "Hamadou devant une feuille blanche"
+          ],
+          [
+            "0:30",
+            "Les cinq parties du plan.",
+            "Une page qui se remplit"
+          ],
+          [
+            "2:00",
+            "Le plan de Hamadou, ligne par ligne.",
+            "Semis, fûts, cordons pierreux"
+          ],
+          [
+            "4:00",
+            "Réviser en fin de saison.",
+            "Indicateurs comparés sur deux années"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon plan d’adaptation",
+        "text": "Projet final : cochez chaque partie quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f12-plan",
+        "items": [
+          "Matrice des risques remplie, priorités identifiées",
+          "Une ou deux pratiques choisies par risque prioritaire",
+          "Calendrier et responsables définis",
+          "Coûts estimés",
+          "Deux ou trois indicateurs de suivi choisis",
+          "Plan présenté à la coopérative ou au formateur"
+        ],
+        "then": "Remettez votre plan d’adaptation au formateur. L’attestation finale est délivrée quand le plan est complet et que tous les quiz sont validés. Les indicateurs suivis la saison suivante peuvent alimenter le suivi d’impact du pilier Résilience climatique d’AgroConnect."
+      },
+      "quiz": [
+        {
+          "q": "Combien de parties dans le plan ?",
+          "options": [
+            "Trois",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Risques, pratiques, calendrier, coûts, suivi."
+        },
+        {
+          "q": "D’où viennent les risques prioritaires ?",
+          "options": [
+            "De la matrice des risques",
+            "D’une rumeur"
+          ],
+          "answer": 0,
+          "explain": "Module 2."
+        },
+        {
+          "q": "Par quoi commencer ?",
+          "options": [
+            "Les pratiques qui coûtent peu",
+            "Les plus chères"
+          ],
+          "answer": 0,
+          "explain": "Avant les investissements."
+        },
+        {
+          "q": "Combien d’indicateurs ?",
+          "options": [
+            "Deux ou trois",
+            "Vingt"
+          ],
+          "answer": 0,
+          "explain": "Simples et notés chaque saison."
+        },
+        {
+          "q": "Quand réviser le plan ?",
+          "options": [
+            "En fin de saison",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "En comparant les indicateurs."
+        },
+        {
+          "q": "Un plan d’adaptation est-il définitif ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il s’ajuste chaque saison."
+        }
+      ],
+      "summary": "Une page : risques prioritaires, pratiques, calendrier, coûts, indicateurs. Commencer simple, mesurer, et réviser chaque saison.",
+      "resource": "Modèle de plan d’adaptation sur une page."
+    }
+  ]
+}

@@ -1,0 +1,1810 @@
+{
+  "id": "f16",
+  "title": "Compétences numériques pour l’emploi",
+  "short": "Numérique et emploi",
+  "lead": "Les outils numériques que demandent les employeurs : ordinateur, courriel, traitement de texte, tableur, présentation, travail en ligne et candidature.",
+  "note": "Christelle, Junior, M. Daouda et leurs échanges sont fictifs. Les noms des menus varient selon les logiciels et leurs versions.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Les attentes",
+      "number": 1,
+      "title": "Les compétences numériques recherchées par les employeurs",
+      "duration": "30 min",
+      "point": "Les employeurs attendent huit compétences numériques de base : utiliser un ordinateur, écrire un courriel professionnel, rédiger un document, tenir un tableau, présenter, travailler en ligne, chercher une information fiable et protéger les données.",
+      "intro": "Christelle a un bon diplôme, mais l’offre de M. Daouda demande « maîtrise des outils informatiques ». Elle ne sait pas ce que cela veut dire exactement, ni si elle a ces compétences.",
+      "objectives": [
+        "Citer les huit compétences numériques de base.",
+        "Repérer celles que demande une offre d’emploi.",
+        "Évaluer son propre niveau."
+      ],
+      "lessons": [
+        {
+          "title": "Les huit compétences de base",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Compétence",
+                "Exemple au travail",
+                "Module"
+              ],
+              "rows": [
+                [
+                  "Utiliser un ordinateur",
+                  "Ouvrir, ranger, sauvegarder des fichiers",
+                  "2"
+                ],
+                [
+                  "Écrire un courriel professionnel",
+                  "Répondre à un partenaire, envoyer un rapport",
+                  "3"
+                ],
+                [
+                  "Rédiger un document",
+                  "Compte rendu de réunion, courrier, CV",
+                  "4"
+                ],
+                [
+                  "Tenir un tableau",
+                  "Liste des membres, suivi des ventes, budget",
+                  "5"
+                ],
+                [
+                  "Présenter",
+                  "Diaporama pour une réunion ou un bailleur",
+                  "6"
+                ],
+                [
+                  "Travailler en ligne",
+                  "Visioconférence, document partagé",
+                  "6"
+                ],
+                [
+                  "Chercher une information fiable",
+                  "Prix, réglementation, offres d’emploi",
+                  "7"
+                ],
+                [
+                  "Protéger les données",
+                  "Mots de passe, confidentialité",
+                  "2 et 7"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lire une offre d’emploi",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dans une offre, soulignez les mots qui parlent du numérique : « maîtrise du pack bureautique » (traitement de texte, tableur, présentation), « aisance avec les outils de communication » (courriel, visioconférence), « saisie et suivi de données » (tableur). Chaque mot souligné devient une compétence à prouver."
+            }
+          ]
+        },
+        {
+          "title": "Évaluer son niveau",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque compétence, notez-vous honnêtement : « je ne sais pas », « je sais avec de l’aide », « je sais seul ». Commencez la formation par ce qui manque le plus."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’auto-évaluation de Christelle",
+        "text": "Avec son cousin Junior, technicien informatique, Christelle fait le point.",
+        "head": [
+          "Compétence",
+          "Niveau de Christelle"
+        ],
+        "rows": [
+          [
+            "Rédiger un document",
+            "Sait avec de l’aide"
+          ],
+          [
+            "Courriel avec pièce jointe",
+            "Ne sait pas"
+          ],
+          [
+            "Tableur",
+            "Ne sait pas, alors que l’offre le demande"
+          ],
+          [
+            "Présenter",
+            "Ne sait pas"
+          ],
+          [
+            "Priorités",
+            "Le courriel, le tableur, puis la présentation",
+            "result"
+          ]
+        ],
+        "after": "Christelle sait maintenant par où commencer."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Maîtrise des outils informatiques : qu’est-ce que cela veut dire ? »",
+            "Une offre d’emploi à l’écran"
+          ],
+          [
+            "0:30",
+            "Les huit compétences de base.",
+            "Huit icônes"
+          ],
+          [
+            "2:00",
+            "Lire une offre et souligner les mots du numérique.",
+            "Offre surlignée"
+          ],
+          [
+            "3:00",
+            "L’auto-évaluation de Christelle.",
+            "Grille remplie avec Junior"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle compétence ?",
+        "text": "Associez chaque tâche à la compétence qu’elle demande.",
+        "choices": [
+          "Courriel",
+          "Tableau",
+          "Travail en ligne",
+          "Document",
+          "Présentation",
+          "Ordinateur"
+        ],
+        "items": [
+          [
+            "Envoyer un rapport à un bailleur",
+            0
+          ],
+          [
+            "Tenir la liste des membres de la coopérative",
+            1
+          ],
+          [
+            "Participer à une réunion à distance",
+            2
+          ],
+          [
+            "Rédiger un compte rendu de réunion",
+            3
+          ],
+          [
+            "Préparer un diaporama",
+            4
+          ],
+          [
+            "Ranger les documents d’un projet dans des dossiers",
+            5
+          ]
+        ],
+        "then": "Notez ensuite votre niveau pour chacune des huit compétences."
+      },
+      "quiz": [
+        {
+          "q": "Combien de compétences numériques de base ?",
+          "options": [
+            "Trois",
+            "Huit"
+          ],
+          "answer": 1,
+          "explain": "De l’ordinateur à la protection des données."
+        },
+        {
+          "q": "Que désigne souvent « pack bureautique » ?",
+          "options": [
+            "Traitement de texte, tableur, présentation",
+            "Un sac d’ordinateur"
+          ],
+          "answer": 0,
+          "explain": "Les trois logiciels de bureau."
+        },
+        {
+          "q": "« Suivi de données » demande quel outil ?",
+          "options": [
+            "Le tableur",
+            "Le diaporama"
+          ],
+          "answer": 0,
+          "explain": "Module 5."
+        },
+        {
+          "q": "Comment lire une offre d’emploi ?",
+          "options": [
+            "Souligner les mots qui parlent du numérique",
+            "La lire vite"
+          ],
+          "answer": 0,
+          "explain": "Chacun devient une compétence à prouver."
+        },
+        {
+          "q": "Comment s’évaluer ?",
+          "options": [
+            "Ne sait pas, sait avec aide, sait seul",
+            "Toujours « très bien »"
+          ],
+          "answer": 0,
+          "explain": "Honnêtement."
+        },
+        {
+          "q": "Par quoi commencer la formation ?",
+          "options": [
+            "Par ce qui manque le plus",
+            "Par ce qu’on sait déjà"
+          ],
+          "answer": 0,
+          "explain": "Pour progresser vite."
+        }
+      ],
+      "summary": "Huit compétences de base, repérées dans les offres d’emploi et évaluées honnêtement pour savoir par où commencer.",
+      "resource": "Grille d’auto-évaluation des huit compétences."
+    },
+    {
+      "id": "m2",
+      "label": "Ordinateur et fichiers",
+      "number": 2,
+      "title": "Utiliser un ordinateur et organiser ses fichiers",
+      "duration": "30 min",
+      "point": "Quatre habitudes : ranger ses fichiers dans des dossiers clairs, les nommer pour les retrouver, choisir le bon format, et sauvegarder. Sur un ordinateur partagé, on se déconnecte toujours avant de partir.",
+      "intro": "« Document1 », « Document1 final », « Document1 final VRAI »… Christelle ne retrouve jamais la bonne version de son CV. Un peu d’ordre fait gagner un temps précieux, et fait bonne impression au travail.",
+      "objectives": [
+        "Créer une arborescence de dossiers simple.",
+        "Nommer ses fichiers de façon claire.",
+        "Sauvegarder ses fichiers et se protéger sur un ordinateur partagé."
+      ],
+      "lessons": [
+        {
+          "title": "Des dossiers clairs",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Quelques grands dossiers, puis des sous-dossiers : par exemple « Emploi » (avec « CV », « Lettres », « Diplômes »), « Formations », « Coopérative ». On évite de tout laisser sur le bureau ou dans « Téléchargements »."
+            }
+          ]
+        },
+        {
+          "title": "Bien nommer ses fichiers",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Date (année-mois-jour) + Sujet + Nom ou version"
+            },
+            {
+              "type": "p",
+              "text": "Exemple : « 2026-10-20 CV Christelle », « 2026-10-21 Lettre ONG v2 ». La date écrite dans cet ordre range les fichiers du plus ancien au plus récent."
+            }
+          ]
+        },
+        {
+          "title": "Le bon format",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Format",
+                "Usage"
+              ],
+              "rows": [
+                [
+                  "Document modifiable (traitement de texte)",
+                  "Pour travailler et corriger soi-même"
+                ],
+                [
+                  "PDF",
+                  "Pour envoyer : la mise en page ne bouge pas, le document s’ouvre partout"
+                ],
+                [
+                  "Image (photo, capture)",
+                  "Pour une pièce scannée, un diplôme, une carte"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sauvegarder et se protéger",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Garder une copie de ses fichiers importants ailleurs : clé USB, messagerie, espace de stockage en ligne.",
+                "Sur un ordinateur partagé : ne pas enregistrer ses mots de passe, se déconnecter de sa messagerie, retirer sa clé USB, supprimer ses fichiers du bureau avant de partir.",
+                "Passer sa clé USB à l’antivirus quand c’est possible."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le rangement de Christelle",
+        "text": "Avec Junior, Christelle met de l’ordre.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Fichiers éparpillés sur le bureau",
+            "Un dossier « Emploi » avec trois sous-dossiers"
+          ],
+          [
+            "« Document1 final VRAI »",
+            "« 2026-10-20 CV Christelle », aussi en PDF"
+          ],
+          [
+            "Une seule copie",
+            "Une copie sur clé USB et une dans sa messagerie"
+          ],
+          [
+            "Messagerie restée ouverte au cybercafé",
+            "Déconnexion avant de partir",
+            "result"
+          ]
+        ],
+        "after": "Christelle retrouve maintenant n’importe quel document en quelques secondes."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Document1 final VRAI… »",
+            "Bureau d’ordinateur encombré"
+          ],
+          [
+            "0:30",
+            "Des dossiers clairs.",
+            "Arborescence qui se construit"
+          ],
+          [
+            "1:30",
+            "Bien nommer, et le bon format.",
+            "Fichier renommé, export en PDF"
+          ],
+          [
+            "2:30",
+            "Sauvegarder et se déconnecter.",
+            "Clé USB, bouton « Se déconnecter »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Nommer un fichier « Document1 »",
+            1
+          ],
+          [
+            "Enregistrer son CV en PDF avant de l’envoyer",
+            0
+          ],
+          [
+            "Laisser sa messagerie ouverte au cybercafé",
+            1
+          ],
+          [
+            "Garder une copie de ses diplômes scannés sur une clé USB",
+            0
+          ],
+          [
+            "Tout ranger dans « Téléchargements »",
+            1
+          ],
+          [
+            "Nommer un fichier « 2026-10-21 Lettre ONG v2 »",
+            0
+          ]
+        ],
+        "then": "Créez ensuite votre dossier « Emploi » et rangez-y vos documents."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi ranger dans des dossiers ?",
+          "options": [
+            "Pour retrouver vite ses fichiers",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Et travailler proprement."
+        },
+        {
+          "q": "Comment nommer un fichier ?",
+          "options": [
+            "Date, sujet, nom ou version",
+            "Document1"
+          ],
+          "answer": 0,
+          "explain": "Année-mois-jour en premier."
+        },
+        {
+          "q": "Dans quel format envoyer un CV ?",
+          "options": [
+            "PDF",
+            "Photo floue"
+          ],
+          "answer": 0,
+          "explain": "La mise en page ne bouge pas."
+        },
+        {
+          "q": "Où garder une copie de ses fichiers importants ?",
+          "options": [
+            "Ailleurs : clé USB, messagerie, stockage en ligne",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "En cas de perte ou de panne."
+        },
+        {
+          "q": "Que faire avant de quitter un ordinateur partagé ?",
+          "options": [
+            "Se déconnecter et supprimer ses fichiers",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour protéger ses données."
+        },
+        {
+          "q": "Faut-il enregistrer ses mots de passe au cybercafé ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le prochain utilisateur y aurait accès."
+        }
+      ],
+      "summary": "Des dossiers clairs, des noms de fichiers datés, le PDF pour envoyer, une sauvegarde ailleurs, et toujours se déconnecter d’un ordinateur partagé.",
+      "resource": "Fiche « Ranger, nommer, sauvegarder »."
+    },
+    {
+      "id": "m3",
+      "label": "Courriel",
+      "number": 3,
+      "title": "Créer une adresse électronique professionnelle et écrire des courriels",
+      "duration": "30 min",
+      "point": "Une adresse sobre, un objet clair, une formule de politesse, un message court, une pièce jointe en PDF bien nommée et une signature : c’est ce qui fait un courriel professionnel. On relit avant d’envoyer.",
+      "intro": "M. Daouda reçoit des dizaines de candidatures. Celle qui arrive d’une adresse fantaisiste, sans objet, avec « slt voici mon cv », n’est même pas ouverte.",
+      "objectives": [
+        "Créer une adresse électronique professionnelle.",
+        "Rédiger un courriel en six éléments.",
+        "Joindre un document et vérifier avant d’envoyer."
+      ],
+      "lessons": [
+        {
+          "title": "Une adresse sobre",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Forme conseillée : prénom.nom, ou initiale et nom, chez un service de messagerie gratuit et connu. Pas de surnom, pas de chiffres inutiles. On garde son adresse personnelle pour le reste."
+            }
+          ]
+        },
+        {
+          "title": "Le courriel en six éléments",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "L’objet : court et précis, par exemple « Candidature au poste d’assistante de projet ».",
+                "La formule d’appel : « Monsieur », « Madame », ou « Bonjour Monsieur Daouda ».",
+                "Le message : trois à cinq phrases, l’essentiel d’abord.",
+                "La pièce jointe : en PDF, bien nommée (module 2), et annoncée dans le message.",
+                "La formule de politesse : « Je vous prie d’agréer, Monsieur, mes salutations distinguées » ou « Cordialement ».",
+                "La signature : prénom, nom, téléphone."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Avant d’envoyer",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Relisez l’orthographe, vérifiez le nom du destinataire et que la pièce jointe est bien jointe. Évitez les abréviations de messagerie (« slt », « stp »). Répondez aux courriels professionnels dans les deux jours ouvrables."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le courriel de Christelle",
+        "text": "Christelle prépare sa candidature à l’ONG de M. Daouda.",
+        "head": [
+          "Élément",
+          "Ce qu’écrit Christelle"
+        ],
+        "rows": [
+          [
+            "Objet",
+            "Candidature au poste d’assistante de projet"
+          ],
+          [
+            "Formule d’appel",
+            "Monsieur,"
+          ],
+          [
+            "Message",
+            "Titulaire d’un BTS agricole, je vous adresse ma candidature. Vous trouverez ci-joint mon CV et ma lettre de motivation. Je reste disponible pour un entretien."
+          ],
+          [
+            "Pièces jointes",
+            "2026-10-20 CV Christelle.pdf ; 2026-10-21 Lettre ONG.pdf"
+          ],
+          [
+            "Politesse et signature",
+            "Je vous prie d’agréer, Monsieur, mes salutations distinguées. Christelle Mbarga, téléphone",
+            "result"
+          ]
+        ],
+        "after": "Un courriel court, complet et relu."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« slt voici mon cv » : jamais ouvert.",
+            "Boîte de réception de M. Daouda"
+          ],
+          [
+            "0:30",
+            "Une adresse sobre.",
+            "Deux adresses comparées"
+          ],
+          [
+            "1:30",
+            "Le courriel en six éléments.",
+            "Courriel qui se construit"
+          ],
+          [
+            "3:00",
+            "Relire, vérifier la pièce jointe, envoyer.",
+            "Trombone visible, bouton « Envoyer »"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur de courriel professionnel",
+        "intro": "Remplissez les six éléments. L’exemple de départ est le courriel de Christelle.",
+        "titre": "COURRIEL",
+        "noDate": true,
+        "copyLabel": "Copier le courriel",
+        "outLabel": "Votre courriel, à coller dans votre messagerie",
+        "okText": "Courriel complet. Vérifiez que la pièce jointe est bien jointe avant d’envoyer.",
+        "champs": [
+          [
+            "Objet",
+            "Candidature au poste d’assistante de projet"
+          ],
+          [
+            "Formule d’appel",
+            "Monsieur,"
+          ],
+          [
+            "Message",
+            "Titulaire d’un BTS agricole, je vous adresse ma candidature au poste d’assistante de projet. Vous trouverez ci-joint mon CV et ma lettre de motivation. Je reste disponible pour un entretien."
+          ],
+          [
+            "Pièces jointes",
+            "2026-10-20 CV Christelle.pdf ; 2026-10-21 Lettre ONG.pdf"
+          ],
+          [
+            "Formule de politesse",
+            "Je vous prie d’agréer, Monsieur, mes salutations distinguées."
+          ],
+          [
+            "Signature",
+            "Christelle Mbarga, 6XX XX XX XX"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Professionnel ou à éviter ?",
+        "text": "Classez ces éléments.",
+        "choices": [
+          "Professionnel",
+          "À éviter"
+        ],
+        "items": [
+          [
+            "Une adresse fantaisiste avec un surnom et des chiffres",
+            1
+          ],
+          [
+            "L’objet « Candidature au poste d’assistante de projet »",
+            0
+          ],
+          [
+            "« slt voici mon cv »",
+            1
+          ],
+          [
+            "Une pièce jointe « 2026-10-20 CV Christelle.pdf »",
+            0
+          ],
+          [
+            "Un courriel sans objet",
+            1
+          ],
+          [
+            "Une signature avec prénom, nom et téléphone",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle forme d’adresse choisir ?",
+          "options": [
+            "Prénom.nom",
+            "Un surnom amusant"
+          ],
+          "answer": 0,
+          "explain": "Sobre et facile à retenir."
+        },
+        {
+          "q": "Combien d’éléments dans un courriel professionnel ?",
+          "options": [
+            "Deux",
+            "Six"
+          ],
+          "answer": 1,
+          "explain": "Objet, appel, message, pièce jointe, politesse, signature."
+        },
+        {
+          "q": "Quelle longueur pour le message ?",
+          "options": [
+            "Trois à cinq phrases",
+            "Deux pages"
+          ],
+          "answer": 0,
+          "explain": "L’essentiel d’abord."
+        },
+        {
+          "q": "Dans quel format joindre un CV ?",
+          "options": [
+            "PDF",
+            "Format modifiable"
+          ],
+          "answer": 0,
+          "explain": "Module 2."
+        },
+        {
+          "q": "Peut-on écrire « slt » dans un courriel professionnel ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On évite les abréviations."
+        },
+        {
+          "q": "Que vérifier avant d’envoyer ?",
+          "options": [
+            "L’orthographe, le destinataire et la pièce jointe",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les oublis."
+        }
+      ],
+      "summary": "Une adresse sobre, six éléments dans chaque courriel, une pièce jointe en PDF bien nommée, et une relecture avant d’envoyer.",
+      "resource": "Trois modèles de courriels professionnels : candidature, relance, remerciement."
+    },
+    {
+      "id": "m4",
+      "label": "Traitement de texte",
+      "number": 4,
+      "title": "Rédiger un document propre avec un traitement de texte",
+      "duration": "35 min",
+      "point": "Un document propre utilise des titres, une police lisible, des marges régulières, des listes quand il le faut, une orthographe vérifiée, et il s’envoie en PDF. Ces gestes servent pour un CV, une lettre, un compte rendu ou un rapport.",
+      "intro": "Le CV de Christelle mélange cinq polices, trois tailles et des espaces partout. Le contenu est bon, mais la page donne une impression de désordre. La mise en forme parle avant le texte.",
+      "objectives": [
+        "Appliquer les cinq règles d’un document propre.",
+        "Construire un CV d’une page.",
+        "Vérifier l’orthographe et exporter en PDF."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq règles d’un document propre",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Une seule police lisible, en deux tailles au plus : une pour les titres, une pour le texte.",
+                "Des titres obtenus avec les styles du logiciel, pas en tapant tout en majuscules.",
+                "Des marges et des espacements réguliers, sans multiplier les retours à la ligne vides.",
+                "Des listes pour les énumérations courtes.",
+                "Une orthographe vérifiée avec le correcteur, puis une relecture à voix haute."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le CV d’une page",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Partie",
+                "Contenu"
+              ],
+              "rows": [
+                [
+                  "En-tête",
+                  "Nom, téléphone, adresse électronique professionnelle, ville"
+                ],
+                [
+                  "Profil",
+                  "Deux lignes : qui l’on est et ce que l’on cherche"
+                ],
+                [
+                  "Formation",
+                  "Diplômes, du plus récent au plus ancien"
+                ],
+                [
+                  "Expérience",
+                  "Stages, emplois, bénévolat, avec ce que l’on y a fait"
+                ],
+                [
+                  "Compétences",
+                  "Dont les compétences numériques de cette formation"
+                ],
+                [
+                  "Langues",
+                  "Français, anglais, langues locales"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "On n’invente rien sur un CV : l’employeur vérifie, et l’entretien révèle tout."
+            }
+          ]
+        },
+        {
+          "title": "Vérifier et exporter",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lancez le correcteur d’orthographe, relisez à voix haute, faites relire par une autre personne, puis enregistrez une copie en PDF, nommée selon la règle du module 2."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le nouveau CV de Christelle",
+        "text": "Avec Junior, Christelle remet son CV en forme.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Cinq polices",
+            "Une seule police, deux tailles"
+          ],
+          [
+            "Titres en majuscules tapées",
+            "Styles de titre du logiciel"
+          ],
+          [
+            "Deux pages pleines d’espaces",
+            "Une page bien rangée"
+          ],
+          [
+            "Compétences absentes",
+            "Traitement de texte, courriel professionnel, tableur (en cours) ; français, anglais, fulfulde"
+          ],
+          [
+            "Deux fautes oubliées par le correcteur",
+            "Repérées par Junior",
+            "result"
+          ]
+        ],
+        "after": "Christelle exporte son CV en PDF avant de l’envoyer."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« La mise en forme parle avant le texte. »",
+            "CV désordonné"
+          ],
+          [
+            "0:30",
+            "Les cinq règles d’un document propre.",
+            "Le même CV qui se range étape par étape"
+          ],
+          [
+            "2:00",
+            "Le CV d’une page.",
+            "Six parties qui apparaissent"
+          ],
+          [
+            "3:30",
+            "Vérifier et exporter en PDF.",
+            "Correcteur, relecture de Junior, export"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou erreur ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Utiliser cinq polices différentes",
+            1
+          ],
+          [
+            "Faire les titres avec les styles du logiciel",
+            0
+          ],
+          [
+            "Ajouter des compétences qu’on n’a pas",
+            1
+          ],
+          [
+            "Tenir son CV sur une page",
+            0
+          ],
+          [
+            "Envoyer le CV en format modifiable, sans l’exporter",
+            1
+          ],
+          [
+            "Faire relire son document par une autre personne",
+            0
+          ]
+        ],
+        "then": "Remettez ensuite votre CV en forme selon les cinq règles."
+      },
+      "quiz": [
+        {
+          "q": "Combien de polices dans un document propre ?",
+          "options": [
+            "Une seule",
+            "Cinq"
+          ],
+          "answer": 0,
+          "explain": "En deux tailles au plus."
+        },
+        {
+          "q": "Comment faire les titres ?",
+          "options": [
+            "Avec les styles du logiciel",
+            "En majuscules tapées"
+          ],
+          "answer": 0,
+          "explain": "Plus propre et plus facile à modifier."
+        },
+        {
+          "q": "Quelle longueur pour un CV de débutant ?",
+          "options": [
+            "Une page",
+            "Cinq pages"
+          ],
+          "answer": 0,
+          "explain": "L’essentiel, bien rangé."
+        },
+        {
+          "q": "Peut-on inventer une compétence sur un CV ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "L’employeur vérifie."
+        },
+        {
+          "q": "Le correcteur suffit-il ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On relit à voix haute et l’on fait relire."
+        },
+        {
+          "q": "Dans quel format envoyer le CV ?",
+          "options": [
+            "PDF",
+            "Image floue"
+          ],
+          "answer": 0,
+          "explain": "Module 2."
+        }
+      ],
+      "summary": "Une police, des styles de titre, des espacements réguliers, des listes, une orthographe vérifiée, un CV d’une page et un envoi en PDF.",
+      "resource": "Modèle de CV d’une page et de lettre de motivation."
+    },
+    {
+      "id": "m5",
+      "label": "Tableur",
+      "number": 5,
+      "title": "Utiliser un tableur",
+      "duration": "40 min",
+      "point": "Un tableur range des informations en lignes et en colonnes, et calcule automatiquement. On saisit proprement, on écrit des formules simples, on trie, et l’on vérifie les totaux.",
+      "intro": "L’offre de M. Daouda demande « suivi de données sur tableur ». Pour une coopérative ou une ONG, le tableur sert tous les jours : liste des membres, ventes, stocks, budget. C’est souvent la compétence qui fait la différence.",
+      "objectives": [
+        "Saisir un tableau propre avec des en-têtes.",
+        "Écrire trois formules simples.",
+        "Trier un tableau et vérifier un total."
+      ],
+      "lessons": [
+        {
+          "title": "Lignes, colonnes, cellules",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Chaque colonne porte un en-tête (Nom, Quantité, Prix, Montant) ; chaque ligne décrit un élément (un membre, une vente). Une cellule se désigne par sa colonne et sa ligne : B2 est la cellule de la colonne B, ligne 2. Une seule information par cellule, et les nombres sans unité écrite dedans."
+            }
+          ]
+        },
+        {
+          "title": "Trois formules simples",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Formule",
+                "Ce qu’elle fait",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "=B2*C2",
+                  "Multiplie deux cellules",
+                  "Quantité × prix = montant"
+                ],
+                [
+                  "=SOMME(D2:D10)",
+                  "Additionne une plage de cellules",
+                  "Total des ventes"
+                ],
+                [
+                  "=MOYENNE(B2:B10)",
+                  "Calcule la moyenne",
+                  "Quantité moyenne par membre"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Toute formule commence par « = ». On recopie une formule vers le bas pour l’appliquer à toutes les lignes. Les noms des fonctions peuvent varier selon la langue du logiciel."
+            }
+          ]
+        },
+        {
+          "title": "Trier et vérifier",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Trier une colonne pour classer, par exemple les membres du plus grand au plus petit apport.",
+                "Vérifier un total à la calculatrice sur quelques lignes.",
+                "Mettre en gras les en-têtes et figer la première ligne pour la garder visible."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le tableau des ventes de Christelle",
+        "text": "Chiffres fictifs ; la colonne D contient la formule =B2*C2 recopiée vers le bas.",
+        "head": [
+          "Membre",
+          "Quantité (kg)",
+          "Prix du kg",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Membre 1",
+            "60",
+            "200",
+            "12 000"
+          ],
+          [
+            "Membre 2",
+            "42,5",
+            "200",
+            "8 500"
+          ],
+          [
+            "Membre 3",
+            "77,5",
+            "200",
+            "15 500"
+          ],
+          [
+            "Total : =SOMME(D2:D4)",
+            "",
+            "",
+            "36 000",
+            "result"
+          ]
+        ],
+        "after": "Junior lui montre comment recopier la formule : le tableau se calcule seul. Christelle vérifie le total à la calculatrice avant de l’envoyer."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Suivi de données sur tableur : la compétence qui fait la différence. »",
+            "Offre d’emploi, mot « tableur » surligné"
+          ],
+          [
+            "0:30",
+            "Lignes, colonnes, cellules.",
+            "Grille vide, cellule B2 surlignée"
+          ],
+          [
+            "1:30",
+            "Trois formules, et recopier vers le bas.",
+            "Montants qui se calculent seuls"
+          ],
+          [
+            "3:30",
+            "Trier et vérifier.",
+            "Tri, puis calculatrice"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le total",
+        "text": "Trois ventes s’élèvent à 12 000 FCFA, 8 500 FCFA et 15 500 FCFA. Quel total doit afficher la formule de somme, en FCFA ?",
+        "answer": 36000,
+        "solution": "12 000 + 8 500 + 15 500 = 36 000 FCFA.",
+        "then": "Créez ensuite votre propre tableau de quatre colonnes avec une formule de montant et une formule de total."
+      },
+      "quiz": [
+        {
+          "q": "Par quel signe commence une formule ?",
+          "options": [
+            "Le signe =",
+            "Le signe +"
+          ],
+          "answer": 0,
+          "explain": "Sinon le tableur affiche du texte."
+        },
+        {
+          "q": "Que désigne B2 ?",
+          "options": [
+            "La cellule de la colonne B, ligne 2",
+            "La ligne B, colonne 2"
+          ],
+          "answer": 0,
+          "explain": "Colonne puis ligne."
+        },
+        {
+          "q": "Quelle formule additionne une colonne ?",
+          "options": [
+            "=SOMME(D2:D10)",
+            "=MOYENNE(D2:D10)"
+          ],
+          "answer": 0,
+          "explain": "Sur une plage de cellules."
+        },
+        {
+          "q": "Que donne =B2*C2 avec 50 et 300 ?",
+          "options": [
+            "15 000",
+            "350"
+          ],
+          "answer": 0,
+          "explain": "50 × 300 = 15 000."
+        },
+        {
+          "q": "Peut-on écrire « 200 FCFA » dans une cellule de prix ?",
+          "options": [
+            "Mieux vaut écrire seulement 200",
+            "Oui, toujours"
+          ],
+          "answer": 0,
+          "explain": "L’unité va dans l’en-tête."
+        },
+        {
+          "q": "Faut-il vérifier un total ?",
+          "options": [
+            "Oui, sur quelques lignes",
+            "Non, le tableur ne se trompe jamais"
+          ],
+          "answer": 0,
+          "explain": "Une formule mal recopiée fausse tout."
+        }
+      ],
+      "summary": "Des en-têtes, une information par cellule, trois formules simples recopiées vers le bas, un tri, et un total vérifié.",
+      "resource": "Fichier d’exercice : tableau des ventes d’une coopérative."
+    },
+    {
+      "id": "m6",
+      "label": "Présenter en ligne",
+      "number": 6,
+      "title": "Présenter et travailler en ligne",
+      "duration": "35 min",
+      "point": "Un bon diaporama porte une idée par diapositive, peu de texte et de gros caractères. En réunion en ligne, on teste son matériel, on affiche son vrai nom, on coupe son micro quand on ne parle pas. Dans un document partagé, on respecte les droits et les versions.",
+      "intro": "L’entretien de Christelle aura lieu en visioconférence, et on lui demande de présenter en cinq diapositives un projet de coopérative. Deux compétences à la fois, en direct.",
+      "objectives": [
+        "Construire un diaporama court et clair.",
+        "Participer correctement à une réunion en ligne.",
+        "Travailler dans un document partagé."
+      ],
+      "lessons": [
+        {
+          "title": "Cinq règles pour un diaporama",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Une idée par diapositive, avec un titre qui la dit.",
+                "Peu de texte : quelques mots-clés, pas des paragraphes.",
+                "De gros caractères, lisibles de loin.",
+                "Une image, un tableau ou un graphique plutôt qu’une longue liste.",
+                "Dix diapositives au plus pour une présentation courte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La réunion en ligne",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tester avant : connexion, micro, caméra, application installée.",
+                "Se connecter quelques minutes en avance, avec son vrai nom affiché.",
+                "Se placer dans un endroit calme et éclairé, de face.",
+                "Couper son micro quand on ne parle pas ; lever la main pour prendre la parole.",
+                "Si la connexion est faible, couper la caméra plutôt que de perdre le son."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le document partagé",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un document partagé peut être lu ou modifié par plusieurs personnes. Vérifiez les droits donnés (lecture ou modification), ne supprimez pas le travail des autres, laissez un commentaire plutôt que de tout réécrire, et ne partagez pas un document confidentiel par un lien ouvert à tous."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’entretien en ligne de Christelle",
+        "text": "La veille, Junior et Christelle testent la visioconférence depuis le centre de formation, mieux connecté.",
+        "head": [
+          "Diapositive",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "1",
+            "Le problème"
+          ],
+          [
+            "2",
+            "La solution"
+          ],
+          [
+            "3",
+            "Les chiffres, en tableau"
+          ],
+          [
+            "4",
+            "Le calendrier"
+          ],
+          [
+            "5",
+            "Ce qu’elle apportera",
+            "result"
+          ]
+        ],
+        "after": "Le jour J, elle se connecte dix minutes en avance, avec son nom complet. Quand la connexion faiblit, elle coupe sa caméra et continue sa présentation."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un entretien en ligne, et une présentation en direct. »",
+            "Écran de visioconférence"
+          ],
+          [
+            "0:30",
+            "Cinq règles pour un diaporama.",
+            "Diapositive surchargée, puis claire"
+          ],
+          [
+            "2:00",
+            "La réunion en ligne.",
+            "Test du micro, nom affiché, micro coupé"
+          ],
+          [
+            "3:30",
+            "Le document partagé.",
+            "Commentaire laissé dans un document"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou erreur ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Une diapositive remplie d’un long paragraphe",
+            1
+          ],
+          [
+            "Tester son micro la veille",
+            0
+          ],
+          [
+            "Se connecter avec un surnom",
+            1
+          ],
+          [
+            "Couper la caméra quand la connexion faiblit",
+            0
+          ],
+          [
+            "Supprimer le travail d’un collègue dans un document partagé",
+            1
+          ],
+          [
+            "Laisser un commentaire plutôt que de tout réécrire",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien d’idées par diapositive ?",
+          "options": [
+            "Une",
+            "Cinq"
+          ],
+          "answer": 0,
+          "explain": "Avec un titre qui la dit."
+        },
+        {
+          "q": "Combien de diapositives pour une présentation courte ?",
+          "options": [
+            "Dix au plus",
+            "Cinquante"
+          ],
+          "answer": 0,
+          "explain": "Souvent cinq suffisent."
+        },
+        {
+          "q": "Quand tester son matériel ?",
+          "options": [
+            "Avant la réunion, idéalement la veille",
+            "Pendant la réunion"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les surprises."
+        },
+        {
+          "q": "Que faire du micro quand on ne parle pas ?",
+          "options": [
+            "Le couper",
+            "Le laisser ouvert"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les bruits."
+        },
+        {
+          "q": "Connexion faible : que couper en premier ?",
+          "options": [
+            "La caméra",
+            "Le son"
+          ],
+          "answer": 0,
+          "explain": "Pour garder le son."
+        },
+        {
+          "q": "Que faire dans un document partagé qu’on n’a pas écrit ?",
+          "options": [
+            "Laisser un commentaire",
+            "Tout réécrire"
+          ],
+          "answer": 0,
+          "explain": "Sans supprimer le travail des autres."
+        }
+      ],
+      "summary": "Une idée par diapositive, une réunion en ligne préparée et respectueuse, un document partagé utilisé avec soin.",
+      "resource": "Modèle de diaporama en cinq diapositives et liste de contrôle avant une visioconférence."
+    },
+    {
+      "id": "m7",
+      "label": "Emploi en ligne",
+      "number": 7,
+      "title": "Chercher un emploi en ligne et éviter les arnaques",
+      "duration": "30 min",
+      "point": "On cherche les offres sur des sources fiables, on soigne son profil en ligne, et l’on refuse toute offre qui demande de l’argent ou des informations sensibles avant l’embauche.",
+      "intro": "Christelle reçoit un message : « Poste d’assistante, 350 000 FCFA par mois, sans entretien. Envoyez 15 000 FCFA de frais de dossier. » Trop beau pour être vrai ? Oui.",
+      "objectives": [
+        "Citer quatre sources fiables d’offres d’emploi.",
+        "Soigner son profil professionnel en ligne.",
+        "Reconnaître et signaler une fausse offre."
+      ],
+      "lessons": [
+        {
+          "title": "Où chercher",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Source",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Les organisations elles-mêmes",
+                  "Pages « Recrutement » des ONG, coopératives, entreprises agricoles"
+                ],
+                [
+                  "Les services publics de l’emploi",
+                  "Le Fonds national de l’emploi (FNE) et ses agences"
+                ],
+                [
+                  "Les réseaux professionnels",
+                  "Profil professionnel en ligne, groupes de diplômés"
+                ],
+                [
+                  "Les plateformes d’offres reconnues",
+                  "Sites d’emploi connus, à vérifier avant d’y déposer son CV"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Un profil en ligne soigné",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une photo sobre, un titre clair (« Technicienne agricole, BTS, Ngaoundéré »), un résumé de trois lignes, les formations et compétences réelles, et rien de gênant sur ses réseaux publics : les recruteurs regardent."
+            }
+          ]
+        },
+        {
+          "title": "Reconnaître une fausse offre",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "On demande de payer des « frais » de dossier, de formation ou de médical avant l’embauche.",
+                "Le salaire est très élevé pour peu d’expérience, sans entretien.",
+                "On demande son code de mobile money, sa pièce d’identité complète ou ses coordonnées bancaires dès le premier contact.",
+                "L’employeur est introuvable ou répond seulement par messages anonymes."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vérifiez l’employeur (site, adresse, téléphone officiel), ne payez jamais pour obtenir un emploi, et prévenez les autres."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Christelle déjoue la fausse offre",
+        "text": "Christelle cherche le nom de l’« entreprise » du message.",
+        "head": [
+          "Vérification",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Site internet",
+            "Aucun"
+          ],
+          [
+            "Adresse",
+            "Aucune"
+          ],
+          [
+            "Frais demandés",
+            "15 000 FCFA avant tout entretien"
+          ],
+          [
+            "Décision",
+            "Rien envoyé ; la promotion est prévenue",
+            "alert"
+          ]
+        ],
+        "after": "Le même jour, elle trouve sur la page « Recrutement » de l’ONG de M. Daouda la vraie offre, avec une date limite et une adresse électronique officielle."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« 350 000 FCFA sans entretien ? Envoyez 15 000 de frais… »",
+            "Message suspect"
+          ],
+          [
+            "0:30",
+            "Quatre sources fiables.",
+            "Page recrutement, agence publique, profil professionnel"
+          ],
+          [
+            "1:30",
+            "Un profil en ligne soigné.",
+            "Profil avant et après"
+          ],
+          [
+            "2:30",
+            "Reconnaître une fausse offre, et prévenir.",
+            "Message de Christelle à sa promotion"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Sérieuse ou suspecte ?",
+        "text": "Classez ces offres.",
+        "choices": [
+          "Sérieuse",
+          "Suspecte"
+        ],
+        "items": [
+          [
+            "Une offre sur la page « Recrutement » d’une ONG, avec date limite",
+            0
+          ],
+          [
+            "« Envoyez 15 000 FCFA de frais de dossier »",
+            1
+          ],
+          [
+            "Une offre relayée par une agence du FNE",
+            0
+          ],
+          [
+            "« 350 000 FCFA par mois, sans entretien, sans expérience »",
+            1
+          ],
+          [
+            "Une offre qui demande votre code de mobile money",
+            1
+          ],
+          [
+            "Un entretien proposé depuis l’adresse officielle de l’organisation",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Où trouver des offres fiables ?",
+          "options": [
+            "Sites des organisations, services publics de l’emploi, réseaux professionnels, plateformes reconnues",
+            "Messages d’inconnus"
+          ],
+          "answer": 0,
+          "explain": "Des sources vérifiables."
+        },
+        {
+          "q": "Quel service public accompagne les demandeurs d’emploi au Cameroun ?",
+          "options": [
+            "Le Fonds national de l’emploi (FNE)",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Avec ses agences."
+        },
+        {
+          "q": "Une offre demande des frais de dossier : que faire ?",
+          "options": [
+            "Payer vite",
+            "Ne rien payer"
+          ],
+          "answer": 1,
+          "explain": "C’est le signe d’une arnaque."
+        },
+        {
+          "q": "Peut-on donner son code de mobile money à un recruteur ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Aucun employeur sérieux ne le demande."
+        },
+        {
+          "q": "Comment vérifier un employeur ?",
+          "options": [
+            "Site, adresse, téléphone officiel",
+            "On ne vérifie pas"
+          ],
+          "answer": 0,
+          "explain": "S’il est introuvable, on se méfie."
+        },
+        {
+          "q": "Les recruteurs regardent-ils les profils en ligne ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "D’où un profil soigné."
+        }
+      ],
+      "summary": "Des sources fiables, un profil soigné, et une règle absolue : on ne paie jamais pour obtenir un emploi.",
+      "resource": "Fiche « Vraie offre ou arnaque ? »."
+    },
+    {
+      "id": "m8",
+      "label": "Mon dossier",
+      "number": 8,
+      "title": "Projet final : mon dossier de candidature numérique",
+      "duration": "35 min",
+      "point": "Le dossier rassemble un CV et une lettre adaptés à chaque offre, des diplômes et attestations scannés lisibles, quelques preuves de compétences, et un tableau de suivi des candidatures.",
+      "intro": "M. Daouda demande « un dossier complet en PDF ». Christelle a maintenant toutes les compétences pour le préparer : il reste à tout assembler, proprement.",
+      "objectives": [
+        "Assembler un dossier de candidature numérique.",
+        "Adapter sa lettre à chaque offre.",
+        "Suivre ses candidatures et relancer au bon moment."
+      ],
+      "lessons": [
+        {
+          "title": "Les pièces du dossier",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pièce",
+                "Conseil"
+              ],
+              "rows": [
+                [
+                  "CV d’une page",
+                  "Module 4, en PDF"
+                ],
+                [
+                  "Lettre de motivation",
+                  "Adaptée à chaque offre : reprendre les mots de l’offre"
+                ],
+                [
+                  "Diplômes et attestations",
+                  "Scannés lisibles, en PDF, nommés clairement"
+                ],
+                [
+                  "Preuves de compétences",
+                  "Un tableau, un diaporama, une attestation AgroConnect Academy avec son code de vérification"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "N’envoyez que les pièces demandées, regroupées si possible dans un seul PDF, avec un courriel professionnel (module 3)."
+            }
+          ]
+        },
+        {
+          "title": "Suivre ses candidatures",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un tableau simple : organisation, poste, date d’envoi, statut, date de relance. Relancez poliment par courriel une dizaine de jours après la date limite, sans nouvelles. Notez chaque réponse, y compris les refus : ils aident à s’améliorer."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le dossier de Christelle",
+        "text": "Christelle assemble un seul PDF et suit ses candidatures.",
+        "head": [
+          "Pièce",
+          "Ce qu’elle met"
+        ],
+        "rows": [
+          [
+            "CV",
+            "Une page, en PDF"
+          ],
+          [
+            "Lettre",
+            "Reprend les mots de l’offre : « suivi de données », « appui aux coopératives »"
+          ],
+          [
+            "Diplôme",
+            "BTS scanné, lisible"
+          ],
+          [
+            "Preuve",
+            "Attestation AgroConnect Academy avec son code de vérification",
+            "result"
+          ]
+        ],
+        "after": "Elle envoie quatre candidatures et les suit dans son tableau. Deux semaines plus tard, M. Daouda l’invite à l’entretien en ligne qu’elle a préparé au module 6."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un dossier complet en PDF. »",
+            "Courriel de M. Daouda"
+          ],
+          [
+            "0:30",
+            "Les pièces du dossier.",
+            "Quatre pièces qui se rassemblent"
+          ],
+          [
+            "2:00",
+            "Suivre et relancer.",
+            "Tableau de suivi"
+          ],
+          [
+            "3:15",
+            "L’invitation à l’entretien.",
+            "Notification d’un nouveau courriel"
+          ]
+        ]
+      },
+      "tool": "prospects",
+      "toolDefaults": {
+        "key": "candidatures",
+        "heading": "Mon suivi des candidatures",
+        "intro": "Notez chaque candidature, son statut et la date de relance. Le tableau reste enregistré sur ce téléphone.",
+        "statuts": [
+          "Envoyée",
+          "Relancée",
+          "Entretien",
+          "Réponse reçue"
+        ],
+        "cols": [
+          "Organisation et poste",
+          "Notes",
+          "Statut",
+          "Date de relance"
+        ],
+        "placeholder": "Pièces envoyées, contact",
+        "unit": "candidature",
+        "emptyText": "Aucune candidature. Ajoutez la première.",
+        "addLabel": "Ajouter une candidature",
+        "newName": "Nouvelle candidature",
+        "exemple": [
+          {
+            "n": "ONG – assistante de projet",
+            "c": "CV, lettre, BTS, attestation",
+            "s": 2,
+            "r": ""
+          },
+          {
+            "n": "Coopérative – agente de suivi",
+            "c": "CV, lettre",
+            "s": 0,
+            "r": ""
+          }
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de candidature",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f16-dossier",
+        "items": [
+          "CV d’une page en PDF",
+          "Lettre adaptée à une offre réelle",
+          "Diplômes scannés lisibles",
+          "Un tableau fait au tableur",
+          "Un diaporama de cinq diapositives",
+          "Le courriel d’envoi et le tableau de suivi"
+        ],
+        "then": "Remettez votre dossier au formateur pour une offre réelle. L’attestation finale est délivrée avec au moins cinq pièces acquises sur six et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Faut-il adapter sa lettre à chaque offre ?",
+          "options": [
+            "Oui",
+            "Non, la même pour toutes"
+          ],
+          "answer": 0,
+          "explain": "En reprenant les mots de l’offre."
+        },
+        {
+          "q": "Dans quel format envoyer les pièces ?",
+          "options": [
+            "PDF, si possible en un seul fichier",
+            "Photos séparées"
+          ],
+          "answer": 0,
+          "explain": "Plus simple à ouvrir."
+        },
+        {
+          "q": "Comment prouver une compétence ?",
+          "options": [
+            "Par un travail réalisé ou une attestation vérifiable",
+            "En l’affirmant"
+          ],
+          "answer": 0,
+          "explain": "Par exemple un tableau ou une attestation avec code."
+        },
+        {
+          "q": "Quand relancer ?",
+          "options": [
+            "Une dizaine de jours après la date limite, sans nouvelles",
+            "Le lendemain de l’envoi"
+          ],
+          "answer": 0,
+          "explain": "Poliment, par courriel."
+        },
+        {
+          "q": "Faut-il noter les refus ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Ils aident à s’améliorer."
+        },
+        {
+          "q": "Faut-il envoyer des pièces non demandées ?",
+          "options": [
+            "Non",
+            "Oui, le plus possible"
+          ],
+          "answer": 0,
+          "explain": "Seulement ce qui est demandé."
+        }
+      ],
+      "summary": "Un dossier en PDF adapté à chaque offre, des preuves de compétences, un courriel professionnel, et un suivi rigoureux des candidatures.",
+      "resource": "Modèle de lettre de motivation et de tableau de suivi des candidatures."
+    }
+  ]
+}

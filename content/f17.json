@@ -1,0 +1,1711 @@
+{
+  "id": "f17",
+  "title": "Devenir prestataire numérique pour le monde agricole",
+  "short": "Prestataire numérique",
+  "lead": "Proposer ses services numériques aux producteurs et aux coopératives : un métier de confiance autant que de technique.",
+  "note": "Serge, Habiba, la coopérative de Hawa et leurs chiffres sont fictifs. On ne garde jamais les codes de ses clients.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Le métier",
+      "number": 1,
+      "title": "Comprendre le métier de prestataire numérique en milieu agricole",
+      "duration": "30 min",
+      "point": "Beaucoup de producteurs et de coopératives veulent utiliser le numérique, mais manquent de temps ou d’aisance. Le prestataire fait pour eux, ou avec eux, ce qu’ils ne maîtrisent pas encore : vendre en ligne, tenir leurs tableaux, communiquer, utiliser les plateformes.",
+      "intro": "À la coopérative de Hawa, personne n’a le temps de publier les annonces sur AgroConnect ni de tenir le tableau des ventes. Serge sait le faire. Ce besoin, partout dans les villages, peut devenir un métier.",
+      "objectives": [
+        "Citer cinq familles de services numériques utiles aux agriculteurs.",
+        "Décrire les qualités d’un bon prestataire.",
+        "Distinguer « faire pour » et « apprendre à faire »."
+      ],
+      "lessons": [
+        {
+          "title": "Cinq familles de services",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Famille",
+                "Exemples de services",
+                "Formations liées"
+              ],
+              "rows": [
+                [
+                  "Vendre en ligne",
+                  "Fiches produits, photos, annonces AgroConnect, catalogue WhatsApp",
+                  "F3, F6"
+                ],
+                [
+                  "Communiquer",
+                  "Page de coopérative, calendrier de publications, petites publicités",
+                  "F7"
+                ],
+                [
+                  "Gérer",
+                  "Tableaux des membres, des ventes, des stocks ; mise en forme de documents",
+                  "F16, F14"
+                ],
+                [
+                  "Accompagner",
+                  "Prise en main d’AgroConnect, des alertes Climat, du mobile money",
+                  "F3, F12"
+                ],
+                [
+                  "Former",
+                  "Ateliers pour les membres sur leur téléphone",
+                  "F3"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les qualités d’un bon prestataire",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La confiance : il manipule des informations, parfois de l’argent ; il est honnête et discret.",
+                "La pédagogie : il explique simplement, avec patience.",
+                "La fiabilité : il tient ses délais et ses promesses.",
+                "La compétence : il ne propose que ce qu’il sait vraiment faire."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire pour, ou apprendre à faire",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Certains clients veulent qu’on fasse à leur place (publier les annonces chaque semaine) ; d’autres veulent apprendre (un atelier sur WhatsApp Business). Les deux sont utiles. À long terme, rendre ses clients plus autonomes renforce la confiance, et en amène d’autres."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le premier rendez-vous de Serge",
+        "text": "Serge rencontre Hawa, qui lui expose trois besoins.",
+        "head": [
+          "Besoin de la coopérative",
+          "Réponse de Serge"
+        ],
+        "rows": [
+          [
+            "Publier les annonces sur AgroConnect",
+            "Il sait le faire"
+          ],
+          [
+            "Tenir le tableau des dépôts et des ventes",
+            "Il sait le faire"
+          ],
+          [
+            "Apprendre aux membres à lire les alertes Climat, en fulfulde",
+            "Il devra se former, avec l’aide d’un membre",
+            "result"
+          ]
+        ],
+        "after": "Serge ne promet que ce qu’il sait faire, et dit ce qu’il doit encore apprendre."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Personne n’a le temps de publier les annonces. »",
+            "Magasin de la coopérative, téléphone posé"
+          ],
+          [
+            "0:30",
+            "Cinq familles de services.",
+            "Cinq icônes"
+          ],
+          [
+            "2:00",
+            "Les qualités d’un bon prestataire.",
+            "Serge qui écoute, carnet en main"
+          ],
+          [
+            "3:00",
+            "Faire pour, ou apprendre à faire.",
+            "Serge qui publie, puis qui explique"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle famille de services ?",
+        "text": "Associez chaque service à sa famille.",
+        "choices": [
+          "Vendre en ligne",
+          "Communiquer",
+          "Gérer",
+          "Accompagner",
+          "Former"
+        ],
+        "items": [
+          [
+            "Publier les annonces d’une coopérative sur AgroConnect",
+            0
+          ],
+          [
+            "Tenir le tableau des dépôts",
+            2
+          ],
+          [
+            "Animer un atelier sur l’usage du téléphone",
+            4
+          ],
+          [
+            "Créer le calendrier de publications d’un groupement",
+            1
+          ],
+          [
+            "Aider un membre à activer les alertes Climat",
+            3
+          ],
+          [
+            "Photographier les produits d’une transformatrice",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de familles de services ?",
+          "options": [
+            "Deux",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Vendre, communiquer, gérer, accompagner, former."
+        },
+        {
+          "q": "Quelle est la première qualité d’un prestataire ?",
+          "options": [
+            "La confiance",
+            "La vitesse"
+          ],
+          "answer": 0,
+          "explain": "Il manipule des informations sensibles."
+        },
+        {
+          "q": "Peut-on proposer un service qu’on ne sait pas faire ?",
+          "options": [
+            "Oui",
+            "Non, ou seulement après s’être formé"
+          ],
+          "answer": 1,
+          "explain": "La confiance en dépend."
+        },
+        {
+          "q": "Tenir le tableau des ventes, c’est quelle famille ?",
+          "options": [
+            "Gérer",
+            "Former"
+          ],
+          "answer": 0,
+          "explain": "Formations F14 et F16."
+        },
+        {
+          "q": "« Apprendre à faire » a-t-il de la valeur ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "L’autonomie des clients renforce la confiance."
+        },
+        {
+          "q": "Qui a besoin de ces services ?",
+          "options": [
+            "Producteurs, coopératives, petites entreprises agricoles",
+            "Personne"
+          ],
+          "answer": 0,
+          "explain": "Ceux qui manquent de temps ou d’aisance."
+        }
+      ],
+      "summary": "Cinq familles de services, quatre qualités, et deux façons de servir : faire pour, ou apprendre à faire.",
+      "resource": "Fiche « Les services que je sais rendre »."
+    },
+    {
+      "id": "m2",
+      "label": "Services et clients",
+      "number": 2,
+      "title": "Choisir ses services et ses clients",
+      "duration": "30 min",
+      "point": "On commence avec trois services au plus : ceux que l’on sait bien faire, que les clients demandent et qu’ils sont prêts à payer. On choisit des clients proches, et l’on teste son offre avec deux clients pilotes.",
+      "intro": "Serge voulait tout proposer : site internet, vidéos, publicité, formation, comptabilité. Résultat : personne ne savait vraiment ce qu’il faisait. Une offre courte et claire se vend mieux.",
+      "objectives": [
+        "Choisir trois services avec trois critères.",
+        "Identifier ses premiers clients.",
+        "Formuler son offre en une phrase et la tester."
+      ],
+      "lessons": [
+        {
+          "title": "Trois critères pour choisir ses services",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Je sais le faire bien, et je peux le prouver par un exemple.",
+                "Des clients le demandent : je l’ai entendu lors de mes rencontres (formation F4, module 2).",
+                "Ils sont prêts à le payer, à un prix qui couvre mon temps (module 3)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les premiers clients",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Client",
+                "Besoins fréquents"
+              ],
+              "rows": [
+                [
+                  "Coopératives",
+                  "Annonces AgroConnect, tableaux des membres et des ventes, comptes rendus"
+                ],
+                [
+                  "Groupements de transformatrices",
+                  "Photos de produits, catalogue, page, étiquettes"
+                ],
+                [
+                  "Commerçants et petites entreprises",
+                  "Catalogue WhatsApp, publications régulières"
+                ],
+                [
+                  "Projets et ONG",
+                  "Saisie de données, formation des bénéficiaires"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Commencez par des clients proches, que vous pouvez rencontrer facilement : la confiance se construit en face à face."
+            }
+          ]
+        },
+        {
+          "title": "L’offre en une phrase, et le test",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "J’aide [clients] à [résultat] grâce à [services]."
+            },
+            {
+              "type": "p",
+              "text": "Testez-la avec deux clients pilotes, à un tarif réduit, en échange d’un avis et de la permission de montrer le travail réalisé."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’offre de Serge",
+        "text": "Serge garde trois services et deux clients pilotes.",
+        "head": [
+          "Choix",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Services",
+            "Annonces et fiches AgroConnect ; tableaux de gestion ; ateliers téléphone"
+          ],
+          [
+            "Offre",
+            "« J’aide les coopératives et les groupements de l’Adamaoua à mieux vendre et mieux s’organiser grâce à leurs annonces, leurs tableaux et des ateliers pour leurs membres. »"
+          ],
+          [
+            "Clients pilotes",
+            "La coopérative de Hawa et le groupement de Habiba",
+            "result"
+          ]
+        ],
+        "after": "Une offre que chacun comprend du premier coup."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Tout proposer, et personne ne comprend. »",
+            "Longue liste de services barrée"
+          ],
+          [
+            "0:30",
+            "Trois critères pour choisir.",
+            "Trois cases cochées"
+          ],
+          [
+            "1:45",
+            "Les premiers clients, de proximité.",
+            "Serge à la coopérative de Hawa"
+          ],
+          [
+            "2:45",
+            "L’offre en une phrase et les deux pilotes.",
+            "Serge et Habiba"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bon choix ou erreur ?",
+        "text": "Classez ces décisions.",
+        "choices": [
+          "Bon choix",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Proposer dix services dès le début",
+            1
+          ],
+          [
+            "Choisir un service que l’on sait déjà bien faire",
+            0
+          ],
+          [
+            "Commencer par des clients proches",
+            0
+          ],
+          [
+            "Proposer un service que personne n’a demandé",
+            1
+          ],
+          [
+            "Tester son offre avec deux clients pilotes",
+            0
+          ],
+          [
+            "Promettre une application sans savoir la faire",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de services au départ ?",
+          "options": [
+            "Trois au plus",
+            "Dix"
+          ],
+          "answer": 0,
+          "explain": "Une offre courte se vend mieux."
+        },
+        {
+          "q": "Quels sont les trois critères ?",
+          "options": [
+            "Je sais le faire, on le demande, on est prêt à le payer",
+            "C’est à la mode, c’est cher, c’est rapide"
+          ],
+          "answer": 0,
+          "explain": "Les trois à la fois."
+        },
+        {
+          "q": "Par quels clients commencer ?",
+          "options": [
+            "Des clients proches",
+            "Des clients à l’étranger"
+          ],
+          "answer": 0,
+          "explain": "La confiance se construit en face à face."
+        },
+        {
+          "q": "Qu’est-ce qu’un client pilote ?",
+          "options": [
+            "Un premier client qui teste l’offre, contre un avis",
+            "Un client qui pilote un avion"
+          ],
+          "answer": 0,
+          "explain": "Pour améliorer et prouver."
+        },
+        {
+          "q": "Comment s’écrit l’offre en une phrase ?",
+          "options": [
+            "J’aide [clients] à [résultat] grâce à [services]",
+            "Je fais tout"
+          ],
+          "answer": 0,
+          "explain": "Claire et compréhensible."
+        },
+        {
+          "q": "Peut-on promettre un service qu’on ne maîtrise pas ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "La confiance se perdrait."
+        }
+      ],
+      "summary": "Trois services choisis avec trois critères, des clients proches, une offre en une phrase, et deux clients pilotes pour tester.",
+      "resource": "Fiche « Mon offre de services en une phrase »."
+    },
+    {
+      "id": "m3",
+      "label": "Prix et devis",
+      "number": 3,
+      "title": "Fixer ses prix et faire un devis",
+      "duration": "35 min",
+      "point": "Un prix se calcule à partir du temps passé, d’un taux horaire qui couvre ses besoins, et des frais. On le présente dans un devis écrit, clair et daté, avant de commencer.",
+      "intro": "Serge a créé vingt fiches produits pour une coopérative, et demandé « ce que vous voulez ». Il a reçu 3 000 FCFA pour deux jours de travail. Un prix calculé et un devis écrit évitent ce genre de déception, des deux côtés.",
+      "objectives": [
+        "Calculer son taux horaire.",
+        "Calculer le prix d’un service.",
+        "Rédiger un devis complet."
+      ],
+      "lessons": [
+        {
+          "title": "Le taux horaire",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Taux horaire = Revenu mensuel visé ÷ Heures facturées par mois"
+            },
+            {
+              "type": "p",
+              "text": "On ne facture pas toutes ses heures : déplacements, prospection et apprentissage prennent aussi du temps. Le taux doit rester compréhensible pour les clients : comparez avec d’autres prestataires."
+            }
+          ]
+        },
+        {
+          "title": "Le prix d’un service",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Prix = Heures × Taux horaire + Frais"
+            },
+            {
+              "type": "p",
+              "text": "Pour un service régulier (publier les annonces chaque semaine), un forfait mensuel est plus simple pour le client."
+            }
+          ]
+        },
+        {
+          "title": "Le devis",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Contenu"
+              ],
+              "rows": [
+                [
+                  "Prestataire et client",
+                  "Noms, contacts, date"
+                ],
+                [
+                  "Description",
+                  "Ce qui sera fait, précisément"
+                ],
+                [
+                  "Quantité et prix",
+                  "Par ligne, puis le total"
+                ],
+                [
+                  "Délai",
+                  "Date de remise du travail"
+                ],
+                [
+                  "Validité",
+                  "Par exemple trente jours"
+                ],
+                [
+                  "Paiement",
+                  "Acompte au départ, solde à la remise, moyen de paiement"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le devis de Serge",
+        "text": "Serge vise 120 000 FCFA par mois avec 60 heures facturées : son taux horaire est de 2 000 FCFA.",
+        "head": [
+          "Service",
+          "Calcul",
+          "Prix (FCFA)"
+        ],
+        "rows": [
+          [
+            "Dix fiches produits avec photos, groupement de Habiba",
+            "6 h × 2 000 + 2 000 de transport",
+            "14 000"
+          ],
+          [
+            "Annonces de la coopérative de Hawa chaque semaine",
+            "Forfait mensuel",
+            "15 000 par mois",
+            "result"
+          ]
+        ],
+        "after": "Chaque devis prévoit un acompte de 30 %."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Deux jours de travail pour 3 000 FCFA. »",
+            "Serge déçu"
+          ],
+          [
+            "0:30",
+            "Calculer son taux horaire.",
+            "120 000 ÷ 60 = 2 000"
+          ],
+          [
+            "1:45",
+            "Le prix d’un service, et le forfait.",
+            "6 × 2 000 + 2 000"
+          ],
+          [
+            "3:00",
+            "Le devis en six rubriques.",
+            "Devis remis à Habiba"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur de devis",
+        "intro": "Remplissez les rubriques. L’exemple de départ est le devis de Serge pour le groupement de Habiba.",
+        "titre": "DEVIS",
+        "copyLabel": "Copier le devis",
+        "outLabel": "Votre devis, à envoyer ou à imprimer",
+        "okText": "Devis complet. Relisez les montants et les dates avant de l’envoyer.",
+        "champs": [
+          [
+            "Prestataire",
+            "Serge, prestataire numérique, Ngaoundéré, 6XX XX XX XX"
+          ],
+          [
+            "Client",
+            "Groupement de femmes de Habiba"
+          ],
+          [
+            "Description",
+            "Création de dix fiches produits avec trois photos chacune, prêtes pour AgroConnect et WhatsApp"
+          ],
+          [
+            "Prix",
+            "6 heures × 2 000 FCFA + 2 000 FCFA de transport = 14 000 FCFA"
+          ],
+          [
+            "Délai",
+            "Remise sous sept jours après acceptation"
+          ],
+          [
+            "Validité",
+            "Trente jours"
+          ],
+          [
+            "Paiement",
+            "Acompte de 30 % à l’acceptation, solde à la remise, par mobile money"
+          ]
+        ],
+        "fin": "Bon pour accord, date et signature du client :"
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le prix",
+        "text": "Un service demande 5 heures de travail, à un taux horaire de 2 500 FCFA, avec 3 000 FCFA de frais de transport. Quel prix indiquer sur le devis, en FCFA ?",
+        "answer": 15500,
+        "solution": "5 × 2 500 + 3 000 = 15 500 FCFA.",
+        "then": "Préparez ensuite le devis de votre premier service avec le générateur."
+      },
+      "quiz": [
+        {
+          "q": "Comment calcule-t-on le taux horaire ?",
+          "options": [
+            "Revenu mensuel visé ÷ heures facturées",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Pas toutes les heures travaillées."
+        },
+        {
+          "q": "90 000 FCFA visés, 45 heures facturées. Taux ?",
+          "options": [
+            "2 000 FCFA",
+            "4 500 FCFA"
+          ],
+          "answer": 0,
+          "explain": "90 000 ÷ 45 = 2 000."
+        },
+        {
+          "q": "Comment calcule-t-on le prix d’un service ?",
+          "options": [
+            "Heures × taux + frais",
+            "Frais seulement"
+          ],
+          "answer": 0,
+          "explain": "Transport, internet."
+        },
+        {
+          "q": "Quand présenter le devis ?",
+          "options": [
+            "Avant de commencer",
+            "Après avoir fini"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les malentendus."
+        },
+        {
+          "q": "Que prévoit souvent un devis pour le paiement ?",
+          "options": [
+            "Un acompte au départ et le solde à la remise",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Avec le moyen de paiement."
+        },
+        {
+          "q": "À quoi sert un forfait mensuel ?",
+          "options": [
+            "Simplifier un service régulier",
+            "Compliquer la facture"
+          ],
+          "answer": 0,
+          "explain": "Pour le client comme pour le prestataire."
+        }
+      ],
+      "summary": "Un taux horaire calculé, un prix égal aux heures fois le taux plus les frais, et un devis écrit en six rubriques, avant de commencer.",
+      "resource": "Modèle de devis."
+    },
+    {
+      "id": "m4",
+      "label": "Confiance",
+      "number": 4,
+      "title": "Contractualiser et protéger la confiance des clients",
+      "duration": "30 min",
+      "point": "Un accord écrit précise ce qui sera fait, quand, à quel prix, qui garde l’accès aux comptes, à qui appartiennent les contenus, et comment les données sont protégées. Les comptes restent au nom du client, qui garde ses codes.",
+      "intro": "Un prestataire qui garde les codes de la page d’une coopérative, puis disparaît, la laisse sans accès à ses propres clients. Pour être choisi, le prestataire doit d’abord prouver qu’on peut lui faire confiance.",
+      "objectives": [
+        "Rédiger un accord écrit en sept points.",
+        "Organiser l’accès aux comptes de ses clients sans garder leurs codes.",
+        "Protéger les données que ses clients lui confient."
+      ],
+      "lessons": [
+        {
+          "title": "L’accord écrit en sept points",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Le travail : ce qui sera fait, précisément (le devis, module 3).",
+                "Les délais : dates de début et de remise.",
+                "Le prix et le paiement : montant, acompte, solde, moyen de paiement.",
+                "Les accès : comment le prestataire accède aux comptes du client.",
+                "La propriété : photos, textes et tableaux appartiennent au client une fois payés, sauf accord contraire.",
+                "La confidentialité : les informations du client ne sont ni partagées ni réutilisées.",
+                "La fin de l’accord : comment on arrête, et ce que le prestataire remet au client."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les comptes restent au client",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La page, l’annonce, le compte AgroConnect sont créés au nom du client, avec son numéro et son adresse.",
+                "Quand la plateforme le permet, le client donne un accès délégué qu’il peut retirer ; sinon, il se connecte lui-même pendant la séance.",
+                "Le prestataire ne garde jamais les codes de ses clients, et ne demande jamais un code de mobile money."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Protéger les données des clients",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Listes de membres, ventes et contacts sont des données sensibles, protégées par la loi n° 2024/017 du 23 décembre 2024 (formation F2, module 7). Gardez-les sur un appareil protégé, ne les partagez avec personne, ne les réutilisez pas pour un autre client, et rendez ou supprimez les fichiers à la fin de l’accord."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’accord entre Serge et la coopérative de Hawa",
+        "text": "L’accord tient sur une page, signé en deux exemplaires.",
+        "head": [
+          "Point",
+          "Ce qui est écrit"
+        ],
+        "rows": [
+          [
+            "Travail",
+            "Publication des annonces chaque semaine"
+          ],
+          [
+            "Prix et paiement",
+            "15 000 FCFA par mois, payés le 5 du mois"
+          ],
+          [
+            "Accès",
+            "Compte AgroConnect au nom de la coopérative, accès donné et retirable par Hawa"
+          ],
+          [
+            "Propriété",
+            "Photos propriété de la coopérative"
+          ],
+          [
+            "Confidentialité",
+            "Aucune diffusion de la liste des membres"
+          ],
+          [
+            "Fin",
+            "Un mois de préavis",
+            "result"
+          ]
+        ],
+        "after": "Hawa et Serge signent chacun un exemplaire."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le prestataire a disparu, avec les codes. »",
+            "Page de coopérative inaccessible"
+          ],
+          [
+            "0:30",
+            "L’accord en sept points.",
+            "Une page qui se remplit"
+          ],
+          [
+            "2:00",
+            "Les comptes restent au client.",
+            "Hawa qui donne, puis retire un accès"
+          ],
+          [
+            "3:00",
+            "Protéger les données, et l’accord signé.",
+            "Deux exemplaires signés"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou faute ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Faute"
+        ],
+        "items": [
+          [
+            "Créer la page du client à son propre nom",
+            1
+          ],
+          [
+            "Utiliser un accès délégué que le client peut retirer",
+            0
+          ],
+          [
+            "Garder le mot de passe du client « au cas où »",
+            1
+          ],
+          [
+            "Réutiliser la liste des membres d’une coopérative pour un autre client",
+            1
+          ],
+          [
+            "Signer un accord écrit avant de commencer",
+            0
+          ],
+          [
+            "Supprimer les fichiers du client à la fin de l’accord",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de points dans l’accord écrit ?",
+          "options": [
+            "Trois",
+            "Sept"
+          ],
+          "answer": 1,
+          "explain": "Du travail à la fin de l’accord."
+        },
+        {
+          "q": "Au nom de qui créer le compte du client ?",
+          "options": [
+            "Au nom du client",
+            "Au nom du prestataire"
+          ],
+          "answer": 0,
+          "explain": "Avec son numéro et son adresse."
+        },
+        {
+          "q": "Le prestataire peut-il garder les codes ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le client garde ses codes."
+        },
+        {
+          "q": "À qui appartiennent les photos une fois payées ?",
+          "options": [
+            "Au client, sauf accord contraire",
+            "Au prestataire"
+          ],
+          "answer": 0,
+          "explain": "C’est écrit dans l’accord."
+        },
+        {
+          "q": "Quelle loi protège les données des membres ?",
+          "options": [
+            "La loi n° 2024/017 du 23 décembre 2024",
+            "Aucune"
+          ],
+          "answer": 0,
+          "explain": "Formation F2, module 7."
+        },
+        {
+          "q": "Que faire des fichiers du client à la fin ?",
+          "options": [
+            "Les rendre ou les supprimer",
+            "Les garder"
+          ],
+          "answer": 0,
+          "explain": "Ne pas les conserver."
+        }
+      ],
+      "summary": "Un accord écrit en sept points, des comptes au nom du client, aucun code gardé, et des données protégées puis rendues ou supprimées.",
+      "resource": "Modèle d’accord de prestation d’une page."
+    },
+    {
+      "id": "m5",
+      "label": "Qualité",
+      "number": 5,
+      "title": "Réaliser un service de qualité",
+      "duration": "35 min",
+      "point": "Chaque mission suit cinq étapes : comprendre le besoin, préparer, réaliser, faire valider par le client, remettre et expliquer. Une liste de contrôle et un court compte rendu garantissent un travail fiable.",
+      "intro": "Le premier travail d’un prestataire est sa meilleure publicité, ou sa pire. Une fiche avec un mauvais prix, et c’est la coopérative qui perd une vente, puis le prestataire qui perd un client.",
+      "objectives": [
+        "Conduire une mission en cinq étapes.",
+        "Contrôler la qualité de son travail avant de le remettre.",
+        "Rédiger un compte rendu de mission."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq étapes d’une mission",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Comprendre : noter le besoin avec le client, ses priorités, ses délais.",
+                "Préparer : rassembler les informations, le matériel et les accès nécessaires.",
+                "Réaliser : faire le travail, en vérifiant chaque information auprès du client.",
+                "Faire valider : montrer le travail au client avant de le publier ou de le remettre.",
+                "Remettre et expliquer : livrer, expliquer ce qui a été fait, et montrer au client comment s’en servir."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La liste de contrôle",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Prix, quantités et contacts exacts, vérifiés avec le client.",
+                "Orthographe relue.",
+                "Photos nettes du vrai produit (formation F3, module 5).",
+                "Promesses honnêtes : ni « bio » sans certification, ni « guérit » (formation F7, module 3).",
+                "Délai du devis respecté."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le compte rendu de mission",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Quelques lignes remises au client : ce qui a été fait, quand, ce qui reste à faire, et les conseils pour la suite. Il prouve le travail, rassure le client et sert de référence pour la mission suivante."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les fiches du groupement de Habiba",
+        "text": "Serge suit les cinq étapes.",
+        "head": [
+          "Étape",
+          "Ce qui se passe"
+        ],
+        "rows": [
+          [
+            "Comprendre et préparer",
+            "Besoins notés avec Habiba, photos prises un matin"
+          ],
+          [
+            "Réaliser",
+            "Dix fiches rédigées"
+          ],
+          [
+            "Faire valider",
+            "Deux prix ont changé depuis la réunion : corrigés"
+          ],
+          [
+            "Remettre et expliquer",
+            "Compte rendu de cinq lignes ; deux membres apprennent à modifier un prix",
+            "result"
+          ]
+        ],
+        "after": "La semaine suivante, le groupement reçoit ses premières demandes de devis sur AgroConnect."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le premier travail est la meilleure publicité, ou la pire. »",
+            "Fiche avec un prix barré"
+          ],
+          [
+            "0:30",
+            "Les cinq étapes d’une mission.",
+            "Cinq marches"
+          ],
+          [
+            "2:00",
+            "La liste de contrôle.",
+            "Cases cochées une à une"
+          ],
+          [
+            "3:00",
+            "La validation par Habiba, et le compte rendu.",
+            "Deux prix corrigés, compte rendu remis"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou erreur ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Publier les fiches sans les montrer au client",
+            1
+          ],
+          [
+            "Vérifier les prix avec le client",
+            0
+          ],
+          [
+            "Utiliser une photo trouvée sur Internet",
+            1
+          ],
+          [
+            "Remettre un compte rendu de mission",
+            0
+          ],
+          [
+            "Écrire « miel bio » sans certification",
+            1
+          ],
+          [
+            "Montrer au client comment modifier un prix lui-même",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien d’étapes dans une mission ?",
+          "options": [
+            "Trois",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Comprendre, préparer, réaliser, faire valider, remettre."
+        },
+        {
+          "q": "Quand faire valider le travail ?",
+          "options": [
+            "Avant de le publier ou de le remettre",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "Pour corriger à temps."
+        },
+        {
+          "q": "Qui vérifie les prix ?",
+          "options": [
+            "Le prestataire, avec le client",
+            "Personne"
+          ],
+          "answer": 0,
+          "explain": "Les prix changent souvent."
+        },
+        {
+          "q": "À quoi sert le compte rendu de mission ?",
+          "options": [
+            "Prouver le travail et préparer la suite",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Il rassure le client."
+        },
+        {
+          "q": "Peut-on utiliser une photo trouvée sur Internet ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Le client doit voir le vrai produit."
+        },
+        {
+          "q": "Pourquoi montrer au client comment faire ?",
+          "options": [
+            "Pour le rendre plus autonome",
+            "Pour perdre le client"
+          ],
+          "answer": 0,
+          "explain": "La confiance grandit."
+        }
+      ],
+      "summary": "Cinq étapes, une liste de contrôle, une validation par le client et un compte rendu : un travail fiable que le client recommandera.",
+      "resource": "Liste de contrôle qualité et modèle de compte rendu de mission."
+    },
+    {
+      "id": "m6",
+      "label": "Se faire connaître",
+      "number": 6,
+      "title": "Se faire connaître",
+      "duration": "30 min",
+      "point": "Un prestataire se fait connaître d’abord par ses clients satisfaits : recommandations, réalisations montrées avec leur accord, présence aux réunions des coopératives. Réseaux sociaux et partenariats complètent ce bouche-à-oreille.",
+      "intro": "Dans les villages et les coopératives, on fait confiance à celui qu’un voisin recommande. Pour Serge, la meilleure publicité est Hawa qui parle de lui à une autre coopérative.",
+      "objectives": [
+        "Constituer un portfolio de réalisations.",
+        "Demander des recommandations.",
+        "Choisir trois actions pour se faire connaître."
+      ],
+      "lessons": [
+        {
+          "title": "Le portfolio",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Deux à cinq réalisations, montrées avec l’accord des clients : une fiche avant et après, un tableau, une page, un atelier. Pour chacune : le besoin, ce qui a été fait, le résultat. Sans données confidentielles (module 4)."
+            }
+          ]
+        },
+        {
+          "title": "Six façons de se faire connaître",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Action",
+                "Comment"
+              ],
+              "rows": [
+                [
+                  "Recommandations",
+                  "Demander à chaque client satisfait de parler de soi, ou un court témoignage"
+                ],
+                [
+                  "Réunions de coopératives",
+                  "Présenter son offre en cinq minutes, avec un exemple"
+                ],
+                [
+                  "Réseaux sociaux",
+                  "Montrer ses réalisations, avec accord (formation F7)"
+                ],
+                [
+                  "Partenariats",
+                  "ONG, projets, unions de coopératives, plateformes comme AgroConnect"
+                ],
+                [
+                  "Offre de lancement",
+                  "Un atelier d’essai ou un tarif découverte, limité dans le temps"
+                ],
+                [
+                  "Carte de visite",
+                  "Nom, services, numéro, en papier et en image WhatsApp"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Comment Serge trouve ses clients suivants",
+        "text": "Hawa présente Serge à la réunion de l’union des coopératives.",
+        "head": [
+          "Action",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Présentation de cinq minutes, avec les fiches du groupement de Habiba (avec accord)",
+            "Les coopératives comprennent l’offre"
+          ],
+          [
+            "Atelier d’essai à moitié prix pour le premier mois",
+            "Deux coopératives demandent un devis"
+          ],
+          [
+            "Témoignage vocal de Habiba, partagé en statut",
+            "De nouveaux contacts écrivent à Serge",
+            "result"
+          ]
+        ],
+        "after": "La recommandation de Hawa a ouvert plus de portes que toute publicité."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« On fait confiance à celui qu’un voisin recommande. »",
+            "Hawa qui présente Serge"
+          ],
+          [
+            "0:30",
+            "Le portfolio, avec l’accord des clients.",
+            "Avant et après d’une fiche"
+          ],
+          [
+            "1:45",
+            "Six façons de se faire connaître.",
+            "Réunion, statut, carte de visite"
+          ],
+          [
+            "3:00",
+            "Deux nouvelles demandes de devis.",
+            "Serge qui prend des notes"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou erreur ?",
+        "text": "Classez ces actions.",
+        "choices": [
+          "Bonne pratique",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Montrer le travail d’un client sans lui demander",
+            1
+          ],
+          [
+            "Demander une recommandation à un client satisfait",
+            0
+          ],
+          [
+            "Présenter son offre en cinq minutes à une réunion de coopérative",
+            0
+          ],
+          [
+            "Publier la liste des membres d’une coopérative comme « exemple »",
+            1
+          ],
+          [
+            "Proposer un atelier d’essai limité dans le temps",
+            0
+          ],
+          [
+            "Afficher de faux témoignages",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle est la meilleure publicité d’un prestataire ?",
+          "options": [
+            "Un client satisfait qui le recommande",
+            "Une affiche"
+          ],
+          "answer": 0,
+          "explain": "Le bouche-à-oreille compte beaucoup."
+        },
+        {
+          "q": "Combien de réalisations dans un portfolio ?",
+          "options": [
+            "Deux à cinq",
+            "Cinquante"
+          ],
+          "answer": 0,
+          "explain": "Avec l’accord des clients."
+        },
+        {
+          "q": "Que montre-t-on pour chaque réalisation ?",
+          "options": [
+            "Le besoin, ce qui a été fait, le résultat",
+            "Le prix payé par le client"
+          ],
+          "answer": 0,
+          "explain": "Sans données confidentielles."
+        },
+        {
+          "q": "Combien de temps pour présenter son offre en réunion ?",
+          "options": [
+            "Environ cinq minutes",
+            "Une heure"
+          ],
+          "answer": 0,
+          "explain": "Court et concret."
+        },
+        {
+          "q": "Une offre de lancement doit-elle être illimitée ?",
+          "options": [
+            "Oui",
+            "Non, limitée dans le temps"
+          ],
+          "answer": 1,
+          "explain": "Pour ne pas brader son travail."
+        },
+        {
+          "q": "Peut-on afficher de faux témoignages ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "La confiance est la base du métier."
+        }
+      ],
+      "summary": "Un portfolio autorisé par les clients, des recommandations, des présentations en réunion et quelques partenariats : on se fait connaître par la confiance.",
+      "resource": "Modèle de portfolio et de carte de visite."
+    },
+    {
+      "id": "m7",
+      "label": "Gérer",
+      "number": 7,
+      "title": "Gérer son activité de prestataire",
+      "duration": "35 min",
+      "point": "Gérer son activité, c’est suivre ses missions et ses clients, tenir sa caisse, séparer l’argent de l’activité de son argent personnel, remettre des reçus, organiser son temps, et choisir un statut adapté quand l’activité grandit.",
+      "intro": "Après trois mois, Serge a cinq clients, mais ne sait plus qui lui doit encore de l’argent, ni combien il a vraiment gagné. Un prestataire est aussi un petit entrepreneur : il doit compter.",
+      "objectives": [
+        "Suivre ses missions et ses paiements.",
+        "Calculer ce que son activité lui rapporte.",
+        "Organiser son temps et choisir un statut adapté."
+      ],
+      "lessons": [
+        {
+          "title": "Suivre missions et paiements",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque mission : le client, le service, le statut (devis envoyé, en cours, livrée, payée) et la date de paiement attendue. Remettez un reçu pour chaque paiement, et relancez poliment un client en retard."
+            }
+          ]
+        },
+        {
+          "title": "Combien rapporte l’activité ?",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Gain du mois = Paiements reçus − Frais du mois"
+            },
+            {
+              "type": "p",
+              "text": "Les frais comprennent le transport, le forfait internet, l’usure du téléphone et de l’ordinateur. Notez-les dans un cahier de caisse séparé de votre argent personnel (formation F14, modules 2 et 8)."
+            }
+          ]
+        },
+        {
+          "title": "Organiser son temps et choisir un statut",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Un planning de la semaine : missions, déplacements, prospection, formation.",
+                "Ne pas accepter plus de missions que l’on peut en tenir : un délai raté coûte un client.",
+                "Se former régulièrement : les outils changent vite.",
+                "Quand l’activité devient régulière, choisir un statut, par exemple celui d’entreprenant, et faire ses formalités (formation F4, module 8)."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le premier bilan de Serge",
+        "text": "Serge note ses missions dans un tableau.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Paiements reçus ce mois",
+            "60 000"
+          ],
+          [
+            "Transport et internet",
+            "−14 000"
+          ],
+          [
+            "Gain du mois",
+            "46 000",
+            "result"
+          ]
+        ],
+        "after": "Le tableau montre aussi qu’un client lui doit 15 000 FCFA depuis trois semaines : Serge le relance poliment et reçoit le paiement. Il décide de déclarer son activité comme entreprenant le mois suivant."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Qui me doit encore de l’argent ? »",
+            "Serge perdu dans ses messages"
+          ],
+          [
+            "0:30",
+            "Suivre missions et paiements.",
+            "Tableau des missions"
+          ],
+          [
+            "1:45",
+            "Le gain du mois.",
+            "60 000 − 14 000 = 46 000"
+          ],
+          [
+            "2:45",
+            "Planning, formation continue, statut.",
+            "Planning de la semaine"
+          ]
+        ]
+      },
+      "tool": "prospects",
+      "toolDefaults": {
+        "key": "missions",
+        "heading": "Mon tableau des missions",
+        "intro": "Notez chaque mission, son client, son statut et la date de paiement attendue. Le tableau reste enregistré sur ce téléphone.",
+        "statuts": [
+          "Devis envoyé",
+          "En cours",
+          "Livrée",
+          "Payée"
+        ],
+        "cols": [
+          "Client",
+          "Service",
+          "Statut",
+          "Paiement attendu"
+        ],
+        "placeholder": "Service et montant",
+        "unit": "mission",
+        "emptyText": "Aucune mission. Ajoutez la première.",
+        "addLabel": "Ajouter une mission",
+        "newName": "Nouveau client",
+        "exemple": [
+          {
+            "n": "Coopérative de Hawa",
+            "c": "Annonces, forfait 15 000 FCFA",
+            "s": 3,
+            "r": ""
+          },
+          {
+            "n": "Groupement de Habiba",
+            "c": "Dix fiches, 14 000 FCFA",
+            "s": 2,
+            "r": ""
+          }
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le gain du mois",
+        "text": "Ce mois-ci, vous avez reçu 60 000 FCFA de paiements et dépensé 14 000 FCFA de frais. Quel est votre gain du mois, en FCFA ?",
+        "answer": 46000,
+        "solution": "60 000 − 14 000 = 46 000 FCFA.",
+        "then": "Notez ensuite vos missions en cours dans le tableau."
+      },
+      "quiz": [
+        {
+          "q": "Que noter pour chaque mission ?",
+          "options": [
+            "Client, service, statut, date de paiement",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour ne rien oublier."
+        },
+        {
+          "q": "Comment calcule-t-on le gain du mois ?",
+          "options": [
+            "Paiements reçus − frais du mois",
+            "Paiements + frais"
+          ],
+          "answer": 0,
+          "explain": "Transport, internet, usure du matériel."
+        },
+        {
+          "q": "Faut-il séparer l’argent de l’activité ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Formation F14, module 8."
+        },
+        {
+          "q": "Que remettre au client qui paie ?",
+          "options": [
+            "Un reçu",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Une trace pour les deux."
+        },
+        {
+          "q": "Faut-il accepter toutes les missions ?",
+          "options": [
+            "Oui",
+            "Non, seulement celles qu’on peut tenir"
+          ],
+          "answer": 1,
+          "explain": "Un délai raté coûte un client."
+        },
+        {
+          "q": "Quel statut pour une petite activité individuelle ?",
+          "options": [
+            "Par exemple celui d’entreprenant",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Formation F4, module 8."
+        }
+      ],
+      "summary": "Un tableau des missions, des reçus, une caisse séparée, un gain calculé chaque mois, un planning réaliste, et un statut adapté quand l’activité grandit.",
+      "resource": "Modèle de reçu et de planning hebdomadaire."
+    },
+    {
+      "id": "m8",
+      "label": "Mon offre",
+      "number": 8,
+      "title": "Projet final : mon offre de services",
+      "duration": "35 min",
+      "point": "Le projet final rassemble toute la formation dans un dossier de prestataire prêt à l’emploi : offre, services et prix, modèle de devis, modèle d’accord, portfolio, liste de contrôle et plan de prospection d’un mois.",
+      "intro": "Serge a commencé avec « je peux vous aider pour le numérique ». Il termine avec un dossier clair, des prix justifiés et des clients qui le recommandent. C’est ce dossier que chaque apprenant construit maintenant.",
+      "objectives": [
+        "Assembler son dossier de prestataire.",
+        "Préparer un plan de prospection d’un mois.",
+        "Présenter son offre à un premier client."
+      ],
+      "lessons": [
+        {
+          "title": "Le dossier de prestataire",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pièce",
+                "Module"
+              ],
+              "rows": [
+                [
+                  "Offre en une phrase et trois services",
+                  "2"
+                ],
+                [
+                  "Prix et modèle de devis",
+                  "3"
+                ],
+                [
+                  "Modèle d’accord en sept points",
+                  "4"
+                ],
+                [
+                  "Liste de contrôle qualité et compte rendu",
+                  "5"
+                ],
+                [
+                  "Portfolio de deux réalisations, avec accord",
+                  "6"
+                ],
+                [
+                  "Tableau des missions et cahier de caisse",
+                  "7"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le plan de prospection d’un mois",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Listez dix clients possibles, proches et accessibles ; prévoyez comment les contacter (visite, réunion, recommandation) ; fixez un objectif réaliste, par exemple trois devis et un nouveau client. Suivez ces contacts dans un tableau (formation F6, module 7)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le dossier final de Serge",
+        "text": "Serge présente son dossier au formateur.",
+        "head": [
+          "Pièce",
+          "Ce qu’il montre"
+        ],
+        "rows": [
+          [
+            "Offre et services",
+            "Une phrase, trois services avec leurs prix"
+          ],
+          [
+            "Devis et accord",
+            "Son modèle de devis et l’accord signé avec la coopérative de Hawa"
+          ],
+          [
+            "Portfolio",
+            "Les fiches du groupement de Habiba, avec son accord"
+          ],
+          [
+            "Prospection",
+            "Dix coopératives à contacter ; objectif : deux nouveaux clients",
+            "result"
+          ]
+        ],
+        "after": "Ses prochains clients viendront des recommandations de Hawa et de Habiba."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« De « je peux vous aider » à un vrai dossier. »",
+            "Serge au début, puis aujourd’hui"
+          ],
+          [
+            "0:30",
+            "Les six pièces du dossier.",
+            "Classeur qui se remplit"
+          ],
+          [
+            "2:00",
+            "Le plan de prospection d’un mois.",
+            "Liste de dix clients possibles"
+          ],
+          [
+            "3:15",
+            "La présentation au formateur.",
+            "Serge qui présente son dossier"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de prestataire",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f17-dossier",
+        "items": [
+          "Offre en une phrase et trois services",
+          "Prix et modèle de devis",
+          "Modèle d’accord en sept points",
+          "Liste de contrôle qualité",
+          "Portfolio de deux réalisations, avec accord",
+          "Tableau des missions",
+          "Plan de prospection d’un mois"
+        ],
+        "then": "Remettez votre dossier au formateur et présentez votre offre en cinq minutes. L’attestation finale est délivrée avec au moins six pièces acquises sur sept, la présentation réussie et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Combien de familles de pièces dans le dossier ?",
+          "options": [
+            "Deux",
+            "Six"
+          ],
+          "answer": 1,
+          "explain": "Des modules 2 à 7."
+        },
+        {
+          "q": "Combien de clients possibles dans le plan de prospection ?",
+          "options": [
+            "Dix",
+            "Cent"
+          ],
+          "answer": 0,
+          "explain": "Proches et accessibles."
+        },
+        {
+          "q": "Quel objectif réaliste pour un mois ?",
+          "options": [
+            "Par exemple trois devis et un nouveau client",
+            "Cinquante clients"
+          ],
+          "answer": 0,
+          "explain": "Mieux vaut un objectif tenu."
+        },
+        {
+          "q": "Le portfolio peut-il montrer un travail sans accord du client ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Toujours avec son accord."
+        },
+        {
+          "q": "Combien de temps pour présenter son offre ?",
+          "options": [
+            "Environ cinq minutes",
+            "Une journée"
+          ],
+          "answer": 0,
+          "explain": "Comme devant un client."
+        },
+        {
+          "q": "Qu’est-ce qui amène le plus de nouveaux clients ?",
+          "options": [
+            "Les recommandations des clients satisfaits",
+            "Les promesses"
+          ],
+          "answer": 0,
+          "explain": "Le métier repose sur la confiance."
+        }
+      ],
+      "summary": "Un dossier complet, un plan de prospection réaliste, une présentation de cinq minutes, et des clients satisfaits qui recommandent : le prestataire est prêt à se lancer.",
+      "resource": "Modèle de dossier de prestataire."
+    }
+  ]
+}

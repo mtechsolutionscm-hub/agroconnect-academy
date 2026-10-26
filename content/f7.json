@@ -1,0 +1,1712 @@
+{
+  "id": "f7",
+  "title": "Marketing digital pour les produits agricoles",
+  "short": "Marketing digital",
+  "lead": "Faire connaître et aimer ses produits sur Internet : à qui parler, quoi dire, où, et comment mesurer.",
+  "note": "Nadège, Aboubakar, le groupement de Salamatou et leurs chiffres sont fictifs. Les fonctions et tarifs des réseaux sociaux changent souvent : vérifiez-les avant usage.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Les bases",
+      "number": 1,
+      "title": "Comprendre le marketing digital en quatre questions",
+      "duration": "30 min",
+      "point": "Le marketing digital, c’est faire connaître, aimer et acheter ses produits grâce à Internet. Il répond à quatre questions, dans l’ordre : à qui parle-t-on, que dit-on, où le dit-on, et comment sait-on que cela marche ?",
+      "intro": "Nadège publie des photos de miel sur son statut presque tous les jours, mais vend toujours aux mêmes personnes. Publier n’est pas encore faire du marketing : il manque une méthode.",
+      "objectives": [
+        "Expliquer ce qu’est le marketing digital.",
+        "Citer les quatre questions dans l’ordre.",
+        "Distinguer faire connaître, faire acheter et fidéliser."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre questions",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Question",
+                "Ce qu’on décide",
+                "Module"
+              ],
+              "rows": [
+                [
+                  "À qui ?",
+                  "Le client idéal",
+                  "2"
+                ],
+                [
+                  "Quoi ?",
+                  "Le message et l’histoire",
+                  "2 et 3"
+                ],
+                [
+                  "Où ?",
+                  "Les réseaux et les contenus",
+                  "4 et 5"
+                ],
+                [
+                  "Comment savoir ?",
+                  "Le budget, les indicateurs, les résultats",
+                  "6 et 7"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "On répond dans cet ordre : choisir un réseau avant de savoir à qui l’on parle, c’est parler dans le vide."
+            }
+          ]
+        },
+        {
+          "title": "Trois objectifs différents",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Faire connaître : de nouvelles personnes découvrent le produit.",
+                "Faire acheter : une personne intéressée passe commande (formation F6).",
+                "Fidéliser : un client revient et en parle autour de lui (formation F6, module 9)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Chaque publication sert de préférence un seul de ces objectifs."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le constat de Nadège",
+        "text": "Nadège compte ses ventes du mois.",
+        "head": [
+          "Constat",
+          "Décision"
+        ],
+        "rows": [
+          [
+            "85 % des ventes viennent de clients déjà connus",
+            "Ses statuts fidélisent, mais ne font pas connaître"
+          ],
+          [
+            "Aucun client nouveau hors de ses contacts",
+            "Objectif : vingt nouveaux clients à Yaoundé en trois mois",
+            "result"
+          ]
+        ],
+        "after": "Un objectif clair et chiffré lui permettra de savoir si sa méthode marche."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Publier tous les jours, et vendre aux mêmes personnes. »",
+            "Statuts de Nadège qui défilent"
+          ],
+          [
+            "0:30",
+            "Les quatre questions, dans l’ordre.",
+            "Quatre marches d’un escalier"
+          ],
+          [
+            "2:00",
+            "Faire connaître, faire acheter, fidéliser.",
+            "Trois icônes"
+          ],
+          [
+            "3:00",
+            "L’objectif de Nadège : vingt nouveaux clients.",
+            "Carnet de Nadège"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel objectif ?",
+        "text": "Pour chaque publication, choisissez l’objectif qu’elle sert.",
+        "choices": [
+          "Faire connaître",
+          "Faire acheter",
+          "Fidéliser"
+        ],
+        "items": [
+          [
+            "Une vidéo de la récolte du miel, partagée sur une page",
+            0
+          ],
+          [
+            "« Il reste 5 pots, commandez avant vendredi »",
+            1
+          ],
+          [
+            "Un remerciement personnalisé à un client fidèle",
+            2
+          ],
+          [
+            "Une recette avec la pâte d’arachide dans un groupe de cuisine",
+            0
+          ],
+          [
+            "« Livraison gratuite cette semaine »",
+            1
+          ],
+          [
+            "Un message à un ancien client pour l’anniversaire de sa première commande",
+            2
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce que le marketing digital ?",
+          "options": [
+            "Faire connaître, aimer et acheter ses produits grâce à Internet",
+            "Publier beaucoup"
+          ],
+          "answer": 0,
+          "explain": "Pas seulement publier."
+        },
+        {
+          "q": "Quelle est la première question ?",
+          "options": [
+            "À qui parle-t-on ?",
+            "Quel réseau choisir ?"
+          ],
+          "answer": 0,
+          "explain": "Avant de choisir un réseau."
+        },
+        {
+          "q": "Combien de questions dans la méthode ?",
+          "options": [
+            "Deux",
+            "Quatre"
+          ],
+          "answer": 1,
+          "explain": "À qui, quoi, où, comment savoir."
+        },
+        {
+          "q": "Un remerciement à un client fidèle sert quel objectif ?",
+          "options": [
+            "Faire connaître",
+            "Fidéliser"
+          ],
+          "answer": 1,
+          "explain": "Il donne envie de revenir."
+        },
+        {
+          "q": "Une publication doit-elle servir plusieurs objectifs à la fois ?",
+          "options": [
+            "Oui, toujours",
+            "De préférence un seul"
+          ],
+          "answer": 1,
+          "explain": "Pour être claire."
+        },
+        {
+          "q": "Pourquoi se fixer un objectif chiffré ?",
+          "options": [
+            "Pour savoir si l’on progresse",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Comme les vingt nouveaux clients de Nadège."
+        }
+      ],
+      "summary": "Quatre questions dans l’ordre, trois objectifs distincts, et un objectif chiffré pour avancer.",
+      "resource": "Fiche « Mes quatre questions de marketing »."
+    },
+    {
+      "id": "m2",
+      "label": "Cible et message",
+      "number": 2,
+      "title": "Connaître sa cible et définir son message",
+      "duration": "35 min",
+      "point": "On décrit son client idéal comme une personne réelle, puis on résume en une phrase pourquoi il devrait choisir son produit, avec une preuve.",
+      "intro": "« Mon miel est pour tout le monde. » Alors il ne parle à personne. Un message pensé pour une personne précise touche beaucoup plus de monde qu’un message pour tous.",
+      "objectives": [
+        "Dresser le portrait de son client idéal.",
+        "Écrire son message en une phrase.",
+        "Appuyer ce message sur une preuve réelle."
+      ],
+      "lessons": [
+        {
+          "title": "Le portrait du client idéal",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Question"
+              ],
+              "rows": [
+                [
+                  "Qui",
+                  "Âge, situation, ville, métier"
+                ],
+                [
+                  "Ce qu’il cherche",
+                  "Le besoin ou l’envie que le produit satisfait"
+                ],
+                [
+                  "Ce qui l’inquiète",
+                  "Qualité, origine, prix, livraison"
+                ],
+                [
+                  "Où il s’informe",
+                  "Réseaux, groupes, bouche-à-oreille, marché"
+                ],
+                [
+                  "Ce qu’il peut payer",
+                  "Fourchette de prix acceptée"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "On le remplit à partir de vrais échanges avec des clients (formation F4, module 4), pas à partir de suppositions."
+            }
+          ]
+        },
+        {
+          "title": "Le message en une phrase",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Pour [client] qui [besoin], [produit] [bénéfice], parce que [preuve]."
+            },
+            {
+              "type": "p",
+              "text": "Le bénéfice répond au besoin du client ; la preuve est un fait vérifiable, pas un adjectif."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le message de Nadège",
+        "text": "Nadège interroge dix clients de Yaoundé.",
+        "head": [
+          "Rubrique",
+          "Ce qu’elle apprend"
+        ],
+        "rows": [
+          [
+            "Qui",
+            "Mères de famille de 30 à 45 ans à Yaoundé"
+          ],
+          [
+            "Ce qu’elles cherchent",
+            "Un miel dont on connaît l’origine"
+          ],
+          [
+            "Ce qui les inquiète",
+            "Les miels coupés au sucre"
+          ],
+          [
+            "Où elles s’informent",
+            "Des groupes de cuisine sur Facebook"
+          ],
+          [
+            "Prix accepté",
+            "5 000 FCFA le pot d’un kilo",
+            "result"
+          ]
+        ],
+        "after": "Son message : « Pour les familles de Yaoundé qui veulent un miel dont elles connaissent l’origine, le miel du groupement de Salamatou arrive directement des ruches de l’Adamaoua, parce qu’il est récolté, filtré et mis en pot par les femmes du groupement. »"
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Pour tout le monde… donc pour personne. »",
+            "Un message perdu dans une foule"
+          ],
+          [
+            "0:30",
+            "Le portrait du client idéal.",
+            "Fiche portrait qui se remplit"
+          ],
+          [
+            "2:00",
+            "Le message en une phrase, avec une preuve.",
+            "La formule à l’écran"
+          ],
+          [
+            "3:00",
+            "Le message de Nadège.",
+            "Nadège qui lit sa phrase à voix haute"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "heading": "Générateur de message",
+        "intro": "Remplissez les rubriques. L’exemple de départ est le message de Nadège.",
+        "titre": "MON MESSAGE",
+        "noDate": true,
+        "copyLabel": "Copier mon message",
+        "outLabel": "Votre message, à tester auprès de quelques clients",
+        "okText": "Message complet. Testez-le auprès de trois clients : le comprennent-ils du premier coup ?",
+        "champs": [
+          [
+            "Client",
+            "les familles de Yaoundé"
+          ],
+          [
+            "Besoin",
+            "qui veulent un miel dont elles connaissent l’origine"
+          ],
+          [
+            "Produit",
+            "le miel du groupement de Salamatou"
+          ],
+          [
+            "Bénéfice",
+            "arrive directement des ruches de l’Adamaoua"
+          ],
+          [
+            "Preuve",
+            "récolté, filtré et mis en pot par les femmes du groupement"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Précis ou trop vague ?",
+        "text": "Classez ces messages.",
+        "choices": [
+          "Précis",
+          "Trop vague"
+        ],
+        "items": [
+          [
+            "« Le meilleur miel du Cameroun »",
+            1
+          ],
+          [
+            "« Pour les restaurants de Ngaoundéré qui manquent de légumes en saison sèche, nos légumes irrigués sont livrés deux fois par semaine »",
+            0
+          ],
+          [
+            "« Produits de qualité pour tous »",
+            1
+          ],
+          [
+            "« Pour les familles pressées, notre pâte d’arachide est prête à cuisiner, faite chaque semaine à partir d’arachides triées à la main »",
+            0
+          ],
+          [
+            "« Achetez local »",
+            1
+          ],
+          [
+            "« Pour les éleveurs de volailles, notre maïs est séché et trié, livré en sacs de 50 kg pesés »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "À qui s’adresse un bon message ?",
+          "options": [
+            "À un client idéal précis",
+            "À tout le monde"
+          ],
+          "answer": 0,
+          "explain": "Un message pour tous ne touche personne."
+        },
+        {
+          "q": "D’où vient le portrait du client ?",
+          "options": [
+            "De vrais échanges avec des clients",
+            "De suppositions"
+          ],
+          "answer": 0,
+          "explain": "Formation F4, module 4."
+        },
+        {
+          "q": "Que contient le message en une phrase ?",
+          "options": [
+            "Client, besoin, produit, bénéfice, preuve",
+            "Seulement le prix"
+          ],
+          "answer": 0,
+          "explain": "La formule du module."
+        },
+        {
+          "q": "Qu’est-ce qu’une bonne preuve ?",
+          "options": [
+            "Un fait vérifiable",
+            "Un adjectif comme « le meilleur »"
+          ],
+          "answer": 0,
+          "explain": "Pas un adjectif."
+        },
+        {
+          "q": "« Le meilleur miel du Cameroun » est-il un bon message ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Trop vague et invérifiable."
+        },
+        {
+          "q": "Pourquoi noter ce qui inquiète le client ?",
+          "options": [
+            "Pour y répondre dans le message",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Par exemple l’origine du miel."
+        }
+      ],
+      "summary": "Un client idéal décrit à partir de vrais échanges, et un message en une phrase : client, besoin, produit, bénéfice, preuve.",
+      "resource": "Fiche portrait du client idéal."
+    },
+    {
+      "id": "m3",
+      "label": "Histoire et marque",
+      "number": 3,
+      "title": "Raconter son histoire et construire sa marque en ligne",
+      "duration": "30 min",
+      "point": "Une marque en ligne, c’est une histoire vraie (d’où vient le produit, qui le fait, comment, pourquoi il est différent), quelques valeurs, un ton et une apparence qui restent les mêmes partout. L’authenticité est sa force.",
+      "intro": "Sur Internet, les clients ne touchent pas le produit et ne voient pas le vendeur. Ce qui crée la confiance, c’est l’histoire : savoir qui l’a fait, et comment.",
+      "objectives": [
+        "Raconter l’histoire de son produit en quatre éléments.",
+        "Choisir ses valeurs et son ton.",
+        "Distinguer une histoire authentique d’une histoire trompeuse."
+      ],
+      "lessons": [
+        {
+          "title": "L’histoire en quatre éléments",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "D’où vient le produit : le lieu, la région, le terroir.",
+                "Qui le fait : les personnes, avec leur accord pour être montrées.",
+                "Comment : les gestes, le soin, les étapes (formation F10, module 4).",
+                "Pourquoi il est différent : ce que le client ne trouve pas ailleurs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Valeurs, ton et apparence",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Deux ou trois valeurs qui guident tout : par exemple l’origine locale, le travail des femmes, la propreté.",
+                "Un ton constant : chaleureux, simple, respectueux.",
+                "Une apparence cohérente : mêmes couleurs, même logo, même nom partout (formation F10, module 9)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rester authentique",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On montre de vraies personnes et de vrais lieux, avec leur accord. On n’écrit jamais ce qu’on ne peut pas prouver : pas de « bio » sans certification, pas de « guérit », pas de faux témoignages. Une histoire exagérée finit toujours par se savoir, et la confiance part avec elle."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’histoire du miel de Salamatou",
+        "text": "Aboubakar filme une matinée de récolte, avec l’accord de chacune.",
+        "head": [
+          "Élément",
+          "Ce que montre la vidéo"
+        ],
+        "rows": [
+          [
+            "D’où",
+            "Les ruches dans les savanes de l’Adamaoua"
+          ],
+          [
+            "Qui",
+            "Les femmes du groupement"
+          ],
+          [
+            "Comment",
+            "Le filtrage du miel, l’étiquetage des pots par Salamatou"
+          ],
+          [
+            "Pourquoi différent",
+            "Une origine connue, du rucher au pot",
+            "result"
+          ]
+        ],
+        "after": "Nadège écrit trois phrases simples sous la vidéo et retire le mot « médicinal » qu’elle avait d’abord écrit."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Sur Internet, on ne touche pas le produit. »",
+            "Pot de miel vu sur un écran"
+          ],
+          [
+            "0:30",
+            "L’histoire en quatre éléments.",
+            "Ruches, mains au travail, pots étiquetés"
+          ],
+          [
+            "2:00",
+            "Valeurs, ton, apparence.",
+            "Publications aux mêmes couleurs"
+          ],
+          [
+            "3:00",
+            "Rester authentique : le mot retiré.",
+            "« Médicinal » barré"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Authentique ou trompeur ?",
+        "text": "Classez ces éléments d’histoire.",
+        "choices": [
+          "Authentique",
+          "Trompeur"
+        ],
+        "items": [
+          [
+            "Une vidéo des femmes du groupement au travail, avec leur accord",
+            0
+          ],
+          [
+            "« Miel bio » sans certification",
+            1
+          ],
+          [
+            "Le nom du village d’où vient le produit",
+            0
+          ],
+          [
+            "Un faux témoignage écrit par le vendeur",
+            1
+          ],
+          [
+            "Les étapes de fabrication montrées simplement",
+            0
+          ],
+          [
+            "« Ce miel guérit le diabète »",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quels sont les quatre éléments de l’histoire ?",
+          "options": [
+            "D’où, qui, comment, pourquoi différent",
+            "Prix, quantité, lieu, date"
+          ],
+          "answer": 0,
+          "explain": "Ce qui crée la confiance."
+        },
+        {
+          "q": "Peut-on montrer les personnes qui fabriquent ?",
+          "options": [
+            "Oui, avec leur accord",
+            "Oui, sans demander"
+          ],
+          "answer": 0,
+          "explain": "Toujours demander."
+        },
+        {
+          "q": "Combien de valeurs choisir ?",
+          "options": [
+            "Deux ou trois",
+            "Dix"
+          ],
+          "answer": 0,
+          "explain": "Pour rester clair."
+        },
+        {
+          "q": "Peut-on écrire « bio » sans certification ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est une mention réglementée."
+        },
+        {
+          "q": "Pourquoi garder la même apparence partout ?",
+          "options": [
+            "Pour être reconnu",
+            "Par habitude"
+          ],
+          "answer": 0,
+          "explain": "Formation F10, module 9."
+        },
+        {
+          "q": "Que devient la confiance quand une histoire est exagérée ?",
+          "options": [
+            "Elle se perd",
+            "Elle grandit"
+          ],
+          "answer": 0,
+          "explain": "Tout finit par se savoir."
+        }
+      ],
+      "summary": "Une histoire vraie en quatre éléments, deux ou trois valeurs, un ton et une apparence constants, et aucune exagération.",
+      "resource": "Fiche « L’histoire de mon produit en quatre éléments »."
+    },
+    {
+      "id": "m4",
+      "label": "Réseaux",
+      "number": 4,
+      "title": "Choisir ses réseaux sociaux",
+      "duration": "30 min",
+      "point": "On choisit un ou deux réseaux au début, selon quatre critères : où se trouve sa cible, le temps disponible, les contenus qu’on sait faire, et les données mobiles. La régularité compte plus que le nombre de réseaux.",
+      "intro": "Nadège a ouvert une page sur trois réseaux en une semaine, et n’en anime aucune. Mieux vaut un réseau bien tenu que trois pages abandonnées, qui donnent une mauvaise image.",
+      "objectives": [
+        "Comparer les principaux réseaux utiles à un producteur.",
+        "Appliquer les quatre critères de choix.",
+        "Justifier le choix d’un ou deux réseaux."
+      ],
+      "lessons": [
+        {
+          "title": "Les réseaux utiles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Réseau",
+                "Points forts",
+                "Pour quoi"
+              ],
+              "rows": [
+                [
+                  "WhatsApp (statuts, groupes, WhatsApp Business)",
+                  "Tout le monde l’a, contact direct",
+                  "Fidéliser, faire acheter (formation F6, module 6)"
+                ],
+                [
+                  "Facebook (page, groupes thématiques)",
+                  "Groupes par ville ou par intérêt, publicité ciblée",
+                  "Faire connaître au-delà de ses contacts"
+                ],
+                [
+                  "Vidéos courtes (TikTok et formats semblables)",
+                  "Fort potentiel de partage",
+                  "Faire connaître, surtout auprès des jeunes"
+                ],
+                [
+                  "AgroConnect",
+                  "Acheteurs professionnels, prix du marché",
+                  "Vendre en volume (formation F6, module 10)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les usages changent vite : on observe où sont réellement ses clients plutôt que de suivre la mode."
+            }
+          ]
+        },
+        {
+          "title": "Les quatre critères",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "La cible : où mes clients passent-ils du temps (module 2) ?",
+                "Le temps : combien d’heures par semaine puis-je y consacrer ?",
+                "Les contenus : sais-je faire des photos, des vidéos, des textes ?",
+                "Les données mobiles : la vidéo consomme beaucoup de forfait (formation F3, module 1)."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les choix de Nadège",
+        "text": "Nadège applique les quatre critères.",
+        "head": [
+          "Réseau",
+          "Décision"
+        ],
+        "rows": [
+          [
+            "WhatsApp",
+            "Gardé pour ses clients fidèles"
+          ],
+          [
+            "Page Facebook et trois groupes de cuisine de Yaoundé",
+            "Choisis pour faire connaître le miel aux mères de famille de son portrait"
+          ],
+          [
+            "Vidéos courtes",
+            "Plus tard, après trois mois de régularité sur Facebook"
+          ],
+          [
+            "Deux pages jamais animées",
+            "Fermées",
+            "result"
+          ]
+        ],
+        "after": "Aboubakar lui conseillait les vidéos courtes : elle les garde pour la suite."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Trois pages ouvertes, aucune animée. »",
+            "Pages vides"
+          ],
+          [
+            "0:30",
+            "Les réseaux utiles et leurs points forts.",
+            "Quatre icônes"
+          ],
+          [
+            "2:00",
+            "Les quatre critères.",
+            "Cible, horloge, appareil photo, forfait"
+          ],
+          [
+            "3:00",
+            "Les choix de Nadège.",
+            "WhatsApp et une page Facebook"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne décision ou erreur ?",
+        "text": "Classez ces décisions.",
+        "choices": [
+          "Bonne décision",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Ouvrir cinq réseaux en même temps sans temps pour les animer",
+            1
+          ],
+          [
+            "Publier là où se trouvent ses clients",
+            0
+          ],
+          [
+            "Garder WhatsApp pour fidéliser ses clients",
+            0
+          ],
+          [
+            "Choisir un réseau seulement parce qu’il est à la mode",
+            1
+          ],
+          [
+            "Commencer par un ou deux réseaux et être régulier",
+            0
+          ],
+          [
+            "Publier des vidéos longues avec un forfait très limité",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de réseaux au début ?",
+          "options": [
+            "Un ou deux",
+            "Cinq"
+          ],
+          "answer": 0,
+          "explain": "La régularité compte plus que le nombre."
+        },
+        {
+          "q": "Quel est le premier critère de choix ?",
+          "options": [
+            "Où se trouve sa cible",
+            "La mode"
+          ],
+          "answer": 0,
+          "explain": "Avant la mode."
+        },
+        {
+          "q": "À quoi sert surtout WhatsApp ?",
+          "options": [
+            "À fidéliser et faire acheter",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Contact direct avec ses clients."
+        },
+        {
+          "q": "À quoi servent les groupes Facebook thématiques ?",
+          "options": [
+            "Faire connaître au-delà de ses contacts",
+            "Remplacer la vente"
+          ],
+          "answer": 0,
+          "explain": "Par ville ou par intérêt."
+        },
+        {
+          "q": "Pourquoi tenir compte des données mobiles ?",
+          "options": [
+            "La vidéo consomme beaucoup de forfait",
+            "Ce n’est pas important"
+          ],
+          "answer": 0,
+          "explain": "Formation F3, module 1."
+        },
+        {
+          "q": "Que faire d’une page qu’on n’anime pas ?",
+          "options": [
+            "La fermer ou la reprendre",
+            "La laisser telle quelle"
+          ],
+          "answer": 0,
+          "explain": "Une page abandonnée donne une mauvaise image."
+        }
+      ],
+      "summary": "Un ou deux réseaux choisis selon la cible, le temps, les contenus et le forfait, et animés avec régularité.",
+      "resource": "Grille de choix des réseaux sociaux."
+    },
+    {
+      "id": "m5",
+      "label": "Contenus",
+      "number": 5,
+      "title": "Planifier ses publications et créer ses contenus",
+      "duration": "35 min",
+      "point": "On alterne quatre types de contenus (produit, coulisses, utile, preuves), on publie à un rythme tenable, et l’on prépare ses contenus en une seule séance pour deux semaines.",
+      "intro": "« Je ne sais pas quoi publier aujourd’hui. » Sans plan, on publie au hasard, puis on arrête. Avec un calendrier simple, on sait chaque matin quoi poster.",
+      "objectives": [
+        "Distinguer quatre types de contenus.",
+        "Construire un calendrier de publication sur une semaine.",
+        "Produire ses contenus en lot."
+      ],
+      "lessons": [
+        {
+          "title": "Quatre types de contenus",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Type",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Montrer le produit",
+                  "Photo du pot, offre de la semaine, prix"
+                ],
+                [
+                  "Raconter les coulisses",
+                  "Récolte, fabrication, l’équipe au travail (module 3)"
+                ],
+                [
+                  "Être utile",
+                  "Recette, conseil de conservation, astuce de cuisine"
+                ],
+                [
+                  "Apporter des preuves",
+                  "Avis de clients avec leur accord, photos de livraisons"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une règle simple : pas plus d’une publication sur quatre qui demande d’acheter. Les trois autres donnent envie de suivre la page."
+            }
+          ]
+        },
+        {
+          "title": "Le calendrier de la semaine",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Trois publications par semaine, tenues pendant des mois, valent mieux que dix publications la première semaine puis plus rien. Fixez vos jours, et notez à l’avance quel type de contenu va où."
+            }
+          ]
+        },
+        {
+          "title": "Produire en lot",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une matinée par quinzaine : prenez toutes les photos et petites vidéos (formation F3, module 5), écrivez les textes, rangez le tout dans un dossier du téléphone. Un assistant d’IA peut aider à écrire les textes, à partir de vos propres informations (formation F1)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La semaine de Nadège",
+        "text": "Nadège prépare sa semaine à l’avance.",
+        "head": [
+          "Jour",
+          "Réseau",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Lundi",
+            "Page Facebook",
+            "Coulisses : vidéo d’Aboubakar sur le filtrage du miel"
+          ],
+          [
+            "Mercredi",
+            "Groupe de cuisine",
+            "Utile : recette de poulet à la pâte d’arachide"
+          ],
+          [
+            "Vendredi",
+            "Page et statut WhatsApp",
+            "Produit : offre de la semaine, livraison samedi à Yaoundé"
+          ],
+          [
+            "Dimanche",
+            "Statut WhatsApp",
+            "Preuve : avis d’une cliente, avec son accord",
+            "result"
+          ]
+        ],
+        "after": "Une seule publication sur quatre demande d’acheter."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Je ne sais pas quoi publier aujourd’hui. »",
+            "Nadège devant un écran vide"
+          ],
+          [
+            "0:30",
+            "Quatre types de contenus.",
+            "Quatre publications côte à côte"
+          ],
+          [
+            "1:45",
+            "Le calendrier de la semaine.",
+            "Tableau de Nadège"
+          ],
+          [
+            "2:45",
+            "Produire en lot, une matinée par quinzaine.",
+            "Aboubakar qui filme, Nadège qui écrit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel type de contenu ?",
+        "text": "Classez ces publications.",
+        "choices": [
+          "Produit",
+          "Coulisses",
+          "Utile",
+          "Preuve"
+        ],
+        "items": [
+          [
+            "Une photo du pot avec son prix",
+            0
+          ],
+          [
+            "Une vidéo de la récolte",
+            1
+          ],
+          [
+            "Un conseil pour conserver le miel",
+            2
+          ],
+          [
+            "L’avis d’un client, avec son accord",
+            3
+          ],
+          [
+            "Une recette avec la pâte d’arachide",
+            2
+          ],
+          [
+            "Les femmes du groupement qui étiquettent les pots",
+            1
+          ]
+        ],
+        "then": "Remplissez ensuite votre calendrier de la semaine prochaine."
+      },
+      "quiz": [
+        {
+          "q": "Combien de types de contenus ?",
+          "options": [
+            "Deux",
+            "Quatre"
+          ],
+          "answer": 1,
+          "explain": "Produit, coulisses, utile, preuves."
+        },
+        {
+          "q": "Combien de publications sur quatre peuvent demander d’acheter ?",
+          "options": [
+            "Une",
+            "Quatre"
+          ],
+          "answer": 0,
+          "explain": "Les autres donnent envie de suivre."
+        },
+        {
+          "q": "Quel rythme vaut mieux ?",
+          "options": [
+            "Trois publications par semaine, tenues longtemps",
+            "Dix la première semaine, puis rien"
+          ],
+          "answer": 0,
+          "explain": "La régularité gagne."
+        },
+        {
+          "q": "Qu’est-ce que produire en lot ?",
+          "options": [
+            "Préparer en une séance les contenus de deux semaines",
+            "Publier tout le même jour"
+          ],
+          "answer": 0,
+          "explain": "On gagne du temps."
+        },
+        {
+          "q": "Peut-on publier l’avis d’un client sans lui demander ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Toujours avec son accord."
+        },
+        {
+          "q": "L’IA peut-elle aider à écrire les textes ?",
+          "options": [
+            "Oui, à partir de ses propres informations",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "En relisant (formation F1)."
+        }
+      ],
+      "summary": "Quatre types de contenus, une seule publication sur quatre pour vendre, un rythme tenable, et des contenus préparés en lot.",
+      "resource": "Modèle de calendrier de publication sur quatre semaines."
+    },
+    {
+      "id": "m6",
+      "label": "Publicité",
+      "number": 6,
+      "title": "Utiliser la publicité payante avec un petit budget",
+      "duration": "35 min",
+      "point": "Une publicité payante montre un contenu à des personnes choisies par ville, âge et centres d’intérêt. On commence petit, on mesure le coût d’un nouveau client, et l’on ne continue que si ce coût reste inférieur à ce que ce client rapporte.",
+      "intro": "Nadège a dépensé 20 000 FCFA en publicité et reçu beaucoup de « j’aime », mais une seule commande. Une publicité se juge aux clients qu’elle apporte, pas aux réactions.",
+      "objectives": [
+        "Paramétrer une publicité simple : objectif, cible, budget, durée.",
+        "Calculer le coût d’un nouveau client.",
+        "Décider si une publicité est rentable."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre réglages",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "L’objectif : recevoir des messages ou des commandes, plutôt que des « j’aime ».",
+                "La cible : la ville, l’âge et les centres d’intérêt du portrait (module 2).",
+                "Le budget : un petit montant par jour, fixé à l’avance.",
+                "La durée : quelques jours pour un premier test."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Modes de paiement et montants minimums varient selon les réseaux : vérifiez-les avant de commencer. Ne confiez jamais vos codes à un inconnu qui propose de « gérer la publicité »."
+            }
+          ]
+        },
+        {
+          "title": "La publicité est-elle rentable ?",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Coût d’un nouveau client = Budget dépensé ÷ Nouveaux clients obtenus"
+            },
+            {
+              "type": "formula",
+              "text": "Valeur d’un client = Marge par achat × Nombre d’achats prévus"
+            },
+            {
+              "type": "p",
+              "text": "La publicité est rentable si la valeur d’un client dépasse son coût. Pour compter les nouveaux clients, demandez à chacun : « Comment nous avez-vous connus ? »"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le deuxième essai de Nadège",
+        "text": "Objectif « messages », femmes de 30 à 45 ans à Yaoundé intéressées par la cuisine, 10 000 FCFA sur cinq jours.",
+        "head": [
+          "Calcul",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "Nouvelles clientes",
+            "4"
+          ],
+          [
+            "Coût d’une nouvelle cliente : 10 000 ÷ 4",
+            "2 500 FCFA"
+          ],
+          [
+            "Valeur d’une cliente : 1 800 FCFA de marge × 3 achats par an",
+            "5 400 FCFA"
+          ],
+          [
+            "Verdict",
+            "Rentable : relancée le mois suivant",
+            "result"
+          ]
+        ],
+        "after": "Cette fois, la publicité se juge aux clientes, pas aux « j’aime »."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Beaucoup de « j’aime », une seule commande. »",
+            "Compteur de réactions qui monte"
+          ],
+          [
+            "0:30",
+            "Les quatre réglages.",
+            "Écran de paramétrage générique"
+          ],
+          [
+            "2:00",
+            "Coût d’un client et valeur d’un client.",
+            "2 500 contre 5 400"
+          ],
+          [
+            "3:15",
+            "« Comment nous avez-vous connus ? »",
+            "Nadège qui pose la question au téléphone"
+          ]
+        ]
+      },
+      "tool": "pub",
+      "toolDefaults": {
+        "budget": 10000,
+        "clients": 4,
+        "marge": 1800,
+        "achats": 3
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le coût d’un client",
+        "text": "Une publicité a coûté 15 000 FCFA et apporté 6 nouveaux clients. Quel est le coût d’un nouveau client, en FCFA ?",
+        "answer": 2500,
+        "solution": "15 000 ÷ 6 = 2 500 FCFA.",
+        "then": "Vérifiez ensuite la rentabilité de votre propre publicité avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Quel objectif choisir pour une publicité de vente ?",
+          "options": [
+            "Des messages ou des commandes",
+            "Des « j’aime »"
+          ],
+          "answer": 0,
+          "explain": "Les réactions ne paient pas."
+        },
+        {
+          "q": "Comment choisir la cible ?",
+          "options": [
+            "À partir du portrait du client idéal",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Ville, âge, centres d’intérêt."
+        },
+        {
+          "q": "Comment calcule-t-on le coût d’un nouveau client ?",
+          "options": [
+            "Budget dépensé ÷ nouveaux clients",
+            "Budget × clients"
+          ],
+          "answer": 0,
+          "explain": "Pour juger la publicité."
+        },
+        {
+          "q": "Quand une publicité est-elle rentable ?",
+          "options": [
+            "Quand la valeur d’un client dépasse son coût",
+            "Quand elle a beaucoup de vues"
+          ],
+          "answer": 0,
+          "explain": "Sur plusieurs achats."
+        },
+        {
+          "q": "Comment savoir d’où vient un client ?",
+          "options": [
+            "Lui demander comment il nous a connus",
+            "Deviner"
+          ],
+          "answer": 0,
+          "explain": "Simple et efficace."
+        },
+        {
+          "q": "Peut-on donner ses codes à un inconnu qui propose de gérer la publicité ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Risque d’arnaque (formation F3, module 8)."
+        }
+      ],
+      "summary": "Un objectif de vente, une cible précise, un petit budget test, et un calcul simple : la publicité continue seulement si un client rapporte plus qu’il ne coûte.",
+      "resource": "Fiche « Ma première publicité en quatre réglages »."
+    },
+    {
+      "id": "m7",
+      "label": "Mesurer",
+      "number": 7,
+      "title": "Mesurer ses résultats",
+      "duration": "30 min",
+      "point": "On suit chaque mois cinq chiffres : personnes touchées, réactions, messages reçus, commandes, nouveaux clients. Le taux de transformation (commandes sur messages) dit si le message et l’accueil convainquent.",
+      "intro": "Mille personnes ont vu la vidéo de Nadège. Est-ce une réussite ? Pas forcément : ce qui compte, c’est combien sont devenues clientes. Mesurer, c’est savoir où l’on perd ses futurs clients.",
+      "objectives": [
+        "Suivre les cinq chiffres du mois.",
+        "Calculer un taux de transformation.",
+        "Décider d’une amélioration à partir des chiffres."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq chiffres",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Chiffre",
+                "Où le trouver"
+              ],
+              "rows": [
+                [
+                  "Personnes touchées",
+                  "Statistiques de la page ou de la publicité"
+                ],
+                [
+                  "Réactions et partages",
+                  "Statistiques de la page"
+                ],
+                [
+                  "Messages reçus",
+                  "WhatsApp, messagerie de la page"
+                ],
+                [
+                  "Commandes",
+                  "Tableau des commandes (formation F3, module 7)"
+                ],
+                [
+                  "Nouveaux clients",
+                  "Question « Comment nous avez-vous connus ? »"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les deux derniers comptent le plus : les autres ne valent que s’ils mènent aux ventes."
+            }
+          ]
+        },
+        {
+          "title": "Le taux de transformation",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Taux de transformation = Commandes ÷ Messages reçus × 100"
+            },
+            {
+              "type": "p",
+              "text": "Beaucoup de messages et peu de commandes : le prix, la réponse ou la livraison bloquent. Peu de messages : le message ou la cible sont à revoir."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le mois de Nadège",
+        "text": "Nadège compare deux mois.",
+        "head": [
+          "Chiffre",
+          "Mois 1",
+          "Mois 2"
+        ],
+        "rows": [
+          [
+            "Personnes touchées",
+            "1 200",
+            "2 100"
+          ],
+          [
+            "Messages reçus",
+            "40",
+            "52"
+          ],
+          [
+            "Commandes",
+            "6",
+            "13"
+          ],
+          [
+            "Taux de transformation",
+            "15 %",
+            "25 %"
+          ],
+          [
+            "Nouveaux clients",
+            "5",
+            "9",
+            "result"
+          ]
+        ],
+        "after": "Au mois 1, beaucoup demandaient le prix de livraison puis ne commandaient pas. Nadège l’a ajouté à chaque publication et répond plus vite."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Mille vues : une réussite ? »",
+            "Compteur de vues"
+          ],
+          [
+            "0:30",
+            "Les cinq chiffres, du plus large au plus utile.",
+            "Un entonnoir qui se rétrécit"
+          ],
+          [
+            "1:45",
+            "Le taux de transformation.",
+            "6 ÷ 40 puis 13 ÷ 52"
+          ],
+          [
+            "2:45",
+            "Le prix de livraison ajouté, et le résultat.",
+            "Publication avec le prix bien visible"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le taux",
+        "text": "Ce mois-ci, vous avez reçu 40 messages et obtenu 10 commandes. Quel est votre taux de transformation, en pourcentage ?",
+        "answer": 25,
+        "unit": "%",
+        "solution": "10 ÷ 40 × 100 = 25 %.",
+        "then": "Remplissez ensuite le tableau de vos cinq chiffres du mois."
+      },
+      "quiz": [
+        {
+          "q": "Quels chiffres comptent le plus ?",
+          "options": [
+            "Les commandes et les nouveaux clients",
+            "Les « j’aime »"
+          ],
+          "answer": 0,
+          "explain": "Les autres doivent y mener."
+        },
+        {
+          "q": "Comment calcule-t-on le taux de transformation ?",
+          "options": [
+            "Commandes ÷ messages × 100",
+            "Messages ÷ vues"
+          ],
+          "answer": 0,
+          "explain": "En pourcentage."
+        },
+        {
+          "q": "50 messages, 5 commandes. Taux ?",
+          "options": [
+            "10 %",
+            "5 %",
+            "50 %"
+          ],
+          "answer": 0,
+          "explain": "5 ÷ 50 × 100 = 10."
+        },
+        {
+          "q": "Beaucoup de messages, peu de commandes : que revoir ?",
+          "options": [
+            "Le prix, la réponse ou la livraison",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Quelque chose bloque après le premier contact."
+        },
+        {
+          "q": "Peu de messages : que revoir ?",
+          "options": [
+            "Le message ou la cible",
+            "La livraison"
+          ],
+          "answer": 0,
+          "explain": "Modules 2 et 4."
+        },
+        {
+          "q": "Mille vues signifient-elles mille clients ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il faut suivre jusqu’à la commande."
+        }
+      ],
+      "summary": "Cinq chiffres suivis chaque mois, un taux de transformation, et une amélioration choisie là où l’on perd ses futurs clients.",
+      "resource": "Tableau mensuel des cinq chiffres."
+    },
+    {
+      "id": "m8",
+      "label": "Avis et plan",
+      "number": 8,
+      "title": "Gérer les avis clients et construire son plan marketing sur trois mois",
+      "duration": "40 min",
+      "point": "On demande des avis aux clients satisfaits, on ne publie qu’avec leur accord, on répond calmement aux avis négatifs, et l’on rassemble toute la formation dans un plan sur trois mois.",
+      "intro": "Un avis sincère d’une cliente vaut mieux que dix publications. Et un avis négatif bien géré peut devenir une preuve de sérieux.",
+      "objectives": [
+        "Recueillir et publier des avis dans le respect des clients.",
+        "Répondre à un avis négatif.",
+        "Construire son plan marketing sur trois mois."
+      ],
+      "lessons": [
+        {
+          "title": "Les avis clients",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Demander un avis quelques jours après la livraison, simplement.",
+                "Publier seulement avec l’accord du client, et sans ses coordonnées.",
+                "Ne jamais écrire de faux avis, ni payer pour en obtenir : c’est tromper les clients, et cela se découvre."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Répondre à un avis négatif",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Répondre vite et poliment, sans se justifier longuement.",
+                "Remercier pour le retour et reconnaître le problème s’il est réel.",
+                "Proposer une solution, puis continuer en privé.",
+                "Corriger la cause pour que cela ne se reproduise pas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le plan marketing sur trois mois",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Rubrique",
+                "Vient de"
+              ],
+              "rows": [
+                [
+                  "Objectif chiffré",
+                  "Module 1"
+                ],
+                [
+                  "Client idéal et message",
+                  "Module 2"
+                ],
+                [
+                  "Histoire et marque",
+                  "Module 3"
+                ],
+                [
+                  "Réseaux choisis",
+                  "Module 4"
+                ],
+                [
+                  "Calendrier et contenus",
+                  "Module 5"
+                ],
+                [
+                  "Budget publicitaire",
+                  "Module 6"
+                ],
+                [
+                  "Indicateurs suivis chaque mois",
+                  "Module 7"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Trois mois plus tard",
+        "text": "Une cliente se plaint d’un pot arrivé avec le couvercle mal fermé.",
+        "head": [
+          "Étape",
+          "Ce que fait Nadège"
+        ],
+        "rows": [
+          [
+            "Répondre",
+            "Dans l’heure, poliment"
+          ],
+          [
+            "Remercier et reconnaître",
+            "Le couvercle était bien mal fermé"
+          ],
+          [
+            "Solution",
+            "Pot remplacé"
+          ],
+          [
+            "Corriger la cause",
+            "Nouveaux couvercles, choisis avec Salamatou"
+          ],
+          [
+            "Résultat",
+            "La cliente publie un avis positif sur la réponse",
+            "result"
+          ]
+        ],
+        "after": "Au bout de trois mois, Nadège compte 23 nouveaux clients à Yaoundé pour un objectif de 20, et prépare son plan suivant avec les vidéos courtes d’Aboubakar."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un avis sincère vaut dix publications. »",
+            "Message d’une cliente satisfaite"
+          ],
+          [
+            "0:30",
+            "Recueillir et publier les avis, avec accord.",
+            "Nadège qui demande l’autorisation"
+          ],
+          [
+            "1:45",
+            "Répondre à un avis négatif en quatre étapes.",
+            "Le couvercle mal fermé, le pot remplacé"
+          ],
+          [
+            "3:00",
+            "Le plan sur trois mois, et le résultat.",
+            "23 nouveaux clients sur un objectif de 20"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon plan marketing sur trois mois",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f7-plan",
+        "items": [
+          "Objectif chiffré",
+          "Portrait du client et message en une phrase",
+          "Histoire de mon produit",
+          "Réseaux choisis et justifiés",
+          "Calendrier de quatre semaines",
+          "Budget publicitaire test",
+          "Tableau des indicateurs mensuels"
+        ],
+        "then": "Remettez votre plan au formateur, avec trois publications réelles déjà faites. L’attestation finale est délivrée avec au moins six pièces acquises sur sept et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Quand demander un avis ?",
+          "options": [
+            "Quelques jours après la livraison",
+            "Avant la livraison"
+          ],
+          "answer": 0,
+          "explain": "Le client a pu tester le produit."
+        },
+        {
+          "q": "Peut-on publier un avis sans accord ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Toujours avec l’accord du client."
+        },
+        {
+          "q": "Peut-on écrire de faux avis ?",
+          "options": [
+            "Oui, un peu",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "C’est tromper, et cela se découvre."
+        },
+        {
+          "q": "Que faire en premier face à un avis négatif ?",
+          "options": [
+            "Répondre vite et poliment",
+            "Supprimer l’avis"
+          ],
+          "answer": 0,
+          "explain": "Sans se justifier longuement."
+        },
+        {
+          "q": "Où continuer l’échange avec un client mécontent ?",
+          "options": [
+            "En privé",
+            "Dans tous les groupes"
+          ],
+          "answer": 0,
+          "explain": "Après une première réponse publique polie."
+        },
+        {
+          "q": "Sur combien de temps porte le plan marketing ?",
+          "options": [
+            "Trois mois",
+            "Dix ans"
+          ],
+          "answer": 0,
+          "explain": "Puis on le révise."
+        }
+      ],
+      "summary": "Des avis sincères et autorisés, des réponses calmes aux critiques, et un plan sur trois mois qui rassemble objectif, cible, message, réseaux, calendrier, budget et indicateurs.",
+      "resource": "Modèle de plan marketing sur trois mois."
+    }
+  ]
+}

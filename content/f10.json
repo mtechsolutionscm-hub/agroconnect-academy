@@ -1,0 +1,2510 @@
+{
+  "id": "f10",
+  "title": "Entreprendre dans la transformation agroalimentaire",
+  "short": "Transformation",
+  "lead": "Transformer un produit agricole en produit vendable, sain et rentable, de l’idée jusqu’à la vente.",
+  "note": "Salamatou, son groupement et tous les chiffres sont fictifs. Les diagrammes de fabrication sont des repères généraux, à valider par un technologue alimentaire.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Opportunités",
+      "number": 1,
+      "title": "Identifier les opportunités de transformation",
+      "duration": "30 min",
+      "point": "Transformer, c’est ajouter de la valeur à un produit agricole : il se conserve plus longtemps, se vend hors saison et rapporte plus, à condition que des clients l’achètent au prix qui couvre les coûts.",
+      "intro": "À la récolte, le manioc frais se vend mal et pourrit vite. Transformé en gari, il se garde des mois et se vend toute l’année. La transformation est souvent le meilleur remède aux pertes.",
+      "objectives": [
+        "Citer quatre raisons de transformer un produit.",
+        "Calculer la valeur ajoutée d’une transformation.",
+        "Repérer une opportunité dans son environnement."
+      ],
+      "lessons": [
+        {
+          "title": "Pourquoi transformer",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conserver : un produit transformé se garde plus longtemps que le produit frais.",
+                "Vendre plus cher : le client paie le travail, la qualité et la présentation.",
+                "Vendre toute l’année : on n’est plus obligé de vendre à la récolte, quand les prix sont bas.",
+                "Créer des emplois : surtout pour les femmes et les jeunes du village."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Des produits à portée de main",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Matière première",
+                "Produits transformés",
+                "Point d’attention"
+              ],
+              "rows": [
+                [
+                  "Maïs",
+                  "Farine, couscous, farines composées pour bébés",
+                  "Grain sain et sec, sans moisissure"
+                ],
+                [
+                  "Manioc",
+                  "Gari, couscous, farine, tapioca",
+                  "Fermentation et cuisson bien conduites"
+                ],
+                [
+                  "Arachide",
+                  "Pâte, huile, arachides grillées",
+                  "Tri strict des grains moisis"
+                ],
+                [
+                  "Miel",
+                  "Miel filtré en pot, cire",
+                  "Propreté du matériel, humidité du miel"
+                ],
+                [
+                  "Légumes (tomate, piment, gombo)",
+                  "Légumes séchés, poudres",
+                  "Séchage complet, à l’abri des poussières"
+                ],
+                [
+                  "Fruits, bissap, gingembre",
+                  "Jus et boissons",
+                  "S’abîment très vite : hygiène et conservation exigeantes"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les farines pour bébés et les boissons demandent des exigences sanitaires plus fortes : on ne les commence qu’après les modules sur l’hygiène et la conservation."
+            }
+          ]
+        },
+        {
+          "title": "Calculer la valeur ajoutée",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Valeur ajoutée = Prix de vente − Matière première − Autres coûts"
+            },
+            {
+              "type": "p",
+              "text": "Les autres coûts (emballage, énergie, main-d’œuvre, étiquettes) sont détaillés au module 7."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le miel du groupement de Salamatou",
+        "text": "Le groupement compare la vente en vrac et la vente en pot.",
+        "head": [
+          "",
+          "Miel en vrac",
+          "Miel filtré en pot"
+        ],
+        "rows": [
+          [
+            "Prix de vente d’un kilo",
+            "3 000 FCFA",
+            "5 000 FCFA"
+          ],
+          [
+            "Pot, étiquette et filtrage",
+            "—",
+            "700 FCFA"
+          ],
+          [
+            "Gain par kilo",
+            "3 000 FCFA",
+            "4 300 FCFA",
+            "result"
+          ]
+        ],
+        "after": "Le pot rapporte 1 300 FCFA de plus par kilo, à condition de trouver des clients à ce prix : c’est l’objet du module 3."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le manioc pourrit en trois jours. Le gari se garde des mois. »",
+            "Manioc abîmé, puis sac de gari"
+          ],
+          [
+            "0:30",
+            "Quatre raisons de transformer.",
+            "Quatre icônes"
+          ],
+          [
+            "1:30",
+            "Six familles de produits.",
+            "Farine, gari, pâte d’arachide, miel, légumes séchés, jus"
+          ],
+          [
+            "2:45",
+            "Le calcul de la valeur ajoutée du miel.",
+            "Un pot de miel étiqueté à côté d’un bidon"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la valeur ajoutée",
+        "text": "Un kilo d’arachide décortiquée coûte 1 200 FCFA. Transformé en pâte et mis en pot, il se vend 2 500 FCFA ; le pot, l’étiquette, l’énergie et le travail coûtent 600 FCFA. Quelle est la valeur ajoutée par kilo, en FCFA ?",
+        "answer": 700,
+        "solution": "2 500 − 1 200 − 600 = 700 FCFA.",
+        "then": "Listez ensuite trois produits que vous pourriez transformer dans votre environnement."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi le gari se vend-il toute l’année ?",
+          "options": [
+            "Il se conserve longtemps",
+            "Il est importé"
+          ],
+          "answer": 0,
+          "explain": "Le manioc frais, lui, s’abîme vite."
+        },
+        {
+          "q": "Quelle est la formule de la valeur ajoutée ?",
+          "options": [
+            "Prix de vente − matière première − autres coûts",
+            "Prix de vente seulement"
+          ],
+          "answer": 0,
+          "explain": "On ne compte pas seulement la matière."
+        },
+        {
+          "q": "Quels produits demandent les exigences sanitaires les plus fortes ?",
+          "options": [
+            "Les farines pour bébés et les boissons",
+            "Les arachides grillées"
+          ],
+          "answer": 0,
+          "explain": "Consommateurs fragiles ou produits qui s’abîment vite."
+        },
+        {
+          "q": "Que faire des arachides moisies avant la pâte ?",
+          "options": [
+            "Les retirer au tri",
+            "Les garder"
+          ],
+          "answer": 0,
+          "explain": "Risque de toxines."
+        },
+        {
+          "q": "Un produit transformé se vend-il toujours plus cher ?",
+          "options": [
+            "Oui, toujours",
+            "Seulement si des clients l’achètent à ce prix"
+          ],
+          "answer": 1,
+          "explain": "Il faut vérifier le marché."
+        },
+        {
+          "q": "La transformation peut-elle réduire les pertes ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle conserve ce qui s’abîmerait."
+        }
+      ],
+      "summary": "Conserver, vendre plus cher, vendre toute l’année, créer des emplois. Calculer la valeur ajoutée, puis vérifier le marché.",
+      "resource": "Fiche « Quel produit transformer ? » avec le calcul de la valeur ajoutée."
+    },
+    {
+      "id": "m2",
+      "label": "Matière première",
+      "number": 2,
+      "title": "Sélectionner une matière première",
+      "duration": "30 min",
+      "point": "On ne fait pas un bon produit avec une mauvaise matière première : elle doit être saine, disponible toute l’année en quantité suffisante, et achetée à un prix qui laisse une marge.",
+      "intro": "Un lot d’arachides moisies, et c’est toute la pâte qui devient dangereuse. Le contrôle de la matière première est la première protection du consommateur, et de la réputation du groupement.",
+      "objectives": [
+        "Appliquer les quatre critères de choix d’une matière première.",
+        "Refuser un lot non conforme à la réception.",
+        "Organiser un approvisionnement régulier."
+      ],
+      "lessons": [
+        {
+          "title": "Les quatre critères",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Critère",
+                "Question à se poser"
+              ],
+              "rows": [
+                [
+                  "Qualité sanitaire",
+                  "Le produit est-il sain : sans moisissure, insectes, pourriture ni odeur anormale ?"
+                ],
+                [
+                  "Disponibilité",
+                  "En trouvera-t-on toute l’année, ou seulement à la récolte ? Faut-il stocker ?"
+                ],
+                [
+                  "Régularité",
+                  "La variété et la qualité sont-elles les mêmes d’un lot à l’autre ?"
+                ],
+                [
+                  "Prix",
+                  "Le prix laisse-t-il une marge après transformation, même en période de hausse ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Contrôler à la réception",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Regarder, sentir, toucher chaque lot, comme au magasin (formation F11, module 4).",
+                "Maïs et arachide : refuser les lots avec des grains moisis ou noircis, à cause du risque de toxines.",
+                "Manioc : racines fraîches, sans parties pourries, transformées rapidement après la récolte.",
+                "Miel : récolté mûr, dans des contenants propres et alimentaires.",
+                "Noter chaque lot dans un cahier : date, fournisseur, quantité, qualité constatée."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Organiser l’approvisionnement",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Achetez en priorité auprès de producteurs ou de coopératives connus, avec qui vous vous entendez sur la qualité et le prix. Constituez un stock à la récolte quand le prix est bas, si vous savez le conserver. Prévoyez un second fournisseur en cas de manque."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’approvisionnement du groupement de Salamatou",
+        "text": "Le groupement achetait l’arachide au marché, sans savoir d’où elle venait. Après une plainte d’un client, Salamatou signe un accord avec la coopérative de Hawa.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Arachide achetée au marché, origine inconnue",
+            "Arachide de la coopérative de Hawa"
+          ],
+          [
+            "Qualité variable",
+            "Triée, séchée et contrôlée"
+          ],
+          [
+            "Achats au hasard",
+            "Livraison chaque mois",
+            "result"
+          ]
+        ],
+        "after": "Les deux groupements y gagnent : un débouché régulier pour l’une, une matière sûre pour l’autre."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un lot moisi, et toute la pâte est perdue. »",
+            "Arachides moisies dans une main"
+          ],
+          [
+            "0:30",
+            "Les quatre critères.",
+            "Quatre cases cochées"
+          ],
+          [
+            "1:45",
+            "Contrôler à la réception, produit par produit.",
+            "Arachide, manioc, miel contrôlés"
+          ],
+          [
+            "3:00",
+            "L’accord entre Salamatou et la coopérative de Hawa.",
+            "Poignée de mains, sacs livrés"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Accepter ou refuser ?",
+        "text": "Pour chaque lot, choisissez.",
+        "choices": [
+          "Accepter",
+          "Refuser"
+        ],
+        "items": [
+          [
+            "Arachides sèches et triées",
+            0
+          ],
+          [
+            "Maïs avec des grains noircis",
+            1
+          ],
+          [
+            "Manioc récolté la veille, sans pourriture",
+            0
+          ],
+          [
+            "Miel conservé dans un bidon d’huile de moteur",
+            1
+          ],
+          [
+            "Arachides avec beaucoup de grains moisis",
+            1
+          ],
+          [
+            "Gombo frais et propre",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de critères pour choisir une matière première ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Qualité sanitaire, disponibilité, régularité, prix."
+        },
+        {
+          "q": "Accepte-t-on du maïs avec des grains noircis ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Risque de toxines."
+        },
+        {
+          "q": "Quand transformer le manioc frais ?",
+          "options": [
+            "Rapidement après la récolte",
+            "Un mois après"
+          ],
+          "answer": 0,
+          "explain": "Il s’abîme vite."
+        },
+        {
+          "q": "Peut-on mettre du miel dans un bidon ayant contenu de l’huile de moteur ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Seulement des contenants propres et alimentaires."
+        },
+        {
+          "q": "Pourquoi noter chaque lot ?",
+          "options": [
+            "Pour retrouver l’origine d’un problème",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "C’est la traçabilité."
+        },
+        {
+          "q": "Pourquoi un second fournisseur ?",
+          "options": [
+            "Pour ne pas manquer de matière",
+            "Pour compliquer"
+          ],
+          "answer": 0,
+          "explain": "La production ne s’arrête pas."
+        }
+      ],
+      "summary": "Une matière saine, disponible, régulière et au bon prix ; un contrôle à chaque réception ; des fournisseurs connus et un cahier des lots.",
+      "resource": "Modèle de cahier de réception des lots."
+    },
+    {
+      "id": "m3",
+      "label": "Marché",
+      "number": 3,
+      "title": "Étudier le marché des produits transformés",
+      "duration": "35 min",
+      "point": "Avant de produire en quantité, on vérifie qui achète, à quel prix, sous quelle présentation, et face à quels concurrents. Puis on teste avec une petite série.",
+      "intro": "Beaucoup de groupements produisent d’abord et cherchent les clients ensuite. Les cartons qui s’entassent coûtent cher. Quelques jours d’enquête et un petit test évitent cette erreur.",
+      "objectives": [
+        "Identifier trois types de clients pour son produit.",
+        "Comparer son produit à ceux des concurrents.",
+        "Organiser un test de marché et en lire le résultat."
+      ],
+      "lessons": [
+        {
+          "title": "Qui achète ?",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Client",
+                "Ce qu’il attend"
+              ],
+              "rows": [
+                [
+                  "Ménages des villes",
+                  "Produit propre, pratique, en petit format, prix accessible"
+                ],
+                [
+                  "Boutiques et supermarchés",
+                  "Emballage soigné, étiquette complète, livraison régulière"
+                ],
+                [
+                  "Restaurants, hôtels, cantines",
+                  "Grands formats, qualité constante, prix de gros"
+                ],
+                [
+                  "Commerçants et revendeuses",
+                  "Prix de gros, volumes, produit qui se garde"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Regarder la concurrence",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Au marché et en boutique, relevez pour chaque produit concurrent, local ou importé : le prix, le format, l’emballage, l’étiquette, ce que les clients en disent. Cherchez ce qui manque : un format plus petit, une meilleure hygiène, un goût local, une origine connue."
+            }
+          ]
+        },
+        {
+          "title": "Tester avant de produire",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Fabriquer une petite série, par exemple 20 pots.",
+                "Faire goûter et recueillir les avis : goût, texture, prix, emballage.",
+                "Proposer à la vente dans deux ou trois points de vente pendant une à deux semaines.",
+                "Compter ce qui est vendu, et à quel prix.",
+                "Ajuster avant de produire plus."
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Taux de vente = Unités vendues ÷ Unités proposées × 100"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le test de la pâte d’arachide",
+        "text": "Le groupement de Salamatou propose 30 pots de 500 g à 1 500 FCFA, dans deux boutiques et au marché, pendant deux semaines.",
+        "head": [
+          "Résultat",
+          "Constat"
+        ],
+        "rows": [
+          [
+            "Pots vendus",
+            "24 sur 30, soit 80 %"
+          ],
+          [
+            "Avis sur le goût",
+            "Très bon"
+          ],
+          [
+            "Avis sur le pot",
+            "Difficile à ouvrir",
+            "alert"
+          ]
+        ],
+        "after": "Le groupement change de pot avant de lancer une série de 200."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Des cartons qui s’entassent, faute de clients. »",
+            "Un coin de magasin plein de cartons"
+          ],
+          [
+            "0:30",
+            "Quatre types de clients.",
+            "Ménage, boutique, restaurant, revendeuse"
+          ],
+          [
+            "1:30",
+            "Le relevé de la concurrence.",
+            "Rayon d’une boutique, prix notés"
+          ],
+          [
+            "2:30",
+            "Le test de 30 pots et le pot changé.",
+            "Dégustation, pots vendus, nouveau pot"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le taux de vente",
+        "text": "Vous avez proposé 20 sachets de piment séché ; 14 ont été vendus en deux semaines. Quel est votre taux de vente, en pourcentage ?",
+        "answer": 70,
+        "unit": "%",
+        "solution": "14 ÷ 20 × 100 = 70 %.",
+        "then": "Relevez ensuite les prix et les formats de trois produits concurrents du vôtre."
+      },
+      "quiz": [
+        {
+          "q": "Quand chercher les clients ?",
+          "options": [
+            "Avant de produire en quantité",
+            "Après"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les invendus."
+        },
+        {
+          "q": "Qu’attend une boutique ?",
+          "options": [
+            "Emballage soigné, étiquette complète, livraison régulière",
+            "Rien de particulier"
+          ],
+          "answer": 0,
+          "explain": "Elle revend à ses propres clients."
+        },
+        {
+          "q": "Que relever chez les concurrents ?",
+          "options": [
+            "Prix, format, emballage, étiquette, avis",
+            "Le nom du vendeur"
+          ],
+          "answer": 0,
+          "explain": "Pour trouver ce qui manque."
+        },
+        {
+          "q": "Combien produire pour un test ?",
+          "options": [
+            "Une petite série",
+            "Une grosse production"
+          ],
+          "answer": 0,
+          "explain": "Par exemple 20 à 30 unités."
+        },
+        {
+          "q": "30 pots proposés, 24 vendus. Taux de vente ?",
+          "options": [
+            "80 %",
+            "24 %",
+            "6 %"
+          ],
+          "answer": 0,
+          "explain": "24 ÷ 30 × 100 = 80."
+        },
+        {
+          "q": "Que faire des avis des clients ?",
+          "options": [
+            "Ajuster le produit avant de produire plus",
+            "Les ignorer"
+          ],
+          "answer": 0,
+          "explain": "Le test sert à améliorer."
+        }
+      ],
+      "summary": "Connaître ses clients et ses concurrents, tester avec une petite série, compter les ventes et ajuster avant de produire plus.",
+      "resource": "Fiche de relevé de la concurrence et fiche d’avis de dégustation."
+    },
+    {
+      "id": "m4",
+      "label": "Étapes de fabrication",
+      "number": 4,
+      "title": "Comprendre les étapes générales de transformation",
+      "duration": "35 min",
+      "point": "Chaque produit suit un diagramme de fabrication : une suite d’étapes toujours dans le même ordre. Certaines sont des points critiques, où une erreur rend le produit dangereux ou invendable.",
+      "intro": "Quand chaque membre du groupement fait à sa façon, chaque lot est différent, et le client ne revient pas. Un diagramme écrit, suivi par tous, donne un produit régulier.",
+      "objectives": [
+        "Écrire le diagramme de fabrication de son produit.",
+        "Repérer les points critiques de ce diagramme.",
+        "Expliquer pourquoi l’ordre des étapes compte."
+      ],
+      "lessons": [
+        {
+          "title": "Le gari",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Éplucher et laver les racines de manioc à l’eau potable.",
+                "Râper finement.",
+                "Laisser fermenter la pâte en sacs propres, selon la durée habituelle dans la zone.",
+                "Presser pour retirer le jus.",
+                "Émietter et tamiser.",
+                "Cuire en remuant sans arrêt jusqu’à obtenir des grains secs et croustillants.",
+                "Refroidir, tamiser à nouveau, emballer dans des sacs étanches."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Points critiques : fermentation et pressage bien conduits, cuisson complète, séchage total avant emballage."
+            }
+          ]
+        },
+        {
+          "title": "La farine de maïs",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Trier et nettoyer le grain (retirer moisis, cailloux, poussières).",
+                "Vérifier que le grain est sec, le sécher si besoin (formation F11, module 2).",
+                "Moudre dans un moulin propre.",
+                "Tamiser.",
+                "Laisser refroidir, puis emballer dans des sachets étanches."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Points critiques : grain sain au départ, moulin nettoyé, emballage étanche à l’humidité."
+            }
+          ]
+        },
+        {
+          "title": "La pâte d’arachide",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Trier strictement les graines, en retirant toutes celles qui sont moisies, noircies ou ridées.",
+                "Griller doucement en remuant, sans brûler.",
+                "Refroidir, puis retirer les peaux en vannant.",
+                "Broyer finement.",
+                "Mettre en pots propres et secs, fermer aussitôt."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Points critiques : tri des graines moisies, à cause du risque de toxines ; propreté des pots."
+            }
+          ]
+        },
+        {
+          "title": "Le miel filtré en pot",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Récolter les cadres dont les alvéoles sont fermées (operculées), signe que le miel est mûr.",
+                "Désoperculer.",
+                "Extraire le miel.",
+                "Filtrer.",
+                "Laisser reposer pour que les impuretés et l’écume remontent, puis écumer.",
+                "Mettre en pots propres et secs, étiqueter."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Points critiques : miel mûr, matériel et pots propres et secs ; un miel trop humide peut fermenter."
+            }
+          ]
+        },
+        {
+          "title": "Les légumes séchés",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Trier et laver à l’eau potable.",
+                "Découper en tranches fines et régulières.",
+                "Sécher à l’abri des poussières, des insectes et des animaux, de préférence dans un séchoir solaire.",
+                "Vérifier que les morceaux sont bien secs.",
+                "Emballer dans des sachets étanches, au sec."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Points critiques : eau potable, séchage complet, protection contre les poussières. Ces diagrammes sont des repères généraux, à valider avec un technologue alimentaire."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le diagramme affiché dans l’atelier de Salamatou",
+        "text": "Chaque membre faisait la pâte d’arachide à sa façon : certains lots étaient brûlés, d’autres pas assez grillés.",
+        "after": "Le groupement écrit son diagramme en grand, au mur de l’atelier, avec les points critiques en rouge. Depuis, les lots se ressemblent, et les boutiques recommandent."
+      },
+      "video": {
+        "url": "",
+        "duration": "6 min",
+        "script": [
+          [
+            "0:00",
+            "« Chaque lot différent, et le client ne revient pas. »",
+            "Trois pots de pâte de couleurs différentes"
+          ],
+          [
+            "0:30",
+            "Qu’est-ce qu’un diagramme de fabrication et un point critique.",
+            "Flèches entre des étapes, une en rouge"
+          ],
+          [
+            "1:15",
+            "Gari, farine, pâte d’arachide, miel, légumes séchés.",
+            "Démonstrations courtes, une par produit"
+          ],
+          [
+            "5:00",
+            "Le diagramme affiché au mur de l’atelier.",
+            "Affiche avec les points critiques en rouge"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quel produit ?",
+        "text": "Associez chaque étape à son produit.",
+        "choices": [
+          "Gari",
+          "Miel",
+          "Pâte d’arachide"
+        ],
+        "items": [
+          [
+            "La fermentation de la pâte râpée",
+            0
+          ],
+          [
+            "La désoperculation",
+            1
+          ],
+          [
+            "Le grillage puis le vannage des peaux",
+            2
+          ],
+          [
+            "Le pressage pour retirer le jus",
+            0
+          ],
+          [
+            "Le repos pour faire remonter l’écume",
+            1
+          ],
+          [
+            "Le broyage fin des graines grillées",
+            2
+          ]
+        ],
+        "then": "Écrivez ensuite le diagramme de fabrication de votre produit et entourez ses points critiques."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qu’un diagramme de fabrication ?",
+          "options": [
+            "La suite des étapes, toujours dans le même ordre",
+            "Un dessin du produit"
+          ],
+          "answer": 0,
+          "explain": "Il donne un produit régulier."
+        },
+        {
+          "q": "Qu’est-ce qu’un point critique ?",
+          "options": [
+            "Une étape où une erreur rend le produit dangereux ou invendable",
+            "La première étape"
+          ],
+          "answer": 0,
+          "explain": "On la surveille de près."
+        },
+        {
+          "q": "Quel point critique pour la pâte d’arachide ?",
+          "options": [
+            "Le tri des graines moisies",
+            "La couleur du pot"
+          ],
+          "answer": 0,
+          "explain": "Risque de toxines."
+        },
+        {
+          "q": "Pourquoi récolter un miel operculé ?",
+          "options": [
+            "Il est mûr",
+            "Il est plus sucré"
+          ],
+          "answer": 0,
+          "explain": "Un miel trop humide peut fermenter."
+        },
+        {
+          "q": "Avec quelle eau laver les légumes ?",
+          "options": [
+            "De l’eau potable",
+            "L’eau de la rivière"
+          ],
+          "answer": 0,
+          "explain": "Une eau sale contamine le produit."
+        },
+        {
+          "q": "Pourquoi afficher le diagramme dans l’atelier ?",
+          "options": [
+            "Pour que tous fabriquent de la même façon",
+            "Pour décorer"
+          ],
+          "answer": 0,
+          "explain": "Le client retrouve le même produit."
+        }
+      ],
+      "summary": "Un diagramme écrit, suivi par tous, avec ses points critiques surveillés. Les détails techniques se valident avec un technologue alimentaire.",
+      "resource": "Cinq fiches diagrammes à afficher : gari, farine de maïs, pâte d’arachide, miel, légumes séchés."
+    },
+    {
+      "id": "m5",
+      "label": "Hygiène",
+      "number": 5,
+      "title": "Appliquer les principes d’hygiène et de sécurité alimentaire",
+      "duration": "35 min",
+      "point": "Un produit transformé doit d’abord être sain. Les bonnes pratiques d’hygiène reposent sur cinq piliers : des personnes propres, un atelier propre, une eau potable, une séparation du propre et du sale, et la maîtrise des nuisibles.",
+      "intro": "Un seul client malade, et c’est la réputation de tout le groupement qui s’effondre. L’hygiène n’est pas une contrainte : c’est ce qui rend le produit vendable, et ce qui protège les familles qui le mangent.",
+      "objectives": [
+        "Appliquer les cinq piliers de l’hygiène dans un atelier.",
+        "Organiser le nettoyage avant, pendant et après la production.",
+        "Reconnaître une situation à risque et l’arrêter."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq piliers",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pilier",
+                "Ce que l’on fait"
+              ],
+              "rows": [
+                [
+                  "Personnes",
+                  "Mains lavées au savon avant de commencer et après chaque pause, toilettes ou contact sale ; cheveux couverts ; tablier propre ; pas de production en cas de diarrhée, de fièvre ou de plaie non protégée"
+                ],
+                [
+                  "Atelier et matériel",
+                  "Surfaces lavables, nettoyées avant et après chaque production ; ustensiles réservés à la transformation"
+                ],
+                [
+                  "Eau",
+                  "Eau potable pour laver les produits, les ustensiles et les mains"
+                ],
+                [
+                  "Propre et sale",
+                  "Matières premières, déchets et produits finis séparés ; on avance toujours du sale vers le propre"
+                ],
+                [
+                  "Nuisibles",
+                  "Atelier fermé aux animaux, aux mouches et aux rongeurs ; déchets sortis chaque jour"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ces règles s’inspirent des principes généraux d’hygiène alimentaire du Codex Alimentarius (FAO et OMS). Les exigences officielles au Cameroun sont à vérifier auprès des services compétents."
+            }
+          ]
+        },
+        {
+          "title": "Le nettoyage en trois temps",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Avant : nettoyer les surfaces et le matériel, vérifier l’eau et le savon.",
+                "Pendant : essuyer les salissures, se laver les mains à chaque changement de tâche.",
+                "Après : laver tout le matériel, le laisser sécher à l’abri, sortir les déchets."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Une fiche de nettoyage signée chaque jour montre aux clients et aux contrôleurs que l’hygiène est suivie."
+            }
+          ]
+        },
+        {
+          "title": "Savoir s’arrêter",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On arrête la production, et on ne vend pas, quand : la matière première est douteuse, l’eau potable manque, une personne est malade, ou un lot a une odeur, une couleur ou un aspect anormal. En cas de doute, on ne vend pas."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’atelier de Salamatou s’organise",
+        "text": "Le groupement met en place les cinq piliers.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Pas de point de lavage",
+            "Point de lavage des mains avec savon à l’entrée"
+          ],
+          [
+            "Cheveux et vêtements non protégés",
+            "Charlottes et tabliers"
+          ],
+          [
+            "Nettoyage quand on y pense",
+            "Fiche de nettoyage signée chaque jour"
+          ],
+          [
+            "Une membre fiévreuse continue à produire",
+            "Elle passe à l’étiquetage, loin de la production",
+            "result"
+          ]
+        ],
+        "after": "Les boutiques remarquent la différence et commandent davantage."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un client malade, et toute la réputation s’effondre. »",
+            "Un pot retiré d’un rayon"
+          ],
+          [
+            "0:30",
+            "Les cinq piliers, démontrés dans l’atelier.",
+            "Lavage des mains, charlotte, séparation des zones"
+          ],
+          [
+            "2:30",
+            "Le nettoyage en trois temps.",
+            "Fiche de nettoyage signée"
+          ],
+          [
+            "3:45",
+            "Savoir s’arrêter.",
+            "Un lot mis de côté, étiqueté « ne pas vendre »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Continuer ou arrêter ?",
+        "text": "Pour chaque situation, dites si la production peut continuer.",
+        "choices": [
+          "Continuer",
+          "Arrêter"
+        ],
+        "items": [
+          [
+            "Les mains ont été lavées au savon",
+            0
+          ],
+          [
+            "Il n’y a plus d’eau potable",
+            1
+          ],
+          [
+            "Une membre a la diarrhée et veut produire",
+            1
+          ],
+          [
+            "Les surfaces ont été nettoyées",
+            0
+          ],
+          [
+            "Un lot de pâte a une odeur anormale",
+            1
+          ],
+          [
+            "Les déchets ont été sortis",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quand se laver les mains ?",
+          "options": [
+            "Avant de commencer et après chaque pause, toilettes ou contact sale",
+            "Une fois par semaine"
+          ],
+          "answer": 0,
+          "explain": "C’est la première protection."
+        },
+        {
+          "q": "Quelle eau utiliser ?",
+          "options": [
+            "De l’eau potable",
+            "L’eau de pluie stockée sans protection"
+          ],
+          "answer": 0,
+          "explain": "Pour les produits, les ustensiles et les mains."
+        },
+        {
+          "q": "Une personne qui a de la fièvre peut-elle produire ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle peut contaminer le produit."
+        },
+        {
+          "q": "Dans quel sens avancer ?",
+          "options": [
+            "Du sale vers le propre",
+            "Du propre vers le sale"
+          ],
+          "answer": 0,
+          "explain": "Jamais l’inverse."
+        },
+        {
+          "q": "À quoi sert la fiche de nettoyage ?",
+          "options": [
+            "À prouver que l’hygiène est suivie",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Pour les clients et les contrôleurs."
+        },
+        {
+          "q": "Un lot a une odeur anormale. Que faire ?",
+          "options": [
+            "Le vendre moins cher",
+            "Ne pas le vendre"
+          ],
+          "answer": 1,
+          "explain": "En cas de doute, on ne vend pas."
+        }
+      ],
+      "summary": "Personnes propres, atelier propre, eau potable, propre séparé du sale, nuisibles tenus à l’écart. Nettoyer avant, pendant, après. En cas de doute, on ne vend pas.",
+      "resource": "Fiche de nettoyage quotidienne et affiche « Les cinq piliers de l’hygiène »."
+    },
+    {
+      "id": "m6",
+      "label": "Conservation",
+      "number": 6,
+      "title": "Comprendre les exigences de conservation",
+      "duration": "30 min",
+      "point": "Un produit se conserve quand on prive les moisissures et les microbes de ce qui les fait vivre : surtout l’humidité, l’air et la chaleur. La durée de conservation ne se devine pas : elle se vérifie.",
+      "intro": "Un pot de pâte qui rancit ou une farine qui moisit dans la boutique, et le commerçant ne recommande plus. Bien conserver, c’est garantir au client que le produit restera bon jusqu’à la date indiquée.",
+      "objectives": [
+        "Citer ce qui abîme un produit transformé.",
+        "Choisir les conditions de conservation de son produit.",
+        "Vérifier une durée de conservation avant de l’écrire sur l’étiquette."
+      ],
+      "lessons": [
+        {
+          "title": "Ce qui abîme les produits",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ennemi",
+                "Produits concernés",
+                "Protection"
+              ],
+              "rows": [
+                [
+                  "Humidité",
+                  "Farines, gari, légumes séchés",
+                  "Séchage complet, emballage étanche, stockage au sec"
+                ],
+                [
+                  "Air et lumière",
+                  "Pâte et huile d’arachide",
+                  "Pots bien fermés, à l’abri de la lumière, contre le rancissement"
+                ],
+                [
+                  "Chaleur",
+                  "Tous, surtout les boissons",
+                  "Stockage au frais et à l’ombre"
+                ],
+                [
+                  "Insectes et rongeurs",
+                  "Farines, gari",
+                  "Emballage fermé, magasin propre (formation F11)"
+                ],
+                [
+                  "Microbes",
+                  "Jus et boissons surtout",
+                  "Hygiène stricte, traitement adapté, défini avec un technologue"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le miel bien mûr et bien fermé se conserve très longtemps ; un miel trop humide peut fermenter."
+            }
+          ]
+        },
+        {
+          "title": "Les boissons, un cas à part",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les jus de fruits, de bissap ou de gingembre s’abîment en quelques heures ou quelques jours sans traitement. Leur conservation demande un procédé maîtrisé, à définir et à valider avec un technologue alimentaire. Sans cela, on ne vend que du frais, le jour même, gardé au froid."
+            }
+          ]
+        },
+        {
+          "title": "Vérifier la durée de conservation",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Garder quelques unités de chaque lot dans les conditions normales de vente.",
+                "Les ouvrir et les contrôler à intervalles réguliers : aspect, odeur, goût, insectes.",
+                "Noter le moment où la qualité commence à baisser.",
+                "Fixer la date de l’étiquette avec une marge de sécurité, bien avant ce moment."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Cette vérification se fait idéalement avec un laboratoire ou un technologue, surtout pour les produits sensibles."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La date de la farine de maïs de Salamatou",
+        "text": "Le groupement garde trois sachets de chaque lot à l’atelier et en ouvre un chaque mois.",
+        "head": [
+          "Constat",
+          "Décision"
+        ],
+        "rows": [
+          [
+            "Au cinquième mois, un sachet mal soudé a pris l’humidité",
+            "Améliorer la soudure des sachets"
+          ],
+          [
+            "Durée encore incertaine",
+            "Date prudente de trois mois sur l’étiquette, en attendant l’avis d’un technologue",
+            "result"
+          ]
+        ],
+        "after": "La date écrite est une promesse : elle doit être tenue."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un pot qui rancit, et le commerçant ne recommande plus. »",
+            "Pot ouvert, mine déçue d’un client"
+          ],
+          [
+            "0:30",
+            "Les cinq ennemis du produit.",
+            "Goutte d’eau, soleil, thermomètre, insecte, microbe"
+          ],
+          [
+            "2:00",
+            "Les boissons, un cas à part.",
+            "Bouteilles de jus au frais"
+          ],
+          [
+            "2:45",
+            "Vérifier la durée de conservation.",
+            "Sachets ouverts mois après mois"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle protection ?",
+        "text": "Associez chaque produit à sa principale protection.",
+        "choices": [
+          "Emballage étanche, au sec",
+          "Pot fermé, à l’abri de l’air et de la lumière",
+          "Vente le jour même, au froid",
+          "Pot propre et bien fermé"
+        ],
+        "items": [
+          [
+            "Farine de maïs",
+            0
+          ],
+          [
+            "Pâte d’arachide",
+            1
+          ],
+          [
+            "Jus de bissap sans traitement validé",
+            2
+          ],
+          [
+            "Gari",
+            0
+          ],
+          [
+            "Tomate séchée",
+            0
+          ],
+          [
+            "Miel bien mûr",
+            3
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qui abîme surtout les farines ?",
+          "options": [
+            "L’humidité",
+            "La lumière"
+          ],
+          "answer": 0,
+          "explain": "D’où un emballage étanche."
+        },
+        {
+          "q": "Pourquoi la pâte d’arachide rancit-elle ?",
+          "options": [
+            "À cause de l’air, de la lumière et de la chaleur",
+            "À cause du sel"
+          ],
+          "answer": 0,
+          "explain": "Pots fermés, à l’abri."
+        },
+        {
+          "q": "Un jus sans traitement validé se vend comment ?",
+          "options": [
+            "Frais, le jour même, gardé au froid",
+            "En bouteille, pendant des mois"
+          ],
+          "answer": 0,
+          "explain": "Il s’abîme très vite."
+        },
+        {
+          "q": "Qui définit le traitement de conservation d’une boisson ?",
+          "options": [
+            "Un technologue alimentaire",
+            "Le client"
+          ],
+          "answer": 0,
+          "explain": "C’est un procédé à maîtriser."
+        },
+        {
+          "q": "Peut-on deviner la durée de conservation ?",
+          "options": [
+            "Oui",
+            "Non, on la vérifie"
+          ],
+          "answer": 1,
+          "explain": "En contrôlant des unités gardées."
+        },
+        {
+          "q": "Quelle date écrire sur l’étiquette ?",
+          "options": [
+            "Une date prudente, avec une marge",
+            "La plus lointaine possible"
+          ],
+          "answer": 0,
+          "explain": "Le produit doit rester bon jusqu’à cette date."
+        }
+      ],
+      "summary": "Protéger contre l’humidité, l’air, la chaleur, les nuisibles et les microbes. Traiter les boissons à part. Vérifier la durée avant de l’écrire.",
+      "resource": "Fiche de suivi de la conservation d’un lot."
+    },
+    {
+      "id": "m7",
+      "label": "Coûts",
+      "number": 7,
+      "title": "Calculer les coûts de transformation",
+      "duration": "40 min",
+      "point": "Le coût d’un produit transformé dépend du rendement : combien de kilos de produit fini on obtient à partir de la matière première. On additionne tous les coûts d’un lot, on divise par le nombre d’unités, et on obtient le prix plancher.",
+      "intro": "« 100 kilos de manioc, c’est beaucoup de gari ! » Pas tant que ça : une grande partie du poids part en épluchures, en jus et en eau. Sans compter le rendement, on vend souvent à perte sans le savoir.",
+      "objectives": [
+        "Mesurer le rendement de sa transformation.",
+        "Calculer le coût de revient d’une unité vendue.",
+        "Fixer un prix qui couvre ce coût."
+      ],
+      "lessons": [
+        {
+          "title": "Le rendement",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Rendement = Kilos de produit fini ÷ Kilos de matière première × 100"
+            },
+            {
+              "type": "p",
+              "text": "Le rendement varie selon la variété, la qualité de la matière et le savoir-faire : il se mesure en pesant, lot après lot, plutôt que de se deviner."
+            }
+          ]
+        },
+        {
+          "title": "Les coûts d’un lot",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Coût",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Matière première",
+                  "Manioc, arachide, maïs, miel brut"
+                ],
+                [
+                  "Énergie",
+                  "Bois, charbon, gaz, électricité, moulin"
+                ],
+                [
+                  "Main-d’œuvre",
+                  "Les heures de travail, y compris celles des membres (formation F14, module 3)"
+                ],
+                [
+                  "Emballage et étiquettes",
+                  "Sachets, pots, bouteilles, étiquettes"
+                ],
+                [
+                  "Autres",
+                  "Transport, eau, savon, usure du matériel"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Coût par unité = Total des coûts du lot ÷ Nombre d’unités produites"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le coût d’un sachet de gari",
+        "text": "Le groupement mesure un rendement de 25 % : 100 kg de manioc donnent 25 sachets de 1 kg.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Manioc : 100 kg à 60",
+            "6 000"
+          ],
+          [
+            "Bois de cuisson",
+            "2 000"
+          ],
+          [
+            "Main-d’œuvre",
+            "3 000"
+          ],
+          [
+            "Sachets et étiquettes : 25 à 150",
+            "3 750"
+          ],
+          [
+            "Transport",
+            "1 000"
+          ],
+          [
+            "Total du lot",
+            "15 750",
+            "strong"
+          ],
+          [
+            "Coût par sachet : 15 750 ÷ 25",
+            "630",
+            "result"
+          ]
+        ],
+        "after": "Vendu 1 000 FCFA le sachet, le gari laisse 370 FCFA par sachet, soit 9 250 FCFA par lot."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« 100 kilos de manioc, c’est beaucoup de gari ? »",
+            "Un tas de manioc, puis quelques sachets"
+          ],
+          [
+            "0:30",
+            "Mesurer le rendement en pesant.",
+            "Balance avant et après"
+          ],
+          [
+            "1:45",
+            "Les cinq familles de coûts du lot.",
+            "Bois, mains au travail, sachets"
+          ],
+          [
+            "3:30",
+            "Le coût par sachet et la marge.",
+            "Le chiffre 630 entouré"
+          ]
+        ]
+      },
+      "tool": "transfo",
+      "toolDefaults": {
+        "matiere": 100,
+        "prixMatiere": 60,
+        "rendement": 25,
+        "coutsLot": 6000,
+        "tailleUnite": 1,
+        "emballage": 150,
+        "prixVente": 1000,
+        "unite": "sachet de 1 kg"
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le coût par pot",
+        "text": "Vous transformez 20 kg d’arachide à 1 200 FCFA le kilo. Le rendement est de 80 % : vous obtenez 16 kg de pâte, soit 32 pots de 500 g. L’énergie, le travail et le transport coûtent 5 600 FCFA pour le lot ; chaque pot coûte 200 FCFA. Quel est le coût par pot, en FCFA ?",
+        "answer": 1125,
+        "solution": "24 000 + 5 600 + 32 × 200 = 36 000 FCFA ; 36 000 ÷ 32 = 1 125 FCFA par pot.",
+        "then": "Calculez ensuite le coût de votre propre produit avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce que le rendement ?",
+          "options": [
+            "Les kilos de produit fini par rapport aux kilos de matière",
+            "Le prix de vente"
+          ],
+          "answer": 0,
+          "explain": "En pourcentage."
+        },
+        {
+          "q": "50 kg de matière donnent 10 kg de produit. Rendement ?",
+          "options": [
+            "20 %",
+            "50 %",
+            "10 %"
+          ],
+          "answer": 0,
+          "explain": "10 ÷ 50 × 100 = 20."
+        },
+        {
+          "q": "Comment connaître son rendement ?",
+          "options": [
+            "En pesant, lot après lot",
+            "En le devinant"
+          ],
+          "answer": 0,
+          "explain": "Il ne se devine pas."
+        },
+        {
+          "q": "Faut-il compter le travail des membres ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Même non payé, il a une valeur."
+        },
+        {
+          "q": "Lot à 20 000 FCFA pour 40 unités. Coût par unité ?",
+          "options": [
+            "500 FCFA",
+            "800 FCFA",
+            "2 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "20 000 ÷ 40 = 500."
+        },
+        {
+          "q": "À quoi sert le coût par unité ?",
+          "options": [
+            "À fixer un prix qui le couvre",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "C’est le prix plancher."
+        }
+      ],
+      "summary": "Mesurer le rendement, additionner tous les coûts du lot, diviser par le nombre d’unités : c’est le prix plancher.",
+      "resource": "Fiche de calcul du coût d’un lot, à imprimer."
+    },
+    {
+      "id": "m8",
+      "label": "Emballage et étiquette",
+      "number": 8,
+      "title": "Définir le conditionnement et l’emballage",
+      "duration": "35 min",
+      "point": "L’emballage protège le produit, le rend pratique et le fait vendre ; l’étiquette informe le client. Au Cameroun, l’étiquetage des denrées alimentaires préemballées fait l’objet d’une norme d’application obligatoire, la NC 04, suivie par l’ANOR.",
+      "intro": "En boutique, le client choisit en quelques secondes. Un emballage propre et une étiquette claire donnent confiance ; un sachet noué sans étiquette reste sur l’étagère.",
+      "objectives": [
+        "Choisir un emballage adapté à son produit.",
+        "Rédiger une étiquette avec les mentions essentielles.",
+        "Éviter les mentions trompeuses ou interdites."
+      ],
+      "lessons": [
+        {
+          "title": "Choisir l’emballage",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Produit",
+                "Emballage adapté"
+              ],
+              "rows": [
+                [
+                  "Farines, gari, légumes séchés",
+                  "Sachets alimentaires étanches et bien soudés"
+                ],
+                [
+                  "Pâte d’arachide, miel",
+                  "Pots alimentaires propres et secs, couvercle étanche ; à l’abri de la lumière pour la pâte"
+                ],
+                [
+                  "Huile, jus",
+                  "Bouteilles alimentaires propres, bouchon étanche"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Toujours des contenants prévus pour l’alimentaire, jamais d’emballages ayant contenu des produits chimiques."
+            }
+          ]
+        },
+        {
+          "title": "Les mentions de l’étiquette",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La norme générale du Codex Alimentarius pour l’étiquetage des denrées préemballées, sur laquelle s’appuient la plupart des normes nationales, prévoit notamment :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "le nom du produit ;",
+                "la liste des ingrédients ;",
+                "la quantité nette (poids ou volume) ;",
+                "le nom et l’adresse du fabricant ;",
+                "le pays d’origine ;",
+                "le numéro de lot ;",
+                "la date de durabilité et les conditions de conservation ;",
+                "le mode d’emploi, si nécessaire."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La liste exacte qui s’applique au Cameroun est fixée par la norme NC 04 : procurez-vous-la auprès de l’ANOR avant d’imprimer vos étiquettes. D’autres normes peuvent s’appliquer à certains produits, comme celles rendues obligatoires en 2011 pour la farine de froment enrichie et certaines huiles végétales."
+            }
+          ]
+        },
+        {
+          "title": "Ce qu’on n’écrit pas",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Aucune promesse de santé non prouvée : « guérit », « soigne », « contre le diabète ».",
+                "Aucune mention réglementée sans y avoir droit, comme « bio » sans certification.",
+                "Aucune date de durabilité qui n’a pas été vérifiée (module 6).",
+                "Aucun poids supérieur au poids réel."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "L’étiquette de la pâte d’arachide de Salamatou",
+        "text": "L’ancien pot portait seulement « Pâte d’arachide, très bon pour la santé ».",
+        "head": [
+          "Mention",
+          "Nouvelle étiquette"
+        ],
+        "rows": [
+          [
+            "Nom",
+            "Pâte d’arachide"
+          ],
+          [
+            "Ingrédients",
+            "Arachide grillée"
+          ],
+          [
+            "Poids net",
+            "500 g"
+          ],
+          [
+            "Fabricant",
+            "Nom et adresse du groupement"
+          ],
+          [
+            "Origine",
+            "Produit du Cameroun"
+          ],
+          [
+            "Lot et date",
+            "Numéro de lot, date de durabilité"
+          ],
+          [
+            "Conservation",
+            "Au sec, à l’abri de la lumière"
+          ],
+          [
+            "Promesse de santé",
+            "Supprimée",
+            "alert"
+          ]
+        ],
+        "after": "Le groupement a demandé la norme NC 04 à l’ANOR pour vérifier qu’il ne manque rien."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le client choisit en quelques secondes. »",
+            "Rayon de boutique, une main qui hésite"
+          ],
+          [
+            "0:30",
+            "Choisir l’emballage selon le produit.",
+            "Sachet soudé, pot, bouteille"
+          ],
+          [
+            "1:45",
+            "Les mentions de l’étiquette, et la norme NC 04.",
+            "Étiquette annotée"
+          ],
+          [
+            "3:30",
+            "Ce qu’on n’écrit pas.",
+            "« Guérit tout » barré"
+          ],
+          [
+            "4:30",
+            "L’ancienne et la nouvelle étiquette.",
+            "Deux pots côte à côte"
+          ]
+        ]
+      },
+      "tool": "bon",
+      "toolDefaults": {
+        "titre": "ÉTIQUETTE — texte pour l’imprimeur",
+        "champs": [
+          [
+            "Nom du produit",
+            "Pâte d’arachide"
+          ],
+          [
+            "Ingrédients",
+            "Arachide grillée"
+          ],
+          [
+            "Quantité nette",
+            "500 g"
+          ],
+          [
+            "Fabricant (nom et adresse)",
+            "Groupement de Salamatou, Ngaoundéré"
+          ],
+          [
+            "Pays d’origine",
+            "Produit du Cameroun"
+          ],
+          [
+            "Numéro de lot",
+            "Lot n° 12"
+          ],
+          [
+            "Date de durabilité",
+            "À consommer de préférence avant le …"
+          ],
+          [
+            "Conservation",
+            "Au sec, à l’abri de la lumière"
+          ]
+        ],
+        "fin": "À vérifier avec la norme NC 04 (ANOR) avant impression.",
+        "heading": "Générateur d’étiquette",
+        "intro": "Remplissez les mentions de votre étiquette. L’exemple de départ est la pâte d’arachide de Salamatou.",
+        "copyLabel": "Copier le texte de l’étiquette",
+        "okText": "Toutes les mentions sont remplies. Vérifiez-les avec la norme NC 04, puis copiez le texte pour l’imprimeur.",
+        "outLabel": "Texte de l’étiquette",
+        "noDate": true
+      },
+      "activity": {
+        "type": "classify",
+        "title": "À mettre ou à éviter ?",
+        "text": "Pour chaque mention, choisissez.",
+        "choices": [
+          "À mettre",
+          "À éviter"
+        ],
+        "items": [
+          [
+            "« Poids net : 500 g »",
+            0
+          ],
+          [
+            "« Guérit l’hypertension »",
+            1
+          ],
+          [
+            "« Lot n° 12 »",
+            0
+          ],
+          [
+            "« Bio », sans certification",
+            1
+          ],
+          [
+            "« Ingrédients : arachide grillée »",
+            0
+          ],
+          [
+            "« Conserver au sec, à l’abri de la lumière »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quel emballage pour la farine ?",
+          "options": [
+            "Un sachet alimentaire étanche et bien soudé",
+            "Un sac ouvert"
+          ],
+          "answer": 0,
+          "explain": "Contre l’humidité."
+        },
+        {
+          "q": "Quelle norme encadre l’étiquetage au Cameroun ?",
+          "options": [
+            "La norme NC 04 sur les denrées préemballées",
+            "Aucune"
+          ],
+          "answer": 0,
+          "explain": "D’application obligatoire."
+        },
+        {
+          "q": "Auprès de qui se procurer la norme ?",
+          "options": [
+            "L’ANOR",
+            "Le marché"
+          ],
+          "answer": 0,
+          "explain": "Agence des normes et de la qualité."
+        },
+        {
+          "q": "Le numéro de lot sert à quoi ?",
+          "options": [
+            "À retrouver un lot en cas de problème",
+            "À décorer"
+          ],
+          "answer": 0,
+          "explain": "C’est la traçabilité."
+        },
+        {
+          "q": "Peut-on écrire « guérit » sur l’étiquette ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Promesse de santé non prouvée."
+        },
+        {
+          "q": "Peut-on réutiliser un bidon de produit chimique ?",
+          "options": [
+            "Oui, s’il est rincé",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Seulement des contenants alimentaires."
+        }
+      ],
+      "summary": "Un emballage alimentaire adapté au produit, une étiquette complète conforme à la norme NC 04, et aucune promesse trompeuse.",
+      "resource": "Modèle d’étiquette à compléter, à vérifier avec la norme NC 04."
+    },
+    {
+      "id": "m9",
+      "label": "Packaging",
+      "number": 9,
+      "title": "Valoriser son produit par le packaging",
+      "duration": "35 min",
+      "point": "Le packaging n’est pas qu’un emballage : un format adapté, une identité visuelle constante et une présentation soignée permettent de vendre plus cher et à d’autres clients. Il vaut la dépense quand la hausse de prix dépasse le surcoût.",
+      "intro": "Deux sachets du même piment séché : l’un noué sans étiquette, l’autre en sachet kraft avec une fenêtre, un nom et un logo. Le second se vend en boutique et plus cher. La différence ne vient pas du piment, mais du packaging.",
+      "objectives": [
+        "Choisir un format et un matériau selon le client et le canal de vente.",
+        "Construire une identité visuelle simple et constante.",
+        "Calculer si un nouveau packaging est rentable.",
+        "Respecter la réglementation sur les emballages plastiques."
+      ],
+      "lessons": [
+        {
+          "title": "Le bon format pour le bon client",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Format",
+                "Client visé",
+                "Point de vente"
+              ],
+              "rows": [
+                [
+                  "Petit (100 à 250 g)",
+                  "Ménages au budget serré, achat d’essai",
+                  "Boutiques de quartier, marché"
+                ],
+                [
+                  "Moyen (500 g à 1 kg)",
+                  "Familles",
+                  "Boutiques, supermarchés, vente en ligne"
+                ],
+                [
+                  "Grand (5 à 25 kg)",
+                  "Restaurants, cantines, revendeurs",
+                  "Vente directe, commandes"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Un même produit peut exister en plusieurs formats : le petit fait découvrir, le grand fidélise les professionnels."
+            }
+          ]
+        },
+        {
+          "title": "Une identité qui se reconnaît",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Un nom de marque court, facile à dire et à retenir.",
+                "Un logo simple, lisible même en petit.",
+                "Des couleurs constantes sur tous les produits, pour être reconnu au premier coup d’œil.",
+                "L’origine mise en avant : « Produit du Cameroun », « Miel de l’Adamaoua », à condition qu’elle soit vraie.",
+                "Une fenêtre ou une photo honnête, pour que le client voie le produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le packaging est-il rentable ?",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Gain = (Nouveau prix − Ancien prix) − (Nouvel emballage − Ancien emballage)"
+            },
+            {
+              "type": "p",
+              "text": "Le nouveau prix doit être vérifié par un test de vente (module 3), pas supposé."
+            }
+          ]
+        },
+        {
+          "title": "Emballage et environnement",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Au Cameroun, l’arrêté conjoint n° 004/MINEPDED/MINCOMMERCE du 24 octobre 2012 interdit la fabrication, l’importation, la détention et la vente des emballages plastiques non biodégradables à basse densité d’une épaisseur inférieure ou égale à 60 microns. Les emballages plastiques plus épais sont soumis à autorisation."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Achetez vos emballages auprès de fournisseurs autorisés, jamais de sachets fins interdits.",
+                "Préférez quand c’est possible le papier kraft, le verre ou les contenants réutilisables.",
+                "Proposez la consigne des pots et bouteilles en verre aux clients réguliers.",
+                "Évitez le suremballage."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le piment séché de Salamatou change de tenue",
+        "text": "Le groupement teste un nouveau sachet.",
+        "head": [
+          "",
+          "Ancien packaging",
+          "Nouveau packaging"
+        ],
+        "rows": [
+          [
+            "Emballage",
+            "Sachet simple, 50 FCFA",
+            "Sachet kraft avec fenêtre et étiquette en couleur, 150 FCFA"
+          ],
+          [
+            "Prix constaté au test",
+            "300 FCFA",
+            "500 FCFA"
+          ],
+          [
+            "Points de vente",
+            "Marché",
+            "Marché, boutiques, supermarché"
+          ],
+          [
+            "Gain par sachet",
+            "",
+            "(500 − 300) − (150 − 50) = 100 FCFA",
+            "result"
+          ]
+        ],
+        "after": "Le nouveau packaging rapporte 100 FCFA de plus par sachet et ouvre de nouveaux points de vente."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Même piment, deux sachets. Lequel achetez-vous ? »",
+            "Sachet noué et sachet kraft côte à côte"
+          ],
+          [
+            "0:30",
+            "Le bon format pour le bon client.",
+            "Petit, moyen et grand formats"
+          ],
+          [
+            "1:30",
+            "Nom, logo, couleurs, origine.",
+            "Une gamme de produits aux mêmes couleurs"
+          ],
+          [
+            "2:45",
+            "Le calcul : 100 FCFA de gain.",
+            "Deux prix, deux coûts"
+          ],
+          [
+            "3:45",
+            "Emballage et environnement : la règle des 60 microns.",
+            "Sachets fins barrés, pots en verre consignés"
+          ]
+        ]
+      },
+      "tool": "packaging",
+      "toolDefaults": {
+        "cout": 150,
+        "a": {
+          "nom": "Sachet simple",
+          "emb": 50,
+          "prix": 300
+        },
+        "b": {
+          "nom": "Sachet kraft étiqueté",
+          "emb": 150,
+          "prix": 500
+        }
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le gain du kraft",
+        "text": "Votre farine de maïs revient à 500 FCFA le kilo. En sachet simple (40 FCFA), elle se vend 800 FCFA. En sachet kraft étiqueté (140 FCFA), votre test montre qu’elle se vend 950 FCFA. Combien gagnez-vous de plus par sachet avec le kraft, en FCFA ?",
+        "answer": 50,
+        "solution": "Marge en sachet simple : 800 − 500 − 40 = 260 FCFA. En kraft : 950 − 500 − 140 = 310 FCFA. Gain : 50 FCFA de plus par sachet.",
+        "then": "Comparez ensuite deux emballages pour votre propre produit avec le comparateur."
+      },
+      "quiz": [
+        {
+          "q": "À quoi sert un petit format ?",
+          "options": [
+            "Faire découvrir le produit aux ménages au budget serré",
+            "Vendre aux restaurants"
+          ],
+          "answer": 0,
+          "explain": "L’achat d’essai coûte peu."
+        },
+        {
+          "q": "Pourquoi garder les mêmes couleurs sur tous les produits ?",
+          "options": [
+            "Pour être reconnu au premier coup d’œil",
+            "Par habitude"
+          ],
+          "answer": 0,
+          "explain": "C’est l’identité de la marque."
+        },
+        {
+          "q": "Quand un nouveau packaging est-il rentable ?",
+          "options": [
+            "Quand la hausse de prix dépasse le surcoût",
+            "Toujours"
+          ],
+          "answer": 0,
+          "explain": "Prix vérifié par un test."
+        },
+        {
+          "q": "Quels sachets plastiques sont interdits au Cameroun ?",
+          "options": [
+            "Les non biodégradables de 60 microns ou moins",
+            "Tous les plastiques"
+          ],
+          "answer": 0,
+          "explain": "Arrêté conjoint du 24 octobre 2012."
+        },
+        {
+          "q": "Peut-on écrire « Miel de l’Adamaoua » ?",
+          "options": [
+            "Oui, si c’est vrai",
+            "Oui, toujours"
+          ],
+          "answer": 0,
+          "explain": "L’origine doit être exacte."
+        },
+        {
+          "q": "Un moyen de réduire les déchets d’emballage ?",
+          "options": [
+            "La consigne des pots et bouteilles en verre",
+            "Des sachets plus fins"
+          ],
+          "answer": 0,
+          "explain": "Le client rapporte le contenant."
+        }
+      ],
+      "summary": "Le bon format pour le bon client, une identité constante, un gain vérifié par le calcul et le test, et des emballages conformes à la réglementation.",
+      "resource": "Fiche « Créer l’identité visuelle de mon produit » et fiche de calcul du gain d’un nouveau packaging."
+    },
+    {
+      "id": "m10",
+      "label": "Canaux de vente",
+      "number": 10,
+      "title": "Construire un circuit de commercialisation",
+      "duration": "35 min",
+      "point": "Un produit transformé se vend par plusieurs canaux : vente directe, boutiques, professionnels, revendeurs, foires et AgroConnect. Chaque intermédiaire prend une marge : on calcule ce qui reste au groupement avant d’accepter un canal.",
+      "intro": "« Le supermarché veut nos pots ! » Bonne nouvelle, à condition de savoir combien il garde sur chaque pot, et quand il paie. Sinon, on peut vendre beaucoup et ne rien gagner.",
+      "objectives": [
+        "Choisir deux ou trois canaux adaptés à son produit.",
+        "Calculer le prix qui revient au groupement selon le canal.",
+        "Organiser un dépôt-vente sans perte."
+      ],
+      "lessons": [
+        {
+          "title": "Les canaux de vente",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Canal",
+                "Avantages",
+                "Points de vigilance"
+              ],
+              "rows": [
+                [
+                  "Vente directe (marché, commandes WhatsApp)",
+                  "Meilleur prix, contact avec le client",
+                  "Petits volumes, temps passé"
+                ],
+                [
+                  "Boutiques de quartier et supermarchés",
+                  "Visibilité, ventes régulières",
+                  "Marge du distributeur, paiement parfois après la vente"
+                ],
+                [
+                  "Restaurants, cantines, hôtels",
+                  "Gros volumes réguliers",
+                  "Prix serrés, qualité constante exigée"
+                ],
+                [
+                  "Revendeurs et grossistes",
+                  "Écoulement rapide",
+                  "Prix les plus bas"
+                ],
+                [
+                  "Foires et salons",
+                  "Faire connaître le produit",
+                  "Ventes ponctuelles"
+                ],
+                [
+                  "AgroConnect (rubrique Transformés)",
+                  "Acheteurs de tout le pays",
+                  "Fiche produit et photos soignées (formation F6)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ce qui revient au groupement",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Prix pour le groupement = Prix public × (1 − marge du distributeur)"
+            },
+            {
+              "type": "p",
+              "text": "Ce prix doit rester au-dessus du coût par unité (module 7). Sinon, on négocie la marge, on change de format, ou on renonce à ce canal."
+            }
+          ]
+        },
+        {
+          "title": "Le dépôt-vente",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "En dépôt-vente, le groupement laisse ses produits en boutique et n’est payé qu’après la vente. Pour ne pas perdre :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Une fiche de dépôt signée par la boutique : date, quantité, prix.",
+                "Un passage régulier pour compter ce qui est vendu et encaisser.",
+                "La reprise des produits proches de leur date.",
+                "Des petites quantités au début, le temps de connaître la boutique."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le supermarché et la pâte d’arachide",
+        "text": "Le pot revient à 1 125 FCFA au groupement (module 7). Le supermarché veut le vendre 1 500 FCFA et garder 25 %.",
+        "head": [
+          "Canal",
+          "Marge du distributeur",
+          "Prix pour le groupement (FCFA)",
+          "Gain par pot (FCFA)"
+        ],
+        "rows": [
+          [
+            "Vente directe",
+            "0 %",
+            "1 500",
+            "375"
+          ],
+          [
+            "Boutique de quartier",
+            "15 %",
+            "1 275",
+            "150"
+          ],
+          [
+            "Supermarché",
+            "25 %",
+            "1 125",
+            "0",
+            "alert"
+          ]
+        ],
+        "after": "Au supermarché, le groupement ne gagnerait rien. Salamatou négocie un prix public de 1 750 FCFA pour un pot plus grand, et garde la vente directe pour le pot de 500 g."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Le supermarché veut nos pots ! Mais combien garde-t-il ? »",
+            "Rayon de supermarché"
+          ],
+          [
+            "0:30",
+            "Six canaux de vente.",
+            "Six icônes"
+          ],
+          [
+            "1:45",
+            "Le calcul canal par canal.",
+            "Tableau : 375, 150, 0"
+          ],
+          [
+            "3:00",
+            "Le dépôt-vente sans perte.",
+            "Fiche de dépôt signée"
+          ]
+        ]
+      },
+      "tool": "canal",
+      "toolDefaults": {
+        "cout": 1125,
+        "prix": 1500,
+        "canaux": [
+          [
+            "Vente directe",
+            0
+          ],
+          [
+            "Boutique de quartier",
+            15
+          ],
+          [
+            "Supermarché",
+            25
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez votre prix",
+        "text": "Votre sachet de gari se vend 1 000 FCFA en boutique, qui garde 25 %. Combien revient-il au groupement, en FCFA ?",
+        "answer": 750,
+        "solution": "1 000 × 0,75 = 750 FCFA. Avec un coût de 630 FCFA (module 7), le gain est de 120 FCFA par sachet.",
+        "then": "Calculez ensuite ce qui vous revient sur chacun de vos canaux avec le calculateur."
+      },
+      "quiz": [
+        {
+          "q": "Quel canal donne souvent le meilleur prix ?",
+          "options": [
+            "La vente directe",
+            "Le grossiste"
+          ],
+          "answer": 0,
+          "explain": "Pas d’intermédiaire."
+        },
+        {
+          "q": "Prix public 2 000 FCFA, marge 20 %. Prix pour le groupement ?",
+          "options": [
+            "1 600 FCFA",
+            "1 800 FCFA",
+            "400 FCFA"
+          ],
+          "answer": 0,
+          "explain": "2 000 × 0,80 = 1 600."
+        },
+        {
+          "q": "Que faire si ce prix est sous le coût ?",
+          "options": [
+            "Négocier, changer de format ou renoncer au canal",
+            "Vendre quand même"
+          ],
+          "answer": 0,
+          "explain": "On ne vend pas à perte."
+        },
+        {
+          "q": "En dépôt-vente, quand est-on payé ?",
+          "options": [
+            "Avant",
+            "Après la vente"
+          ],
+          "answer": 1,
+          "explain": "D’où la fiche de dépôt et les passages réguliers."
+        },
+        {
+          "q": "Pourquoi commencer par de petites quantités en boutique ?",
+          "options": [
+            "Pour connaître la boutique avant de lui confier plus",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Le risque reste limité."
+        },
+        {
+          "q": "Où publier ses produits transformés sur AgroConnect ?",
+          "options": [
+            "Dans la rubrique Transformés",
+            "Dans la rubrique Climat"
+          ],
+          "answer": 0,
+          "explain": "Avec une fiche et des photos soignées."
+        }
+      ],
+      "summary": "Plusieurs canaux, chacun avec sa marge. Calculer ce qui revient au groupement, ne jamais descendre sous le coût, et suivre les dépôts-ventes de près.",
+      "resource": "Modèle de fiche de dépôt-vente et tableau des prix par canal."
+    },
+    {
+      "id": "m11",
+      "label": "Grandir",
+      "number": 11,
+      "title": "Développer une petite entreprise de transformation",
+      "duration": "40 min",
+      "point": "On grandit par étapes : d’abord une qualité stable et des clients fidèles, ensuite plus de volume, puis des investissements choisis, financés et entretenus. Un plan sur un an, avec des indicateurs, guide ces étapes.",
+      "intro": "Beaucoup de petites unités achètent une grosse machine trop tôt, puis n’ont pas assez de clients pour la faire tourner. Grandir au bon rythme, c’est durer.",
+      "objectives": [
+        "Reconnaître le bon moment pour grandir.",
+        "Choisir un investissement et prévoir son financement et son entretien.",
+        "Écrire un plan de développement sur un an avec trois indicateurs."
+      ],
+      "lessons": [
+        {
+          "title": "Grandir par étapes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Stabiliser : qualité régulière, hygiène suivie, coûts connus, clients qui reviennent.",
+                "Augmenter le volume : plus de matière première sûre, plus de points de vente.",
+                "Investir : une machine, un atelier, quand les ventes le justifient.",
+                "Structurer : rôles clairs, registres, forme juridique adaptée (coopérative, formation F9, ou entreprise)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour les formalités de création d’une entreprise au Cameroun, renseignez-vous auprès du Centre de formalités de création des entreprises (CFCE) ou du ministère chargé des PME."
+            }
+          ]
+        },
+        {
+          "title": "Bien investir",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vérifier que les ventes actuelles justifient l’investissement : la machine doit tourner assez pour se payer.",
+                "Comparer au moins deux fournisseurs, et demander les pièces de rechange disponibles et le service après-vente.",
+                "Prévoir le financement : épargne, crédit, appui d’un programme (formations F14 et F15).",
+                "Prévoir l’entretien dès l’achat : notice, carnet, responsable (formation F18)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le plan de développement sur un an",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une page : où en est-on aujourd’hui, où veut-on être dans un an, les trois ou quatre actions pour y arriver, et trois indicateurs suivis chaque trimestre, par exemple : unités vendues par mois, nombre de points de vente, marge par unité."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le plan de Salamatou",
+        "text": "Le groupement fixe ses objectifs à un an.",
+        "head": [
+          "",
+          "Aujourd’hui",
+          "Dans un an"
+        ],
+        "rows": [
+          [
+            "Pots de pâte vendus par mois",
+            "150",
+            "400"
+          ],
+          [
+            "Points de vente",
+            "4",
+            "10, dont AgroConnect"
+          ],
+          [
+            "Marge par pot",
+            "150 FCFA",
+            "250 FCFA"
+          ],
+          [
+            "Investissement prévu",
+            "—",
+            "Un broyeur, quand les ventes dépassent 300 pots par mois",
+            "result"
+          ]
+        ],
+        "after": "Le groupement achètera le broyeur avec son épargne et un appui, et désignera dès l’achat une responsable de son entretien."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Une grosse machine, et pas assez de clients. »",
+            "Machine couverte de poussière"
+          ],
+          [
+            "0:30",
+            "Grandir en quatre étapes.",
+            "Un escalier à quatre marches"
+          ],
+          [
+            "2:00",
+            "Bien investir.",
+            "Deux devis comparés, une notice"
+          ],
+          [
+            "3:15",
+            "Le plan sur un an de Salamatou.",
+            "Tableau aujourd’hui et dans un an"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier de produit",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f10-dossier",
+        "items": [
+          "Diagramme de fabrication avec ses points critiques",
+          "Fiche d’hygiène et de nettoyage",
+          "Calcul du coût par unité",
+          "Étiquette conforme, vérifiée avec la norme NC 04",
+          "Choix de packaging argumenté",
+          "Plan de commercialisation par canal",
+          "Plan de développement sur un an avec trois indicateurs"
+        ],
+        "then": "Remettez votre dossier au formateur. L’attestation finale est délivrée avec au moins six pièces acquises sur sept et tous les quiz validés. La partie hygiène et fabrication est relue par un technologue alimentaire."
+      },
+      "quiz": [
+        {
+          "q": "Quelle est la première étape pour grandir ?",
+          "options": [
+            "Stabiliser la qualité et les clients",
+            "Acheter une grosse machine"
+          ],
+          "answer": 0,
+          "explain": "Avant d’augmenter le volume."
+        },
+        {
+          "q": "Quand investir dans une machine ?",
+          "options": [
+            "Quand les ventes le justifient",
+            "Dès le début"
+          ],
+          "answer": 0,
+          "explain": "Elle doit tourner assez pour se payer."
+        },
+        {
+          "q": "Que demander au fournisseur d’une machine ?",
+          "options": [
+            "Pièces de rechange et service après-vente",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Une machine sans pièces s’arrête vite."
+        },
+        {
+          "q": "Quand prévoir l’entretien ?",
+          "options": [
+            "Dès l’achat",
+            "Après la première panne"
+          ],
+          "answer": 0,
+          "explain": "Formation F18."
+        },
+        {
+          "q": "Combien d’indicateurs dans le plan ?",
+          "options": [
+            "Trois, suivis chaque trimestre",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Par exemple ventes, points de vente, marge."
+        },
+        {
+          "q": "Où se renseigner pour créer une entreprise ?",
+          "options": [
+            "Au CFCE ou au ministère chargé des PME",
+            "Au marché"
+          ],
+          "answer": 0,
+          "explain": "Les formalités sont à vérifier sur place."
+        }
+      ],
+      "summary": "Stabiliser, augmenter, investir, structurer. Investir quand les ventes le justifient, financer et entretenir dès l’achat, et suivre un plan sur un an avec trois indicateurs.",
+      "resource": "Modèle de plan de développement sur un an."
+    }
+  ]
+}

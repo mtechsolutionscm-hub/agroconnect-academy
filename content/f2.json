@@ -1,0 +1,1638 @@
+{
+  "id": "f2",
+  "title": "L’IA appliquée à l’agriculture",
+  "short": "IA et agriculture",
+  "lead": "Utiliser l’IA pour mieux observer, s’informer et décider au champ, en vérifiant toujours ce qu’elle dit.",
+  "note": "Bello, Monique, Kevin, Clarisse et leurs échanges sont fictifs. Les outils d’IA évoluent vite : vérifiez leur disponibilité avant usage. Aucun traitement ni aucune dose ne se décide sur la seule base d’une réponse d’IA.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Panorama",
+      "number": 1,
+      "title": "Panorama des usages de l’IA en agriculture",
+      "duration": "30 min",
+      "point": "L’IA peut aider l’agriculteur à observer, à s’informer, à prévoir et à gérer. Pour une petite exploitation, presque tout passe par le téléphone.",
+      "intro": "On parle de drones et de robots agricoles. Pour Bello, la vraie question est plus simple : qu’est-ce que son téléphone peut faire pour lui dès cette saison ?",
+      "objectives": [
+        "Citer quatre familles d’usages de l’IA en agriculture.",
+        "Distinguer les usages accessibles dès maintenant de ceux qui demandent de gros moyens.",
+        "Rappeler les limites de l’IA."
+      ],
+      "lessons": [
+        {
+          "title": "Quatre familles d’usages",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Usage",
+                "Exemples",
+                "Avec un téléphone ?"
+              ],
+              "rows": [
+                [
+                  "Observer",
+                  "Applications de diagnostic à partir d’une photo de feuille",
+                  "Oui (module 2)"
+                ],
+                [
+                  "S’informer",
+                  "Assistants conversationnels, comme l’AgriBot d’AgroConnect",
+                  "Oui (module 3)"
+                ],
+                [
+                  "Prévoir",
+                  "Prévisions météo, tendances de prix",
+                  "Oui, en complément des sources officielles"
+                ],
+                [
+                  "Gérer",
+                  "Calculs, tableaux, rédaction de documents",
+                  "Oui"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "D’autres usages, comme l’analyse d’images satellites ou de drones et les capteurs au champ, demandent souvent un équipement, un abonnement ou un prestataire."
+            }
+          ]
+        },
+        {
+          "title": "Ce que l’IA ne fait pas",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Elle ne voit pas le champ : elle ne connaît que ce qu’on lui montre ou lui dit.",
+                "Elle peut se tromper en paraissant très sûre d’elle (formation F1, module 6).",
+                "Elle connaît souvent mieux d’autres pays que l’Adamaoua.",
+                "Elle ne remplace ni le conseiller agricole, ni l’étiquette d’un produit, ni l’expérience du producteur."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Ce que Bello décide d’essayer",
+        "text": "Avec Kevin, étudiant en agronomie, Bello fait la liste.",
+        "head": [
+          "Outil",
+          "Pour quoi"
+        ],
+        "rows": [
+          [
+            "Application de diagnostic par photo",
+            "Ses feuilles de maïs"
+          ],
+          [
+            "AgriBot d’AgroConnect",
+            "Ses questions"
+          ],
+          [
+            "Rubrique Climat",
+            "Les alertes de l’ONACC"
+          ],
+          [
+            "Assistant d’IA",
+            "L’aider à faire ses comptes"
+          ],
+          [
+            "Drone",
+            "Non : trop cher, pas nécessaire sur 4 hectares",
+            "alert"
+          ]
+        ],
+        "after": "Bello commence par ce que son téléphone sait déjà faire."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Des drones et des robots ? Et mon téléphone, que peut-il faire ? »",
+            "Drone à l’écran, puis le téléphone de Bello"
+          ],
+          [
+            "0:30",
+            "Observer, s’informer, prévoir, gérer.",
+            "Quatre icônes"
+          ],
+          [
+            "2:00",
+            "Ce que l’IA ne fait pas.",
+            "Un point d’interrogation sur une réponse d’IA"
+          ],
+          [
+            "3:15",
+            "La liste de Bello et Kevin.",
+            "Les deux devant le téléphone"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle famille d’usages ?",
+        "text": "Associez chaque besoin à sa famille.",
+        "choices": [
+          "Observer",
+          "S’informer",
+          "Prévoir",
+          "Gérer"
+        ],
+        "items": [
+          [
+            "Reconnaître une maladie sur une feuille",
+            0
+          ],
+          [
+            "Savoir s’il va pleuvoir cette semaine",
+            2
+          ],
+          [
+            "Demander comment conserver le soja",
+            1
+          ],
+          [
+            "Calculer la marge d’une parcelle",
+            3
+          ],
+          [
+            "Voir l’évolution des prix du maïs",
+            2
+          ],
+          [
+            "Rédiger un courrier à la coopérative",
+            3
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien de familles d’usages de l’IA en agriculture ?",
+          "options": [
+            "Deux",
+            "Quatre"
+          ],
+          "answer": 1,
+          "explain": "Observer, s’informer, prévoir, gérer."
+        },
+        {
+          "q": "Avec quoi la plupart des petits producteurs utilisent-ils l’IA ?",
+          "options": [
+            "Un drone",
+            "Leur téléphone"
+          ],
+          "answer": 1,
+          "explain": "Pas besoin de drone."
+        },
+        {
+          "q": "L’IA voit-elle le champ ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle ne connaît que ce qu’on lui montre ou lui dit."
+        },
+        {
+          "q": "Une IA sûre d’elle a-t-elle toujours raison ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle peut se tromper avec assurance."
+        },
+        {
+          "q": "L’IA remplace-t-elle le conseiller agricole ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Elle aide à préparer la discussion."
+        },
+        {
+          "q": "Quel assistant propose AgroConnect ?",
+          "options": [
+            "L’AgriBot",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Pour poser ses questions agricoles."
+        }
+      ],
+      "summary": "Observer, s’informer, prévoir, gérer : l’IA est déjà dans le téléphone. Elle aide, mais ne voit pas le champ et peut se tromper.",
+      "resource": "Fiche « Ce que l’IA peut faire pour mon exploitation »."
+    },
+    {
+      "id": "m2",
+      "label": "Diagnostic",
+      "number": 2,
+      "title": "Diagnostiquer une culture avec l’IA, en sécurité",
+      "duration": "35 min",
+      "point": "Une application de diagnostic par photo donne des pistes, pas une certitude. Cinq étapes : bien photographier, lire comme une hypothèse, comparer au champ, faire confirmer avant tout traitement, noter.",
+      "intro": "Bello voit des feuilles abîmées sur son maïs. Une application lui propose un nom de ravageur et un produit à acheter. Faut-il courir chez le vendeur ? Pas encore.",
+      "objectives": [
+        "Prendre des photos utiles pour un diagnostic.",
+        "Lire une réponse d’IA comme une hypothèse.",
+        "Faire confirmer avant d’agir, et noter dans son carnet."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq étapes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Bien photographier : la feuille entière, le dessus et le dessous, de près et de loin, sur plusieurs plantes, à la lumière du jour (formation F3, module 5).",
+                "Lire la réponse comme une hypothèse : l’application propose souvent plusieurs possibilités ; aucune n’est certaine.",
+                "Comparer au champ : combien de plantes touchées ? depuis quand ? après quelle météo ? sur quelle partie de la plante ?",
+                "Faire confirmer : montrer les photos et la réponse au conseiller agricole avant tout traitement.",
+                "Noter : date, observation, hypothèse, avis du conseiller, décision, dans le carnet de parcelle (formation F8, module 3)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La règle d’or",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Si l’application ou l’assistant propose un produit ou une dose, on ne l’applique jamais sur cette seule base. On utilise uniquement des produits homologués, conseillés par un agent technique et employés selon leur étiquette. Souvent, d’autres mesures existent : arracher les plantes touchées, surveiller, changer de pratique."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les feuilles de maïs de Bello",
+        "text": "Bello photographie plusieurs plantes avec l’aide de Kevin.",
+        "head": [
+          "Étape",
+          "Ce qui se passe"
+        ],
+        "rows": [
+          [
+            "L’application",
+            "Propose deux possibilités, dont la chenille légionnaire d’automne, un ravageur connu du maïs"
+          ],
+          [
+            "Au champ",
+            "Bello trouve des chenilles dans les cornets de quelques plantes"
+          ],
+          [
+            "Au poste agricole",
+            "Monique confirme et explique les mesures de lutte recommandées dans la zone"
+          ],
+          [
+            "Dans le carnet",
+            "Observation, avis et décision notés ; surveillance chaque semaine",
+            "result"
+          ]
+        ],
+        "after": "Bello n’a rien acheté avant l’avis de Monique."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« L’application dit… Faut-il courir chez le vendeur ? »",
+            "Écran d’application avec un nom de produit"
+          ],
+          [
+            "0:30",
+            "Bien photographier.",
+            "Feuille de près, de loin, dessus, dessous"
+          ],
+          [
+            "2:00",
+            "Une hypothèse, pas une certitude.",
+            "Deux possibilités à l’écran"
+          ],
+          [
+            "3:00",
+            "Comparer au champ et faire confirmer.",
+            "Bello au champ, puis chez Monique"
+          ],
+          [
+            "4:15",
+            "La règle d’or, et le carnet.",
+            "Étiquette de produit homologué, carnet ouvert"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Photographier une seule feuille de loin",
+            1
+          ],
+          [
+            "Montrer les photos au conseiller avant de traiter",
+            0
+          ],
+          [
+            "Acheter le produit proposé par l’application sans autre avis",
+            1
+          ],
+          [
+            "Compter combien de plantes sont touchées",
+            0
+          ],
+          [
+            "Appliquer la dose donnée par l’assistant",
+            1
+          ],
+          [
+            "Noter l’observation et la décision dans le carnet",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Combien d’étapes pour un diagnostic sûr ?",
+          "options": [
+            "Deux",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Photographier, lire, comparer, confirmer, noter."
+        },
+        {
+          "q": "Comment lire la réponse de l’application ?",
+          "options": [
+            "Comme une certitude",
+            "Comme une hypothèse"
+          ],
+          "answer": 1,
+          "explain": "Aucune possibilité n’est certaine."
+        },
+        {
+          "q": "Quelles photos prendre ?",
+          "options": [
+            "Feuille entière, dessus et dessous, de près et de loin, plusieurs plantes",
+            "Une seule photo floue"
+          ],
+          "answer": 0,
+          "explain": "Pour un diagnostic utile."
+        },
+        {
+          "q": "Qui confirme avant un traitement ?",
+          "options": [
+            "Le conseiller agricole",
+            "L’application"
+          ],
+          "answer": 0,
+          "explain": "Avant toute dépense ou tout produit."
+        },
+        {
+          "q": "Peut-on appliquer la dose proposée par une IA ?",
+          "options": [
+            "Oui",
+            "Jamais sur cette seule base"
+          ],
+          "answer": 1,
+          "explain": "Produits homologués, selon l’étiquette et l’agent technique."
+        },
+        {
+          "q": "Où noter le diagnostic ?",
+          "options": [
+            "Dans le carnet de parcelle",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Formation F8."
+        }
+      ],
+      "summary": "Bien photographier, lire comme une hypothèse, comparer au champ, faire confirmer, noter. Jamais de produit ni de dose sur la seule base d’une IA.",
+      "resource": "Fiche « Mon diagnostic en cinq étapes »."
+    },
+    {
+      "id": "m3",
+      "label": "AgriBot",
+      "number": 3,
+      "title": "Utiliser un assistant agricole conversationnel",
+      "duration": "30 min",
+      "point": "Un assistant comme l’AgriBot d’AgroConnect répond mieux quand la question est complète : qui l’on est, où, quelle culture et à quel stade, quel problème, et ce que l’on attend. On relance, et l’on vérifie ce qui compte.",
+      "intro": "« Mon maïs est jaune, que faire ? » L’assistant ne sait ni où est le champ, ni l’âge du maïs, ni la pluie tombée. Sa réponse sera générale, et peut-être fausse. Une question complète change tout.",
+      "objectives": [
+        "Poser une question agricole complète.",
+        "Relancer pour obtenir une réponse plus utile.",
+        "Savoir quand vérifier auprès d’un conseiller."
+      ],
+      "lessons": [
+        {
+          "title": "La question complète",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ingrédient",
+                "Exemple"
+              ],
+              "rows": [
+                [
+                  "Rôle",
+                  "« Tu es conseiller agricole, tu expliques simplement. »"
+                ],
+                [
+                  "Contexte",
+                  "« Je cultive 2 hectares de maïs près de Ngaoundéré. Le maïs a cinq semaines. Il a beaucoup plu cette semaine. Les feuilles du bas jaunissent. »"
+                ],
+                [
+                  "Tâche",
+                  "« Donne-moi les causes possibles et ce que je dois observer pour les distinguer. »"
+                ],
+                [
+                  "Format",
+                  "« Une liste courte, avec des mots simples. »"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ce sont les quatre ingrédients de la formation F1 (module 4), adaptés à l’agriculture."
+            }
+          ]
+        },
+        {
+          "title": "Relancer et vérifier",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "« Explique plus simplement. » « Donne un exemple. » « Que dois-je regarder au champ pour savoir ? »",
+                "« Sur quoi te bases-tu ? » : une bonne réponse distingue ce qui est sûr de ce qui est probable.",
+                "Vérifier auprès du conseiller tout ce qui engage de l’argent, un produit ou la santé.",
+                "Ne pas donner d’informations personnelles inutiles, comme ses codes ou numéros de compte."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Bello et l’AgriBot",
+        "text": "Bello demandait : « Mon soja ne pousse pas bien. » Avec Kevin, il reformule.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Une phrase vague",
+            "Rôle de conseiller, lieu, surface, date de semis, sol, pluies, symptômes"
+          ],
+          [
+            "Réponse générale",
+            "Trois pistes, dont un sol resté trop humide"
+          ],
+          [
+            "Rien à vérifier",
+            "Une relance sur ce qu’il doit observer, puis un échange avec Monique",
+            "result"
+          ]
+        ],
+        "after": "La question complète a donné une réponse utile, que Bello a ensuite vérifiée."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Mon maïs est jaune, que faire ? »",
+            "Question courte, réponse floue"
+          ],
+          [
+            "0:30",
+            "La question complète en quatre ingrédients.",
+            "Quatre cases qui se remplissent"
+          ],
+          [
+            "2:00",
+            "Relancer et vérifier.",
+            "Fil de conversation avec l’AgriBot"
+          ],
+          [
+            "3:00",
+            "Bello reformule, et en parle à Monique.",
+            "Bello, Kevin et Monique"
+          ]
+        ]
+      },
+      "tool": "prompt",
+      "toolDefaults": {
+        "role": "Tu es conseiller agricole, tu expliques simplement.",
+        "contexte": "Je cultive 2 hectares de maïs près de Ngaoundéré. Le maïs a cinq semaines. Il a beaucoup plu cette semaine. Les feuilles du bas jaunissent.",
+        "tache": "Donne-moi les causes possibles et ce que je dois observer au champ pour les distinguer.",
+        "format": "Une liste courte, avec des mots simples."
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Complète ou trop vague ?",
+        "text": "Classez ces questions.",
+        "choices": [
+          "Complète",
+          "Trop vague"
+        ],
+        "items": [
+          [
+            "« Mon maïs est malade »",
+            1
+          ],
+          [
+            "« J’ai 1 hectare d’arachide près de Ngaoundéré, semée il y a six semaines ; taches brunes sur les feuilles après une semaine de pluie. Causes possibles, en liste courte ? »",
+            0
+          ],
+          [
+            "« Que planter ? »",
+            1
+          ],
+          [
+            "« Tu es conseiller agricole. J’ai 2 hectares près de Ngaoundéré et un puits. Quelles cultures de saison sèche envisager, en tableau ? »",
+            0
+          ],
+          [
+            "« Quel engrais ? »",
+            1
+          ],
+          [
+            "« Mes vingt poules toussent depuis trois jours et mangent moins. Que dois-je observer, et quand appeler un vétérinaire ? »",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quels sont les quatre ingrédients d’une question ?",
+          "options": [
+            "Rôle, contexte, tâche, format",
+            "Bonjour, merci, s’il te plaît, au revoir"
+          ],
+          "answer": 0,
+          "explain": "Comme en formation F1."
+        },
+        {
+          "q": "Que mettre dans le contexte ?",
+          "options": [
+            "Lieu, culture, stade, météo, symptômes",
+            "Son code secret"
+          ],
+          "answer": 0,
+          "explain": "Ce que l’assistant ne peut pas deviner."
+        },
+        {
+          "q": "La réponse est trop compliquée : que faire ?",
+          "options": [
+            "Relancer : « Explique plus simplement »",
+            "Abandonner"
+          ],
+          "answer": 0,
+          "explain": "L’assistant s’adapte."
+        },
+        {
+          "q": "Pourquoi demander « sur quoi te bases-tu ? »",
+          "options": [
+            "Pour distinguer le sûr du probable",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Une bonne réponse le fait."
+        },
+        {
+          "q": "Que vérifier auprès du conseiller ?",
+          "options": [
+            "Ce qui engage de l’argent, un produit ou la santé",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Toujours."
+        },
+        {
+          "q": "Faut-il donner ses codes à un assistant ?",
+          "options": [
+            "Oui",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Formation F1, module 7."
+        }
+      ],
+      "summary": "Une question complète en quatre ingrédients, des relances pour préciser, et une vérification auprès du conseiller pour tout ce qui compte.",
+      "resource": "Cinq modèles de questions agricoles complètes."
+    },
+    {
+      "id": "m4",
+      "label": "Météo et climat",
+      "number": 4,
+      "title": "L’IA pour la météo, le climat et les décisions",
+      "duration": "30 min",
+      "point": "Les bulletins officiels, comme ceux de l’ONACC dans la rubrique Climat d’AgroConnect, restent la référence. L’IA aide à les comprendre, à les traduire en actions et à croiser plusieurs prévisions, sans jamais les remplacer.",
+      "intro": "Bello lit une alerte de l’ONACC, mais certains mots lui échappent. Que veut dire exactement « poche de sécheresse » pour son soja en floraison ? L’IA peut l’aider à comprendre et à décider.",
+      "objectives": [
+        "Utiliser l’IA pour expliquer un bulletin officiel.",
+        "Transformer une alerte en liste d’actions.",
+        "Croiser plusieurs sources avant de décider."
+      ],
+      "lessons": [
+        {
+          "title": "Trois usages utiles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Usage",
+                "Exemple de demande"
+              ],
+              "rows": [
+                [
+                  "Expliquer",
+                  "« Explique-moi simplement ce bulletin, mot par mot si besoin. »"
+                ],
+                [
+                  "Passer à l’action",
+                  "« Je cultive du soja en floraison et du maïs en séchage. Quelles actions prévoir avec cette alerte ? »"
+                ],
+                [
+                  "Comparer",
+                  "« Voici deux prévisions différentes pour la semaine. Qu’ont-elles en commun ? »"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les règles",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "L’alerte officielle reste la référence : collez son texte complet dans l’assistant, sans le résumer vous-même avant.",
+                "Croisez au moins deux sources avant une décision importante (formation F3, module 2).",
+                "Une prévision n’est jamais une certitude : on se prépare sans tout arrêter (formation F12, module 3).",
+                "Vérifiez avec le conseiller les actions qui coûtent cher."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Bello face à une poche de sécheresse",
+        "text": "La rubrique Climat annonce une poche de sécheresse pour la décade suivante. Bello colle le texte de l’alerte dans l’assistant et demande trois actions pour son soja en floraison.",
+        "head": [
+          "Action proposée",
+          "Décision de Bello"
+        ],
+        "rows": [
+          [
+            "Pailler entre les rangs",
+            "Gardée"
+          ],
+          [
+            "Surveiller la floraison",
+            "Gardée"
+          ],
+          [
+            "Reporter un apport",
+            "À vérifier avec Monique",
+            "result"
+          ]
+        ],
+        "after": "Bello agit vite sur ce qui ne coûte rien, et demande conseil pour le reste."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Que veut dire cette alerte pour mon soja ? »",
+            "Alerte ONACC sur le téléphone de Bello"
+          ],
+          [
+            "0:30",
+            "Expliquer, passer à l’action, comparer.",
+            "Trois demandes à l’assistant"
+          ],
+          [
+            "1:45",
+            "Les règles : la source officielle d’abord.",
+            "Alerte officielle au premier plan"
+          ],
+          [
+            "2:45",
+            "Les actions de Bello.",
+            "Paillage au champ"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces pratiques.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Coller le texte de l’alerte officielle dans l’assistant pour qu’il l’explique",
+            0
+          ],
+          [
+            "Croire une prévision unique trouvée sur un site inconnu",
+            1
+          ],
+          [
+            "Demander une liste d’actions selon ses cultures",
+            0
+          ],
+          [
+            "Ignorer l’alerte officielle parce que l’assistant dit autre chose",
+            1
+          ],
+          [
+            "Comparer deux prévisions avant de récolter",
+            0
+          ],
+          [
+            "Vérifier avec le conseiller une action coûteuse",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quelle est la référence pour les alertes climatiques ?",
+          "options": [
+            "Les bulletins officiels, comme ceux de l’ONACC",
+            "Un assistant d’IA"
+          ],
+          "answer": 0,
+          "explain": "L’IA aide à les comprendre."
+        },
+        {
+          "q": "Comment donner l’alerte à l’assistant ?",
+          "options": [
+            "En collant son texte complet",
+            "En la résumant de mémoire"
+          ],
+          "answer": 0,
+          "explain": "Sans la résumer soi-même avant."
+        },
+        {
+          "q": "Combien de sources croiser avant une décision importante ?",
+          "options": [
+            "Une",
+            "Au moins deux"
+          ],
+          "answer": 1,
+          "explain": "Pour éviter les erreurs."
+        },
+        {
+          "q": "L’assistant contredit l’alerte officielle : qui suivre ?",
+          "options": [
+            "L’assistant",
+            "L’alerte officielle"
+          ],
+          "answer": 1,
+          "explain": "Et en parler au conseiller."
+        },
+        {
+          "q": "Que demander pour passer à l’action ?",
+          "options": [
+            "Une liste d’actions selon ses cultures et leur stade",
+            "Une poésie"
+          ],
+          "answer": 0,
+          "explain": "Avec son propre contexte."
+        },
+        {
+          "q": "Une prévision est-elle une certitude ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "On se prépare sans tout arrêter."
+        }
+      ],
+      "summary": "La source officielle d’abord ; l’IA pour expliquer, transformer en actions et comparer ; le conseiller pour les décisions qui coûtent.",
+      "resource": "Modèle de demande « Mon alerte, mes actions »."
+    },
+    {
+      "id": "m5",
+      "label": "Prix et marché",
+      "number": 5,
+      "title": "Suivre les prix et le marché avec l’IA",
+      "duration": "30 min",
+      "point": "L’IA ne connaît pas les prix du jour : c’est à l’apprenant de lui donner des prix réels, relevés au marché ou dans la rubrique Prix marché d’AgroConnect. Elle aide ensuite à comparer, transport compris, et à rédiger son offre.",
+      "intro": "Bello demande à un assistant : « Quel est le prix du maïs à Ngaoundéré ? » L’assistant répond un chiffre, sûr de lui. Mais d’où vient-il ? Peut-être d’un texte ancien, ou d’un autre pays.",
+      "objectives": [
+        "Ne jamais se fier à un prix inventé par une IA.",
+        "Comparer deux marchés en tenant compte du transport.",
+        "Faire rédiger son offre de vente par l’IA."
+      ],
+      "lessons": [
+        {
+          "title": "Des prix réels d’abord",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les prix viennent du marché, de la coopérative ou de la rubrique Prix marché d’AgroConnect, avec leur date.",
+                "On les donne à l’assistant ; on ne lui demande pas de les deviner.",
+                "Si un assistant donne un prix sans source ni date, on ne s’en sert pas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comparer en tenant compte du transport",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Prix net = Prix de vente − Transport et frais"
+            },
+            {
+              "type": "p",
+              "text": "On peut demander à l’assistant de faire ce tableau à partir de ses propres chiffres, puis on vérifie les calculs."
+            }
+          ]
+        },
+        {
+          "title": "Rédiger son offre",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avec la question complète (module 3) : produit, quantité, qualité, prix, lieu, contact, et le canal (WhatsApp, annonce AgroConnect). L’assistant propose un texte ; on relit, on corrige les chiffres, et l’on envoie."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Où vendre le maïs de Bello ?",
+        "text": "Chiffres en FCFA, fictifs.",
+        "head": [
+          "Marché",
+          "Prix du sac",
+          "Transport par sac",
+          "Prix net"
+        ],
+        "rows": [
+          [
+            "Coopérative, au village",
+            "15 000",
+            "500",
+            "14 500"
+          ],
+          [
+            "Marché de la ville",
+            "16 000",
+            "2 000",
+            "14 000",
+            "alert"
+          ]
+        ],
+        "after": "Une fois le transport payé, la coopérative rapporte 500 FCFA de plus par sac. Bello fait ensuite rédiger son annonce pour Clarisse, acheteuse d’une provenderie, et la relit avant de l’envoyer."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un prix sûr de lui… mais d’où vient-il ? »",
+            "Réponse d’IA avec un chiffre, sans source"
+          ],
+          [
+            "0:30",
+            "Des prix réels d’abord.",
+            "Rubrique Prix marché d’AgroConnect"
+          ],
+          [
+            "1:30",
+            "Le prix net, transport compris.",
+            "Tableau de Bello"
+          ],
+          [
+            "2:45",
+            "Rédiger son offre avec l’assistant.",
+            "Annonce relue et corrigée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la différence",
+        "text": "Au marché A, le sac se vend 15 000 FCFA avec 500 FCFA de transport. Au marché B, il se vend 16 000 FCFA avec 2 000 FCFA de transport. Combien gagne-t-on de plus par sac en choisissant le meilleur marché, en FCFA ?",
+        "answer": 500,
+        "solution": "A : 15 000 − 500 = 14 500. B : 16 000 − 2 000 = 14 000. Le marché A rapporte 500 FCFA de plus par sac.",
+        "then": "Comparez ensuite deux marchés réels pour votre produit, avec des prix datés."
+      },
+      "quiz": [
+        {
+          "q": "L’IA connaît-elle les prix du jour ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il faut lui donner des prix réels."
+        },
+        {
+          "q": "Où trouver des prix réels ?",
+          "options": [
+            "Au marché, à la coopérative, dans la rubrique Prix marché",
+            "Dans l’imagination de l’IA"
+          ],
+          "answer": 0,
+          "explain": "Avec leur date."
+        },
+        {
+          "q": "Un prix sans source ni date : que faire ?",
+          "options": [
+            "S’en servir",
+            "Ne pas s’en servir"
+          ],
+          "answer": 1,
+          "explain": "Il peut être faux ou ancien."
+        },
+        {
+          "q": "Comment calcule-t-on le prix net ?",
+          "options": [
+            "Prix de vente moins transport et frais",
+            "Prix de vente plus transport"
+          ],
+          "answer": 0,
+          "explain": "Pour comparer équitablement."
+        },
+        {
+          "q": "L’assistant fait un tableau de calculs : que faire ?",
+          "options": [
+            "Vérifier les calculs",
+            "Lui faire confiance"
+          ],
+          "answer": 0,
+          "explain": "L’IA peut se tromper en calcul."
+        },
+        {
+          "q": "Que relire dans l’offre rédigée par l’IA ?",
+          "options": [
+            "Surtout les chiffres",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Prix, quantité, contact."
+        }
+      ],
+      "summary": "Des prix réels et datés, un prix net qui compte le transport, et une offre rédigée par l’IA mais relue par soi.",
+      "resource": "Modèle de comparaison de marchés."
+    },
+    {
+      "id": "m6",
+      "label": "Calculs et documents",
+      "number": 6,
+      "title": "Gérer ses calculs et ses documents avec l’IA",
+      "duration": "35 min",
+      "point": "L’IA peut construire un tableau, résumer des notes, rédiger un courrier. On lui donne ses propres chiffres, on vérifie chaque calcul avec la calculatrice, et l’on relit tout avant de l’utiliser.",
+      "intro": "Bello passe des heures à recopier ses notes et à refaire ses comptes. L’IA peut lui faire gagner ce temps, à condition de ne pas lui faire confiance aveuglément.",
+      "objectives": [
+        "Faire construire un tableau à partir de ses chiffres.",
+        "Vérifier les calculs d’une IA.",
+        "Faire rédiger un document et le relire."
+      ],
+      "lessons": [
+        {
+          "title": "Quatre usages pratiques",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Usage",
+                "Exemple de demande"
+              ],
+              "rows": [
+                [
+                  "Construire un tableau",
+                  "« Fais un tableau de mon budget de campagne avec ces lignes et ces montants. »"
+                ],
+                [
+                  "Résumer des notes",
+                  "« Voici mes notes de carnet de la saison : fais-en un résumé en cinq points. »"
+                ],
+                [
+                  "Rédiger un document",
+                  "« Rédige un courrier à la coopérative pour demander un achat groupé de semences. »"
+                ],
+                [
+                  "Préparer une réunion",
+                  "« Propose un ordre du jour pour la réunion de bilan de campagne. »"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les trois règles",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Donner ses chiffres : l’IA ne doit pas inventer les montants, les surfaces ou les dates.",
+                "Vérifier les calculs : les assistants peuvent se tromper dans une addition ou un pourcentage ; on refait les totaux avec la calculatrice.",
+                "Relire avant d’envoyer : noms, montants, dates, ton du courrier."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le budget de Bello",
+        "text": "Bello donne à l’assistant ses lignes de budget.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Semences",
+            "45 000"
+          ],
+          [
+            "Engrais",
+            "120 000"
+          ],
+          [
+            "Main-d’œuvre",
+            "80 000"
+          ],
+          [
+            "Transport",
+            "25 000"
+          ],
+          [
+            "Total affiché par l’assistant",
+            "280 000",
+            "alert"
+          ],
+          [
+            "Total vérifié par Kevin",
+            "270 000",
+            "result"
+          ]
+        ],
+        "after": "Bello corrige le total avant de présenter son budget à la coopérative."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Des heures à recopier des notes. »",
+            "Bello devant ses cahiers"
+          ],
+          [
+            "0:30",
+            "Quatre usages pratiques.",
+            "Tableau, résumé, courrier, ordre du jour"
+          ],
+          [
+            "2:00",
+            "Les trois règles.",
+            "Calculatrice à côté du téléphone"
+          ],
+          [
+            "3:00",
+            "L’erreur de total découverte par Kevin.",
+            "280 000 barré, 270 000 écrit"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Donner ses propres chiffres à l’assistant",
+            0
+          ],
+          [
+            "Envoyer le courrier rédigé par l’IA sans le relire",
+            1
+          ],
+          [
+            "Refaire le total avec la calculatrice",
+            0
+          ],
+          [
+            "Laisser l’IA inventer les surfaces de ses parcelles",
+            1
+          ],
+          [
+            "Relire les noms et les dates",
+            0
+          ],
+          [
+            "Présenter un tableau d’IA en réunion sans vérifier les totaux",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Qui fournit les chiffres ?",
+          "options": [
+            "Soi-même",
+            "L’IA"
+          ],
+          "answer": 0,
+          "explain": "L’IA ne doit pas les inventer."
+        },
+        {
+          "q": "L’IA peut-elle se tromper dans une addition ?",
+          "options": [
+            "Non",
+            "Oui"
+          ],
+          "answer": 1,
+          "explain": "On vérifie avec la calculatrice."
+        },
+        {
+          "q": "45 000 + 120 000 + 80 000 + 25 000 = ?",
+          "options": [
+            "270 000",
+            "280 000"
+          ],
+          "answer": 0,
+          "explain": "Pas 280 000."
+        },
+        {
+          "q": "Que relire dans un courrier rédigé par l’IA ?",
+          "options": [
+            "Noms, montants, dates, ton",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Avant d’envoyer."
+        },
+        {
+          "q": "L’IA peut-elle résumer ses notes de carnet ?",
+          "options": [
+            "Oui, si on lui donne les notes",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle ne connaît que ce qu’on lui donne."
+        },
+        {
+          "q": "Présenter un tableau d’IA sans vérifier est-il prudent ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Une erreur peut tromper toute la coopérative."
+        }
+      ],
+      "summary": "Ses propres chiffres, des calculs vérifiés, des documents relus : l’IA fait gagner du temps sans remplacer la vérification.",
+      "resource": "Quatre modèles de demandes de gestion."
+    },
+    {
+      "id": "m7",
+      "label": "Données",
+      "number": 7,
+      "title": "Protéger ses données agricoles",
+      "duration": "30 min",
+      "point": "Applications et plateformes collectent des données. On ne partage que le nécessaire, on lit les autorisations, on ne partage jamais les données des autres sans accord, et l’on protège ses codes. Au Cameroun, la loi n° 2024/017 du 23 décembre 2024 encadre la protection des données personnelles.",
+      "intro": "Les chiffres de Bello ont de la valeur : un acheteur, un concurrent ou un escroc aimerait connaître sa récolte, ses prix ou ses clients. Protéger ses données, c’est protéger son exploitation.",
+      "objectives": [
+        "Reconnaître les données agricoles et personnelles qu’il partage.",
+        "Appliquer cinq règles de protection.",
+        "Connaître ses droits et les obligations de ceux qui collectent les données."
+      ],
+      "lessons": [
+        {
+          "title": "Quelles données ?",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Données",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Personnelles",
+                  "Nom, numéro de téléphone, photo, pièce d’identité, compte de mobile money"
+                ],
+                [
+                  "De l’exploitation",
+                  "Localisation et surface des parcelles, rendements, stocks, prix pratiqués"
+                ],
+                [
+                  "Des autres",
+                  "Contacts des clients, liste et chiffres des membres de la coopérative"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cinq règles",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Lire les autorisations qu’une application demande (localisation, contacts, photos) et refuser celles qui ne sont pas nécessaires.",
+                "Ne partager que le nécessaire avec un assistant d’IA : pas de numéros de compte, pas de pièce d’identité, pas de codes.",
+                "Ne jamais partager les données des autres sans leur accord, comme la liste des membres de la coopérative.",
+                "Protéger ses codes et son téléphone (formation F3, module 8).",
+                "Sauvegarder ses carnets et ses chiffres importants."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ce que dit la loi",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La loi n° 2024/017 du 23 décembre 2024 portant protection des données à caractère personnel s’applique au Cameroun depuis la fin de la période de mise en conformité, le 23 juin 2026. Elle crée une Autorité de protection des données à caractère personnel et impose des obligations à ceux qui collectent des données : entreprises, plateformes, administrations, et aussi coopératives qui tiennent des fichiers de membres."
+            },
+            {
+              "type": "p",
+              "text": "Pour connaître précisément ses droits et les obligations qui s’appliquent, on se réfère au texte de la loi et à l’Autorité."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Bello et l’application gourmande",
+        "text": "Une application de météo demande l’accès à tous les contacts et messages de Bello.",
+        "head": [
+          "Situation",
+          "Réflexe de Bello"
+        ],
+        "rows": [
+          [
+            "Application de météo qui veut ses contacts et messages",
+            "Il refuse ; il garde seulement la localisation approximative"
+          ],
+          [
+            "Conseil sur ses ventes à un assistant",
+            "Il retire le nom et le numéro de ses clients avant de coller ses notes",
+            "result"
+          ]
+        ],
+        "after": "Kevin lui a expliqué qu’une application de météo n’a pas besoin de ses contacts."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Vos chiffres ont de la valeur. »",
+            "Carnet de Bello, regard d’un inconnu"
+          ],
+          [
+            "0:30",
+            "Personnelles, de l’exploitation, des autres.",
+            "Trois cercles"
+          ],
+          [
+            "1:30",
+            "Les cinq règles.",
+            "Écran d’autorisations, bouton « Refuser »"
+          ],
+          [
+            "2:45",
+            "Ce que dit la loi de 2024.",
+            "Texte de la loi à l’écran"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne pratique ou risque ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Risque"
+        ],
+        "items": [
+          [
+            "Refuser l’accès aux contacts pour une application de météo",
+            0
+          ],
+          [
+            "Coller dans un assistant la liste des membres avec leurs numéros",
+            1
+          ],
+          [
+            "Retirer les noms des clients avant de demander conseil",
+            0
+          ],
+          [
+            "Donner son code de mobile money pour « vérifier son compte »",
+            1
+          ],
+          [
+            "Sauvegarder ses carnets",
+            0
+          ],
+          [
+            "Partager la récolte de son voisin sans lui demander",
+            1
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "La localisation de ses parcelles est-elle une donnée à protéger ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Elle a de la valeur."
+        },
+        {
+          "q": "Une application demande des autorisations inutiles : que faire ?",
+          "options": [
+            "Tout accepter",
+            "Les refuser"
+          ],
+          "answer": 1,
+          "explain": "Ne donner que le nécessaire."
+        },
+        {
+          "q": "Peut-on partager la liste des membres sans leur accord ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Ce sont leurs données."
+        },
+        {
+          "q": "Quelle loi protège les données personnelles au Cameroun ?",
+          "options": [
+            "La loi n° 2024/017 du 23 décembre 2024",
+            "Aucune"
+          ],
+          "answer": 0,
+          "explain": "Appliquée depuis juin 2026."
+        },
+        {
+          "q": "La loi concerne-t-elle les coopératives ?",
+          "options": [
+            "Oui, quand elles tiennent des fichiers de membres",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "Comme toute structure qui collecte des données."
+        },
+        {
+          "q": "Que retirer avant de coller ses notes dans un assistant ?",
+          "options": [
+            "Les noms, numéros et codes",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Ne partager que le nécessaire."
+        }
+      ],
+      "summary": "Lire les autorisations, ne partager que le nécessaire, respecter les données des autres, protéger ses codes, sauvegarder. La loi de 2024 encadre la protection des données au Cameroun.",
+      "resource": "Fiche « Mes cinq règles pour protéger mes données »."
+    },
+    {
+      "id": "m8",
+      "label": "Mon assistant",
+      "number": 8,
+      "title": "Projet pratique : mon assistant agricole",
+      "duration": "40 min",
+      "point": "Le projet rassemble la formation dans une routine personnelle : des questions types enregistrées, un rendez-vous hebdomadaire avec les alertes et les prix, une méthode de diagnostic, et des règles de vérification et de protection.",
+      "intro": "Apprendre à utiliser l’IA ne sert à rien si l’on oublie tout la semaine suivante. Une routine simple, toujours la même, transforme la formation en habitude.",
+      "objectives": [
+        "Enregistrer cinq questions types adaptées à son exploitation.",
+        "Organiser sa routine hebdomadaire.",
+        "Appliquer ses règles de vérification et de protection."
+      ],
+      "lessons": [
+        {
+          "title": "Cinq questions types",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Préparez et gardez dans les notes du téléphone cinq questions complètes (module 3), avec votre propre contexte : un diagnostic, une alerte climat, une comparaison de marchés, un budget, un courrier. Il suffira de compléter les détails du jour."
+            }
+          ]
+        },
+        {
+          "title": "La routine de la semaine",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Quand",
+                "Quoi"
+              ],
+              "rows": [
+                [
+                  "Lundi matin",
+                  "Lire les alertes de la rubrique Climat, demander à l’assistant les actions pour ses cultures"
+                ],
+                [
+                  "Mercredi",
+                  "Relever les prix, comparer les marchés, transport compris"
+                ],
+                [
+                  "À chaque passage au champ",
+                  "Observer ; en cas de doute, diagnostic en cinq étapes"
+                ],
+                [
+                  "Vendredi soir",
+                  "Mettre à jour le carnet ; faire résumer la semaine par l’assistant"
+                ],
+                [
+                  "Chaque mois",
+                  "Faire le point avec le conseiller agricole"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les règles à garder",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La source officielle d’abord.",
+                "Des chiffres réels.",
+                "Une vérification avant de dépenser ou de traiter.",
+                "Jamais de codes, jamais les données des autres."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La routine de Bello",
+        "text": "Bello enregistre ses cinq questions types avec Kevin.",
+        "head": [
+          "Moment",
+          "Ce que fait Bello"
+        ],
+        "rows": [
+          [
+            "Lundi",
+            "Lit les alertes de la rubrique Climat"
+          ],
+          [
+            "Mercredi",
+            "Compare les prix de la coopérative et du marché"
+          ],
+          [
+            "Vendredi",
+            "Dicte ses notes ; l’assistant les résume, Bello relit"
+          ],
+          [
+            "Chaque mois",
+            "Apporte le résumé à Monique",
+            "result"
+          ]
+        ],
+        "after": "En une saison, il passe moins de temps à chercher l’information, et plus de temps à bien décider."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une formation oubliée la semaine suivante ne sert à rien. »",
+            "Calendrier de la semaine"
+          ],
+          [
+            "0:30",
+            "Cinq questions types enregistrées.",
+            "Notes du téléphone"
+          ],
+          [
+            "1:30",
+            "La routine de la semaine.",
+            "Lundi, mercredi, vendredi"
+          ],
+          [
+            "3:00",
+            "Bello et Monique, une fois par mois.",
+            "Résumé de la saison sur la table"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon assistant agricole",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f2-projet",
+        "items": [
+          "Cinq questions types enregistrées",
+          "Un diagnostic en cinq étapes, avec l’avis du conseiller",
+          "Une alerte transformée en liste d’actions",
+          "Une comparaison de marchés, transport compris",
+          "Un document rédigé avec l’IA et relu",
+          "Les réglages de protection du téléphone et des applications"
+        ],
+        "then": "Montrez ces six pièces à votre formateur. L’attestation finale est délivrée avec au moins cinq pièces acquises sur six et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Combien de questions types préparer ?",
+          "options": [
+            "Une",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Diagnostic, alerte, marché, budget, courrier."
+        },
+        {
+          "q": "Quand lire les alertes climatiques ?",
+          "options": [
+            "Chaque semaine, par exemple le lundi",
+            "Une fois par an"
+          ],
+          "answer": 0,
+          "explain": "Avant d’organiser la semaine."
+        },
+        {
+          "q": "Que faire en cas de doute au champ ?",
+          "options": [
+            "Le diagnostic en cinq étapes",
+            "Acheter un produit"
+          ],
+          "answer": 0,
+          "explain": "Module 2."
+        },
+        {
+          "q": "Que faire du résumé de l’assistant ?",
+          "options": [
+            "Le relire, puis le partager avec le conseiller",
+            "L’envoyer sans le lire"
+          ],
+          "answer": 0,
+          "explain": "Il reste à vérifier."
+        },
+        {
+          "q": "Quelle source passe en premier ?",
+          "options": [
+            "La source officielle",
+            "La première réponse trouvée"
+          ],
+          "answer": 0,
+          "explain": "Bulletins, conseiller, étiquette."
+        },
+        {
+          "q": "Que ne donne-t-on jamais à un assistant ?",
+          "options": [
+            "Ses codes et les données des autres",
+            "Son contexte"
+          ],
+          "answer": 0,
+          "explain": "Module 7."
+        }
+      ],
+      "summary": "Cinq questions types, une routine hebdomadaire, un rendez-vous mensuel avec le conseiller, et des règles qui ne changent pas : la source officielle d’abord, des chiffres réels, une vérification avant d’agir.",
+      "resource": "Fiche « Ma routine de la semaine avec l’IA »."
+    }
+  ]
+}

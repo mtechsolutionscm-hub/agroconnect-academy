@@ -1,0 +1,2259 @@
+{
+  "id": "f14",
+  "title": "Gestion financière pour les producteurs et entrepreneurs agricoles",
+  "short": "Gestion financière",
+  "lead": "Savoir, chiffres en main, si votre activité vous rapporte de l’argent.",
+  "note": "Aminatou, productrice de maïs près de Ngaoundéré, et tous ses chiffres sont fictifs. Ils servent à apprendre, ce ne sont pas des prix de marché.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Bénéfices",
+      "number": 1,
+      "title": "Revenus, dépenses et bénéfices",
+      "duration": "30 min",
+      "point": "Une activité rapporte seulement si ce qui entre dépasse ce qui sort.",
+      "intro": "« J’ai vendu tout mon maïs, mais je n’ai rien en poche. » Beaucoup de producteurs vivent cette situation. Ce module explique pourquoi, et comment le savoir avant la fin de la saison.",
+      "objectives": [
+        "Classer correctement au moins 8 opérations sur 10 en recette ou en dépense.",
+        "Calculer le bénéfice ou la perte d’une saison.",
+        "Citer deux entrées d’argent qui ne sont pas des recettes de l’activité."
+      ],
+      "lessons": [
+        {
+          "title": "Trois mots à maîtriser",
+          "blocks": [
+            {
+              "type": "defs",
+              "items": [
+                [
+                  "Recette",
+                  "L’argent que l’activité fait entrer, par exemple la vente de sacs de maïs."
+                ],
+                [
+                  "Dépense",
+                  "L’argent que l’activité fait sortir : semences, engrais, main-d’œuvre, transport."
+                ],
+                [
+                  "Bénéfice",
+                  "Ce qui reste quand on retire les dépenses des recettes. Si le résultat est négatif, c’est une perte."
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Bénéfice = Recettes − Dépenses"
+            }
+          ]
+        },
+        {
+          "title": "Les pièges fréquents",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "L’argent de la tontine ou d’un prêt n’est pas une recette. Il doit être remboursé ou rendu ; ce n’est pas l’activité qui l’a produit.",
+                "Le maïs mangé à la maison a une valeur. Il n’a pas été vendu, mais il a coûté autant à produire.",
+                "Le travail familial a un coût caché. Même non payé, il compte : le module 3 montre comment l’estimer."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La saison d’Aminatou",
+        "text": "Aminatou cultive 1 hectare de maïs. Elle vend 25 sacs à 15 000 FCFA.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Recettes : 25 sacs × 15 000",
+            "375 000"
+          ],
+          [
+            "Semences",
+            "30 000"
+          ],
+          [
+            "Engrais",
+            "120 000"
+          ],
+          [
+            "Main-d’œuvre payée",
+            "90 000"
+          ],
+          [
+            "Transport vers le marché",
+            "25 000"
+          ],
+          [
+            "Sacs vides",
+            "10 000"
+          ],
+          [
+            "Total des dépenses",
+            "275 000",
+            "strong"
+          ],
+          [
+            "Bénéfice",
+            "100 000",
+            "result"
+          ]
+        ],
+        "after": "Si le prix tombe à 10 000 FCFA le sac, ses recettes passent à 250 000 FCFA et elle perd 25 000 FCFA. Le même travail peut donner un gain ou une perte selon le prix."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Aminatou a vendu tout son maïs. Mais a-t-elle gagné de l’argent ? »",
+            "Aminatou au marché, sacs empilés"
+          ],
+          [
+            "0:30",
+            "Recette, dépense et bénéfice, avec un geste : l’argent qui entre, l’argent qui sort.",
+            "Deux boîtes « entrées » et « sorties »"
+          ],
+          [
+            "1:30",
+            "Le calcul de la saison, ligne par ligne.",
+            "Le tableau qui se remplit"
+          ],
+          [
+            "2:45",
+            "Les pièges : tontine, prêt, maïs consommé.",
+            "Billets de tontine barrés d’une croix"
+          ],
+          [
+            "3:30",
+            "« Cette semaine, notez tout ce qui entre et sort. »",
+            "Cahier ouvert, stylo"
+          ]
+        ]
+      },
+      "tool": "benefice",
+      "activity": {
+        "type": "classify",
+        "title": "Classez ces opérations",
+        "text": "Pour chaque opération, choisissez : recette, dépense, ou ni l’une ni l’autre.",
+        "choices": [
+          "Recette",
+          "Dépense",
+          "Ni l’une ni l’autre"
+        ],
+        "items": [
+          [
+            "Vente de 5 sacs d’arachide",
+            0
+          ],
+          [
+            "Achat d’urée",
+            1
+          ],
+          [
+            "Argent reçu de la tontine",
+            2
+          ],
+          [
+            "Paiement d’un ouvrier pour le sarclage",
+            1
+          ],
+          [
+            "Vente de poulets",
+            0
+          ],
+          [
+            "Moto-taxi vers le marché",
+            1
+          ],
+          [
+            "Prêt d’un frère",
+            2
+          ],
+          [
+            "Achat de produit de traitement",
+            1
+          ]
+        ],
+        "then": "Calculez ensuite votre propre bénéfice de la dernière saison pour une culture, même approximativement, avec la calculette ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Comment se calcule le bénéfice ?",
+          "options": [
+            "Recettes moins dépenses",
+            "Recettes plus dépenses",
+            "Le prix d’un sac multiplié par deux"
+          ],
+          "answer": 0,
+          "explain": "C’est ce qui reste après avoir tout payé."
+        },
+        {
+          "q": "L’argent reçu de la tontine est-il une recette de l’activité ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il ne vient pas de l’activité : c’est votre épargne qui vous revient."
+        },
+        {
+          "q": "Un prêt bancaire augmente-t-il le bénéfice ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est une dette à rembourser, pas un gain."
+        },
+        {
+          "q": "Recettes 200 000 FCFA, dépenses 230 000 FCFA. Quel est le résultat ?",
+          "options": [
+            "Bénéfice de 30 000 FCFA",
+            "Perte de 30 000 FCFA",
+            "Bénéfice de 430 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "200 000 − 230 000 = −30 000 : le résultat est négatif."
+        },
+        {
+          "q": "Le maïs consommé en famille a-t-il coûté à produire ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Il faut le compter pour connaître la vraie production."
+        },
+        {
+          "q": "Vendre plus cher suffit-il toujours à gagner de l’argent ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il faut aussi connaître et maîtriser ses dépenses."
+        }
+      ],
+      "summary": "Une recette entre, une dépense sort, le bénéfice est la différence. L’argent emprunté ou celui de la tontine n’est pas un gain.",
+      "resource": "Fiche d’une page « Recette, dépense, bénéfice », avec la grille de classement à imprimer.",
+      "toolDefaults": {
+        "sacs": 25,
+        "prix": 15000,
+        "depenses": 275000
+      }
+    },
+    {
+      "id": "m2",
+      "label": "Cahier de caisse",
+      "number": 2,
+      "title": "Tenir un cahier de caisse",
+      "duration": "35 min",
+      "point": "Un cahier tenu chaque jour dit à tout moment combien d’argent vous avez, et où il est parti.",
+      "intro": "La mémoire oublie, le cahier non. Un acheteur, une coopérative ou un financeur fera davantage confiance à un producteur qui montre ses comptes.",
+      "objectives": [
+        "Remplir correctement les cinq colonnes d’un cahier de caisse.",
+        "Calculer le solde après chaque opération sans erreur.",
+        "Séparer une sortie personnelle d’une dépense de l’activité."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq colonnes",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Date",
+                "Libellé",
+                "Entrée",
+                "Sortie",
+                "Solde"
+              ],
+              "rows": [
+                [
+                  "Le jour de l’opération",
+                  "Ce qui s’est passé, en quelques mots",
+                  "L’argent reçu",
+                  "L’argent payé",
+                  "L’argent disponible après l’opération"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Nouveau solde = Solde précédent + Entrée − Sortie"
+            }
+          ]
+        },
+        {
+          "title": "Cinq règles simples",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Noter chaque opération le jour même, même les petites dépenses de moto-taxi.",
+                "Compter l’argent reçu par MTN MoMo ou Orange Money comme une entrée, au même titre que les espèces.",
+                "Garder les reçus et les messages de paiement : ce sont les preuves.",
+                "Noter « sortie personnelle » quand on prend l’argent de l’activité pour la famille.",
+                "Compter la caisse chaque fin de semaine et comparer avec le solde du cahier."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Une semaine d’Aminatou",
+        "text": "Aminatou commence la semaine avec 20 000 FCFA en caisse.",
+        "head": [
+          "Date",
+          "Libellé",
+          "Entrée",
+          "Sortie",
+          "Solde"
+        ],
+        "rows": [
+          [
+            "01/11",
+            "Solde de départ",
+            "",
+            "",
+            "20 000"
+          ],
+          [
+            "02/11",
+            "Vente de 3 sacs de maïs, espèces",
+            "45 000",
+            "",
+            "65 000"
+          ],
+          [
+            "03/11",
+            "Achat de sacs vides",
+            "",
+            "2 000",
+            "63 000"
+          ],
+          [
+            "04/11",
+            "Moto-taxi vers le marché",
+            "",
+            "1 500",
+            "61 500"
+          ],
+          [
+            "05/11",
+            "Paiement d’un ouvrier",
+            "",
+            "10 000",
+            "51 500"
+          ],
+          [
+            "06/11",
+            "Vente de 2 sacs, MTN MoMo",
+            "30 000",
+            "",
+            "81 500"
+          ],
+          [
+            "07/11",
+            "Sortie personnelle, frais de scolarité",
+            "",
+            "15 000",
+            "66 500",
+            "personal"
+          ]
+        ],
+        "after": "La ligne du 07/11 réduit la caisse, mais ce n’est pas une dépense de l’activité. Le module 8 reviendra sur la séparation des finances."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Où est passé l’argent de la vente de mardi ? »",
+            "Aminatou fouille son sac"
+          ],
+          [
+            "0:30",
+            "Présentation des cinq colonnes.",
+            "Cahier ligné à la main, en gros plan"
+          ],
+          [
+            "1:30",
+            "Remplissage de la semaine, ligne par ligne, avec le calcul du solde.",
+            "Main qui écrit, chiffres qui s’ajoutent"
+          ],
+          [
+            "3:30",
+            "Les cinq règles, dont la sortie personnelle.",
+            "Écran de téléphone avec un message MoMo"
+          ],
+          [
+            "4:30",
+            "« Commencez votre cahier ce soir. »",
+            "Cahier fermé, étiquette « Caisse »"
+          ]
+        ]
+      },
+      "tool": "caisse",
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le solde final",
+        "text": "Vous avez 10 000 FCFA en caisse. Opérations : vente de tomates 40 000 ; transport 5 000 ; achat d’engrais 12 000 ; vente de tomates 18 000 ; paiement d’un ouvrier 8 000. Quel est le solde final, en FCFA ?",
+        "answer": 43000,
+        "solution": "50 000, puis 45 000, 33 000, 51 000 et enfin 43 000 FCFA.",
+        "then": "Commencez votre propre cahier dans l’outil ci-dessus ou sur papier, et tenez-le sept jours. Envoyez une photo de la page à votre formateur par WhatsApp pour un retour."
+      },
+      "quiz": [
+        {
+          "q": "Quand faut-il noter une opération ?",
+          "options": [
+            "Le jour même",
+            "En fin de mois",
+            "Seulement pour les grosses sommes"
+          ],
+          "answer": 0,
+          "explain": "On oublie vite les petites dépenses."
+        },
+        {
+          "q": "Un paiement reçu par Orange Money est-il une entrée ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "L’argent électronique compte comme les espèces."
+        },
+        {
+          "q": "Solde 30 000 FCFA, sortie 7 000 FCFA. Quel est le nouveau solde ?",
+          "options": [
+            "37 000 FCFA",
+            "23 000 FCFA",
+            "7 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "30 000 − 7 000 = 23 000."
+        },
+        {
+          "q": "Prendre 10 000 FCFA pour la famille, est-ce une dépense de l’activité ?",
+          "options": [
+            "Oui",
+            "Non, c’est une sortie personnelle"
+          ],
+          "answer": 1,
+          "explain": "On la note dans le cahier, mais comme sortie personnelle."
+        },
+        {
+          "q": "À quoi servent les reçus et les messages de paiement ?",
+          "options": [
+            "À décorer le cahier",
+            "À prouver les opérations",
+            "À rien"
+          ],
+          "answer": 1,
+          "explain": "Ils permettent de vérifier et rassurent les partenaires."
+        },
+        {
+          "q": "La caisse comptée ne correspond pas au cahier. Que faire ?",
+          "options": [
+            "Corriger le solde sans chercher",
+            "Chercher l’opération oubliée",
+            "Recommencer un nouveau cahier"
+          ],
+          "answer": 1,
+          "explain": "Un écart signale presque toujours un oubli."
+        }
+      ],
+      "summary": "Cinq colonnes, une ligne par opération, le solde recalculé à chaque fois. Le mobile money compte, et les sorties personnelles sont notées à part.",
+      "resource": "Modèle de cahier de caisse à imprimer (une page, 25 lignes).",
+      "toolDefaults": {
+        "exemple": {
+          "start": 20000,
+          "lines": [
+            {
+              "d": "02/11",
+              "l": "Vente de 3 sacs de maïs, espèces",
+              "a": 45000,
+              "k": "in"
+            },
+            {
+              "d": "03/11",
+              "l": "Achat de sacs vides",
+              "a": 2000,
+              "k": "out"
+            },
+            {
+              "d": "04/11",
+              "l": "Moto-taxi vers le marché",
+              "a": 1500,
+              "k": "out"
+            },
+            {
+              "d": "05/11",
+              "l": "Paiement d’un ouvrier",
+              "a": 10000,
+              "k": "out"
+            },
+            {
+              "d": "06/11",
+              "l": "Vente de 2 sacs, MTN MoMo",
+              "a": 30000,
+              "k": "in"
+            },
+            {
+              "d": "07/11",
+              "l": "Frais de scolarité",
+              "a": 15000,
+              "k": "perso"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "m3",
+      "label": "Coûts de production",
+      "number": 3,
+      "title": "Calculer ses coûts de production",
+      "duration": "40 min",
+      "point": "Le coût par sac est le prix en dessous duquel vous vendez à perte.",
+      "intro": "Au marché, l’acheteur propose un prix. Sans connaître son coût par sac, le producteur ne sait pas s’il doit accepter, négocier ou attendre.",
+      "objectives": [
+        "Lister les cinq familles de coûts d’une culture.",
+        "Estimer la valeur du travail familial et l’usure du matériel.",
+        "Calculer le coût de production par sac, par cageot ou par kilogramme."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq familles de coûts",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Famille",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Intrants",
+                  "Semences, engrais, produits de traitement"
+                ],
+                [
+                  "Main-d’œuvre payée",
+                  "Labour, semis, sarclage, récolte, égrenage"
+                ],
+                [
+                  "Travail familial",
+                  "Les journées de l’exploitant et de sa famille, estimées au tarif local d’un ouvrier"
+                ],
+                [
+                  "Terre et services",
+                  "Location de terrain, de tracteur ou de bœufs de trait"
+                ],
+                [
+                  "Commercialisation et matériel",
+                  "Sacs, transport, usure de la houe ou du pulvérisateur"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Les deux coûts qu’on oublie",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Le travail familial : nombre de journées × tarif local payé à un ouvrier. Ce tarif varie selon les villages ; utilisez celui de votre zone.",
+                "L’usure du matériel : prix d’achat ÷ nombre d’années d’utilisation prévues."
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Coût par sac = Coût total ÷ Nombre total de sacs produits"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le vrai coût du maïs d’Aminatou",
+        "text": "Aminatou a récolté 28 sacs : 25 vendus et 3 gardés pour la famille.",
+        "head": [
+          "Ligne",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Dépenses payées (module 1)",
+            "275 000"
+          ],
+          [
+            "Travail familial : 20 journées × 2 500",
+            "50 000"
+          ],
+          [
+            "Usure du pulvérisateur : 30 000 ÷ 5 ans",
+            "6 000"
+          ],
+          [
+            "Coût total",
+            "331 000",
+            "strong"
+          ],
+          [
+            "Coût par sac : 331 000 ÷ 28",
+            "environ 11 800",
+            "result"
+          ]
+        ],
+        "after": "À 15 000 FCFA le sac, elle gagne environ 3 200 FCFA par sac. À 10 000 FCFA, elle perd environ 1 800 FCFA par sac. Le module 4 utilisera ce calcul pour fixer un prix de vente."
+      },
+      "video": {
+        "url": "",
+        "duration": "6 min",
+        "script": [
+          [
+            "0:00",
+            "Un acheteur propose 11 000 FCFA. « Faut-il accepter ? »",
+            "Discussion au marché de Ngaoundéré"
+          ],
+          [
+            "0:40",
+            "Les cinq familles de coûts.",
+            "Cinq icônes simples"
+          ],
+          [
+            "2:00",
+            "Le travail familial et l’usure du matériel.",
+            "Aminatou et ses enfants au champ ; pulvérisateur"
+          ],
+          [
+            "3:30",
+            "Le calcul du coût total et du coût par sac.",
+            "Le tableau qui se remplit, puis la division"
+          ],
+          [
+            "5:15",
+            "« À 11 000, Aminatou vend à perte. Calculez votre coût avant de vendre. »",
+            "Le chiffre 11 800 entouré"
+          ]
+        ]
+      },
+      "tool": "cout",
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le coût par cageot",
+        "text": "Un producteur de tomates sur un quart d’hectare a dépensé : semences 15 000 ; engrais 25 000 ; produits de traitement 20 000 ; main-d’œuvre 30 000 ; transport 10 000. Il a travaillé 10 journées lui-même, au tarif local de 2 500 FCFA. L’usure de son matériel est de 5 000 FCFA. Il a récolté 50 cageots. Quel est son coût par cageot, en FCFA ?",
+        "answer": 2600,
+        "solution": "100 000 de dépenses payées + 25 000 de travail familial + 5 000 d’usure = 130 000 FCFA, divisés par 50 cageots : 2 600 FCFA.",
+        "then": "Calculez ensuite le coût par sac ou par cageot d’une de vos propres cultures avec la calculette ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Faut-il compter le travail familial non payé ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Sinon on croit gagner plus qu’en réalité."
+        },
+        {
+          "q": "Comment estimer le travail familial ?",
+          "options": [
+            "Journées × tarif local d’un ouvrier",
+            "On ne peut pas l’estimer",
+            "Un montant fixe de 1 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "C’est ce qu’il aurait fallu payer à quelqu’un d’autre."
+        },
+        {
+          "q": "Une houe achetée 10 000 FCFA est utilisée 4 ans. Quelle est son usure annuelle ?",
+          "options": [
+            "10 000 FCFA",
+            "2 500 FCFA",
+            "40 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "10 000 ÷ 4 = 2 500."
+        },
+        {
+          "q": "Coût total 200 000 FCFA pour 40 sacs. Quel est le coût par sac ?",
+          "options": [
+            "5 000 FCFA",
+            "8 000 FCFA",
+            "40 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "200 000 ÷ 40 = 5 000."
+        },
+        {
+          "q": "Les sacs gardés pour la famille entrent-ils dans le calcul ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Ils ont coûté autant à produire que les sacs vendus."
+        },
+        {
+          "q": "Coût par sac 8 000 FCFA, l’acheteur propose 7 000 FCFA. Que se passe-t-il ?",
+          "options": [
+            "Bénéfice de 1 000 FCFA par sac",
+            "Perte de 1 000 FCFA par sac",
+            "Aucun effet"
+          ],
+          "answer": 1,
+          "explain": "On vend en dessous du coût : on perd 1 000 FCFA par sac."
+        }
+      ],
+      "summary": "Additionnez tous les coûts, y compris le travail familial et l’usure, puis divisez par la production totale. Vous obtenez votre prix plancher.",
+      "resource": "Tableau de calcul « Coût de production », en version papier.",
+      "toolDefaults": {
+        "depenses": 275000,
+        "jours": 20,
+        "tarifJournee": 2500,
+        "prixMateriel": 30000,
+        "annees": 5,
+        "sacs": 28,
+        "prixPropose": 11000
+      }
+    },
+    {
+      "id": "m4",
+      "label": "Prix de vente",
+      "number": 4,
+      "title": "Fixer un prix de vente",
+      "duration": "35 min",
+      "point": "Le bon prix couvre le coût par sac, ajoute une marge, et reste accepté par l’acheteur.",
+      "intro": "Beaucoup de producteurs vendent au prix que l’acheteur annonce. Ce module apprend à arriver au marché avec son propre prix en tête.",
+      "objectives": [
+        "Calculer un prix visé à partir du coût par sac et d’une marge choisie.",
+        "Comparer ce prix au prix du marché et décider : vendre, négocier ou attendre.",
+        "Citer trois façons d’obtenir un meilleur prix sans tromper l’acheteur."
+      ],
+      "lessons": [
+        {
+          "title": "Trois repères de prix",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Repère",
+                "Ce que c’est",
+                "Pour Aminatou"
+              ],
+              "rows": [
+                [
+                  "Prix plancher",
+                  "Le coût par sac (module 3) : en dessous, on perd",
+                  "11 800 FCFA"
+                ],
+                [
+                  "Prix visé",
+                  "Le coût plus la marge souhaitée",
+                  "14 200 FCFA"
+                ],
+                [
+                  "Prix du marché",
+                  "Ce que les acheteurs proposent vraiment",
+                  "entre 13 000 et 16 000 FCFA selon la qualité"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Prix visé = Coût par sac × (1 + marge souhaitée)"
+            },
+            {
+              "type": "p",
+              "text": "Avec 20 % de marge : 11 800 × 1,20 = 14 160, arrondi à 14 200 FCFA."
+            }
+          ]
+        },
+        {
+          "title": "Décider au marché",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Si le prix proposé est…",
+                "Décision"
+              ],
+              "rows": [
+                [
+                  "En dessous du prix plancher",
+                  "Ne pas vendre à ce prix : négocier, chercher un autre acheteur, ou attendre si le produit se conserve bien"
+                ],
+                [
+                  "Entre le plancher et le prix visé",
+                  "Vendre une partie, négocier le reste"
+                ],
+                [
+                  "Au-dessus du prix visé",
+                  "Vendre"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Attendre a aussi un coût : stockage, pertes, besoin d’argent. La formation F11 traite des pertes après récolte."
+            }
+          ]
+        },
+        {
+          "title": "Obtenir un meilleur prix honnêtement",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Trier et vendre des lots de qualité homogène.",
+                "Livrer des sacs propres, au poids exact.",
+                "Vendre en groupe avec sa coopérative pour peser davantage face à l’acheteur."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Aminatou face à deux acheteurs",
+        "text": "Le premier acheteur propose 11 000 FCFA pour du maïs non trié. Le second propose 14 500 FCFA pour du maïs trié, livré en sacs propres.",
+        "head": [
+          "Acheteur",
+          "Prix proposé (FCFA)",
+          "Écart avec le plancher (FCFA)"
+        ],
+        "rows": [
+          [
+            "Acheteur 1, maïs non trié",
+            "11 000",
+            "−800"
+          ],
+          [
+            "Acheteur 2, maïs trié, sacs propres",
+            "14 500",
+            "+2 700",
+            "result"
+          ]
+        ],
+        "after": "Aminatou trie sa récolte et vend au second acheteur : elle dépasse son prix visé de 14 200 FCFA."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« L’acheteur dit 11 000. Aminatou sourit : elle connaît ses chiffres. »",
+            "Marchandage au marché"
+          ],
+          [
+            "0:30",
+            "Les trois repères : plancher, visé, marché.",
+            "Trois traits sur une règle"
+          ],
+          [
+            "1:45",
+            "Le tableau de décision.",
+            "Feu rouge, orange, vert"
+          ],
+          [
+            "2:45",
+            "Tri, sacs propres, vente groupée.",
+            "Tri du maïs, sacs alignés"
+          ],
+          [
+            "3:40",
+            "« Arrivez au marché avec votre prix en tête. »",
+            "Aminatou qui serre la main de l’acheteur"
+          ]
+        ]
+      },
+      "tool": "prix",
+      "toolDefaults": {
+        "cout": 11800,
+        "marge": 20,
+        "prixPropose": 11000
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez votre prix visé",
+        "text": "Votre coût par cageot de tomates est 2 600 FCFA. Vous voulez 25 % de marge. Quel est votre prix visé, en FCFA ?",
+        "answer": 3250,
+        "solution": "2 600 × 1,25 = 3 250 FCFA. Si un acheteur propose 3 000 FCFA, vous êtes au-dessus du plancher : vous gagnez 400 FCFA par cageot. Vendez une partie et négociez le reste.",
+        "then": "Avant votre prochaine vente, notez vos trois prix : plancher, visé et prix du marché."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce que le prix plancher ?",
+          "options": [
+            "Le coût par sac",
+            "Le prix le plus haut du marché",
+            "Le prix de l’an dernier"
+          ],
+          "answer": 0,
+          "explain": "En dessous, chaque vente fait perdre de l’argent."
+        },
+        {
+          "q": "Coût 10 000 FCFA, marge souhaitée 20 %. Quel est le prix visé ?",
+          "options": [
+            "10 200 FCFA",
+            "12 000 FCFA",
+            "20 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "10 000 × 1,20 = 12 000."
+        },
+        {
+          "q": "Le prix proposé est sous votre plancher. Que faire ?",
+          "options": [
+            "Vendre tout de suite",
+            "Négocier, chercher un autre acheteur ou attendre",
+            "Baisser encore le prix"
+          ],
+          "answer": 1,
+          "explain": "Vendre ainsi, c’est perdre sur chaque sac."
+        },
+        {
+          "q": "Attendre pour vendre plus cher est-il gratuit ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Stockage, pertes et besoins d’argent coûtent aussi."
+        },
+        {
+          "q": "Trier sa récolte aide-t-il à mieux vendre ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Un lot homogène inspire confiance et se paie mieux."
+        },
+        {
+          "q": "Pourquoi vendre en groupe avec sa coopérative ?",
+          "options": [
+            "Pour peser davantage face à l’acheteur",
+            "Pour payer moins d’impôts",
+            "Ça ne change rien"
+          ],
+          "answer": 0,
+          "explain": "Les gros volumes intéressent davantage les acheteurs."
+        }
+      ],
+      "summary": "Plancher = coût, prix visé = coût plus marge, puis comparer au marché. On améliore son prix par la qualité et la vente groupée.",
+      "resource": "Fiche « Mes trois prix » à remplir avant chaque vente."
+    },
+    {
+      "id": "m5",
+      "label": "Marge",
+      "number": 5,
+      "title": "Calculer une marge bénéficiaire",
+      "duration": "30 min",
+      "point": "La marge dit combien chaque sac rapporte ; comparée d’une culture à l’autre, elle aide à choisir quoi produire.",
+      "intro": "« L’arachide se vend plus cher, alors je devrais faire de l’arachide. » Ce raisonnement est souvent faux. La marge permet de vérifier.",
+      "objectives": [
+        "Calculer la marge par sac et le taux de marge.",
+        "Calculer la marge par hectare.",
+        "Comparer deux cultures et expliquer laquelle rapporte le plus sur son terrain."
+      ],
+      "lessons": [
+        {
+          "title": "Deux calculs",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Marge par sac = Prix de vente − Coût par sac"
+            },
+            {
+              "type": "formula",
+              "text": "Taux de marge = Marge par sac ÷ Coût par sac × 100"
+            },
+            {
+              "type": "p",
+              "text": "Le taux de marge est calculé ici sur le coût, comme au module 4. Certains comptables le calculent sur le prix de vente : il faut toujours préciser lequel on utilise."
+            }
+          ]
+        },
+        {
+          "title": "La marge par hectare",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Une grosse marge par sac ne suffit pas. Si la culture produit peu de sacs par hectare, elle peut rapporter moins au total."
+            },
+            {
+              "type": "formula",
+              "text": "Marge par hectare = Marge par sac × Sacs produits par hectare"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Maïs ou arachide pour Aminatou ?",
+        "text": "Les deux calculs supposent que toute la récolte est vendue.",
+        "head": [
+          "Culture",
+          "Marge par sac (FCFA)",
+          "Taux de marge",
+          "Sacs par hectare",
+          "Marge par hectare (FCFA)"
+        ],
+        "rows": [
+          [
+            "Maïs : 15 000 − 11 800",
+            "3 200",
+            "27 %",
+            "28",
+            "89 600",
+            "result"
+          ],
+          [
+            "Arachide : 24 000 − 18 000",
+            "6 000",
+            "33 %",
+            "12",
+            "72 000"
+          ]
+        ],
+        "after": "L’arachide gagne plus par sac, mais le maïs rapporte davantage par hectare. D’autres critères comptent aussi : travail demandé, risques climatiques, facilité de vente."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« L’arachide se vend 24 000. Aminatou doit-elle tout changer ? »",
+            "Sacs d’arachide et de maïs côte à côte"
+          ],
+          [
+            "0:30",
+            "Marge par sac et taux de marge.",
+            "Le prix moins le coût, en gros chiffres"
+          ],
+          [
+            "1:30",
+            "La marge par hectare : la surprise.",
+            "Deux champs, deux piles de sacs"
+          ],
+          [
+            "3:00",
+            "« Comparez avant de changer de culture. »",
+            "Aminatou qui calcule avec son téléphone"
+          ]
+        ]
+      },
+      "tool": "marge",
+      "toolDefaults": {
+        "a": {
+          "nom": "Maïs",
+          "cout": 11800,
+          "prix": 15000,
+          "sacsHa": 28
+        },
+        "b": {
+          "nom": "Arachide",
+          "cout": 18000,
+          "prix": 24000,
+          "sacsHa": 12
+        }
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez votre marge",
+        "text": "Vous vendez vos tomates 3 500 FCFA le cageot. Votre coût est 2 600 FCFA. Quelle est votre marge par cageot, en FCFA ?",
+        "answer": 900,
+        "solution": "3 500 − 2 600 = 900 FCFA par cageot. Taux de marge : 900 ÷ 2 600 × 100, environ 35 %.",
+        "then": "Comparez ensuite deux de vos cultures avec le comparateur ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Prix 12 000 FCFA, coût 9 000 FCFA. Quelle est la marge par sac ?",
+          "options": [
+            "3 000 FCFA",
+            "21 000 FCFA",
+            "9 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "12 000 − 9 000 = 3 000."
+        },
+        {
+          "q": "Même exemple : quel est le taux de marge sur le coût ?",
+          "options": [
+            "Environ 25 %",
+            "Environ 33 %",
+            "Environ 75 %"
+          ],
+          "answer": 1,
+          "explain": "3 000 ÷ 9 000 × 100 ≈ 33 %."
+        },
+        {
+          "q": "Une marge par sac plus élevée veut-elle toujours dire plus d’argent ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Tout dépend aussi du nombre de sacs produits."
+        },
+        {
+          "q": "Marge 2 000 FCFA par sac, 30 sacs par hectare. Marge par hectare ?",
+          "options": [
+            "32 000 FCFA",
+            "60 000 FCFA",
+            "2 030 FCFA"
+          ],
+          "answer": 1,
+          "explain": "2 000 × 30 = 60 000."
+        },
+        {
+          "q": "Que signifie une marge négative ?",
+          "options": [
+            "On vend sous le coût",
+            "On a beaucoup gagné",
+            "Le calcul est faux"
+          ],
+          "answer": 0,
+          "explain": "Chaque sac vendu fait perdre de l’argent."
+        },
+        {
+          "q": "Faut-il préciser sur quoi on calcule le taux de marge ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Sur le coût ou sur le prix, les résultats diffèrent."
+        }
+      ],
+      "summary": "Marge = prix moins coût. Pour choisir une culture, comparez la marge par hectare, pas seulement le prix.",
+      "resource": "Tableau « Comparer deux cultures » à remplir."
+    },
+    {
+      "id": "m6",
+      "label": "Budget",
+      "number": 6,
+      "title": "Préparer un budget",
+      "duration": "35 min",
+      "point": "Un budget, c’est décider à l’avance combien on dépensera pour chaque poste, puis comparer avec la réalité.",
+      "intro": "En pleine saison, l’engrais augmente et l’argent manque pour payer les ouvriers. Un budget préparé avant les semis permet de voir venir ces difficultés.",
+      "objectives": [
+        "Établir le budget d’une saison, poste par poste.",
+        "Prévoir une réserve pour les imprévus.",
+        "Calculer les écarts entre prévu et réel, et identifier le poste qui dérape."
+      ],
+      "lessons": [
+        {
+          "title": "Construire son budget en quatre étapes",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Lister les postes de dépenses de la saison, à partir du cahier de caisse de l’année précédente.",
+                "Estimer chaque poste : quantité × prix unitaire. Se renseigner sur les prix actuels, ils changent d’une année à l’autre.",
+                "Ajouter une réserve pour imprévus, par exemple 10 % du total.",
+                "Prévoir les recettes de façon prudente, avec un prix plutôt bas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Suivre les écarts",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Chaque mois, on compare le réel, lu dans le cahier de caisse, au prévu."
+            },
+            {
+              "type": "formula",
+              "text": "Écart = Réel − Prévu"
+            },
+            {
+              "type": "p",
+              "text": "Un écart positif signifie qu’on a dépensé plus que prévu. Il faut alors chercher pourquoi et ajuster les dépenses suivantes."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La saison suivante d’Aminatou",
+        "text": "Elle prévoit de vendre 25 sacs à 14 000 FCFA, soit 350 000 FCFA. Par prudence, elle retient un prix inférieur à son prix visé.",
+        "head": [
+          "Poste",
+          "Prévu (FCFA)",
+          "Réel (FCFA)",
+          "Écart (FCFA)"
+        ],
+        "rows": [
+          [
+            "Semences",
+            "30 000",
+            "32 000",
+            "+2 000"
+          ],
+          [
+            "Engrais",
+            "130 000",
+            "150 000",
+            "+20 000",
+            "alert"
+          ],
+          [
+            "Main-d’œuvre",
+            "90 000",
+            "85 000",
+            "−5 000"
+          ],
+          [
+            "Transport",
+            "25 000",
+            "28 000",
+            "+3 000"
+          ],
+          [
+            "Sacs",
+            "10 000",
+            "10 000",
+            "0"
+          ],
+          [
+            "Total des dépenses",
+            "285 000",
+            "305 000",
+            "+20 000",
+            "strong"
+          ],
+          [
+            "Réserve pour imprévus (10 %)",
+            "28 500",
+            "",
+            ""
+          ],
+          [
+            "Budget total avec réserve",
+            "313 500",
+            "305 000",
+            "−8 500",
+            "result"
+          ]
+        ],
+        "after": "L’engrais a coûté 20 000 FCFA de plus que prévu. Grâce à sa réserve, Aminatou a pu payer sans emprunter."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Le prix de l’engrais a augmenté. Aminatou panique-t-elle ? Non. »",
+            "Boutique d’intrants, étiquette de prix"
+          ],
+          [
+            "0:30",
+            "Les quatre étapes du budget.",
+            "Aminatou devant son cahier, avant les semis"
+          ],
+          [
+            "2:00",
+            "Le tableau prévu, réel, écart.",
+            "Colonnes qui se remplissent"
+          ],
+          [
+            "3:30",
+            "La réserve qui sauve la saison.",
+            "Une enveloppe « imprévus »"
+          ],
+          [
+            "4:30",
+            "« Faites votre budget avant de semer. »",
+            "Champ prêt à être semé"
+          ]
+        ]
+      },
+      "tool": "budget",
+      "toolDefaults": {
+        "reserve": 10,
+        "postes": [
+          [
+            "Semences",
+            30000
+          ],
+          [
+            "Engrais",
+            130000
+          ],
+          [
+            "Main-d’œuvre",
+            90000
+          ],
+          [
+            "Transport",
+            25000
+          ],
+          [
+            "Sacs",
+            10000
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Trouvez le dépassement",
+        "text": "Dans l’exemple d’Aminatou, de combien les dépenses réelles dépassent-elles le budget sans la réserve, en FCFA ?",
+        "answer": 20000,
+        "solution": "305 000 − 285 000 = 20 000 FCFA. L’engrais explique à lui seul ce dépassement ; les autres écarts se compensent.",
+        "then": "Établissez ensuite le budget de votre prochaine saison pour une culture, avec l’outil ci-dessus ou sur papier."
+      },
+      "quiz": [
+        {
+          "q": "Quand faut-il préparer son budget ?",
+          "options": [
+            "Avant les semis",
+            "Après la récolte",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "Il sert à anticiper, pas à constater."
+        },
+        {
+          "q": "Prévu 50 000 FCFA, réel 58 000 FCFA. Quel est l’écart ?",
+          "options": [
+            "−8 000 FCFA",
+            "+8 000 FCFA",
+            "108 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "58 000 − 50 000 = +8 000 : on a dépensé plus que prévu."
+        },
+        {
+          "q": "À quoi sert la réserve ?",
+          "options": [
+            "À faire face aux imprévus",
+            "À payer la tontine",
+            "À rien"
+          ],
+          "answer": 0,
+          "explain": "Elle évite d’emprunter en urgence."
+        },
+        {
+          "q": "Budget de 200 000 FCFA. Réserve de 10 % ?",
+          "options": [
+            "2 000 FCFA",
+            "20 000 FCFA",
+            "210 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "200 000 × 0,10 = 20 000."
+        },
+        {
+          "q": "Faut-il prévoir les recettes avec un prix élevé ?",
+          "options": [
+            "Oui",
+            "Non, plutôt prudent"
+          ],
+          "answer": 1,
+          "explain": "Mieux vaut une bonne surprise qu’un manque d’argent."
+        },
+        {
+          "q": "Où trouver les dépenses réelles ?",
+          "options": [
+            "Dans le cahier de caisse",
+            "Dans sa mémoire",
+            "Chez l’acheteur"
+          ],
+          "answer": 0,
+          "explain": "Le module 2 sert aussi à suivre le budget."
+        }
+      ],
+      "summary": "Lister, estimer, ajouter une réserve, puis comparer chaque mois le réel au prévu. Le cahier de caisse alimente le suivi du budget.",
+      "resource": "Modèle de budget de saison, prévu et réel, à imprimer."
+    },
+    {
+      "id": "m7",
+      "label": "Trésorerie",
+      "number": 7,
+      "title": "Planifier sa trésorerie",
+      "duration": "35 min",
+      "point": "Une saison rentable peut quand même manquer d’argent pendant plusieurs mois : le plan de trésorerie montre quand et de combien.",
+      "intro": "« Je gagne de l’argent à la récolte, mais en juin je n’ai plus rien pour payer les ouvriers. » Le bénéfice se calcule sur la saison, la trésorerie se vit mois par mois.",
+      "objectives": [
+        "Établir un plan de trésorerie mois par mois.",
+        "Repérer le mois le plus difficile et le montant qui manque.",
+        "Choisir au moins deux solutions pour couvrir ce manque."
+      ],
+      "lessons": [
+        {
+          "title": "Bénéfice et trésorerie ne sont pas la même chose",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le bénéfice répond à « la saison m’a-t-elle rapporté ? ». La trésorerie répond à « ai-je de quoi payer ce mois-ci ? ». En agriculture, on dépense pendant des mois avant d’encaisser à la récolte."
+            },
+            {
+              "type": "formula",
+              "text": "Solde fin de mois = Solde début + Entrées − Sorties"
+            }
+          ]
+        },
+        {
+          "title": "Couvrir les mois difficiles",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Garder de côté une partie de l’argent de la récolte précédente.",
+                "Acheter les intrants en groupe ou à crédit par sa coopérative, quand c’est possible.",
+                "Échelonner certaines dépenses, ou les décaler sans nuire à la culture.",
+                "Développer une petite activité qui rapporte pendant la saison (élevage, commerce).",
+                "Emprunter en dernier recours, seulement avec un plan de remboursement (module 9)."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La saison d’Aminatou mois par mois",
+        "text": "Elle commence avril avec 120 000 FCFA mis de côté. Le calendrier est illustratif.",
+        "head": [
+          "Mois",
+          "Entrées (FCFA)",
+          "Sorties (FCFA)",
+          "Solde fin de mois (FCFA)"
+        ],
+        "rows": [
+          [
+            "Avril",
+            "0",
+            "62 000",
+            "58 000"
+          ],
+          [
+            "Mai",
+            "15 000",
+            "75 000",
+            "−2 000"
+          ],
+          [
+            "Juin",
+            "10 000",
+            "55 000",
+            "−47 000"
+          ],
+          [
+            "Juillet",
+            "10 000",
+            "25 000",
+            "−62 000"
+          ],
+          [
+            "Août",
+            "0",
+            "20 000",
+            "−82 000"
+          ],
+          [
+            "Septembre",
+            "0",
+            "10 000",
+            "−92 000",
+            "alert"
+          ],
+          [
+            "Octobre",
+            "210 000",
+            "28 000",
+            "90 000"
+          ],
+          [
+            "Novembre",
+            "140 000",
+            "0",
+            "230 000",
+            "result"
+          ]
+        ],
+        "after": "Sa saison est rentable, mais de mai à septembre il lui manque jusqu’à 92 000 FCFA. Sans plan, elle aurait dû vendre sa récolte trop tôt ou emprunter dans l’urgence."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Aminatou gagne de l’argent. Pourtant, en août, sa caisse est vide. »",
+            "Caisse vide, champ vert"
+          ],
+          [
+            "0:30",
+            "Bénéfice ou trésorerie : la différence.",
+            "Calendrier avec les dépenses et les ventes"
+          ],
+          [
+            "1:30",
+            "Le plan mois par mois et le point le plus bas.",
+            "Courbe qui descend puis remonte"
+          ],
+          [
+            "3:30",
+            "Les solutions pour passer les mois difficiles.",
+            "Achat groupé à la coopérative"
+          ],
+          [
+            "4:30",
+            "« Prévoyez vos mois difficiles avant qu’ils arrivent. »",
+            "Aminatou qui range une enveloppe"
+          ]
+        ]
+      },
+      "tool": "tresorerie",
+      "toolDefaults": {
+        "start": 120000,
+        "mois": [
+          [
+            "Avril",
+            0,
+            62000
+          ],
+          [
+            "Mai",
+            15000,
+            75000
+          ],
+          [
+            "Juin",
+            10000,
+            55000
+          ],
+          [
+            "Juillet",
+            10000,
+            25000
+          ],
+          [
+            "Août",
+            0,
+            20000
+          ],
+          [
+            "Septembre",
+            0,
+            10000
+          ],
+          [
+            "Octobre",
+            210000,
+            28000
+          ],
+          [
+            "Novembre",
+            140000,
+            0
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Trouvez le manque",
+        "text": "Vous commencez avec 30 000 FCFA. Mois 1 : 0 entrée, 40 000 de sorties. Mois 2 : 20 000 d’entrées, 15 000 de sorties. Mois 3 : 60 000 d’entrées, 10 000 de sorties. Combien vous manque-t-il au pire moment, en FCFA ?",
+        "answer": 10000,
+        "solution": "Soldes −10 000, −5 000, puis 45 000. Il manque 10 000 FCFA à la fin du mois 1.",
+        "then": "Faites ensuite le plan de votre prochaine saison avec l’outil ci-dessus ou sur papier."
+      },
+      "quiz": [
+        {
+          "q": "Une saison rentable peut-elle manquer d’argent certains mois ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "On dépense avant d’encaisser."
+        },
+        {
+          "q": "Début 20 000 FCFA, entrées 5 000, sorties 30 000. Solde de fin ?",
+          "options": [
+            "−5 000 FCFA",
+            "5 000 FCFA",
+            "55 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "20 000 + 5 000 − 30 000 = −5 000."
+        },
+        {
+          "q": "Que montre le point le plus bas du plan ?",
+          "options": [
+            "Le montant qui manque au pire moment",
+            "Le bénéfice de la saison",
+            "Le prix du sac"
+          ],
+          "answer": 0,
+          "explain": "C’est le besoin à couvrir."
+        },
+        {
+          "q": "Quelle est la solution la moins chère pour couvrir ce manque ?",
+          "options": [
+            "Emprunter",
+            "Garder une réserve de la récolte précédente",
+            "Tout vendre à la récolte"
+          ],
+          "answer": 1,
+          "explain": "Une réserve ne coûte aucun intérêt."
+        },
+        {
+          "q": "Faut-il emprunter dès qu’il manque de l’argent ?",
+          "options": [
+            "Oui",
+            "Non, en dernier recours et avec un plan"
+          ],
+          "answer": 1,
+          "explain": "Un emprunt mal préparé aggrave les difficultés."
+        },
+        {
+          "q": "Vendre toute sa récolte dès qu’elle sort est-il toujours une bonne idée ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est souvent le moment où les prix sont les plus bas."
+        }
+      ],
+      "summary": "Mois par mois : solde de début, entrées, sorties, solde de fin. Repérez le point le plus bas et préparez la solution avant d’y arriver.",
+      "resource": "Modèle de plan de trésorerie sur 12 mois, à imprimer."
+    },
+    {
+      "id": "m8",
+      "label": "Deux caisses",
+      "number": 8,
+      "title": "Séparer les finances personnelles et professionnelles",
+      "duration": "25 min",
+      "point": "Quand l’argent de la famille et celui de l’activité se mélangent, on ne sait plus si l’activité rapporte.",
+      "intro": "Les frais de scolarité, une ordonnance, un deuil : les besoins de la famille sont réels et urgents. Le but n’est pas de les ignorer, mais de les payer sans détruire l’activité.",
+      "objectives": [
+        "Classer une dépense comme personnelle ou professionnelle.",
+        "Mettre en place deux caisses séparées.",
+        "Fixer un montant mensuel à se verser pour la famille."
+      ],
+      "lessons": [
+        {
+          "title": "Deux caisses, une règle",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Une caisse pour l’activité : toutes les ventes y entrent, toutes les dépenses de l’activité en sortent.",
+                "Une caisse pour la famille : elle reçoit un montant fixe chaque mois, versé depuis la caisse de l’activité.",
+                "La règle : tout passage d’une caisse à l’autre est noté dans le cahier."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La séparation peut être simple : deux enveloppes, deux portefeuilles, ou deux comptes de mobile money."
+            }
+          ]
+        },
+        {
+          "title": "Se verser un montant fixe",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On part du bénéfice prévu de l’année, on en garde une partie pour l’activité (réserve, achats de la saison suivante), et on divise le reste par 12."
+            },
+            {
+              "type": "formula",
+              "text": "Versement mensuel = (Bénéfice prévu − Part gardée pour l’activité) ÷ 12"
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Aminatou s’organise",
+        "text": "Aminatou prévoit 100 000 FCFA de bénéfice et garde 40 000 FCFA pour l’activité.",
+        "head": [
+          "Calcul",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Bénéfice prévu",
+            "100 000"
+          ],
+          [
+            "Part gardée pour l’activité",
+            "40 000"
+          ],
+          [
+            "Reste pour la famille sur l’année",
+            "60 000",
+            "strong"
+          ],
+          [
+            "Versement mensuel : 60 000 ÷ 12",
+            "5 000",
+            "result"
+          ]
+        ],
+        "after": "Quand les frais de scolarité tombent, elle puise dans la caisse familiale, et non plus dans l’argent des engrais."
+      },
+      "video": {
+        "url": "",
+        "duration": "3 min",
+        "script": [
+          [
+            "0:00",
+            "« L’argent des engrais est parti pour l’hôpital. Et maintenant ? »",
+            "Aminatou devant une caisse vide"
+          ],
+          [
+            "0:30",
+            "Deux caisses, une règle.",
+            "Deux enveloppes de couleurs différentes"
+          ],
+          [
+            "1:30",
+            "Le versement mensuel.",
+            "Calcul simple à l’écran"
+          ],
+          [
+            "2:30",
+            "« Séparez, notez, et votre activité tiendra. »",
+            "Cahier avec deux colonnes"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Activité ou personnel ?",
+        "text": "Pour chaque dépense, choisissez la bonne caisse.",
+        "choices": [
+          "Activité",
+          "Personnel"
+        ],
+        "items": [
+          [
+            "Achat d’engrais",
+            0
+          ],
+          [
+            "Frais de scolarité",
+            1
+          ],
+          [
+            "Réparation du pulvérisateur",
+            0
+          ],
+          [
+            "Achat d’un pagne",
+            1
+          ],
+          [
+            "Transport des sacs au marché",
+            0
+          ],
+          [
+            "Facture d’hôpital",
+            1
+          ]
+        ],
+        "then": "Calculez ensuite votre propre versement mensuel avec la formule de la leçon 8.2."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi séparer les deux caisses ?",
+          "options": [
+            "Pour savoir si l’activité rapporte",
+            "Pour payer moins d’impôts",
+            "Pour cacher de l’argent"
+          ],
+          "answer": 0,
+          "explain": "Sinon les dépenses familiales faussent les comptes."
+        },
+        {
+          "q": "Les frais de scolarité sont-ils une dépense de l’activité ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Ils sont payés par la caisse familiale."
+        },
+        {
+          "q": "Faut-il noter le versement à la famille ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Tout passage d’une caisse à l’autre est noté."
+        },
+        {
+          "q": "Bénéfice prévu 120 000 FCFA, part gardée 60 000 FCFA. Versement mensuel ?",
+          "options": [
+            "10 000 FCFA",
+            "5 000 FCFA",
+            "60 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "(120 000 − 60 000) ÷ 12 = 5 000."
+        },
+        {
+          "q": "Peut-on utiliser deux comptes de mobile money pour séparer ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "C’est une façon simple de séparer."
+        },
+        {
+          "q": "Urgence familiale très coûteuse : que faire ?",
+          "options": [
+            "Puiser dans l’activité sans rien dire",
+            "Puiser dans l’activité en le notant, puis reconstituer",
+            "Abandonner l’activité"
+          ],
+          "answer": 1,
+          "explain": "L’important est de le savoir et de le rendre à l’activité."
+        }
+      ],
+      "summary": "Deux caisses, un versement fixe à la famille, et chaque passage noté. L’activité garde ainsi de quoi produire la saison suivante.",
+      "resource": "Fiche « Mes deux caisses » avec le calcul du versement mensuel."
+    },
+    {
+      "id": "m9",
+      "label": "Dossier",
+      "number": 9,
+      "title": "Préparer un dossier financier",
+      "duration": "35 min",
+      "point": "Les outils des modules 1 à 8, rassemblés, forment un dossier qui inspire confiance à une coopérative, une microfinance ou un acheteur.",
+      "intro": "« Montrez-moi vos chiffres. » C’est souvent la première question d’un financeur. Le producteur qui a tenu ses comptes a déjà presque tout son dossier.",
+      "objectives": [
+        "Lister les six pièces d’un dossier financier simple.",
+        "Calculer le montant total à rembourser pour un emprunt.",
+        "Vérifier, avec son plan de trésorerie, qu’il pourra rembourser."
+      ],
+      "lessons": [
+        {
+          "title": "Les six pièces du dossier",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Pièce",
+                "D’où elle vient"
+              ],
+              "rows": [
+                [
+                  "Présentation de l’activité : cultures, surface, années d’expérience",
+                  "À rédiger en une page"
+                ],
+                [
+                  "Recettes et dépenses des dernières saisons",
+                  "Cahier de caisse (module 2)"
+                ],
+                [
+                  "Coût de production et prix de vente",
+                  "Modules 3 et 4"
+                ],
+                [
+                  "Budget de la saison",
+                  "Module 6"
+                ],
+                [
+                  "Plan de trésorerie",
+                  "Module 7"
+                ],
+                [
+                  "Besoin de financement et plan de remboursement",
+                  "Ce module"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Chaque institution a ses propres exigences : demandez toujours la liste exacte des pièces à l’organisme visé. La formation F15 approfondit la préparation d’un dossier de financement."
+            }
+          ]
+        },
+        {
+          "title": "Vérifier sa capacité à rembourser",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "À rembourser = Montant emprunté + Intérêts et frais"
+            },
+            {
+              "type": "p",
+              "text": "Au moment du remboursement, le solde prévu dans le plan de trésorerie doit couvrir ce montant, avec une marge de sécurité. Les taux et frais réels varient selon les institutions : demandez-les par écrit avant de signer."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Aminatou demande un prêt d’intrants",
+        "text": "Son plan de trésorerie montre qu’il lui manque 92 000 FCFA en septembre. Elle demande 100 000 FCFA, remboursables en novembre, avec un coût illustratif de 10 %.",
+        "head": [
+          "Calcul",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Montant emprunté",
+            "100 000"
+          ],
+          [
+            "Intérêts et frais (10 %, illustratif)",
+            "10 000"
+          ],
+          [
+            "À rembourser en novembre",
+            "110 000",
+            "strong"
+          ],
+          [
+            "Solde prévu en novembre",
+            "230 000"
+          ],
+          [
+            "Reste après remboursement",
+            "120 000",
+            "result"
+          ]
+        ],
+        "after": "Le prêt est supportable si ses prévisions se réalisent."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« À la microfinance, l’agent demande : vos chiffres ? Aminatou ouvre son classeur. »",
+            "Guichet, classeur posé sur le comptoir"
+          ],
+          [
+            "0:30",
+            "Les six pièces du dossier.",
+            "Six fiches qui s’empilent"
+          ],
+          [
+            "2:00",
+            "Le calcul du remboursement et la vérification.",
+            "Plan de trésorerie, novembre entouré"
+          ],
+          [
+            "3:30",
+            "« Vos comptes sont votre meilleure garantie de sérieux. »",
+            "Poignée de mains"
+          ]
+        ]
+      },
+      "tool": "remboursement",
+      "toolDefaults": {
+        "montant": 100000,
+        "taux": 10,
+        "solde": 230000
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le remboursement",
+        "text": "Vous empruntez 80 000 FCFA, avec un coût illustratif de 10 %. Combien devez-vous rembourser, en FCFA ?",
+        "answer": 88000,
+        "solution": "80 000 + 8 000 = 88 000 FCFA. Si votre solde prévu au moment du remboursement n’est que de 70 000 FCFA, il manquerait 18 000 FCFA : empruntez moins, ou revoyez budget et trésorerie.",
+        "then": "Vérifiez votre propre projet d’emprunt avec la calculette ci-dessus."
+      },
+      "quiz": [
+        {
+          "q": "Quelle pièce prouve vos recettes et dépenses passées ?",
+          "options": [
+            "Le cahier de caisse",
+            "La carte d’identité",
+            "Une photo du champ"
+          ],
+          "answer": 0,
+          "explain": "C’est l’historique de l’activité."
+        },
+        {
+          "q": "Emprunt 50 000 FCFA, coût 10 %. Montant à rembourser ?",
+          "options": [
+            "50 010 FCFA",
+            "55 000 FCFA",
+            "60 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "50 000 + 5 000 = 55 000."
+        },
+        {
+          "q": "Quel outil montre si vous pourrez rembourser à temps ?",
+          "options": [
+            "Le plan de trésorerie",
+            "Le quiz",
+            "Le prix du marché"
+          ],
+          "answer": 0,
+          "explain": "Il donne le solde prévu au moment du remboursement."
+        },
+        {
+          "q": "Faut-il demander les taux et frais par écrit ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Ils varient et doivent être connus avant de signer."
+        },
+        {
+          "q": "Faut-il emprunter beaucoup plus que le besoin « au cas où » ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Chaque franc emprunté coûte des intérêts."
+        },
+        {
+          "q": "Toutes les institutions demandent-elles les mêmes pièces ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il faut demander la liste à chaque organisme."
+        }
+      ],
+      "summary": "Un dossier simple réunit six pièces, presque toutes issues des modules précédents. Avant d’emprunter, vérifiez avec votre plan de trésorerie que vous pourrez rembourser.",
+      "resource": "Liste de contrôle « Mon dossier financier »."
+    },
+    {
+      "id": "m10",
+      "label": "Erreurs à éviter",
+      "number": 10,
+      "title": "Éviter les erreurs fréquentes de gestion",
+      "duration": "25 min",
+      "point": "Huit erreurs reviennent souvent ; chacune a sa parade dans un module de cette formation.",
+      "intro": "On apprend aussi des erreurs des autres. Ce module fait le tour des pièges les plus courants, et de la façon de les éviter.",
+      "objectives": [
+        "Reconnaître au moins 6 des 8 erreurs dans des situations concrètes.",
+        "Associer chaque erreur à sa bonne pratique.",
+        "Réaliser son dossier de gestion personnel (projet final)."
+      ],
+      "lessons": [
+        {
+          "title": "Les huit erreurs et leurs parades",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Erreur",
+                "Bonne pratique",
+                "Module"
+              ],
+              "rows": [
+                [
+                  "Ne rien noter",
+                  "Tenir un cahier de caisse chaque jour",
+                  "2"
+                ],
+                [
+                  "Confondre recettes et bénéfice",
+                  "Retirer toutes les dépenses",
+                  "1"
+                ],
+                [
+                  "Oublier le travail familial et l’usure",
+                  "Les compter dans le coût de production",
+                  "3"
+                ],
+                [
+                  "Vendre sous le coût",
+                  "Connaître son prix plancher",
+                  "4"
+                ],
+                [
+                  "Juger une culture sur son seul prix",
+                  "Comparer la marge par hectare",
+                  "5"
+                ],
+                [
+                  "Ne pas prévoir de réserve",
+                  "Budget avec réserve",
+                  "6"
+                ],
+                [
+                  "Emprunter sans plan",
+                  "Plan de trésorerie et calcul du remboursement",
+                  "7 et 9"
+                ],
+                [
+                  "Mélanger caisse familiale et caisse de l’activité",
+                  "Deux caisses et un versement fixe",
+                  "8"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Ibrahim, voisin d’Aminatou",
+        "text": "Ibrahim, personnage fictif, vend 30 sacs de maïs et pense avoir bien gagné. Il n’a rien noté, a payé une fête avec l’argent des ventes, et ne sait pas combien lui a coûté sa récolte. En mai, il n’a plus de quoi acheter ses engrais et emprunte dans l’urgence.",
+        "head": [
+          "Erreur d’Ibrahim",
+          "Parade"
+        ],
+        "rows": [
+          [
+            "Rien noter",
+            "Cahier de caisse"
+          ],
+          [
+            "Mélanger les caisses",
+            "Deux caisses et un versement fixe"
+          ],
+          [
+            "Pas de réserve",
+            "Budget avec réserve et plan de trésorerie"
+          ]
+        ],
+        "after": "Trois erreurs se cumulent. Une seule bonne habitude, noter chaque jour, l’aurait alerté dès la récolte."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "L’histoire d’Ibrahim, racontée simplement.",
+            "Ibrahim au marché, puis devant une boutique d’intrants"
+          ],
+          [
+            "0:40",
+            "Les huit erreurs, une par une, avec leur parade.",
+            "Une carte par erreur, retournée pour montrer la parade"
+          ],
+          [
+            "3:20",
+            "« Vous avez maintenant tous les outils. À vous de jouer. »",
+            "Aminatou et Ibrahim qui comparent leurs cahiers"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Erreur ou bonne pratique ?",
+        "text": "Pour chaque situation, choisissez la bonne réponse.",
+        "choices": [
+          "Bonne pratique",
+          "Erreur"
+        ],
+        "items": [
+          [
+            "Noter chaque vente le soir même",
+            0
+          ],
+          [
+            "Vendre à 10 000 FCFA un sac qui coûte 11 800 FCFA",
+            1
+          ],
+          [
+            "Garder 10 % du budget pour les imprévus",
+            0
+          ],
+          [
+            "Payer la scolarité avec l’argent des engrais sans le noter",
+            1
+          ],
+          [
+            "Comparer la marge par hectare avant de changer de culture",
+            0
+          ],
+          [
+            "Emprunter sans regarder son plan de trésorerie",
+            1
+          ]
+        ],
+        "then": "Projet final : remettez à votre formateur, par photo WhatsApp ou sur papier, votre cahier de caisse tenu au moins 30 jours, le coût de production d’une culture, vos trois prix, le budget de votre prochaine saison avec réserve, et votre plan de trésorerie. L’attestation est délivrée avec au moins quatre pièces acquises et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Recettes élevées veut-il dire bénéfice élevé ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il faut retirer toutes les dépenses."
+        },
+        {
+          "q": "Quelle erreur conduit à sous-estimer le coût ?",
+          "options": [
+            "Oublier le travail familial et l’usure",
+            "Trier sa récolte",
+            "Tenir un cahier"
+          ],
+          "answer": 0,
+          "explain": "Ces coûts sont réels même s’ils ne sont pas payés."
+        },
+        {
+          "q": "Quelle parade contre « l’argent des intrants disparaît » ?",
+          "options": [
+            "Deux caisses et un versement fixe",
+            "Vendre plus tôt",
+            "Emprunter"
+          ],
+          "answer": 0,
+          "explain": "La caisse de l’activité reste protégée."
+        },
+        {
+          "q": "Quel outil évite d’emprunter dans l’urgence ?",
+          "options": [
+            "Le plan de trésorerie",
+            "Le prix plancher",
+            "Le quiz"
+          ],
+          "answer": 0,
+          "explain": "Il montre les mois difficiles à l’avance."
+        },
+        {
+          "q": "Vendre sous son prix plancher est-il une erreur ?",
+          "options": [
+            "Oui, sauf nécessité assumée",
+            "Non, jamais"
+          ],
+          "answer": 0,
+          "explain": "Chaque sac vendu ainsi fait perdre de l’argent."
+        },
+        {
+          "q": "Par quoi commencer si on ne fait encore rien ?",
+          "options": [
+            "Tenir un cahier de caisse",
+            "Demander un prêt",
+            "Changer de culture"
+          ],
+          "answer": 0,
+          "explain": "Tous les autres outils s’appuient sur lui."
+        }
+      ],
+      "summary": "Huit erreurs, huit parades, toutes vues dans cette formation. Si vous ne devez retenir qu’une chose : notez tout, chaque jour.",
+      "resource": "Grille d’auto-évaluation du projet final « Mon dossier de gestion »."
+    }
+  ]
+}

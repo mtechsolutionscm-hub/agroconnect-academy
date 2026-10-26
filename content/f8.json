@@ -1,0 +1,1617 @@
+{
+  "id": "f8",
+  "title": "Gestion moderne d’une exploitation agricole",
+  "short": "Gestion d’exploitation",
+  "lead": "Gérer son exploitation comme une petite entreprise : planifier, suivre chaque parcelle, gérer intrants et travail, et décider avec ses propres chiffres.",
+  "note": "Marie-Claire, Issa, Thomas, Pierre, Haoua et leurs chiffres sont fictifs. Les quantités de semences et le calendrier sont indicatifs ; cette formation ne donne aucune dose d’engrais ni de produit de traitement.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Principes",
+      "number": 1,
+      "title": "Comprendre les principes de gestion d’une exploitation",
+      "duration": "30 min",
+      "point": "Gérer une exploitation, c’est utiliser au mieux cinq ressources (terre, eau, travail, argent, information) en suivant un cycle simple : planifier, réaliser, noter, analyser, ajuster.",
+      "intro": "Marie-Claire travaille dur, mais chaque saison ressemble à la précédente : elle ne sait pas quelle parcelle rapporte le plus, ni où part l’argent. La gestion ne demande pas plus de travail, mais un peu plus de méthode.",
+      "objectives": [
+        "Citer les cinq ressources d’une exploitation.",
+        "Expliquer le cycle de gestion en cinq étapes.",
+        "Repérer ce qu’il ne note pas encore sur son exploitation."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq ressources",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ressource",
+                "Questions de gestion"
+              ],
+              "rows": [
+                [
+                  "Terre",
+                  "Combien d’hectares, quelles parcelles, quel sol, quelle rotation ?"
+                ],
+                [
+                  "Eau",
+                  "Pluie, puits, rivière : quand et combien ?"
+                ],
+                [
+                  "Travail",
+                  "Qui travaille, combien de jours, à quel moment ?"
+                ],
+                [
+                  "Argent",
+                  "Combien faut-il, quand, et combien cela rapporte-t-il ?"
+                ],
+                [
+                  "Information",
+                  "Prix, météo, conseils techniques, ses propres chiffres"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le cycle de gestion",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Planifier : décider avant la saison quoi faire, où, quand, avec quels moyens (module 2).",
+                "Réaliser : faire les travaux au bon moment.",
+                "Noter : écrire ce qui a été fait, dépensé et récolté (modules 3 et 4).",
+                "Analyser : comparer le prévu et le réalisé, d’une parcelle à l’autre.",
+                "Ajuster : corriger pour la saison suivante."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sans l’étape « noter », les trois suivantes sont impossibles."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Ce que Marie-Claire ne sait pas encore",
+        "text": "Thomas, le conseiller agricole, lui pose trois questions.",
+        "head": [
+          "Question de Thomas",
+          "Réponse de Marie-Claire"
+        ],
+        "rows": [
+          [
+            "Combien de sacs de maïs par hectare cette année ?",
+            "Elle ne sait pas"
+          ],
+          [
+            "Combien de jours de travail pour le soja ?",
+            "Elle ne sait pas"
+          ],
+          [
+            "Combien a coûté la parcelle de légumes ?",
+            "Elle ne sait pas",
+            "alert"
+          ]
+        ],
+        "after": "Marie-Claire décide de commencer à noter dès la prochaine campagne."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Travailler dur, et ne pas savoir ce qui rapporte. »",
+            "Marie-Claire au champ à la tombée du jour"
+          ],
+          [
+            "0:30",
+            "Les cinq ressources.",
+            "Terre, eau, mains, billets, téléphone"
+          ],
+          [
+            "1:45",
+            "Le cycle en cinq étapes.",
+            "Une roue qui tourne"
+          ],
+          [
+            "3:00",
+            "Les trois questions de Thomas.",
+            "Marie-Claire perplexe, puis déterminée"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quelle étape du cycle ?",
+        "text": "Associez chaque action à son étape.",
+        "choices": [
+          "Planifier",
+          "Réaliser",
+          "Noter",
+          "Analyser",
+          "Ajuster"
+        ],
+        "items": [
+          [
+            "Décider en février des cultures de la saison",
+            0
+          ],
+          [
+            "Semer le maïs",
+            1
+          ],
+          [
+            "Écrire la date du semis et la quantité de semences",
+            2
+          ],
+          [
+            "Comparer le rendement de deux parcelles",
+            3
+          ],
+          [
+            "Changer de variété l’année suivante",
+            4
+          ],
+          [
+            "Prévoir le budget de la campagne",
+            0
+          ]
+        ],
+        "then": "Notez ensuite trois informations que vous ne suivez pas encore sur votre exploitation."
+      },
+      "quiz": [
+        {
+          "q": "Combien de ressources dans une exploitation ?",
+          "options": [
+            "Trois",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Terre, eau, travail, argent, information."
+        },
+        {
+          "q": "Quelle est la première étape du cycle ?",
+          "options": [
+            "Planifier",
+            "Récolter"
+          ],
+          "answer": 0,
+          "explain": "Avant la saison."
+        },
+        {
+          "q": "Sans quelle étape ne peut-on pas analyser ?",
+          "options": [
+            "Noter",
+            "Ajuster"
+          ],
+          "answer": 0,
+          "explain": "Il faut des chiffres."
+        },
+        {
+          "q": "L’information est-elle une ressource ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Prix, météo, conseils, ses propres chiffres."
+        },
+        {
+          "q": "Que fait-on à l’étape « ajuster » ?",
+          "options": [
+            "On corrige pour la saison suivante",
+            "On achète des semences"
+          ],
+          "answer": 0,
+          "explain": "À partir de l’analyse."
+        },
+        {
+          "q": "Gérer demande-t-il beaucoup plus de travail ?",
+          "options": [
+            "Oui, beaucoup",
+            "Non, un peu plus de méthode"
+          ],
+          "answer": 1,
+          "explain": "Quelques minutes de notes."
+        }
+      ],
+      "summary": "Cinq ressources à gérer, un cycle en cinq étapes, et une règle : sans notes, pas de gestion.",
+      "resource": "Fiche « Ce que je sais et ce que je ne sais pas de mon exploitation »."
+    },
+    {
+      "id": "m2",
+      "label": "Planifier",
+      "number": 2,
+      "title": "Planifier une campagne agricole",
+      "duration": "35 min",
+      "point": "Le plan de campagne décide, avant la saison, quelles cultures mettre sur quelles parcelles, à quel moment faire chaque travail, et de combien d’intrants, de jours de travail et d’argent on aura besoin.",
+      "intro": "Chaque année, Marie-Claire manque de semences au moment de semer, ou de bras au moment de sarcler. Un plan fait en février évite ces urgences en mai.",
+      "objectives": [
+        "Répartir ses cultures entre ses parcelles.",
+        "Construire un calendrier de travaux mois par mois.",
+        "Estimer ses besoins en intrants, en travail et en argent."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq parties du plan",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Les parcelles et les cultures : quoi, où, sur combien de surface, en alternant les cultures (formation F12, module 4).",
+                "Le calendrier : chaque travail à son mois.",
+                "Les intrants : semences, fumure, produits, sacs.",
+                "Le travail : combien de jours, et qui.",
+                "Le budget : combien cela coûtera et rapportera (formation F14, module 6)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le calendrier des travaux",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Repères indicatifs pour une zone à une seule saison des pluies, à adapter selon les années et les bulletins climatiques (formation F12, module 3) :"
+            },
+            {
+              "type": "table",
+              "head": [
+                "Période",
+                "Travaux"
+              ],
+              "rows": [
+                [
+                  "Avant les pluies",
+                  "Préparer les parcelles, acheter les semences, réviser le matériel (formation F18)"
+                ],
+                [
+                  "Installation des pluies",
+                  "Semer quand les pluies sont installées, en une ou deux fois"
+                ],
+                [
+                  "Saison des pluies",
+                  "Sarcler, surveiller les ravageurs, apporter la fumure selon les conseils techniques"
+                ],
+                [
+                  "Fin de saison",
+                  "Récolter à maturité, sécher, trier, stocker (formation F11)"
+                ],
+                [
+                  "Saison sèche",
+                  "Maraîchage si l’eau le permet, entretien des sols, bilan de la campagne"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimer ses besoins",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Besoin = Surface × Quantité par hectare"
+            },
+            {
+              "type": "p",
+              "text": "La quantité de semences par hectare dépend de la culture et de la variété : elle se vérifie sur le sachet ou auprès du conseiller."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le plan de Marie-Claire",
+        "text": "Marie-Claire prépare son plan avec Thomas.",
+        "head": [
+          "Parcelle",
+          "Culture",
+          "Surface",
+          "Semences"
+        ],
+        "rows": [
+          [
+            "A",
+            "Maïs",
+            "1,5 ha",
+            "1,5 × 25 kg = 37,5 kg, au repère du conseiller"
+          ],
+          [
+            "B",
+            "Soja, après le maïs de l’an dernier",
+            "1 ha",
+            "Selon la variété choisie"
+          ],
+          [
+            "C",
+            "Légumes de saison sèche",
+            "0,5 ha",
+            "Selon les espèces",
+            "result"
+          ]
+        ],
+        "after": "En comptant les jours de travail, elle voit qu’Issa seul ne suffira pas pour le sarclage du maïs : elle prévoit deux ouvriers à la journée en juin."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un plan fait en février évite les urgences de mai. »",
+            "Calendrier de février, puis champ en mai"
+          ],
+          [
+            "0:30",
+            "Les cinq parties du plan.",
+            "Une page qui se remplit"
+          ],
+          [
+            "1:45",
+            "Le calendrier des travaux.",
+            "Mois par mois, avec les pluies"
+          ],
+          [
+            "3:15",
+            "Estimer ses besoins : le plan de Marie-Claire.",
+            "Marie-Claire et Thomas qui calculent"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez vos semences",
+        "text": "Vous semez 2 hectares de maïs, avec un repère de 25 kg de semences par hectare donné par votre conseiller. De combien de kilos de semences avez-vous besoin ?",
+        "answer": 50,
+        "unit": "kg",
+        "solution": "2 × 25 = 50 kg.",
+        "then": "Remplissez ensuite le plan de votre prochaine campagne."
+      },
+      "quiz": [
+        {
+          "q": "Quand faire son plan de campagne ?",
+          "options": [
+            "Avant la saison",
+            "Après la récolte seulement"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les urgences."
+        },
+        {
+          "q": "Combien de parties dans le plan ?",
+          "options": [
+            "Trois",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Parcelles, calendrier, intrants, travail, budget."
+        },
+        {
+          "q": "Pourquoi alterner les cultures ?",
+          "options": [
+            "Pour garder un sol fertile et limiter les ravageurs",
+            "Pour changer"
+          ],
+          "answer": 0,
+          "explain": "Formation F12."
+        },
+        {
+          "q": "Quand semer ?",
+          "options": [
+            "À la première averse",
+            "Quand les pluies sont installées"
+          ],
+          "answer": 1,
+          "explain": "Pas à la première averse."
+        },
+        {
+          "q": "Comment calculer un besoin ?",
+          "options": [
+            "Surface × quantité par hectare",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Selon la culture et la variété."
+        },
+        {
+          "q": "Où vérifier la quantité de semences ?",
+          "options": [
+            "Sur le sachet ou auprès du conseiller",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Elle varie selon la variété."
+        }
+      ],
+      "summary": "Un plan en cinq parties, fait avant la saison : quelles cultures où, quel travail quand, et combien d’intrants, de jours et d’argent.",
+      "resource": "Modèle de plan de campagne et de calendrier des travaux."
+    },
+    {
+      "id": "m3",
+      "label": "Carnet de parcelle",
+      "number": 3,
+      "title": "Suivre ses parcelles avec un carnet",
+      "duration": "30 min",
+      "point": "Le carnet de parcelle garde la mémoire de chaque champ : surface, travaux et dates, intrants, observations, récolte. Il permet de calculer le rendement et de comparer les parcelles.",
+      "intro": "« Cette parcelle donne toujours moins. » Pourquoi ? Semis tardif, sol fatigué, ravageurs ? Sans carnet, on ne peut que deviner.",
+      "objectives": [
+        "Ouvrir un carnet pour chaque parcelle.",
+        "Y noter les cinq types d’informations.",
+        "Calculer et comparer des rendements."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq informations du carnet",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Information",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Identité de la parcelle",
+                  "Nom, surface, type de sol, culture de l’an dernier"
+                ],
+                [
+                  "Travaux",
+                  "Date du labour, du semis, des sarclages, de la récolte"
+                ],
+                [
+                  "Intrants",
+                  "Semences (variété, quantité), fumure, produits utilisés et dates"
+                ],
+                [
+                  "Observations",
+                  "Levée, pluies, poches de sécheresse, ravageurs, maladies"
+                ],
+                [
+                  "Récolte",
+                  "Quantité récoltée, en kilos ou en sacs pesés"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Quelques lignes à chaque passage suffisent. Une photo prise avec le téléphone peut compléter une observation."
+            }
+          ]
+        },
+        {
+          "title": "Calculer le rendement",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Rendement (kg par ha) = Récolte en kg ÷ Surface en hectares"
+            },
+            {
+              "type": "p",
+              "text": "On compare ensuite les parcelles entre elles, et d’une année à l’autre, en relisant le carnet pour comprendre les écarts."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le carnet de la parcelle A",
+        "text": "Marie-Claire note chaque passage.",
+        "head": [
+          "Date",
+          "Note"
+        ],
+        "rows": [
+          [
+            "2 mai",
+            "Semis du maïs, 37,5 kg de semences de la variété conseillée"
+          ],
+          [
+            "20 mai",
+            "Bonne levée, sauf le bas de la parcelle, resté trop humide"
+          ],
+          [
+            "15 juin",
+            "Premier sarclage, Issa et deux ouvriers"
+          ],
+          [
+            "10 juillet",
+            "Deux semaines sans pluie, feuilles enroulées"
+          ],
+          [
+            "25 octobre",
+            "Récolte : 3 600 kg sur 1,5 ha, soit 2 400 kg par hectare",
+            "result"
+          ]
+        ],
+        "after": "En relisant le carnet, elle comprend que le bas de la parcelle a mal levé : l’an prochain, elle y creusera un petit fossé pour évacuer l’eau."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Cette parcelle donne toujours moins. Pourquoi ? »",
+            "Deux parcelles côte à côte"
+          ],
+          [
+            "0:30",
+            "Les cinq informations du carnet.",
+            "Carnet ouvert, une page par parcelle"
+          ],
+          [
+            "2:00",
+            "Calculer le rendement.",
+            "3 600 ÷ 1,5 = 2 400"
+          ],
+          [
+            "3:00",
+            "Relire le carnet pour comprendre.",
+            "Marie-Claire au bas de la parcelle humide"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le rendement",
+        "text": "Une parcelle de 0,8 hectare a donné 2 000 kg de maïs. Quel est son rendement, en kilos par hectare ?",
+        "answer": 2500,
+        "unit": "kg par ha",
+        "solution": "2 000 ÷ 0,8 = 2 500 kg par hectare.",
+        "then": "Ouvrez ensuite un carnet pour chacune de vos parcelles."
+      },
+      "quiz": [
+        {
+          "q": "Combien de types d’informations dans le carnet ?",
+          "options": [
+            "Deux",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "Identité, travaux, intrants, observations, récolte."
+        },
+        {
+          "q": "Faut-il un carnet par parcelle ?",
+          "options": [
+            "Oui",
+            "Non, un seul pour tout"
+          ],
+          "answer": 0,
+          "explain": "Pour les comparer."
+        },
+        {
+          "q": "Comment calcule-t-on le rendement ?",
+          "options": [
+            "Récolte en kg ÷ surface en hectares",
+            "Surface ÷ récolte"
+          ],
+          "answer": 0,
+          "explain": "En kg par hectare."
+        },
+        {
+          "q": "3 000 kg sur 1,5 ha. Rendement ?",
+          "options": [
+            "2 000 kg/ha",
+            "4 500 kg/ha"
+          ],
+          "answer": 0,
+          "explain": "3 000 ÷ 1,5 = 2 000."
+        },
+        {
+          "q": "À quoi sert de noter les observations ?",
+          "options": [
+            "Comprendre les écarts de rendement",
+            "Remplir le carnet"
+          ],
+          "answer": 0,
+          "explain": "Pluies, ravageurs, levée."
+        },
+        {
+          "q": "Peut-on compléter le carnet avec une photo ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Le téléphone aide à garder une trace."
+        }
+      ],
+      "summary": "Un carnet par parcelle, cinq types d’informations, un rendement calculé et comparé : la mémoire de chaque champ pour mieux décider.",
+      "resource": "Modèle de carnet de parcelle à imprimer."
+    },
+    {
+      "id": "m4",
+      "label": "Intrants",
+      "number": 4,
+      "title": "Gérer les intrants",
+      "duration": "35 min",
+      "point": "Bien gérer ses intrants, c’est acheter de la qualité au bon moment, suivre son stock par écrit, le ranger en sécurité, et utiliser chaque produit selon son étiquette et les conseils techniques.",
+      "intro": "Des semences de mauvaise qualité, et c’est toute la saison qui est compromise. Un sac d’engrais qui « disparaît » du magasin, et c’est de l’argent perdu. Les intrants se gèrent comme de l’argent.",
+      "objectives": [
+        "Acheter des intrants de qualité auprès de fournisseurs fiables.",
+        "Tenir une fiche de stock.",
+        "Ranger et utiliser les intrants en sécurité."
+      ],
+      "lessons": [
+        {
+          "title": "Bien acheter",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Des semences de qualité, de préférence certifiées, de la variété conseillée.",
+                "Des produits homologués, achetés chez des vendeurs agréés, avec leur étiquette d’origine.",
+                "Des achats groupés avec la coopérative pour un meilleur prix (formation F9, module 6).",
+                "Des achats faits avant le besoin, d’après le plan de campagne (module 2)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "La fiche de stock",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque intrant, notez chaque mouvement : la date, ce qui entre, ce qui sort, pour quelle parcelle, et ce qui reste."
+            },
+            {
+              "type": "formula",
+              "text": "Reste = Stock de départ + Entrées − Sorties"
+            },
+            {
+              "type": "p",
+              "text": "Comptez régulièrement ce qui reste vraiment au magasin. Si le compte ne correspond pas à la fiche, cherchez pourquoi."
+            }
+          ]
+        },
+        {
+          "title": "Ranger et utiliser en sécurité",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Produits de traitement dans un local fermé, à part des aliments et des semences, hors de portée des enfants et des animaux.",
+                "Engrais et semences au sec, sur palettes.",
+                "Utilisation selon l’étiquette et le conseiller agricole, avec gants et protections ; cette formation ne donne aucune dose.",
+                "Les plus anciens produits utilisés en premier, en vérifiant les dates."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La fiche de stock d’engrais de Marie-Claire",
+        "text": "Issa note chaque sortie au moment où il prend les sacs.",
+        "head": [
+          "Date",
+          "Mouvement",
+          "Reste"
+        ],
+        "rows": [
+          [
+            "1er mai",
+            "Stock de départ",
+            "10 sacs"
+          ],
+          [
+            "5 mai",
+            "Entrée : 20 sacs, achat groupé avec la coopérative",
+            "30 sacs"
+          ],
+          [
+            "10 juin",
+            "Sortie : 12 sacs pour la parcelle A",
+            "18 sacs"
+          ],
+          [
+            "25 juin",
+            "Sortie : 10 sacs pour les parcelles B et C",
+            "8 sacs",
+            "result"
+          ]
+        ],
+        "after": "Au comptage de juillet, il reste bien 8 sacs au magasin : la fiche et le stock correspondent."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Les intrants se gèrent comme de l’argent. »",
+            "Sac d’engrais posé à côté de billets"
+          ],
+          [
+            "0:30",
+            "Bien acheter : qualité, vendeurs agréés, achats groupés.",
+            "Étiquette de semences certifiées"
+          ],
+          [
+            "1:45",
+            "La fiche de stock.",
+            "Issa qui note une sortie"
+          ],
+          [
+            "3:15",
+            "Ranger et utiliser en sécurité.",
+            "Local fermé, gants, enfants à distance"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le reste",
+        "text": "Vous aviez 20 sacs d’engrais. Vous en achetez 10, puis vous en utilisez 18. Combien en reste-t-il ?",
+        "answer": 12,
+        "unit": "sacs",
+        "solution": "20 + 10 − 18 = 12 sacs.",
+        "then": "Ouvrez ensuite une fiche de stock pour votre principal intrant."
+      },
+      "quiz": [
+        {
+          "q": "Où acheter les produits de traitement ?",
+          "options": [
+            "Chez des vendeurs agréés, avec l’étiquette d’origine",
+            "Au bord de la route sans étiquette"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les contrefaçons."
+        },
+        {
+          "q": "Quel avantage aux achats groupés ?",
+          "options": [
+            "Un meilleur prix",
+            "Aucun"
+          ],
+          "answer": 0,
+          "explain": "Avec la coopérative."
+        },
+        {
+          "q": "Comment calcule-t-on le reste ?",
+          "options": [
+            "Départ + entrées − sorties",
+            "Entrées seulement"
+          ],
+          "answer": 0,
+          "explain": "Sur la fiche de stock."
+        },
+        {
+          "q": "Le comptage ne correspond pas à la fiche : que faire ?",
+          "options": [
+            "Chercher pourquoi",
+            "Corriger la fiche sans chercher"
+          ],
+          "answer": 0,
+          "explain": "Oubli, perte ou vol."
+        },
+        {
+          "q": "Où ranger les produits de traitement ?",
+          "options": [
+            "Dans un local fermé, à part des aliments, hors de portée des enfants",
+            "Dans la cuisine"
+          ],
+          "answer": 0,
+          "explain": "Pour la sécurité de tous."
+        },
+        {
+          "q": "Qui indique comment utiliser un produit ?",
+          "options": [
+            "L’étiquette et le conseiller agricole",
+            "Le voisin"
+          ],
+          "answer": 0,
+          "explain": "Aucune dose dans cette formation."
+        }
+      ],
+      "summary": "Acheter de la qualité au bon moment, noter chaque mouvement de stock, compter régulièrement, ranger en sécurité, et utiliser selon l’étiquette et le conseiller.",
+      "resource": "Modèle de fiche de stock des intrants."
+    },
+    {
+      "id": "m5",
+      "label": "Main-d’œuvre",
+      "number": 5,
+      "title": "Organiser la main-d’œuvre",
+      "duration": "35 min",
+      "point": "Le travail se prévoit comme les intrants : repérer les périodes de pointe, compter les jours nécessaires, fixer tâches et paiement à l’avance, et veiller à la sécurité de chacun.",
+      "intro": "En juin, tout le monde cherche des bras pour sarcler. Celui qui a prévu ses ouvriers en avril sarcle à temps ; les autres perdent une partie de leur récolte à cause des mauvaises herbes.",
+      "objectives": [
+        "Repérer les périodes de pointe de travail.",
+        "Calculer le nombre de jours et de personnes nécessaires.",
+        "Organiser le travail avec des règles claires et sûres."
+      ],
+      "lessons": [
+        {
+          "title": "Les sources de main-d’œuvre",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Source",
+                "Usage"
+              ],
+              "rows": [
+                [
+                  "La famille",
+                  "Travaux courants ; son temps a aussi une valeur (formation F14, module 3)"
+                ],
+                [
+                  "Un ouvrier permanent",
+                  "Travaux réguliers toute l’année"
+                ],
+                [
+                  "Des journaliers",
+                  "Périodes de pointe : semis, sarclage, récolte"
+                ],
+                [
+                  "L’entraide ou la coopérative",
+                  "Travaux collectifs, échange de journées"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compter les jours",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On compte en jours-personne : le nombre de jours qu’il faudrait à une seule personne pour faire le travail."
+            },
+            {
+              "type": "formula",
+              "text": "Durée en jours = Jours-personne nécessaires ÷ Nombre de personnes"
+            },
+            {
+              "type": "p",
+              "text": "Le carnet de parcelle (module 3) permet de connaître, saison après saison, les jours réellement passés sur chaque travail."
+            }
+          ]
+        },
+        {
+          "title": "Des règles claires et sûres",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dire la tâche, la durée et le paiement avant de commencer.",
+                "Payer à la date convenue, et noter chaque paiement dans le cahier de caisse.",
+                "Tenir un cahier de présence pour les journaliers.",
+                "Fournir de l’eau et des pauses à l’ombre ; gants et protections pour les produits ; jamais d’enfants pour manipuler les produits de traitement.",
+                "Pour un salarié permanent, se renseigner sur ses obligations d’employeur, notamment la déclaration à la CNPS (formation F4, module 8)."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le sarclage de juin chez Marie-Claire",
+        "text": "Le carnet de l’an dernier indique que le premier sarclage du maïs demande environ 24 jours-personne.",
+        "head": [
+          "Élément",
+          "Chiffre"
+        ],
+        "rows": [
+          [
+            "Jours-personne nécessaires",
+            "24"
+          ],
+          [
+            "Personnes : Marie-Claire, Issa, Pierre et Haoua",
+            "4"
+          ],
+          [
+            "Durée du sarclage : 24 ÷ 4",
+            "6 jours",
+            "result"
+          ]
+        ],
+        "after": "Pierre et Haoua, deux journaliers, ont été réservés dès avril. Le prix de la journée est fixé à l’avance, et chaque paiement est noté dans le cahier de caisse."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« En juin, tout le monde cherche des bras. »",
+            "Champ envahi d’herbes"
+          ],
+          [
+            "0:30",
+            "Famille, permanent, journaliers, entraide.",
+            "Quatre groupes au travail"
+          ],
+          [
+            "1:30",
+            "Compter en jours-personne.",
+            "24 ÷ 4 = 6"
+          ],
+          [
+            "2:45",
+            "Des règles claires et sûres.",
+            "Cahier de présence, eau, pause à l’ombre"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la durée",
+        "text": "Une récolte demande 30 jours-personne. Vous êtes 5 personnes. Combien de jours faudra-t-il ?",
+        "answer": 6,
+        "unit": "jours",
+        "solution": "30 ÷ 5 = 6 jours.",
+        "then": "Repérez ensuite vos trois périodes de pointe et le nombre de personnes nécessaires."
+      },
+      "quiz": [
+        {
+          "q": "Qu’est-ce qu’un jour-personne ?",
+          "options": [
+            "Le travail d’une personne pendant une journée",
+            "Une journée de repos"
+          ],
+          "answer": 0,
+          "explain": "L’unité pour compter le travail."
+        },
+        {
+          "q": "24 jours-personne, 4 personnes. Combien de jours ?",
+          "options": [
+            "6 jours",
+            "96 jours",
+            "20 jours"
+          ],
+          "answer": 0,
+          "explain": "24 ÷ 4 = 6."
+        },
+        {
+          "q": "Quand réserver les journaliers ?",
+          "options": [
+            "Avant la période de pointe",
+            "Le jour même"
+          ],
+          "answer": 0,
+          "explain": "Tout le monde les cherche au même moment."
+        },
+        {
+          "q": "Que dire avant de commencer ?",
+          "options": [
+            "La tâche, la durée et le paiement",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter les malentendus."
+        },
+        {
+          "q": "Un enfant peut-il manipuler les produits de traitement ?",
+          "options": [
+            "Oui, s’il est prudent",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explain": "Ils sont dangereux."
+        },
+        {
+          "q": "Le temps de la famille a-t-il une valeur ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Il compte dans les coûts (formation F14)."
+        }
+      ],
+      "summary": "Repérer les pointes, compter en jours-personne, réserver à l’avance, fixer tâches et paiements, et veiller à la sécurité de tous.",
+      "resource": "Modèle de cahier de présence et de paie des journaliers."
+    },
+    {
+      "id": "m6",
+      "label": "Récoltes et stocks",
+      "number": 6,
+      "title": "Suivre ses récoltes et ses stocks",
+      "duration": "30 min",
+      "point": "On pèse et on note chaque récolte par parcelle, puis on suit sur une fiche de stock ce que deviennent les produits : vente, famille, réserve, pertes. On sait ainsi à tout moment ce qui reste et ce qui peut être vendu.",
+      "intro": "« On a récolté beaucoup de maïs, mais en mars le grenier est vide. » Où est-il passé ? Sans fiche de stock, impossible de savoir s’il a été vendu trop vite, mangé, perdu ou prêté.",
+      "objectives": [
+        "Peser et enregistrer sa récolte par parcelle.",
+        "Tenir une fiche de stock des produits.",
+        "Prévoir la part de la famille avant de vendre."
+      ],
+      "lessons": [
+        {
+          "title": "Peser et noter la récolte",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pesez chaque sac ou comptez des sacs de poids connu, et notez la quantité dans le carnet de la parcelle (module 3). La récolte se note sèche et triée, telle qu’elle entre au magasin (formation F11)."
+            }
+          ]
+        },
+        {
+          "title": "La fiche de stock des produits",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Mouvement",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Entrée",
+                  "Récolte séchée et triée"
+                ],
+                [
+                  "Sortie vente",
+                  "Ventes, avec le cahier de caisse"
+                ],
+                [
+                  "Sortie famille",
+                  "Consommation de la maison"
+                ],
+                [
+                  "Sortie réserve",
+                  "Semences gardées, dons, prêts"
+                ],
+                [
+                  "Pertes",
+                  "Sacs abîmés ou perdus (formation F11, module 7)"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Reste = Récolte − Ventes − Famille − Réserve − Pertes"
+            }
+          ]
+        },
+        {
+          "title": "La part de la famille d’abord",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avant de vendre, calculez ce que la famille consommera jusqu’à la prochaine récolte, et mettez-le de côté. On évite ainsi de vendre bon marché à la récolte pour racheter cher pendant la soudure."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le maïs de Marie-Claire",
+        "text": "Marie-Claire suit sa récolte sur la fiche de stock.",
+        "head": [
+          "Mouvement",
+          "Quantité"
+        ],
+        "rows": [
+          [
+            "Récolte séchée et triée",
+            "3 600 kg"
+          ],
+          [
+            "Part de la famille jusqu’à la prochaine récolte",
+            "−900 kg"
+          ],
+          [
+            "Ventes à la coopérative et au marché",
+            "−2 400 kg"
+          ],
+          [
+            "Pertes au stockage",
+            "−100 kg"
+          ],
+          [
+            "Reste au magasin",
+            "200 kg",
+            "result"
+          ]
+        ],
+        "after": "Cette année, elle a mis de côté la part de la famille avant de vendre : elle n’a pas eu à racheter du maïs en mars."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Beaucoup de maïs récolté, et le grenier vide en mars. »",
+            "Grenier vide"
+          ],
+          [
+            "0:30",
+            "Peser et noter la récolte.",
+            "Balance, sacs pesés"
+          ],
+          [
+            "1:30",
+            "La fiche de stock des produits.",
+            "Fiche qui se remplit"
+          ],
+          [
+            "2:45",
+            "La part de la famille d’abord.",
+            "Sacs mis de côté avec une étiquette « maison »"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le reste",
+        "text": "Vous avez récolté 2 000 kg d’arachide. La famille en garde 400 kg, vous en vendez 1 300 kg, et 100 kg sont perdus. Combien reste-t-il, en kg ?",
+        "answer": 200,
+        "unit": "kg",
+        "solution": "2 000 − 400 − 1 300 − 100 = 200 kg.",
+        "then": "Ouvrez ensuite une fiche de stock pour votre principale récolte."
+      },
+      "quiz": [
+        {
+          "q": "Comment noter la récolte ?",
+          "options": [
+            "Pesée, sèche et triée, par parcelle",
+            "À l’œil"
+          ],
+          "answer": 0,
+          "explain": "Telle qu’elle entre au magasin."
+        },
+        {
+          "q": "Quelles sont les sorties du stock ?",
+          "options": [
+            "Ventes, famille, réserve, pertes",
+            "Seulement les ventes"
+          ],
+          "answer": 0,
+          "explain": "Toutes se notent."
+        },
+        {
+          "q": "Que mettre de côté avant de vendre ?",
+          "options": [
+            "La part de la famille jusqu’à la prochaine récolte",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas racheter cher."
+        },
+        {
+          "q": "Pourquoi noter les pertes ?",
+          "options": [
+            "Pour les mesurer et les réduire",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Formation F11."
+        },
+        {
+          "q": "1 000 kg récoltés, 600 vendus, 300 pour la famille. Reste ?",
+          "options": [
+            "100 kg",
+            "400 kg"
+          ],
+          "answer": 0,
+          "explain": "1 000 − 600 − 300 = 100."
+        },
+        {
+          "q": "Qu’est-ce que la soudure ?",
+          "options": [
+            "La période avant la prochaine récolte, où les prix montent",
+            "Une technique de réparation"
+          ],
+          "answer": 0,
+          "explain": "Il faut avoir gardé assez."
+        }
+      ],
+      "summary": "Peser et noter chaque récolte, suivre toutes les sorties sur la fiche de stock, et garder la part de la famille avant de vendre.",
+      "resource": "Modèle de fiche de stock des récoltes."
+    },
+    {
+      "id": "m7",
+      "label": "Rentabilité",
+      "number": 7,
+      "title": "Calculer les coûts et la rentabilité par culture",
+      "duration": "35 min",
+      "point": "Pour chaque culture : le produit (toute la récolte, vendue ou consommée, au prix du marché), moins toutes les charges, donne la marge, puis la marge par hectare. On compare ainsi les cultures sur une même base.",
+      "intro": "Marie-Claire pense que le maïs est sa meilleure culture, parce qu’elle en récolte le plus. Mais récolter beaucoup ne veut pas dire gagner beaucoup : il faut regarder ce qui reste une fois tout payé, et sur quelle surface.",
+      "objectives": [
+        "Calculer le produit et les charges d’une culture.",
+        "Calculer la marge et la marge par hectare.",
+        "Comparer ses cultures et en tirer une décision."
+      ],
+      "lessons": [
+        {
+          "title": "Le compte d’une culture",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Ligne",
+                "Ce qu’on y met"
+              ],
+              "rows": [
+                [
+                  "Produit",
+                  "Toute la récolte × prix du marché, y compris la part de la famille"
+                ],
+                [
+                  "Charges",
+                  "Semences, fumure, traitements, main-d’œuvre (y compris celle de la famille), location, transport, sacs, usure du matériel"
+                ],
+                [
+                  "Marge",
+                  "Produit − charges"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "text": "Marge par hectare = (Produit − Charges) ÷ Surface en hectares"
+            },
+            {
+              "type": "p",
+              "text": "Les chiffres viennent du carnet de parcelle, de la fiche de stock et du cahier de caisse (formation F14)."
+            }
+          ]
+        },
+        {
+          "title": "Comparer et décider",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La marge par hectare permet de comparer des cultures de surfaces différentes. Mais regardez aussi le travail demandé, l’eau, les risques et le marché : une culture très rentable sur un petit hectare peut demander beaucoup de travail et d’eau."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Les trois cultures de Marie-Claire",
+        "text": "Chiffres en FCFA, fictifs.",
+        "head": [
+          "Culture",
+          "Surface",
+          "Marge",
+          "Marge par ha"
+        ],
+        "rows": [
+          [
+            "Maïs",
+            "1,5 ha",
+            "358 000",
+            "environ 238 700"
+          ],
+          [
+            "Soja",
+            "1 ha",
+            "235 000",
+            "235 000"
+          ],
+          [
+            "Légumes de saison sèche",
+            "0,5 ha",
+            "350 000",
+            "700 000",
+            "result"
+          ]
+        ],
+        "after": "Les légumes rapportent le plus par hectare mais demandent beaucoup de travail et d’eau ; le soja enrichit le sol pour le maïs suivant. Marie-Claire agrandit un peu les légumes si l’eau du puits le permet, et garde la rotation maïs-soja."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Récolter beaucoup ne veut pas dire gagner beaucoup. »",
+            "Gros tas de maïs, petite parcelle de légumes"
+          ],
+          [
+            "0:30",
+            "Le compte d’une culture.",
+            "Produit, charges, marge"
+          ],
+          [
+            "2:00",
+            "La marge par hectare des trois cultures.",
+            "Tableau qui se remplit"
+          ],
+          [
+            "3:30",
+            "Comparer et décider, sans oublier le travail et l’eau.",
+            "Marie-Claire au puits"
+          ]
+        ]
+      },
+      "tool": "cultures",
+      "toolDefaults": {
+        "cultures": [
+          [
+            "Maïs",
+            1.5,
+            3600,
+            180,
+            290000
+          ],
+          [
+            "Soja",
+            1,
+            1100,
+            350,
+            150000
+          ],
+          [
+            "Légumes de saison sèche",
+            0.5,
+            0,
+            0,
+            250000,
+            600000
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez la marge par hectare",
+        "text": "Une parcelle d’arachide de 0,5 hectare donne 600 kg, vendus 500 FCFA le kilo. Les charges s’élèvent à 120 000 FCFA. Quelle est la marge par hectare, en FCFA ?",
+        "answer": 360000,
+        "solution": "Produit : 600 × 500 = 300 000 FCFA. Marge : 300 000 − 120 000 = 180 000 FCFA. Par hectare : 180 000 ÷ 0,5 = 360 000 FCFA.",
+        "then": "Faites ensuite le compte de vos propres cultures avec l’outil."
+      },
+      "quiz": [
+        {
+          "q": "Que compte-t-on dans le produit ?",
+          "options": [
+            "Toute la récolte au prix du marché, y compris la part de la famille",
+            "Seulement ce qui est vendu"
+          ],
+          "answer": 0,
+          "explain": "Elle a une valeur."
+        },
+        {
+          "q": "Faut-il compter le travail de la famille dans les charges ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Sinon on surestime la marge."
+        },
+        {
+          "q": "Comment calcule-t-on la marge ?",
+          "options": [
+            "Produit − charges",
+            "Produit + charges"
+          ],
+          "answer": 0,
+          "explain": "Ce qui reste une fois tout payé."
+        },
+        {
+          "q": "Pourquoi calculer la marge par hectare ?",
+          "options": [
+            "Pour comparer des cultures de surfaces différentes",
+            "Pour rien"
+          ],
+          "answer": 0,
+          "explain": "Sur une même base."
+        },
+        {
+          "q": "Marge 400 000 FCFA sur 2 ha. Marge par hectare ?",
+          "options": [
+            "200 000 FCFA",
+            "800 000 FCFA"
+          ],
+          "answer": 0,
+          "explain": "400 000 ÷ 2."
+        },
+        {
+          "q": "La culture la plus rentable par hectare est-elle toujours le bon choix ?",
+          "options": [
+            "Toujours",
+            "Pas forcément"
+          ],
+          "answer": 1,
+          "explain": "Travail, eau, risques et marché comptent aussi."
+        }
+      ],
+      "summary": "Produit, charges, marge, puis marge par hectare : on compare les cultures sur une même base, sans oublier le travail, l’eau et les risques.",
+      "resource": "Modèle de compte par culture."
+    },
+    {
+      "id": "m8",
+      "label": "Tableau de bord",
+      "number": 8,
+      "title": "Piloter son exploitation avec un tableau de bord",
+      "duration": "35 min",
+      "point": "Un tableau de bord rassemble six chiffres clés : rendement, marge par culture, coût du kilo, jours de travail, stock, trésorerie. En fin de campagne, on fait le bilan et l’on décide de ce qui change.",
+      "intro": "Après une saison de notes, Marie-Claire peut enfin répondre aux trois questions de Thomas. Le tableau de bord transforme les carnets en décisions.",
+      "objectives": [
+        "Remplir le tableau de bord de son exploitation.",
+        "Faire le bilan d’une campagne en trois questions.",
+        "Préparer la campagne suivante à partir de ce bilan."
+      ],
+      "lessons": [
+        {
+          "title": "Les six chiffres du tableau de bord",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Chiffre",
+                "D’où il vient"
+              ],
+              "rows": [
+                [
+                  "Rendement par parcelle",
+                  "Carnet de parcelle (module 3)"
+                ],
+                [
+                  "Marge par culture et par hectare",
+                  "Compte par culture (module 7)"
+                ],
+                [
+                  "Coût du kilo produit",
+                  "Charges ÷ récolte (formation F14, module 3)"
+                ],
+                [
+                  "Jours de travail par culture",
+                  "Carnet de parcelle et cahier de présence (module 5)"
+                ],
+                [
+                  "Stock disponible",
+                  "Fiches de stock (modules 4 et 6)"
+                ],
+                [
+                  "Trésorerie",
+                  "Cahier de caisse et plan de trésorerie (formation F14)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Le bilan de campagne en trois questions",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Qu’est-ce qui a bien marché ? À garder.",
+                "Qu’est-ce qui n’a pas marché, et pourquoi ? En relisant les carnets.",
+                "Que change-t-on la saison prochaine ? Une à trois décisions, écrites dans le nouveau plan de campagne (module 2)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Le bilan peut se faire avec le conseiller agricole ou en réunion de coopérative, pour comparer avec d’autres exploitants."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le bilan de Marie-Claire",
+        "text": "Marie-Claire fait son bilan avec Thomas.",
+        "head": [
+          "Question",
+          "Réponse"
+        ],
+        "rows": [
+          [
+            "Ce qui a bien marché",
+            "Journaliers réservés à l’avance ; part de la famille gardée avant de vendre"
+          ],
+          [
+            "Ce qui n’a pas marché",
+            "Mauvaise levée dans le bas de la parcelle A, trop humide"
+          ],
+          [
+            "Ce qui change",
+            "Un fossé dans le bas de la parcelle A ; un peu plus de légumes si l’eau le permet ; semences achetées avec la coopérative",
+            "result"
+          ]
+        ],
+        "after": "Cette fois, elle répond à Thomas : 2 400 kg de maïs par hectare, 235 000 FCFA de marge par hectare de soja, 350 000 FCFA de marge sur la parcelle de légumes."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Enfin, Marie-Claire peut répondre. »",
+            "Marie-Claire et Thomas, carnets en main"
+          ],
+          [
+            "0:30",
+            "Les six chiffres du tableau de bord.",
+            "Une page avec six cases"
+          ],
+          [
+            "1:45",
+            "Le bilan en trois questions.",
+            "Réunion de coopérative"
+          ],
+          [
+            "3:00",
+            "Les décisions pour la saison suivante.",
+            "Nouveau plan de campagne"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon dossier d’exploitation",
+        "text": "Projet final : cochez chaque pièce quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f8-dossier",
+        "items": [
+          "Plan de campagne",
+          "Un carnet de parcelle rempli",
+          "Fiche de stock des intrants et fiche de stock des récoltes",
+          "Plan de travail des périodes de pointe",
+          "Compte de mes cultures",
+          "Bilan de campagne avec une à trois décisions"
+        ],
+        "then": "Remettez votre dossier au formateur. L’attestation finale est délivrée avec au moins cinq pièces acquises sur six et tous les quiz validés."
+      },
+      "quiz": [
+        {
+          "q": "Combien de chiffres dans le tableau de bord ?",
+          "options": [
+            "Six",
+            "Vingt"
+          ],
+          "answer": 0,
+          "explain": "Rendement, marge, coût du kilo, travail, stock, trésorerie."
+        },
+        {
+          "q": "D’où vient le rendement par parcelle ?",
+          "options": [
+            "Du carnet de parcelle",
+            "De la mémoire"
+          ],
+          "answer": 0,
+          "explain": "Module 3."
+        },
+        {
+          "q": "Comment calcule-t-on le coût du kilo ?",
+          "options": [
+            "Charges divisées par la récolte",
+            "Récolte divisée par les charges"
+          ],
+          "answer": 0,
+          "explain": "Formation F14."
+        },
+        {
+          "q": "Quelles sont les trois questions du bilan ?",
+          "options": [
+            "Ce qui a marché, ce qui n’a pas marché et pourquoi, ce que l’on change",
+            "Combien, où, quand"
+          ],
+          "answer": 0,
+          "explain": "Pour progresser."
+        },
+        {
+          "q": "Combien de décisions retenir ?",
+          "options": [
+            "Une à trois",
+            "Vingt"
+          ],
+          "answer": 0,
+          "explain": "Pour qu’elles soient vraiment appliquées."
+        },
+        {
+          "q": "Où écrire les décisions ?",
+          "options": [
+            "Dans le nouveau plan de campagne",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Elles deviennent des actions."
+        }
+      ],
+      "summary": "Six chiffres, un bilan en trois questions, une à trois décisions écrites dans le plan suivant : la gestion devient un cycle qui fait progresser l’exploitation.",
+      "resource": "Modèle de tableau de bord et de bilan de campagne."
+    }
+  ]
+}

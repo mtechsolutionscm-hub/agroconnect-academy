@@ -1,6 +1,9 @@
-import { NextResponse } from 'next/server';
-import { currentUser } from '../../../../../lib/http';
-export async function GET(request: Request) {
-  const user = await currentUser(request);
-  return NextResponse.json({ authenticated: !!user, user: user ? { id: user.id, name: user.name, email: user.email, role: user.role } : null });
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
+import { json, currentUser } from '../../../../../lib/http';
+import { session } from '../../../../../lib/academy';
+
+export async function GET(req: Request) {
+  return json(session(await currentUser(req)));
 }

@@ -1,0 +1,1611 @@
+{
+  "id": "f11",
+  "title": "Réduire les pertes après récolte",
+  "short": "Pertes après récolte",
+  "lead": "Garder ce que l’on a récolté : moins de grains perdus, moins de grains abîmés, plus de sacs vendus au bon prix.",
+  "note": "La coopérative de Hawa et ses chiffres sont fictifs. Les recommandations techniques sont à valider par la Délégation régionale du MINADER. Cette formation ne donne aucune dose de produit de traitement.",
+  "passMark": 0.8,
+  "certificate": {
+    "issuer": "AgroConnect Academy · Élite Pro Services Consulting SARL",
+    "site": "agroconnectcm.com",
+    "signName": "Abdoulaye Bouba",
+    "signRole": "Fondateur d’AgroConnect Cameroun",
+    "finalNote": "Pour obtenir l’attestation finale, envoyez aussi votre projet final à votre formateur.",
+    "courseDetail": "L’attestation finale est délivrée après validation du projet final par un formateur."
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Causes",
+      "number": 1,
+      "title": "Comprendre les causes des pertes après récolte",
+      "duration": "25 min",
+      "point": "Une récolte se perd de deux façons : en quantité, quand des grains disparaissent, et en qualité, quand les grains abîmés se vendent moins cher ou plus du tout.",
+      "intro": "On travaille toute une saison pour produire. Perdre une partie de la récolte au magasin, c’est perdre ce travail, l’argent des intrants et le revenu de la famille.",
+      "objectives": [
+        "Distinguer une perte en quantité d’une perte en qualité.",
+        "Citer les six étapes où les pertes se produisent.",
+        "Repérer les trois principales causes de pertes dans son propre magasin."
+      ],
+      "lessons": [
+        {
+          "title": "Deux sortes de pertes",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Sorte de perte",
+                "Ce qui se passe",
+                "Exemples"
+              ],
+              "rows": [
+                [
+                  "Perte en quantité",
+                  "Des grains disparaissent ou sont détruits",
+                  "Grains tombés au champ, mangés par les insectes ou les rongeurs, sacs percés"
+                ],
+                [
+                  "Perte en qualité",
+                  "Les grains restent, mais valent moins",
+                  "Grains moisis, cassés, percés, mal triés ; risque de toxines dans les grains moisis"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les grains moisis peuvent contenir des toxines dangereuses pour la santé des personnes et des animaux, comme les aflatoxines, notamment dans le maïs et l’arachide. Ils ne doivent être ni mangés, ni donnés aux animaux."
+            }
+          ]
+        },
+        {
+          "title": "Les six étapes à risque",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Récolte : trop tôt, trop tard, ou sous la pluie.",
+                "Séchage : grains restés trop humides, ou séchés à même le sol.",
+                "Égrenage et battage : grains cassés, qui attirent les insectes.",
+                "Transport : sacs jetés, percés, mouillés.",
+                "Stockage : humidité, insectes, rongeurs, magasin sale.",
+                "Vente : attente trop longue sans contrôle du stock."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le magasin de la coopérative de Hawa",
+        "text": "Après trois mois de stockage, la coopérative ouvre ses sacs : certains sont moisis au fond, d’autres percés par les rongeurs. Hawa note trois causes.",
+        "head": [
+          "Cause",
+          "Conséquence"
+        ],
+        "rows": [
+          [
+            "Sacs posés sur le sol en terre",
+            "Humidité, moisissure au fond des sacs"
+          ],
+          [
+            "Maïs stocké avant d’être bien sec",
+            "Moisissure"
+          ],
+          [
+            "Trou dans le mur du magasin",
+            "Rongeurs",
+            "alert"
+          ]
+        ],
+        "after": "Les sacs abîmés doivent être vendus moins cher ou jetés."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une saison de travail, et une partie part en poussière. »",
+            "Sac ouvert, grains moisis"
+          ],
+          [
+            "0:30",
+            "Pertes en quantité, pertes en qualité.",
+            "Deux tas : un qui diminue, un qui s’abîme"
+          ],
+          [
+            "1:45",
+            "Les six étapes à risque.",
+            "Le chemin du grain, du champ au marché"
+          ],
+          [
+            "3:15",
+            "Les trois causes au magasin de Hawa.",
+            "Sol en terre, grains humides, trou dans le mur"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Quantité ou qualité ?",
+        "text": "Classez ces pertes.",
+        "choices": [
+          "Perte en quantité",
+          "Perte en qualité"
+        ],
+        "items": [
+          [
+            "Des rats mangent une partie d’un sac",
+            0
+          ],
+          [
+            "Des grains moisissent au fond d’un sac",
+            1
+          ],
+          [
+            "Des grains tombent du camion",
+            0
+          ],
+          [
+            "Le maïs est vendu moins cher parce qu’il est mal trié",
+            1
+          ],
+          [
+            "Des insectes percent les grains et les vident",
+            0
+          ],
+          [
+            "Des grains se cassent à l’égrenage et sont déclassés",
+            1
+          ]
+        ],
+        "then": "Faites ensuite le tour de votre magasin et notez trois causes de pertes possibles."
+      },
+      "quiz": [
+        {
+          "q": "Combien de sortes de pertes ?",
+          "options": [
+            "Une",
+            "Deux",
+            "Cinq"
+          ],
+          "answer": 1,
+          "explain": "En quantité et en qualité."
+        },
+        {
+          "q": "Un grain moisi, c’est quelle perte ?",
+          "options": [
+            "En quantité",
+            "En qualité"
+          ],
+          "answer": 1,
+          "explain": "Il reste, mais ne vaut plus rien ou presque."
+        },
+        {
+          "q": "Peut-on donner des grains moisis aux animaux ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Les toxines sont aussi dangereuses pour eux."
+        },
+        {
+          "q": "Les pertes ne se produisent-elles qu’au stockage ?",
+          "options": [
+            "Oui",
+            "Non, à chacune des six étapes"
+          ],
+          "answer": 1,
+          "explain": "Du champ au marché."
+        },
+        {
+          "q": "Pourquoi les grains cassés posent-ils problème ?",
+          "options": [
+            "Ils attirent les insectes",
+            "Ils sont plus lourds"
+          ],
+          "answer": 0,
+          "explain": "Et ils se vendent moins cher."
+        },
+        {
+          "q": "Une cause fréquente de moisissure ?",
+          "options": [
+            "Stocker des grains pas assez secs",
+            "Trier les grains"
+          ],
+          "answer": 0,
+          "explain": "L’humidité favorise les champignons."
+        }
+      ],
+      "summary": "Pertes en quantité et en qualité, à six étapes. Les grains moisis sont dangereux et ne se mangent pas.",
+      "resource": "Fiche « Le tour du magasin » : liste de contrôle des causes de pertes."
+    },
+    {
+      "id": "m2",
+      "label": "Récolte et séchage",
+      "number": 2,
+      "title": "Organiser la récolte, le séchage et la manutention",
+      "duration": "35 min",
+      "point": "Récolter à maturité, sécher jusqu’à ce que le grain soit bien sec, et manipuler avec soin : ces trois gestes évitent la plupart des pertes avant même le magasin.",
+      "intro": "Un grain humide est un grain qui travaille : il chauffe, il moisit, il attire les insectes. Le séchage est le geste le plus important de toute la formation.",
+      "objectives": [
+        "Reconnaître le bon moment pour récolter.",
+        "Sécher correctement, sans contact avec le sol.",
+        "Vérifier simplement si le grain est assez sec avant de le stocker."
+      ],
+      "lessons": [
+        {
+          "title": "Récolter au bon moment",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Maïs : les spathes sont sèches et un point noir apparaît à la base du grain, signe qu’il a atteint sa maturité.",
+                "Trop tôt : grains humides et mal formés, qui moisissent facilement.",
+                "Trop tard : attaques d’insectes et d’oiseaux au champ, grains qui tombent.",
+                "Jamais sous la pluie, et jamais en laissant la récolte en tas à même le sol humide."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bien sécher",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Sécher sur une bâche, une natte ou une aire cimentée propre, jamais sur la terre nue.",
+                "Étaler en couche mince et remuer plusieurs fois par jour.",
+                "Couvrir ou rentrer la nuit et dès que la pluie menace.",
+                "Ne stocker que lorsque le grain est bien sec."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour le maïs, la FAO considère qu’une teneur en eau inférieure à 13 % est idéale pour le stockage. Un humidimètre permet de la mesurer ; une coopérative peut en acheter un pour tous ses membres."
+            }
+          ]
+        },
+        {
+          "title": "Vérifier sans appareil : le test du sel",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mettez dans un bocal en verre bien sec quelques poignées de grains et une cuillère de sel de cuisine sec, fermez, secouez, attendez une quinzaine de minutes. Si le sel colle aux parois, le grain est encore trop humide : continuez le séchage."
+            },
+            {
+              "type": "p",
+              "text": "Ce test donne une indication, pas une mesure précise."
+            }
+          ]
+        },
+        {
+          "title": "Manipuler avec soin",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas jeter les sacs.",
+                "Ne pas marcher sur les grains.",
+                "Régler l’égreneuse pour éviter de casser les grains.",
+                "Transporter à l’abri de la pluie."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "La nouvelle règle de la coopérative de Hawa",
+        "text": "La coopérative achète trois grandes bâches et décide qu’aucun sac n’entre au magasin sans test du sel réussi.",
+        "after": "Le magasinier fait le test devant le membre, au moment du dépôt. Les sacs encore humides repartent au séchage pour un ou deux jours."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Un grain humide est un grain qui travaille. »",
+            "Grains qui chauffent dans un sac"
+          ],
+          [
+            "0:30",
+            "Récolter au bon moment : le point noir.",
+            "Gros plan sur la base d’un grain de maïs"
+          ],
+          [
+            "1:30",
+            "Bien sécher : bâche, couche mince, remuer, couvrir.",
+            "Aire de séchage, bâche repliée avant la pluie"
+          ],
+          [
+            "3:00",
+            "Le test du sel, démontré.",
+            "Bocal, sel, grains, minuteur"
+          ],
+          [
+            "4:15",
+            "Manipuler avec soin.",
+            "Sacs posés, pas jetés"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Sécher le maïs sur la terre nue",
+            1
+          ],
+          [
+            "Étaler en couche mince et remuer",
+            0
+          ],
+          [
+            "Laisser la récolte dehors sous la pluie",
+            1
+          ],
+          [
+            "Faire le test du sel avant le stockage",
+            0
+          ],
+          [
+            "Récolter avant l’apparition du point noir",
+            1
+          ],
+          [
+            "Couvrir l’aire de séchage la nuit",
+            0
+          ]
+        ],
+        "then": "Faites ensuite le test du sel sur votre propre récolte."
+      },
+      "quiz": [
+        {
+          "q": "Quel signe montre que le maïs est mûr ?",
+          "options": [
+            "Un point noir à la base du grain",
+            "Des feuilles vertes"
+          ],
+          "answer": 0,
+          "explain": "Avec des spathes sèches."
+        },
+        {
+          "q": "Sur quoi sécher ?",
+          "options": [
+            "La terre nue",
+            "Une bâche, une natte ou une aire propre"
+          ],
+          "answer": 1,
+          "explain": "Jamais sur la terre nue."
+        },
+        {
+          "q": "Quelle teneur en eau idéale pour stocker le maïs, selon la FAO ?",
+          "options": [
+            "Moins de 13 %",
+            "Environ 25 %"
+          ],
+          "answer": 0,
+          "explain": "Au-delà, le risque de moisissure augmente."
+        },
+        {
+          "q": "Test du sel : le sel colle aux parois. Que faire ?",
+          "options": [
+            "Stocker",
+            "Continuer le séchage"
+          ],
+          "answer": 1,
+          "explain": "Le grain est encore trop humide."
+        },
+        {
+          "q": "Le test du sel est-il une mesure précise ?",
+          "options": [
+            "Oui",
+            "Non, une indication"
+          ],
+          "answer": 1,
+          "explain": "Un humidimètre mesure plus précisément."
+        },
+        {
+          "q": "Pourquoi régler l’égreneuse ?",
+          "options": [
+            "Pour ne pas casser les grains",
+            "Pour aller plus vite"
+          ],
+          "answer": 0,
+          "explain": "Les grains cassés attirent les insectes."
+        }
+      ],
+      "summary": "Récolter à maturité, sécher sur bâche en couche mince, vérifier avant de stocker, manipuler avec soin.",
+      "resource": "Fiche illustrée « Le test du sel », à afficher au magasin."
+    },
+    {
+      "id": "m3",
+      "label": "Tri",
+      "number": 3,
+      "title": "Trier et conditionner les produits",
+      "duration": "30 min",
+      "point": "Trier retire ce qui abîme le reste du lot ; conditionner protège le produit et le rend facile à vendre. Un lot trié et bien emballé se vend plus cher.",
+      "intro": "Un seul grain moisi ne détruit pas un sac, mais il annonce ce qui va se passer. Le tri protège le stock, et l’acheteur le paie.",
+      "objectives": [
+        "Trier un lot en retirant les cinq types d’impuretés.",
+        "Conditionner dans des sacs propres, pesés et étiquetés.",
+        "Calculer si le tri est rentable."
+      ],
+      "lessons": [
+        {
+          "title": "Ce que l’on retire au tri",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les grains moisis ou noircis, à écarter et à détruire, ni mangés ni donnés aux animaux.",
+                "Les grains percés par les insectes.",
+                "Les grains cassés, qui peuvent être vendus à part, moins cher.",
+                "Les cailloux, la terre et les débris de spathes ou de coques.",
+                "Les grains d’une autre variété ou couleur, si l’acheteur veut un lot homogène."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bien conditionner",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Geste",
+                "Pourquoi"
+              ],
+              "rows": [
+                [
+                  "Sacs propres, sans trou, n’ayant jamais contenu d’engrais ou de produits chimiques",
+                  "Éviter contamination et pertes"
+                ],
+                [
+                  "Même poids pour chaque sac, vérifié à la balance",
+                  "La confiance de l’acheteur"
+                ],
+                [
+                  "Étiquette : produit, lot, date, poids",
+                  "Savoir quel sac sortir en premier, et le retrouver en cas de réclamation"
+                ],
+                [
+                  "Fermeture solide",
+                  "Ni grains perdus, ni insectes qui entrent"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le tri est-il rentable ?",
+        "text": "La coopérative de Hawa compare la vente avec et sans tri.",
+        "head": [
+          "Calcul",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "40 sacs vendus sans tri, à 13 000",
+            "520 000"
+          ],
+          [
+            "Après tri : 39 sacs, à 15 000",
+            "585 000"
+          ],
+          [
+            "Moins la main-d’œuvre du tri",
+            "−10 000"
+          ],
+          [
+            "Gain du tri",
+            "55 000",
+            "result"
+          ]
+        ],
+        "after": "Même en perdant un sac au tri, la coopérative gagne 55 000 FCFA, sans compter un stock qui se conserve mieux."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Un grain moisi annonce ce qui va arriver au sac. »",
+            "Main qui retire un grain noirci"
+          ],
+          [
+            "0:30",
+            "Les cinq choses à retirer.",
+            "Plateau de tri, cinq petits tas"
+          ],
+          [
+            "1:45",
+            "Sacs propres, pesés, étiquetés.",
+            "Balance, étiquette écrite à la main"
+          ],
+          [
+            "3:00",
+            "Le calcul : 55 000 FCFA de gain.",
+            "Deux piles de sacs et deux prix"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le gain du tri",
+        "text": "Vous avez 50 sacs. Sans tri, ils se vendent 12 000 FCFA. Après tri, il reste 48 sacs, vendus 14 000 FCFA ; le tri coûte 15 000 FCFA de main-d’œuvre. Quel est le gain du tri, en FCFA ?",
+        "answer": 57000,
+        "solution": "Sans tri : 600 000 FCFA. Après tri : 48 × 14 000 = 672 000, moins 15 000, soit 657 000 FCFA. Gain : 57 000 FCFA.",
+        "then": "Faites ensuite le même calcul avec les prix de votre marché."
+      },
+      "quiz": [
+        {
+          "q": "Que faire des grains moisis ?",
+          "options": [
+            "Les donner aux poules",
+            "Les écarter et les détruire"
+          ],
+          "answer": 1,
+          "explain": "Ni pour les personnes, ni pour les animaux."
+        },
+        {
+          "q": "Les grains cassés sont-ils perdus ?",
+          "options": [
+            "Toujours",
+            "Pas forcément, ils se vendent à part"
+          ],
+          "answer": 1,
+          "explain": "Moins cher, mais vendables."
+        },
+        {
+          "q": "Peut-on réutiliser un sac d’engrais ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Risque de contamination du produit."
+        },
+        {
+          "q": "Que porte l’étiquette ?",
+          "options": [
+            "Produit, lot, date, poids",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Pour gérer le stock et les réclamations."
+        },
+        {
+          "q": "Le tri est-il rentable même s’il retire du poids ?",
+          "options": [
+            "Souvent oui",
+            "Jamais"
+          ],
+          "answer": 0,
+          "explain": "Le prix plus élevé compense."
+        },
+        {
+          "q": "Pourquoi peser chaque sac ?",
+          "options": [
+            "Pour un poids identique et la confiance de l’acheteur",
+            "Pour le plaisir"
+          ],
+          "answer": 0,
+          "explain": "Un sac léger fait perdre le client."
+        }
+      ],
+      "summary": "Retirer moisis, percés, cassés, impuretés et mélanges. Des sacs propres, pesés, étiquetés et bien fermés. Le tri se paie.",
+      "resource": "Modèle d’étiquette de sac et fiche « Calculer le gain du tri »."
+    },
+    {
+      "id": "m4",
+      "label": "Stockage",
+      "number": 4,
+      "title": "Comprendre les méthodes de stockage adaptées",
+      "duration": "30 min",
+      "point": "Un bon stockage garde le grain sec, propre, à l’abri des insectes et des rongeurs, et contrôlé régulièrement. La méthode se choisit selon la durée, le volume et le budget.",
+      "intro": "Stocker permet d’attendre un meilleur prix. Mais un stockage mal fait coûte plus cher que la hausse de prix espérée.",
+      "objectives": [
+        "Appliquer les six règles d’un magasin bien tenu.",
+        "Comparer quatre méthodes de stockage.",
+        "Organiser un contrôle régulier du stock."
+      ],
+      "lessons": [
+        {
+          "title": "Les six règles du magasin",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Propre : nettoyé avant chaque récolte, vieux grains et poussière retirés.",
+                "Étanche : toit sans fuite, murs sans trous, porte qui ferme.",
+                "Surélevé : sacs sur palettes, jamais sur le sol ni contre les murs.",
+                "Aéré : un passage entre les piles pour circuler et contrôler.",
+                "Premier entré, premier sorti : les sacs les plus anciens partent les premiers.",
+                "Contrôlé : chaque semaine, on regarde, on sent, on touche."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quatre méthodes de stockage",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Méthode",
+                "Avantages",
+                "Limites"
+              ],
+              "rows": [
+                [
+                  "Sacs ordinaires sur palettes",
+                  "Simple, peu coûteux",
+                  "Exposés aux insectes si le stockage dure"
+                ],
+                [
+                  "Sacs hermétiques (étanches à l’air)",
+                  "Les insectes présents meurent faute d’air, sans produit chimique",
+                  "Grain bien sec obligatoire ; sac à ne pas percer ; disponibilité et prix à vérifier localement"
+                ],
+                [
+                  "Grenier traditionnel amélioré",
+                  "Matériaux locaux, bon pour la famille",
+                  "Petits volumes, rongeurs à surveiller"
+                ],
+                [
+                  "Silo métallique",
+                  "Très bonne protection, longue durée",
+                  "Coût d’achat élevé, grain bien sec obligatoire"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Contrôler et protéger",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Signes d’alerte : chaleur en enfonçant la main dans le sac, odeur de moisi, poussière de grain, insectes, crottes de rongeurs.",
+                "Rongeurs : boucher les trous, garder le magasin propre, garder les sacs sur palettes.",
+                "Produits de traitement : uniquement des produits homologués, utilisés selon leur étiquette et sur conseil d’un agent technique. Cette formation ne donne aucune dose.",
+                "Les produits contre les rongeurs se manipulent avec précaution, loin des grains, des enfants et des animaux."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le magasin réaménagé de la coopérative de Hawa",
+        "text": "La coopérative applique les six règles.",
+        "head": [
+          "Problème",
+          "Solution"
+        ],
+        "rows": [
+          [
+            "Trou dans le mur",
+            "Bouché"
+          ],
+          [
+            "Sol en terre",
+            "Cimenté, avec des palettes en bois de récupération"
+          ],
+          [
+            "Piles serrées",
+            "Une allée entre les piles"
+          ],
+          [
+            "Arachide gardée plusieurs mois",
+            "Essai de sacs hermétiques"
+          ],
+          [
+            "Pas de suivi",
+            "Cahier de contrôle rempli chaque vendredi",
+            "result"
+          ]
+        ],
+        "after": "Le stock est désormais vu, senti et touché chaque semaine."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Stocker pour vendre plus cher, ou stocker pour perdre ? »",
+            "Magasin sombre, puis magasin rangé"
+          ],
+          [
+            "0:30",
+            "Les six règles du magasin.",
+            "Palettes, allée, étiquettes"
+          ],
+          [
+            "2:00",
+            "Quatre méthodes de stockage.",
+            "Sac ordinaire, sac hermétique, grenier, silo"
+          ],
+          [
+            "3:30",
+            "Contrôler : regarder, sentir, toucher.",
+            "Main enfoncée dans un sac"
+          ],
+          [
+            "4:30",
+            "Les produits : seulement avec un agent technique.",
+            "Étiquette de produit homologué"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Poser les sacs directement sur le sol",
+            1
+          ],
+          [
+            "Laisser une allée entre les piles",
+            0
+          ],
+          [
+            "Mettre du grain encore humide dans un sac hermétique",
+            1
+          ],
+          [
+            "Sortir d’abord les sacs les plus anciens",
+            0
+          ],
+          [
+            "Utiliser un produit sans étiquette acheté au marché",
+            1
+          ],
+          [
+            "Contrôler le stock chaque semaine",
+            0
+          ]
+        ],
+        "then": "Notez ensuite, pour votre magasin, les règles déjà respectées et celles à mettre en place."
+      },
+      "quiz": [
+        {
+          "q": "Où poser les sacs ?",
+          "options": [
+            "Sur des palettes, loin des murs",
+            "Contre le mur"
+          ],
+          "answer": 0,
+          "explain": "Pour éviter l’humidité et faciliter le contrôle."
+        },
+        {
+          "q": "Que signifie « premier entré, premier sorti » ?",
+          "options": [
+            "Les sacs les plus anciens partent les premiers",
+            "Le premier client est servi"
+          ],
+          "answer": 0,
+          "explain": "Aucun sac n’est oublié au fond."
+        },
+        {
+          "q": "Comment agit un sac hermétique ?",
+          "options": [
+            "Les insectes meurent faute d’air",
+            "Il chauffe le grain"
+          ],
+          "answer": 0,
+          "explain": "Sans produit chimique, si le grain est sec."
+        },
+        {
+          "q": "Peut-on y mettre du grain humide ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il moisirait."
+        },
+        {
+          "q": "Un signe d’alerte au contrôle ?",
+          "options": [
+            "Chaleur, odeur de moisi, insectes",
+            "Un sac bien fermé"
+          ],
+          "answer": 0,
+          "explain": "Il faut agir vite."
+        },
+        {
+          "q": "Qui conseille un produit de traitement ?",
+          "options": [
+            "Le vendeur du marché",
+            "Un agent technique, pour un produit homologué"
+          ],
+          "answer": 1,
+          "explain": "Toujours selon l’étiquette."
+        }
+      ],
+      "summary": "Un magasin propre, étanche, surélevé, aéré et contrôlé ; une méthode choisie selon la durée et le budget ; des produits seulement homologués et conseillés.",
+      "resource": "Cahier de contrôle hebdomadaire du magasin, à imprimer."
+    },
+    {
+      "id": "m5",
+      "label": "Conservation et transport",
+      "number": 5,
+      "title": "Améliorer la conservation et le transport",
+      "duration": "30 min",
+      "point": "Les céréales se gardent au sec ; les produits frais se gardent au frais et à l’ombre, et se vendent vite. Pendant le transport, on protège de la pluie, du soleil et des chocs.",
+      "intro": "Une cagette de tomates peut perdre une grande partie de sa valeur en une seule journée de soleil sur un camion. Quelques gestes simples font la différence entre un produit vendu et un produit jeté.",
+      "objectives": [
+        "Adapter la conservation au type de produit.",
+        "Préparer un chargement qui protège le produit.",
+        "Choisir le bon moment et le bon contenant pour transporter."
+      ],
+      "lessons": [
+        {
+          "title": "Conserver selon le produit",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Produit",
+                "Règle de conservation"
+              ],
+              "rows": [
+                [
+                  "Céréales et légumineuses (maïs, arachide, haricot)",
+                  "Bien sèches, en sacs sur palettes, contrôlées chaque semaine (module 4)"
+                ],
+                [
+                  "Légumes frais (tomate, piment, chou)",
+                  "Récolte tôt le matin, à l’ombre, en caisses aérées, vente rapide"
+                ],
+                [
+                  "Tubercules (manioc, igname, patate)",
+                  "Sans blessures, à l’abri du soleil et de la pluie ; le manioc frais se vend ou se transforme vite"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bien transporter",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Caisses plutôt que sacs pour les produits fragiles ; ne pas empiler trop haut.",
+                "Bâche pour protéger de la pluie et du soleil, sans empêcher l’air de circuler.",
+                "Charger et décharger avec soin, sans jeter.",
+                "Partir aux heures fraîches pour les produits frais.",
+                "Accompagner le chargement d’un bon de livraison (formation F6, module 8).",
+                "Consulter les alertes climat d’AgroConnect avant un transport en saison des pluies."
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le transport des tomates d’une membre de la coopérative",
+        "text": "Une membre transportait ses tomates en sacs, empilés au soleil sur la moto-taxi de midi. À l’arrivée, beaucoup étaient écrasées.",
+        "head": [
+          "Avant",
+          "Après"
+        ],
+        "rows": [
+          [
+            "Sacs empilés",
+            "Caisses en plastique"
+          ],
+          [
+            "Récolte en fin de matinée",
+            "Récolte à l’aube"
+          ],
+          [
+            "Départ à midi, en plein soleil",
+            "Départ avant 8 heures",
+            "result"
+          ]
+        ],
+        "after": "Elle vend davantage de tomates, et à un meilleur prix."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« Une journée de soleil, et la moitié des tomates est perdue. »",
+            "Tomates écrasées dans un sac"
+          ],
+          [
+            "0:30",
+            "Conserver selon le produit.",
+            "Trois produits, trois façons de conserver"
+          ],
+          [
+            "1:45",
+            "Bien transporter : caisses, bâche, heures fraîches.",
+            "Camion chargé proprement à l’aube"
+          ],
+          [
+            "3:15",
+            "Les tomates qui arrivent intactes.",
+            "Caisses ouvertes au marché"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "classify",
+        "title": "Bonne ou mauvaise pratique ?",
+        "text": "Classez ces gestes.",
+        "choices": [
+          "Bonne pratique",
+          "Mauvaise pratique"
+        ],
+        "items": [
+          [
+            "Transporter des tomates en sacs empilés",
+            1
+          ],
+          [
+            "Récolter les légumes tôt le matin",
+            0
+          ],
+          [
+            "Laisser le chargement au soleil pendant l’attente",
+            1
+          ],
+          [
+            "Utiliser des caisses aérées",
+            0
+          ],
+          [
+            "Jeter les sacs du camion au déchargement",
+            1
+          ],
+          [
+            "Couvrir le chargement d’une bâche en cas de pluie",
+            0
+          ]
+        ]
+      },
+      "quiz": [
+        {
+          "q": "Quand récolter les légumes frais ?",
+          "options": [
+            "Tôt le matin",
+            "À midi"
+          ],
+          "answer": 0,
+          "explain": "Ils sont plus frais et se conservent mieux."
+        },
+        {
+          "q": "Quel contenant pour les tomates ?",
+          "options": [
+            "Des sacs",
+            "Des caisses aérées"
+          ],
+          "answer": 1,
+          "explain": "Les sacs écrasent les fruits."
+        },
+        {
+          "q": "Quand transporter les produits frais ?",
+          "options": [
+            "Aux heures fraîches",
+            "En plein soleil"
+          ],
+          "answer": 0,
+          "explain": "La chaleur accélère la pourriture."
+        },
+        {
+          "q": "Faut-il bâcher le chargement ?",
+          "options": [
+            "Oui, sans bloquer l’air",
+            "Non"
+          ],
+          "answer": 0,
+          "explain": "Contre la pluie et le soleil."
+        },
+        {
+          "q": "Le manioc frais se garde-t-il longtemps ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "Il se vend ou se transforme vite."
+        },
+        {
+          "q": "Où vérifier le risque de pluie avant de partir ?",
+          "options": [
+            "Dans les alertes climat d’AgroConnect",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Pour anticiper."
+        }
+      ],
+      "summary": "Au sec pour les grains, au frais pour les produits frais. Caisses, bâche, heures fraîches et manipulation soigneuse pour le transport.",
+      "resource": "Fiche « Bien charger un camion »."
+    },
+    {
+      "id": "m6",
+      "label": "Vendre à temps",
+      "number": 6,
+      "title": "Organiser la commercialisation rapidement",
+      "duration": "30 min",
+      "point": "Chaque semaine de stockage a un coût et un risque : on ne garde un produit que si le prix attendu couvre ces coûts. Sinon, on vend vite, ou on transforme pour conserver.",
+      "intro": "« J’attends que le prix monte. » Parfois il monte, parfois non, et pendant ce temps le stock s’abîme. Ce module apprend à calculer avant d’attendre.",
+      "objectives": [
+        "Préparer un plan de vente avant la récolte.",
+        "Calculer si attendre pour vendre est rentable.",
+        "Citer des façons de transformer un produit pour mieux le conserver."
+      ],
+      "lessons": [
+        {
+          "title": "Vendre avant de récolter",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contacter les acheteurs avant la récolte (formation F6, modules 2 et 7).",
+                "Prévoir ce qui sera vendu tout de suite, et ce qui sera stocké.",
+                "Vendre en priorité les produits périssables et les lots les moins bien conservés.",
+                "Suivre l’évolution des prix dans la rubrique Prix marché d’AgroConnect."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Attendre est-il rentable ?",
+          "blocks": [
+            {
+              "type": "formula",
+              "text": "Gain d’attendre = Recette future − Coûts de stockage − Recette aujourd’hui"
+            },
+            {
+              "type": "p",
+              "text": "La recette future se calcule sur les sacs qui restent après les pertes de stockage. Le prix futur n’est qu’une espérance : s’il ne monte pas, on perd."
+            }
+          ]
+        },
+        {
+          "title": "Transformer pour conserver",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Quand un produit ne se vend pas assez vite, le transformer peut le sauver : sécher la tomate ou le piment, faire de la farine de maïs ou de manioc, du gari, de la pâte d’arachide."
+            },
+            {
+              "type": "p",
+              "text": "La transformation demande des règles d’hygiène strictes et un marché : elle fait l’objet de la formation F10 Entreprendre dans la transformation agroalimentaire."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Vendre maintenant ou dans trois mois ?",
+        "text": "La coopérative de Hawa a 40 sacs de maïs.",
+        "head": [
+          "Calcul",
+          "Montant (FCFA)"
+        ],
+        "rows": [
+          [
+            "Vendre aujourd’hui : 40 sacs à 13 000",
+            "520 000"
+          ],
+          [
+            "Dans trois mois : 38 sacs restants à 15 000 espérés",
+            "570 000"
+          ],
+          [
+            "Coûts de stockage : 300 par sac et par mois, 3 mois",
+            "−36 000"
+          ],
+          [
+            "Recette nette en attendant",
+            "534 000"
+          ],
+          [
+            "Gain d’attendre, si le prix monte vraiment",
+            "14 000",
+            "result"
+          ]
+        ],
+        "after": "Pour un gain aussi faible et incertain, la coopérative vend la moitié tout de suite et ne stocke que l’autre moitié, en sacs hermétiques."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« J’attends que le prix monte… »",
+            "Sacs qui attendent au magasin, calendrier qui défile"
+          ],
+          [
+            "0:30",
+            "Vendre avant de récolter : le plan de vente.",
+            "Hawa au téléphone avant la récolte"
+          ],
+          [
+            "1:30",
+            "Le calcul : 14 000 FCFA seulement.",
+            "Tableau qui se remplit"
+          ],
+          [
+            "3:00",
+            "Transformer pour conserver.",
+            "Tomates séchées, farine, gari"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le gain d’attendre",
+        "text": "Vous avez 30 sacs. Aujourd’hui, le sac vaut 12 000 FCFA. Dans deux mois, vous espérez 14 000 FCFA, mais vous perdrez 1 sac, et le stockage coûte 200 FCFA par sac et par mois. Quel est le gain d’attendre, en FCFA ?",
+        "answer": 34000,
+        "solution": "Aujourd’hui : 360 000 FCFA. Dans deux mois : 29 × 14 000 = 406 000, moins 30 × 200 × 2 = 12 000, soit 394 000 FCFA. Gain : 34 000 FCFA, si le prix monte vraiment.",
+        "then": "Faites ensuite le même calcul avant votre prochaine décision de stockage."
+      },
+      "quiz": [
+        {
+          "q": "Quand chercher les acheteurs ?",
+          "options": [
+            "Avant la récolte",
+            "Quand le stock s’abîme"
+          ],
+          "answer": 0,
+          "explain": "Pour ne pas vendre dans l’urgence."
+        },
+        {
+          "q": "Que vendre en premier ?",
+          "options": [
+            "Les produits périssables et les lots les moins bien conservés",
+            "Les meilleurs lots"
+          ],
+          "answer": 0,
+          "explain": "Ils perdent leur valeur les premiers."
+        },
+        {
+          "q": "Le prix futur est-il garanti ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": 1,
+          "explain": "C’est une espérance."
+        },
+        {
+          "q": "Que retirer de la recette future ?",
+          "options": [
+            "Les coûts de stockage et les sacs perdus",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Sinon on surestime le gain."
+        },
+        {
+          "q": "Faut-il tout stocker ou tout vendre ?",
+          "options": [
+            "On peut partager",
+            "Toujours tout stocker"
+          ],
+          "answer": 0,
+          "explain": "Vendre une partie réduit le risque."
+        },
+        {
+          "q": "Un moyen de conserver un produit qui ne se vend pas ?",
+          "options": [
+            "Le transformer",
+            "Le laisser au soleil"
+          ],
+          "answer": 0,
+          "explain": "Séchage, farine, pâte."
+        }
+      ],
+      "summary": "Préparer la vente avant la récolte, calculer avant d’attendre, partager entre vente immédiate et stockage, et transformer quand c’est utile.",
+      "resource": "Fiche « Vendre maintenant ou attendre ? » avec le calcul pas à pas."
+    },
+    {
+      "id": "m7",
+      "label": "Mesurer",
+      "number": 7,
+      "title": "Calculer les pertes et mesurer les améliorations",
+      "duration": "30 min",
+      "point": "On ne réduit bien que ce que l’on mesure : compter les sacs perdus à chaque étape donne le taux de pertes, sa valeur en FCFA, et l’étape à corriger en premier.",
+      "intro": "« On perd un peu. » Combien, exactement ? Tant que personne ne compte, personne ne sait si les efforts de la coopérative servent à quelque chose.",
+      "objectives": [
+        "Calculer un taux de pertes.",
+        "Chiffrer la valeur des pertes en FCFA.",
+        "Comparer deux saisons pour mesurer une amélioration."
+      ],
+      "lessons": [
+        {
+          "title": "Compter les pertes",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour chaque étape (récolte, séchage, égrenage, transport, stockage, vente), on note le nombre de sacs perdus ou déclassés. Les bons de dépôt et le cahier de stock (formation F9, module 5) donnent les chiffres du magasin."
+            },
+            {
+              "type": "formula",
+              "text": "Taux de pertes = Sacs perdus ou déclassés ÷ Sacs récoltés × 100"
+            },
+            {
+              "type": "formula",
+              "text": "Valeur des pertes = Sacs perdus × Prix du sac"
+            }
+          ]
+        },
+        {
+          "title": "Mesurer l’amélioration",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On compare le taux de pertes d’une saison à l’autre, avec la même méthode de comptage. La différence, multipliée par la récolte et par le prix, donne la valeur des pertes évitées."
+            },
+            {
+              "type": "p",
+              "text": "C’est un indicateur simple et parlant pour les membres, les partenaires et le suivi du pilote AgroConnect."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Deux saisons au magasin de Hawa",
+        "text": "Même récolte, même méthode de comptage, avant et après la formation.",
+        "head": [
+          "",
+          "Saison 1",
+          "Saison 2"
+        ],
+        "rows": [
+          [
+            "Sacs récoltés",
+            "300",
+            "300"
+          ],
+          [
+            "Sacs perdus ou déclassés",
+            "30",
+            "12"
+          ],
+          [
+            "Taux de pertes",
+            "10 %",
+            "4 %"
+          ],
+          [
+            "Valeur des pertes, à 14 000 FCFA le sac",
+            "420 000 FCFA",
+            "168 000 FCFA"
+          ],
+          [
+            "Pertes évitées",
+            "",
+            "252 000 FCFA",
+            "result"
+          ]
+        ],
+        "after": "L’essentiel des progrès vient du séchage et du stockage, les deux étapes où la coopérative perdait le plus."
+      },
+      "video": {
+        "url": "",
+        "duration": "4 min",
+        "script": [
+          [
+            "0:00",
+            "« On perd un peu. — Combien ? »",
+            "Hawa devant le cahier de stock"
+          ],
+          [
+            "0:30",
+            "Compter par étape, calculer le taux et la valeur.",
+            "Six cases qui se remplissent"
+          ],
+          [
+            "2:00",
+            "Deux saisons comparées.",
+            "Deux colonnes, 10 % puis 4 %"
+          ],
+          [
+            "3:15",
+            "252 000 FCFA de pertes évitées, annoncés en assemblée.",
+            "Applaudissements en réunion"
+          ]
+        ]
+      },
+      "tool": "pertes",
+      "toolDefaults": {
+        "recolte": 300,
+        "prix": 14000,
+        "etapes": [
+          [
+            "Récolte",
+            2
+          ],
+          [
+            "Séchage",
+            10
+          ],
+          [
+            "Égrenage",
+            3
+          ],
+          [
+            "Transport",
+            2
+          ],
+          [
+            "Stockage",
+            12
+          ],
+          [
+            "Vente",
+            1
+          ]
+        ]
+      },
+      "activity": {
+        "type": "answer",
+        "title": "Calculez le taux de pertes",
+        "text": "Une coopérative a récolté 200 sacs et en a perdu ou déclassé 16. Quel est son taux de pertes, en pourcentage ?",
+        "answer": 8,
+        "unit": "%",
+        "solution": "16 ÷ 200 × 100 = 8 %.",
+        "then": "Remplissez ensuite le calculateur avec les chiffres de votre dernière saison."
+      },
+      "quiz": [
+        {
+          "q": "Pourquoi mesurer les pertes ?",
+          "options": [
+            "Pour savoir quoi corriger et voir les progrès",
+            "Pour remplir un cahier"
+          ],
+          "answer": 0,
+          "explain": "On ne réduit bien que ce que l’on mesure."
+        },
+        {
+          "q": "300 sacs, 15 perdus. Taux de pertes ?",
+          "options": [
+            "5 %",
+            "15 %",
+            "3 %"
+          ],
+          "answer": 0,
+          "explain": "15 ÷ 300 × 100 = 5."
+        },
+        {
+          "q": "10 sacs perdus à 14 000 FCFA. Valeur ?",
+          "options": [
+            "14 000 FCFA",
+            "140 000 FCFA"
+          ],
+          "answer": 1,
+          "explain": "10 × 14 000."
+        },
+        {
+          "q": "Où trouver les chiffres du magasin ?",
+          "options": [
+            "Bons de dépôt et cahier de stock",
+            "Dans sa mémoire"
+          ],
+          "answer": 0,
+          "explain": "Les registres servent ici aussi."
+        },
+        {
+          "q": "Comment comparer deux saisons ?",
+          "options": [
+            "Avec la même méthode de comptage",
+            "Au hasard"
+          ],
+          "answer": 0,
+          "explain": "Sinon la comparaison est faussée."
+        },
+        {
+          "q": "Par quelle étape commencer ?",
+          "options": [
+            "Celle où l’on perd le plus",
+            "La plus facile"
+          ],
+          "answer": 0,
+          "explain": "C’est là que le gain est le plus grand."
+        }
+      ],
+      "summary": "Compter par étape, calculer le taux et la valeur, corriger d’abord l’étape qui coûte le plus, et comparer les saisons.",
+      "resource": "Fiche de comptage des pertes par étape, à imprimer."
+    },
+    {
+      "id": "m8",
+      "label": "Plan d’action",
+      "number": 8,
+      "title": "Élaborer un plan de réduction des pertes pour une coopérative",
+      "duration": "40 min",
+      "point": "Un plan de réduction des pertes tient sur une page : le diagnostic, deux ou trois priorités, des actions avec un responsable, un coût et une date, et un indicateur suivi chaque saison.",
+      "intro": "Tous les modules précédents se rejoignent ici. La coopérative passe de « on devrait faire attention » à « voici ce que nous faisons, qui le fait, et ce que ça nous rapporte ».",
+      "objectives": [
+        "Construire un plan de réduction en cinq parties.",
+        "Choisir des actions réalistes et peu coûteuses d’abord.",
+        "Présenter le plan et son suivi en assemblée."
+      ],
+      "lessons": [
+        {
+          "title": "Les cinq parties du plan",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                "Diagnostic : taux de pertes par étape, calculé au module 7.",
+                "Priorités : les deux ou trois étapes qui coûtent le plus.",
+                "Actions : pour chaque priorité, des gestes concrets tirés des modules 2 à 6.",
+                "Moyens : qui fait quoi, avec quel coût, pour quand.",
+                "Suivi : le taux de pertes mesuré chaque saison, et présenté en assemblée."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Commencez par les actions qui coûtent peu (nettoyer, boucher un trou, faire le test du sel) avant les investissements (humidimètre, sacs hermétiques, palettes)."
+            }
+          ]
+        }
+      ],
+      "example": {
+        "title": "Le plan de la coopérative de Hawa",
+        "text": "Pour 105 000 FCFA d’investissement, la coopérative vise à réduire nettement ses pertes.",
+        "head": [
+          "Priorité",
+          "Action",
+          "Responsable",
+          "Coût (FCFA)"
+        ],
+        "rows": [
+          [
+            "Stockage",
+            "Boucher le mur, cimenter le sol, fabriquer des palettes",
+            "Magasinier et volontaires",
+            "60 000"
+          ],
+          [
+            "Séchage",
+            "Trois bâches, test du sel obligatoire au dépôt",
+            "Président ; magasinier",
+            "45 000"
+          ],
+          [
+            "Vente",
+            "Vendre la moitié du stock dans le mois qui suit la récolte",
+            "Chargé commercial",
+            "0"
+          ],
+          [
+            "Suivi",
+            "Compter les pertes et présenter le taux en assemblée",
+            "Trésorière",
+            "0",
+            "result"
+          ]
+        ],
+        "after": "Le résultat réel sera mesuré en fin de saison, avec la même méthode qu’au module 7."
+      },
+      "video": {
+        "url": "",
+        "duration": "5 min",
+        "script": [
+          [
+            "0:00",
+            "« Voici ce que nous faisons, qui le fait, et ce que ça rapporte. »",
+            "Hawa devant un tableau en assemblée"
+          ],
+          [
+            "0:30",
+            "Les cinq parties du plan.",
+            "Une page qui se remplit"
+          ],
+          [
+            "2:00",
+            "Le plan de la coopérative, action par action.",
+            "Mur bouché, bâches, test du sel"
+          ],
+          [
+            "3:45",
+            "Le suivi : le taux présenté chaque saison.",
+            "Deux chiffres comparés"
+          ]
+        ]
+      },
+      "activity": {
+        "type": "checklist",
+        "title": "Mon plan de réduction des pertes",
+        "text": "Cochez chaque partie quand elle est prête. Votre liste reste enregistrée sur ce téléphone.",
+        "key": "f11-plan",
+        "items": [
+          "Diagnostic : taux de pertes par étape calculé",
+          "Deux ou trois priorités choisies",
+          "Actions décrites pour chaque priorité",
+          "Responsable, coût et date pour chaque action",
+          "Indicateur de suivi défini",
+          "Plan présenté en assemblée"
+        ],
+        "then": "Projet final : remettez votre plan de réduction des pertes au formateur. L’attestation finale est délivrée quand le plan est complet et que tous les quiz sont validés. À la fin de la saison suivante, partagez votre nouveau taux de pertes : c’est l’indicateur d’impact du pilote."
+      },
+      "quiz": [
+        {
+          "q": "Combien de parties dans le plan ?",
+          "options": [
+            "Trois",
+            "Cinq",
+            "Dix"
+          ],
+          "answer": 1,
+          "explain": "Diagnostic, priorités, actions, moyens, suivi."
+        },
+        {
+          "q": "D’où vient le diagnostic ?",
+          "options": [
+            "Du calcul des pertes par étape",
+            "D’une impression"
+          ],
+          "answer": 0,
+          "explain": "Module 7."
+        },
+        {
+          "q": "Par quelles actions commencer ?",
+          "options": [
+            "Celles qui coûtent peu",
+            "Les plus chères"
+          ],
+          "answer": 0,
+          "explain": "Avant les gros investissements."
+        },
+        {
+          "q": "Que préciser pour chaque action ?",
+          "options": [
+            "Responsable, coût, date",
+            "Rien"
+          ],
+          "answer": 0,
+          "explain": "Sinon personne ne la fait."
+        },
+        {
+          "q": "Quel indicateur suivre ?",
+          "options": [
+            "Le taux de pertes",
+            "Le nombre de réunions"
+          ],
+          "answer": 0,
+          "explain": "Mesuré chaque saison."
+        },
+        {
+          "q": "Où présenter les résultats ?",
+          "options": [
+            "En assemblée",
+            "Nulle part"
+          ],
+          "answer": 0,
+          "explain": "Les membres voient l’effet de leurs efforts."
+        }
+      ],
+      "summary": "Une page : diagnostic, priorités, actions, moyens, suivi. Des actions peu coûteuses d’abord, et un taux de pertes présenté chaque saison.",
+      "resource": "Modèle de plan de réduction des pertes sur une page."
+    }
+  ]
+}

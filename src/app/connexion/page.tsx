@@ -1,3 +1,41 @@
 'use client';
-import {useState, type FormEvent} from 'react';
-export default function Connexion(){const [message,setMessage]=useState('');async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();const f=new FormData(e.currentTarget);try{const r=await fetch('/api/auth/login',{method:'POST',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({email:f.get('email'),password:f.get('password')})});const d=await r.json();if(!r.ok)throw new Error(d.error||'Connexion impossible');setMessage('Connexion réussie');}catch(err){setMessage(err instanceof Error?err.message:'Erreur réseau');}}return <main><h1>Connexion</h1><form onSubmit={submit} style={{display:'grid',gap:12,maxWidth:400}}><label>E-mail <input required type="email" name="email" autoComplete="email"/></label><label>Mot de passe <input required type="password" name="password" autoComplete="current-password"/></label><button type="submit">Se connecter</button></form><p role="status">{message}</p><a href="/">Retour</a></main>}
+import { useState } from 'react';
+
+export default function Connexion() {
+  const [mode, setMode] = useState<'login' | 'register'>('login');
+  const [msg, setMsg] = useState('');
+  const [busy, setBusy] = useState(false);
+
+  async function submit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setBusy(true); setMsg('');
+    const f = new FormData(e.currentTarget);
+    const body = { email: f.get('email'), password: f.get('password'), name: f.get('name') };
+    const r = await fetch('/api/auth/' + mode, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }).catch(() => null);
+    const j = r ? await r.json().catch(() => ({})) : {};
+    setBusy(false);
+    if (!r || !r.ok) { setMsg(j.message || 'Connexion impossible. Vérifiez votre réseau.'); return; }
+    const retour = new URLSearchParams(window.location.search).get('retour') || '/';
+    window.location.assign(retour.startsWith('/') && !retour.startsWith('//') ? retour : '/');
+  }
+
+  return (
+    <>
+      <h1>{mode === 'login' ? 'Se connecter' : 'Créer un compte'}</h1>
+      <form className="form" onSubmit={submit}>
+        {mode === 'register' && (
+          <label>Nom et prénom (inscrit sur vos attestations)<input name="name" required minLength={2} maxLength={100} autoComplete="name" /></label>
+        )}
+        <label>Adresse électronique<input name="email" type="email" required autoComplete="email" /></label>
+        <label>Mot de passe (8 caractères au moins)<input name="password" type="password" required minLength={8} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} /></label>
+        <button type="submit" disabled={busy}>{busy ? 'Patientez…' : mode === 'login' ? 'Se connecter' : 'Créer mon compte'}</button>
+        {msg && <p role="alert">{msg}</p>}
+      </form>
+      <p>
+        <button type="button" className="aca-link" onClick={() => { setMode(mode === 'login' ? 'register' : 'login'); setMsg(''); }}>
+          {mode === 'login' ? 'Pas encore de compte ? En créer un' : 'Déjà un compte ? Se connecter'}
+        </button>
+      </p>
+    </>
+  );
+}
