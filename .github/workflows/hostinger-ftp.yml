@@ -18,6 +18,10 @@ jobs:
   static-export:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+      FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+      FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,12 +62,12 @@ jobs:
           retention-days: 7
 
       - name: Deploy to Hostinger public_html via FTP
-        if: ${{ success() && secrets.FTP_SERVER != '' && secrets.FTP_USERNAME != '' && secrets.FTP_PASSWORD != '' }}
+        if: ${{ success() && env.FTP_SERVER != '' && env.FTP_USERNAME != '' && env.FTP_PASSWORD != '' }}
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USERNAME }}
+          password: ${{ env.FTP_PASSWORD }}
           protocol: ftp
           port: 21
           local-dir: out/
@@ -71,7 +75,7 @@ jobs:
           dangerous-clean-slate: false
 
       - name: Explain missing FTP credentials
-        if: ${{ success() && (secrets.FTP_SERVER == '' || secrets.FTP_USERNAME == '' || secrets.FTP_PASSWORD == '') }}
+        if: ${{ success() && (env.FTP_SERVER == '' || env.FTP_USERNAME == '' || env.FTP_PASSWORD == '') }}
         run: |
           echo "Static export succeeded, but FTP upload was skipped because FTP_SERVER, FTP_USERNAME, or FTP_PASSWORD is missing in GitHub Actions Secrets."
           echo "Add those repository secrets and rerun this workflow.";
