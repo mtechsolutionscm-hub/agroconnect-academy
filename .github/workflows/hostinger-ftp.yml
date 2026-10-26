@@ -51,6 +51,8 @@ jobs:
           # Preserve them outside the build workspace; this does not change the repo.
           if [ -d src/app/api ]; then mv src/app/api /tmp/agroconnect-academy-api-routes; fi
           if [ -d app/api ]; then mv app/api /tmp/agroconnect-academy-root-api-routes; fi
+          # Verification currently reads server-side database state and cannot be statically exported.
+          if [ -d src/app/verification ]; then mv src/app/verification /tmp/agroconnect-academy-verification-page; fi
 
       - name: Configure public API base URL
         shell: bash
