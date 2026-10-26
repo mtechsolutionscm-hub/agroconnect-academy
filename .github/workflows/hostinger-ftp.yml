@@ -19,10 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      # Host/user are public connection details from the Hostinger panel.
-      # Override them with repository secrets if the hosting account changes.
-      FTP_SERVER: ${{ secrets.FTP_SERVER || '213.130.145.168' }}
-      FTP_USERNAME: ${{ secrets.FTP_USERNAME || 'u615884098' }}
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+      FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL }}
     steps:
@@ -37,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Enable static export only in this CI workspace
+      - name: Configure static export in CI workspace only
         shell: bash
         run: |
           node --input-type=module <<'NODE'
@@ -45,23 +43,23 @@ jobs:
           const p = 'next.config.mjs';
           let s = fs.readFileSync(p, 'utf8');
           s = s.replace('const nextConfig = {', "const nextConfig = {\n  output: 'export',");
-          // Static hosting cannot apply Next.js server response headers.
           s = s.replace(/  async headers\(\) \{[\s\S]*?\n  \},\n/, '');
-          // outputFileTracingIncludes is only useful for server deployments.
           s = s.replace(/  outputFileTracingIncludes: \{[^\n]*\},\n/, '');
           fs.writeFileSync(p, s);
           NODE
+          # Next.js static export cannot include server API route handlers.
+          # Preserve them outside the build workspace; this does not change the repo.
+          if [ -d src/app/api ]; then mv src/app/api /tmp/agroconnect-academy-api-routes; fi
+          if [ -d app/api ]; then mv app/api /tmp/agroconnect-academy-root-api-routes; fi
 
-      - name: Generate build-time environment file
+      - name: Configure public API base URL
         shell: bash
         run: |
-          # Never put FTP credentials in .env files or frontend bundles.
-          # Only write the public API base URL when explicitly configured.
-          if [ -n "$NEXT_PUBLIC_API_URL" ]; then
-            printf 'NEXT_PUBLIC_API_URL=%s\\n' "$NEXT_PUBLIC_API_URL" > .env.production
-          else
-            echo "NEXT_PUBLIC_API_URL repository variable is unset; using the app's existing API configuration."
+          if [ -z "$NEXT_PUBLIC_API_URL" ]; then
+            echo "Missing repository variable NEXT_PUBLIC_API_URL. Set it to the deployed API base URL before using API-dependent features."
+            exit 1
           fi
+          printf 'NEXT_PUBLIC_API_URL=%s\n' "$NEXT_PUBLIC_API_URL" > .env.production
 
       - name: Compile static site
         run: npm run build
@@ -90,5 +88,4 @@ jobs:
       - name: Explain missing FTP credentials
         if: ${{ success() && (env.FTP_SERVER == '' || env.FTP_USERNAME == '' || env.FTP_PASSWORD == '') }}
         run: |
-          echo "Static export succeeded, but FTP upload was skipped because FTP_SERVER, FTP_USERNAME, or FTP_PASSWORD is missing in GitHub Actions Secrets."
-          echo "Add those repository secrets and rerun this workflow.";
+          echo "Static export succeeded, but FTP upload was skipped. Add FTP_SERVER and FTP_USERNAME repository secrets; FTP_PASSWORD is already configured."
