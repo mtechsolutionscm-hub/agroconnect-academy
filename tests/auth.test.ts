@@ -1,3 +1,3 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-// Authentication integration requires a configured MySQL database; test the runtime's secret/token helpers separately.
-test('auth test harness loads',()=>assert.ok(true));
+import test from 'node:test';
+import assert from 'node:assert/strict';
+test('harness auth',()=>assert.equal(typeof process.env.NODE_ENV,'string'));
