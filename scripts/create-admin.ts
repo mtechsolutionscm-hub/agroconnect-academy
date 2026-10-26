@@ -1,0 +1,4 @@
+import { createPool } from '../src/lib/repo/mysql';
+import { scryptSync, randomBytes } from 'node:crypto';
+async function main(){const email=process.env.ADMIN_EMAIL;const password=process.env.ADMIN_PASSWORD;const name=process.env.ADMIN_NAME||'Administrateur';if(!email||!password)throw new Error('ADMIN_EMAIL et ADMIN_PASSWORD sont requis');const salt=randomBytes(16).toString('hex');const hash=salt+':'+scryptSync(password,salt,64).toString('hex');const pool=createPool();try{await pool.execute('INSERT INTO users(email,name,password_hash,role) VALUES(?,?,?,?) ON DUPLICATE KEY UPDATE name=VALUES(name),password_hash=VALUES(password_hash),role=\'admin\'',[email.toLowerCase(),name,hash,'admin']);console.log('Administrateur configuré.');}finally{await pool.end();}}
+main().catch(e=>{console.error(e);process.exit(1);});
