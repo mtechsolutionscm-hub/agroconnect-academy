@@ -1,0 +1,77 @@
+name: Build and try Hostinger static frontend
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'content/**'
+      - 'public/**'
+      - 'package.json'
+      - 'next.config.mjs'
+      - '.github/workflows/hostinger-ftp.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  static-export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Enable static export only in this CI workspace
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const p = 'next.config.mjs';
+          let s = fs.readFileSync(p, 'utf8');
+          s = s.replace('const nextConfig = {', "const nextConfig = {\n  output: 'export',");
+          // Static hosting cannot apply Next.js server response headers.
+          s = s.replace(/  async headers\(\) \{[\s\S]*?\n  \},\n/, '');
+          // outputFileTracingIncludes is only useful for server deployments.
+          s = s.replace(/  outputFileTracingIncludes: \{[^\n]*\},\n/, '');
+          fs.writeFileSync(p, s);
+          NODE
+
+      - name: Compile static site
+        run: npm run build
+
+      - name: Upload compiled output as a diagnostic artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: agroconnect-academy-static-export
+          path: out/
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Deploy to Hostinger public_html via FTP
+        if: ${{ success() && secrets.FTP_SERVER != '' && secrets.FTP_USERNAME != '' && secrets.FTP_PASSWORD != '' }}
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: out/
+          server-dir: public_html/
+          dangerous-clean-slate: false
+
+      - name: Explain missing FTP credentials
+        if: ${{ success() && (secrets.FTP_SERVER == '' || secrets.FTP_USERNAME == '' || secrets.FTP_PASSWORD == '') }}
+        run: |
+          echo "Static export succeeded, but FTP upload was skipped because FTP_SERVER, FTP_USERNAME, or FTP_PASSWORD is missing in GitHub Actions Secrets."
+          echo "Add those repository secrets and rerun this workflow.";
