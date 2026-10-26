@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      FTP_SERVER: ${{ secrets.FTP_SERVER }}
-      FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+      FTP_SERVER: ${{ secrets.FTP_SERVER || 'academy.agroconnectcm.com' }}
+      FTP_USERNAME: ${{ secrets.FTP_USERNAME || 'u615884098.academy.agroconnectcm.com' }}
       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-      NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL }}
+      NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL || 'https://agroconnectacademy.vercel.app' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +56,7 @@ jobs:
         shell: bash
         run: |
           if [ -z "$NEXT_PUBLIC_API_URL" ]; then
-            echo "Missing repository variable NEXT_PUBLIC_API_URL. Set it to the deployed API base URL before using API-dependent features."
+            echo "NEXT_PUBLIC_API_URL is not configured."
             exit 1
           fi
           printf 'NEXT_PUBLIC_API_URL=%s\n' "$NEXT_PUBLIC_API_URL" > .env.production
