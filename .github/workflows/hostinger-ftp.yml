@@ -19,9 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      FTP_SERVER: ${{ secrets.FTP_SERVER }}
-      FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+      # Host/user are public connection details from the Hostinger panel.
+      # Override them with repository secrets if the hosting account changes.
+      FTP_SERVER: ${{ secrets.FTP_SERVER || '213.130.145.168' }}
+      FTP_USERNAME: ${{ secrets.FTP_USERNAME || 'u615884098' }}
       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -48,6 +51,17 @@ jobs:
           s = s.replace(/  outputFileTracingIncludes: \{[^\n]*\},\n/, '');
           fs.writeFileSync(p, s);
           NODE
+
+      - name: Generate build-time environment file
+        shell: bash
+        run: |
+          # Never put FTP credentials in .env files or frontend bundles.
+          # Only write the public API base URL when explicitly configured.
+          if [ -n "$NEXT_PUBLIC_API_URL" ]; then
+            printf 'NEXT_PUBLIC_API_URL=%s\\n' "$NEXT_PUBLIC_API_URL" > .env.production
+          else
+            echo "NEXT_PUBLIC_API_URL repository variable is unset; using the app's existing API configuration."
+          fi
 
       - name: Compile static site
         run: npm run build
