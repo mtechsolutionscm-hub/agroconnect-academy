@@ -1,7 +1,5 @@
 import { formationIds, loadCourse } from '../lib/content';
 
-export const dynamic = 'force-dynamic';
-
 export default function Catalogue() {
   const items = formationIds().map((id) => ({ id, c: loadCourse(id) })).filter((x) => x.c);
   return (
